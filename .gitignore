@@ -1,0 +1,7 @@
+node_modules/
+.env
+site/
+dist/
+.DS_Store
+generated/raw/*.json
+!generated/raw/.gitkeep

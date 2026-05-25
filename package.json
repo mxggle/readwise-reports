@@ -1,0 +1,32 @@
+{
+  "name": "readwise-reports",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/src/generate-daily.ts --dry-run",
+    "generate": "tsx scripts/src/generate-daily.ts",
+    "publish": "tsx scripts/src/publish-daily.ts",
+    "generate:date": "tsx scripts/src/generate-daily.ts --date",
+    "notify": "tsx scripts/src/notify-discord.ts",
+    "build:index": "tsx scripts/src/build-index.ts",
+    "typecheck": "tsc --noEmit",
+    "docs:serve": "mkdocs serve",
+    "docs:build": "mkdocs build --strict"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "execa": "^9.5.2",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.77.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
