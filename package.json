@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx scripts/src/generate-daily.ts --dry-run",
     "generate": "tsx scripts/src/generate-daily.ts",
-    "publish": "tsx scripts/src/publish-daily.ts",
+    "publish:daily": "tsx scripts/src/publish-daily.ts",
     "generate:date": "tsx scripts/src/generate-daily.ts --date",
     "notify": "tsx scripts/src/notify-discord.ts",
     "build:index": "tsx scripts/src/build-index.ts",
