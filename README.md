@@ -5,6 +5,7 @@
 - 获取 Readwise highlights 和 Reader 当天新增/更新内容
 - 自动分类：AI / Programming / Japanese / English / Career / Business / Other
 - 生成漂亮 Markdown 日报
+- 用本地 SQLite 账本记录已处理内容，避免 Reader/Redirect 未归档导致日报重复
 - 更新 MkDocs Material 站点索引
 - GitHub Actions 自动部署 GitHub Pages
 - Discord 只发送摘要和网页链接，不发送长正文
@@ -40,10 +41,33 @@ GEMINI_API_KEY=... # 可选
 
 ```bash
 pnpm generate          # 生成今天日报
-pnpm dev               # dry-run，不通知 Discord
+pnpm dev               # dry-run，不通知 Discord，也不写入去重账本
+pnpm backfill:processed # 从 generated/raw/*.json 回填 SQLite 去重账本
 pnpm build:index       # 重新生成索引
 pnpm docs:build        # 构建 MkDocs 站点
 pnpm docs:serve        # 本地预览
+```
+
+## 去重账本
+
+日报会把成功处理过的内容写入本地 SQLite：
+
+```text
+generated/readwise-processed.sqlite
+```
+
+去重判断顺序：
+
+1. `item_id`，例如 Reader document id / Readwise highlight id
+2. 规范化后的 `url`
+3. `title + author + url + text/summary` 生成的 `content_hash`
+
+这样即使 Reader/Redirect 里没有归档、标已读或删除，第二天再次拉到同一条内容也会跳过。
+
+可用 `.env` 覆盖数据库位置：
+
+```bash
+READWISE_PROCESSED_DB=generated/readwise-processed.sqlite
 ```
 
 ## GitHub Pages
@@ -86,5 +110,5 @@ readwise-reports/
 
 - Discord 是入口，不是知识库。
 - Markdown 是长期资产。
-- 无数据库，所有内容都可 grep、可 git diff、可迁移。
+- SQLite 只保存自动化状态，报告正文仍保持文件化、可 grep、可 git diff、可迁移。
 - 小而稳定，避免自动化变成第二份工作。
