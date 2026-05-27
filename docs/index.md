@@ -9,6 +9,7 @@ title: Readwise Reports
 ## 最近日报
 
 <!-- DAILY_REPORTS_START -->
+- [2026-05-28](daily/2026-05-28.md)
 - [2026-05-27](daily/2026-05-27.md)
 - [2026-05-26](daily/2026-05-26.md)
 - [2026-05-25](daily/2026-05-25.md)
