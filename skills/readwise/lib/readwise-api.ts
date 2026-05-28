@@ -1,18 +1,21 @@
 import { execa } from "execa";
-import { env } from "../../../scripts/src/kernel/env.js";
 import type { SourceItem } from "./types.js";
 
+const readwiseToken = () => process.env.READWISE_TOKEN || "";
+const readwiseUseCli = () => (process.env.READWISE_USE_CLI || "true") !== "false";
+
 async function readwiseApi(path: string) {
-  if (!env.readwiseToken) throw new Error("READWISE_TOKEN missing");
+  const token = readwiseToken();
+  if (!token) throw new Error("READWISE_TOKEN missing");
   const res = await fetch(`https://readwise.io${path}`, {
-    headers: { Authorization: `Token ${env.readwiseToken}` },
+    headers: { Authorization: `Token ${token}` },
   });
   if (!res.ok) throw new Error(`Readwise API ${res.status}: ${await res.text()}`);
   return res.json();
 }
 
 export async function fetchHighlights(updatedAfter: string): Promise<SourceItem[]> {
-  if (env.readwiseToken) {
+  if (readwiseToken()) {
     const data = await readwiseApi(`/api/v2/export/?updatedAfter=${encodeURIComponent(updatedAfter)}`);
     const books = Array.isArray(data.results) ? data.results : data;
     const items: SourceItem[] = [];
@@ -40,7 +43,7 @@ export async function fetchHighlights(updatedAfter: string): Promise<SourceItem[
 
 export async function fetchReaderDocuments(updatedAfter: string): Promise<SourceItem[]> {
   const fields = "title,author,source,category,location,tags,site_name,word_count,reading_time,created_at,updated_at,published_date,summary,url,source_url,saved_at";
-  if (env.readwiseToken) {
+  if (readwiseToken()) {
     const data = await readwiseApi(`/api/v3/list/?updatedAfter=${encodeURIComponent(updatedAfter)}`);
     const results = data.results || [];
     return results.map((d: any) => ({
@@ -62,7 +65,7 @@ export async function fetchReaderDocuments(updatedAfter: string): Promise<Source
     }));
   }
 
-  if (!env.readwiseUseCli) return [];
+  if (!readwiseUseCli()) return [];
   try {
     const { stdout } = await execa("readwise", [
       "reader-list-documents",

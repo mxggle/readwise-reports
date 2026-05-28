@@ -60,6 +60,17 @@ if (toRun.length === 0) {
   process.exit(0);
 }
 
+const envIssues = toRun
+  .map((e) => ({ id: e.manifest.id, missing: (e.manifest.env?.required ?? []).filter((v) => !process.env[v]) }))
+  .filter((x) => x.missing.length > 0);
+if (envIssues.length > 0) {
+  console.error("Cannot start: required env vars are missing.");
+  for (const { id, missing } of envIssues) {
+    console.error(`  ${id}: ${missing.join(", ")}`);
+  }
+  process.exit(1);
+}
+
 console.log(`Running ${toRun.length} skill(s) for ${date}${dryRun ? " (dry-run)" : ""}`);
 
 let failed = 0;
