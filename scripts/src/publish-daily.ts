@@ -29,7 +29,7 @@ if (diff.exitCode === 0) {
 const rawPath = path.join("generated", "raw", `${date}.json`);
 const data = JSON.parse(await readFile(rawPath, "utf8")) as ReportData;
 const top = data.items.filter((i) => i.action === "READ").slice(0, 3);
-const url = env.publicSiteUrl ? `${env.publicSiteUrl}/daily/${date}/` : "";
+const url = env.publicSiteUrl ? `${env.publicSiteUrl}/readwise/${date}/` : "";
 const summary = [
   `${data.items.length} 条内容，${top.length} 条优先读。`,
   top[0] ? `Top 1：${top[0].title}` : "今天没有明显 S 级内容。",

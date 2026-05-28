@@ -12,4 +12,7 @@ export const env = {
   publicSiteUrl: (process.env.PUBLIC_SITE_URL || "").replace(/\/$/, ""),
   timezone: process.env.REPORT_TIMEZONE || "Asia/Tokyo",
   lookbackHours: Number(process.env.REPORT_LOOKBACK_HOURS || "24"),
+  processedDbPath: process.env.READWISE_PROCESSED_DB || "generated/readwise-processed.sqlite",
+  hnHours: Number(process.env.HN_HOURS || "48"),
+  hnTopN: Number(process.env.HN_TOP_N || "15"),
 };

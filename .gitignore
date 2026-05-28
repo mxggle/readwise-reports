@@ -5,3 +5,5 @@ dist/
 .DS_Store
 generated/raw/*.json
 !generated/raw/.gitkeep
+generated/*.sqlite
+generated/*.sqlite-*

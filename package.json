@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "tsx scripts/src/generate-daily.ts --dry-run",
     "generate": "tsx scripts/src/generate-daily.ts",
+    "generate:hn": "tsx scripts/src/generate-hn.ts",
     "publish:daily": "tsx scripts/src/publish-daily.ts",
     "generate:date": "tsx scripts/src/generate-daily.ts --date",
     "notify": "tsx scripts/src/notify-discord.ts",
     "build:index": "tsx scripts/src/build-index.ts",
+    "backfill:processed": "tsx scripts/src/backfill-processed.ts",
     "typecheck": "tsc --noEmit",
     "docs:serve": "mkdocs serve",
     "docs:build": "mkdocs build --strict"
