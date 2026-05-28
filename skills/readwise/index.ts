@@ -1,9 +1,8 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { SkillContext, SkillResult } from "../_sdk/index.js";
-import { isoHoursAgo, filterUnprocessed, markProcessedItems, openProcessedStore } from "../_sdk/index.js";
-import { env } from "../../scripts/src/kernel/env.js";
+import { isoHoursAgo } from "../_sdk/index.js";
 import type { ClassifiedItem, ReportData } from "./lib/types.js";
 import { classify, keywords } from "./lib/classify.js";
 import { renderDaily } from "./lib/markdown.js";
@@ -12,10 +11,8 @@ import { dedupe, fetchHighlights, fetchReaderDocuments } from "./lib/readwise-ap
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default async function run(ctx: SkillContext): Promise<SkillResult> {
-  const { config, date, dryRun, log } = ctx;
-  const timezone = config.schedule?.timezone ?? "UTC";
+  const { config, date, log, writer, store, timezone } = ctx;
   const lookbackHours = config.schedule?.lookbackHours ?? 24;
-  const outputDir = `docs/${config.id}`;
   const lang = config.ai?.outputLanguage ?? "zh-CN";
 
   const now = new Date();
@@ -29,9 +26,8 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
     fetchHighlights(windowStart),
     fetchReaderDocuments(windowStart),
   ]);
-  const store = await openProcessedStore(env.processedDbPath);
   const deduped = dedupe([...highlights, ...readerDocs]);
-  const { fresh, skipped } = await filterUnprocessed(store, deduped);
+  const { fresh, skipped } = await store.filterUnprocessed(deduped);
   const items = classify(fresh);
   log.info(`Fetched ${deduped.length} unique items; ${fresh.length} new, ${skipped.length} already processed.`);
 
@@ -48,26 +44,21 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
     aiSummary,
   };
 
-  await mkdir(path.join("generated", "raw"), { recursive: true });
-  await writeFile(path.join("generated", "raw", `${date}.json`), JSON.stringify(data, null, 2));
+  await writer.writeRaw(data);
+  const outputPath = await writer.writeReport(renderDaily(data));
+  log.info(`Wrote ${outputPath}`);
 
-  const md = renderDaily(data);
-  const dailyPath = path.join(outputDir, `${date}.md`);
-  await mkdir(path.dirname(dailyPath), { recursive: true });
-  await writeFile(dailyPath, md);
-  log.info(`Wrote ${dailyPath}`);
-
-  if (!dryRun) {
-    await markProcessedItems(store, fresh, date, now.toISOString());
-    log.info(`Recorded ${fresh.length} processed items in ${env.processedDbPath}`);
+  await store.markProcessed(fresh);
+  if (ctx.dryRun) {
+    log.info("Dry run: dedup state was not updated.");
   } else {
-    log.info("Dry run: processed-state database was not updated.");
+    log.info(`Recorded ${fresh.length} processed items.`);
   }
 
   return {
     itemsProcessed: fresh.length,
     itemsSkipped: skipped.length,
-    outputPath: dailyPath,
+    outputPath,
   };
 }
 

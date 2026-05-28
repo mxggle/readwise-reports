@@ -1,8 +1,11 @@
 import { pathToFileURL } from "node:url";
 import type { SkillEntry } from "./registry.js";
-import type { SkillContext, SkillResult } from "./types.js";
+import type { SkillContext, SkillPaths, SkillResult } from "./types.js";
+import { env } from "./env.js";
 import { buildAiClient } from "./services/ai.js";
 import { consoleLogger } from "./services/logger.js";
+import { buildStore } from "./services/store.js";
+import { buildWriter } from "./services/writer.js";
 
 export interface InvokeOptions {
   date: string;
@@ -10,25 +13,34 @@ export interface InvokeOptions {
 }
 
 export async function invokeSkill(entry: SkillEntry, opts: InvokeOptions): Promise<SkillResult> {
-  const required = entry.manifest.env?.required ?? [];
-  for (const v of required) {
+  const { manifest } = entry;
+  for (const v of manifest.env?.required ?? []) {
     if (!process.env[v]) {
-      throw new Error(`Skill "${entry.manifest.id}" requires env var ${v}`);
+      throw new Error(`Skill "${manifest.id}" requires env var ${v}`);
     }
   }
 
+  const paths: SkillPaths = {
+    outputDir: `docs/${manifest.id}`,
+    rawDir: `generated/raw/${manifest.id}`,
+    generatedDir: "generated",
+  };
+
   const ctx: SkillContext = {
-    config: entry.manifest,
-    ai: buildAiClient(entry.manifest),
-    log: consoleLogger(entry.manifest.id),
+    config: manifest,
+    ai: buildAiClient(manifest),
+    log: consoleLogger(manifest.id),
     dryRun: opts.dryRun,
     date: opts.date,
+    timezone: manifest.schedule?.timezone ?? env.timezone,
+    paths,
+    writer: buildWriter(opts.date, paths),
+    store: buildStore(env.processedDbPath, opts.date, opts.dryRun),
   };
 
   const mod = await import(pathToFileURL(entry.entryPath).href);
   if (typeof mod.default !== "function") {
-    throw new Error(`Skill "${entry.manifest.id}" does not export a default function`);
+    throw new Error(`Skill "${manifest.id}" does not export a default function`);
   }
-
   return (await mod.default(ctx)) as SkillResult;
 }

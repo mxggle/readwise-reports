@@ -97,12 +97,32 @@ export interface Logger {
   debug(message: string, ...args: unknown[]): void;
 }
 
+export interface SkillPaths {
+  outputDir: string;
+  rawDir: string;
+  generatedDir: string;
+}
+
+export interface SkillWriter {
+  writeReport(body: string): Promise<string>;
+  writeRaw(data: unknown): Promise<string>;
+}
+
+export interface SkillStore {
+  filterUnprocessed<T extends DedupItem>(items: T[]): Promise<{ fresh: T[]; skipped: T[] }>;
+  markProcessed<T extends DedupItem>(items: T[]): Promise<void>;
+}
+
 export interface SkillContext {
   config: SkillManifest;
   ai: AIClient;
   log: Logger;
   dryRun: boolean;
   date: string;
+  timezone: string;
+  paths: SkillPaths;
+  writer: SkillWriter;
+  store: SkillStore;
 }
 
 export interface SkillResult {

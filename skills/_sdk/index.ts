@@ -2,6 +2,9 @@ export type {
   SkillManifest,
   SkillContext,
   SkillResult,
+  SkillPaths,
+  SkillWriter,
+  SkillStore,
   AIMode,
   AIProvider,
   AIClient,
@@ -11,11 +14,3 @@ export type {
 } from "../../scripts/src/kernel/types.js";
 
 export { formatDate, isoHoursAgo } from "../../scripts/src/kernel/date.js";
-
-export {
-  filterUnprocessed,
-  markProcessedItems,
-  openProcessedStore,
-  type FilterResult,
-  type ProcessedStore,
-} from "../../scripts/src/kernel/processed-store.js";
