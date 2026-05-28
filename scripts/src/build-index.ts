@@ -1,19 +1,16 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { loadRegistry, type SkillEntry } from "./kernel/registry.js";
 
 const root = process.cwd();
-const readwiseDir = path.join(root, "docs", "readwise");
-const hnDir = path.join(root, "docs", "hn");
-
 const DATE_RE = /^\d{4}-\d{2}-\d{2}\.md$/;
 
 type ReportEntry = {
   date: string;
   href: string;
-  title?: string;
-  summary?: string;
-  stats?: string;
+  title: string;
+  summary: string;
 };
 
 function truncate(text: string, max = 180): string {
@@ -22,97 +19,58 @@ function truncate(text: string, max = 180): string {
   return clean.slice(0, max).replace(/[，,。.；;]\s*\S*$/, "") + "…";
 }
 
-async function listDates(dir: string): Promise<string[]> {
+function skillFolder(skill: SkillEntry): string {
+  const dir = skill.manifest.output?.dir ?? `docs/${skill.manifest.id}`;
+  return dir.replace(/^docs\//, "");
+}
+
+function skillDir(skill: SkillEntry): string {
+  return skill.manifest.output?.dir ?? `docs/${skill.manifest.id}`;
+}
+
+async function readSkillEntries(skill: SkillEntry): Promise<ReportEntry[]> {
+  const dir = path.join(root, skillDir(skill));
+  let files: string[];
   try {
-    const files = await readdir(dir);
-    return files.filter((f) => DATE_RE.test(f)).sort().reverse();
+    files = await readdir(dir);
   } catch {
     return [];
   }
+  const dated = files.filter((f) => DATE_RE.test(f)).sort().reverse();
+  return Promise.all(
+    dated.map(async (file) => {
+      const date = file.replace(".md", "");
+      const raw = await readFile(path.join(dir, file), "utf8");
+      const parsed = matter(raw);
+      const fm = parsed.data as { title?: string; summary?: string };
+      const titleFromH1 = parsed.content.match(/^#\s+(.+)$/m)?.[1]?.trim();
+      return {
+        date,
+        href: `${date}.md`,
+        title: fm.title ?? titleFromH1 ?? `${skill.manifest.title} ${date}`,
+        summary: fm.summary ? truncate(fm.summary) : "",
+      };
+    }),
+  );
 }
 
-async function readReadwise(file: string): Promise<ReportEntry> {
-  const date = file.replace(".md", "");
-  const raw = await readFile(path.join(readwiseDir, file), "utf8");
-  const parsed = matter(raw);
-  const fm = parsed.data as { title?: string; summary?: string; tags?: string[] };
-
-  const counts = parseReadwiseStats(parsed.content);
-  return {
-    date,
-    href: `${date}.md`,
-    title: fm.title || `Readwise Daily ${date}`,
-    summary: fm.summary ? truncate(fm.summary) : "",
-    stats: counts,
-  };
-}
-
-function parseReadwiseStats(body: string): string {
-  const inputMatch = body.match(/\*\*输入\*\*\s*\n+\s*(\d+)\s*条/);
-  const worthMatch = body.match(/\*\*值得读\*\*\s*\n+\s*([^\n]+)/);
-  const parts: string[] = [];
-  if (inputMatch) parts.push(`${inputMatch[1]} 条`);
-  if (worthMatch) parts.push(worthMatch[1].replace(/\s+/g, " ").trim());
-  return parts.join(" · ");
-}
-
-async function readHn(file: string): Promise<ReportEntry> {
-  const date = file.replace(".md", "");
-  const raw = await readFile(path.join(hnDir, file), "utf8");
-  const title = raw.match(/^#\s+(.+)$/m)?.[1]?.trim() || `HN Digest ${date}`;
-  const highlights = raw.match(/##\s+📝[^\n]*\n+([\s\S]*?)(?=\n---|\n##\s|$)/)?.[1] || "";
-  const mustReadCount = (raw.match(/##\s+🏆[^\n]*\n+([\s\S]*?)(?=\n##\s|$)/)?.[1].match(/^🥇|^🥈|^🥉/gm) || []).length;
-  const totalStories = (raw.match(/^####?\s+\d+\.\s+/gm) || []).length;
-  const stats: string[] = [];
-  if (totalStories) stats.push(`${totalStories} 篇`);
-  if (mustReadCount) stats.push(`${mustReadCount} 必读`);
-  return {
-    date,
-    href: `${date}.md`,
-    title,
-    summary: highlights ? truncate(highlights, 200) : "",
-    stats: stats.join(" · "),
-  };
-}
-
-async function readEntries<T extends ReportEntry>(
-  dir: string,
-  reader: (file: string) => Promise<T>,
-): Promise<T[]> {
-  const files = await listDates(dir);
-  return Promise.all(files.map((f) => reader(f)));
-}
-
-function heroCard(source: "readwise" | "hn", entry: ReportEntry | undefined): string {
-  const meta = {
-    readwise: { icon: "📚", label: "Readwise Daily", folder: "readwise" },
-    hn: { icon: "📰", label: "HN Tech Digest", folder: "hn" },
-  }[source];
+function heroCard(skill: SkillEntry, entry: ReportEntry | undefined): string {
+  const icon = skill.manifest.output?.icon ?? "📄";
+  const label = skill.manifest.title;
+  const folder = skillFolder(skill);
 
   if (!entry) {
-    return [
-      `-   ${meta.icon} __${meta.label}__`,
-      "",
-      "    ---",
-      "",
-      `    *暂无报告*`,
-    ].join("\n");
+    return [`-   ${icon} __${label}__`, "", "    ---", "", "    *暂无报告*"].join("\n");
   }
 
-  const lines: string[] = [];
-  lines.push(`-   ${meta.icon} __${meta.label} · ${entry.date}__`);
-  lines.push("");
-  lines.push("    ---");
-  lines.push("");
-  if (entry.summary) {
-    lines.push(`    ${entry.summary}`);
-    lines.push("");
-  }
-  if (entry.stats) {
-    lines.push(`    :material-chart-box-outline: ${entry.stats}`);
-    lines.push("");
-  }
-  lines.push(`    [:octicons-arrow-right-24: 阅读](${meta.folder}/${entry.href})`);
+  const lines = [
+    `-   ${icon} __${label} · ${entry.date}__`,
+    "",
+    "    ---",
+    "",
+  ];
+  if (entry.summary) lines.push(`    ${entry.summary}`, "");
+  lines.push(`    [:octicons-arrow-right-24: 阅读](${folder}/${entry.href})`);
   return lines.join("\n");
 }
 
@@ -120,47 +78,49 @@ function heroCardOnIndex(entry: ReportEntry | undefined): string {
   if (!entry) {
     return ["-   __最新报告__", "", "    ---", "", "    *暂无报告*"].join("\n");
   }
-  const lines: string[] = [];
-  lines.push(`-   :material-star-shooting: __最新 · ${entry.date}__`);
-  lines.push("");
-  lines.push("    ---");
-  lines.push("");
-  if (entry.summary) {
-    lines.push(`    ${entry.summary}`);
-    lines.push("");
-  }
-  if (entry.stats) {
-    lines.push(`    :material-chart-box-outline: ${entry.stats}`);
-    lines.push("");
-  }
+  const lines = [
+    `-   :material-star-shooting: __最新 · ${entry.date}__`,
+    "",
+    "    ---",
+    "",
+  ];
+  if (entry.summary) lines.push(`    ${entry.summary}`, "");
   lines.push(`    [:octicons-arrow-right-24: 阅读完整报告](${entry.href})`);
   return lines.join("\n");
 }
 
-function buildDashboard(readwise: ReportEntry[], hn: ReportEntry[]): string {
-  const readwiseLatest = readwise[0];
-  const hnLatest = hn[0];
+function buildDashboard(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
+  const heroCards = skills
+    .map((s) => heroCard(s, entriesBySkill.get(s.manifest.id)?.[0]))
+    .join("\n\n");
 
-  const recent: { date: string; readwise?: ReportEntry; hn?: ReportEntry }[] = [];
-  const dates = Array.from(new Set([...readwise.map((r) => r.date), ...hn.map((r) => r.date)]))
-    .sort()
-    .reverse()
-    .slice(0, 7);
-  for (const d of dates) {
-    recent.push({
-      date: d,
-      readwise: readwise.find((r) => r.date === d),
-      hn: hn.find((h) => h.date === d),
-    });
+  const allDates = new Set<string>();
+  for (const entries of entriesBySkill.values()) {
+    for (const e of entries) allDates.add(e.date);
   }
+  const recent = [...allDates].sort().reverse().slice(0, 7);
 
-  const recentRows = recent
-    .map((row) => {
-      const left = row.readwise ? `[📚 Readwise](readwise/${row.readwise.href})` : "—";
-      const right = row.hn ? `[📰 HN](hn/${row.hn.href})` : "—";
-      return `| ${row.date} | ${left} | ${right} |`;
-    })
-    .join("\n");
+  const headerRow = ["日期", ...skills.map((s) => s.manifest.title)];
+  const dividerRow = headerRow.map(() => "---");
+  const dataRows = recent.map((d) => {
+    const cells = [
+      d,
+      ...skills.map((s) => {
+        const entry = entriesBySkill.get(s.manifest.id)?.find((e) => e.date === d);
+        if (!entry) return "—";
+        const icon = s.manifest.output?.icon ?? "📄";
+        return `[${icon} ${s.manifest.title}](${skillFolder(s)}/${entry.href})`;
+      }),
+    ];
+    return "| " + cells.join(" | ") + " |";
+  });
+  const tableRows = [
+    "| " + headerRow.join(" | ") + " |",
+    "| " + dividerRow.join(" | ") + " |",
+    dataRows.length ? dataRows.join("\n") : "| " + headerRow.map(() => "—").join(" | ") + " |",
+  ].join("\n");
+
+  const titles = skills.map((s) => s.manifest.title).join("、");
 
   return [
     "---",
@@ -171,27 +131,23 @@ function buildDashboard(readwise: ReportEntry[], hn: ReportEntry[]): string {
     "",
     "# Reading Dashboard",
     "",
-    "本站每天聚合两个阅读源 — Readwise 的高亮稿件，以及 Karpathy 精选 HN 技术博客的 RSS。",
+    `本站每天聚合 ${skills.length} 个数据源（${titles}），每日生成结构化阅读报告。`,
     "",
     "## 今日速览",
     "",
-    "<div class=\"grid cards\" markdown>",
+    '<div class="grid cards" markdown>',
     "",
-    heroCard("readwise", readwiseLatest),
-    "",
-    heroCard("hn", hnLatest),
+    heroCards,
     "",
     "</div>",
     "",
     "## 最近 7 天",
     "",
-    "| 日期 | Readwise | HN |",
-    "| --- | --- | --- |",
-    recentRows || "| — | — | — |",
+    tableRows,
     "",
     "## 主题入口",
     "",
-    "<div class=\"grid cards\" markdown>",
+    '<div class="grid cards" markdown>',
     "",
     "-   :material-robot-outline: [__AI__](topics/ai.md)",
     "-   :material-code-tags: [__Programming__](topics/programming.md)",
@@ -225,25 +181,24 @@ function groupByMonth(entries: ReportEntry[]): { month: string; rows: ReportEntr
     .map(([month, rows]) => ({ month, rows }));
 }
 
-function buildSourceIndex(
-  title: string,
-  intro: string,
-  entries: ReportEntry[],
-): string {
+function buildSkillIndex(skill: SkillEntry, entries: ReportEntry[]): string {
   const latest = entries[0];
   const grouped = groupByMonth(entries);
   const sections = grouped
     .map(({ month, rows }) => {
       const rowsMd = rows
         .map((r) => {
-          const stats = r.stats ? ` · ${r.stats}` : "";
-          const summary = r.summary ? `<br/><span class=\"md-typeset__small\">${r.summary}</span>` : "";
-          return `- [${r.date}](${r.href})${stats}${summary}`;
+          const summary = r.summary ? `<br/><span class="md-typeset__small">${r.summary}</span>` : "";
+          return `- [${r.date}](${r.href})${summary}`;
         })
         .join("\n");
       return `### ${month}\n\n${rowsMd}`;
     })
     .join("\n\n");
+
+  const icon = skill.manifest.output?.icon ?? "📄";
+  const title = `${icon} ${skill.manifest.title}`;
+  const intro = skill.manifest.description ?? "";
 
   return [
     `# ${title}`,
@@ -252,7 +207,7 @@ function buildSourceIndex(
     "",
     "## 最新",
     "",
-    "<div class=\"grid cards\" markdown>",
+    '<div class="grid cards" markdown>',
     "",
     heroCardOnIndex(latest),
     "",
@@ -265,53 +220,71 @@ function buildSourceIndex(
   ].join("\n");
 }
 
-function navBlock(folder: string, entries: ReportEntry[]): string {
-  return entries
-    .map((e) => `    - "${e.date}": ${folder}/${e.href}`)
-    .join("\n");
+function buildSkillsNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
+  const lines: string[] = [];
+  for (const skill of skills) {
+    const folder = skillFolder(skill);
+    lines.push(`  - ${skill.manifest.title}:`);
+    lines.push(`    - ${folder}/index.md`);
+    for (const entry of entriesBySkill.get(skill.manifest.id) ?? []) {
+      lines.push(`    - "${entry.date}": ${folder}/${entry.href}`);
+    }
+  }
+  return lines.join("\n");
 }
 
-async function updateNav(readwise: ReportEntry[], hn: ReportEntry[]): Promise<void> {
+async function rewriteNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): Promise<void> {
   const navPath = path.join(root, "mkdocs.yml");
-  const original = await readFile(navPath, "utf8");
-  const next = original
-    .replace(
-      /( {4}# AUTO_READWISE_START\n)[\s\S]*?( {4}# AUTO_READWISE_END)/,
-      (_m, start: string, end: string) => `${start}${navBlock("readwise", readwise)}\n${end}`,
-    )
-    .replace(
-      /( {4}# AUTO_HN_START\n)[\s\S]*?( {4}# AUTO_HN_END)/,
-      (_m, start: string, end: string) => `${start}${navBlock("hn", hn)}\n${end}`,
-    );
-  if (next !== original) await writeFile(navPath, next);
+  const text = await readFile(navPath, "utf8");
+
+  const dashboardNav = "  - Dashboard: index.md";
+  const skillsNav = buildSkillsNav(skills, entriesBySkill);
+  const topicsNav = [
+    "  - Topics:",
+    "    - topics/index.md",
+    "    - AI: topics/ai.md",
+    "    - Programming: topics/programming.md",
+    "    - Career: topics/career.md",
+    "    - Business: topics/business.md",
+    "    - English: topics/english.md",
+    "    - Japanese: topics/japanese.md",
+    "    - Other: topics/other.md",
+  ].join("\n");
+  const archiveNav = [
+    "  - Archive:",
+    "    - Weekly: weekly/index.md",
+    "    - Monthly: monthly/index.md",
+  ].join("\n");
+  const newNav = [dashboardNav, skillsNav, topicsNav, archiveNav].join("\n");
+
+  const navMarker = text.match(/\nnav:\n/);
+  if (!navMarker) throw new Error("Could not find 'nav:' block in mkdocs.yml");
+  const startOffset = (navMarker.index ?? 0) + navMarker[0].length;
+  const after = text.slice(startOffset);
+  const nextKey = after.match(/\n([a-zA-Z][a-zA-Z0-9_]*:)/);
+  const endOffset = nextKey ? startOffset + (nextKey.index ?? 0) : text.length;
+
+  const trailing = nextKey ? text.slice(endOffset + 1) : "";
+  const next = text.slice(0, startOffset) + newNav + "\n\n" + trailing;
+  if (next !== text) await writeFile(navPath, next);
 }
 
-const [readwiseEntries, hnEntries] = await Promise.all([
-  readEntries(readwiseDir, readReadwise),
-  readEntries(hnDir, readHn),
-]);
+const registry = await loadRegistry();
+const skills = registry.filter((s) => s.manifest.enabled !== false);
+const entriesBySkill = new Map<string, ReportEntry[]>();
+for (const skill of skills) {
+  entriesBySkill.set(skill.manifest.id, await readSkillEntries(skill));
+}
 
 await Promise.all([
-  writeFile(path.join(root, "docs", "index.md"), buildDashboard(readwiseEntries, hnEntries)),
-  writeFile(
-    path.join(readwiseDir, "index.md"),
-    buildSourceIndex(
-      "📚 Readwise Daily",
-      "Readwise highlights 和 Reader 新增内容的每日分类报告。",
-      readwiseEntries,
-    ),
-  ),
-  writeFile(
-    path.join(hnDir, "index.md"),
-    buildSourceIndex(
-      "📰 HN Tech Blog Digest",
-      "来自 92 个 HN Karpathy 精选博客的 RSS，每日 AI 评分排序的 Top 15。",
-      hnEntries,
-    ),
-  ),
-  updateNav(readwiseEntries, hnEntries),
+  writeFile(path.join(root, "docs", "index.md"), buildDashboard(skills, entriesBySkill)),
+  ...skills.map(async (skill) => {
+    const entries = entriesBySkill.get(skill.manifest.id) ?? [];
+    const indexPath = path.join(root, skillDir(skill), "index.md");
+    await writeFile(indexPath, buildSkillIndex(skill, entries));
+  }),
+  rewriteNav(skills, entriesBySkill),
 ]);
 
-console.log(
-  `Indexes updated — ${readwiseEntries.length} Readwise / ${hnEntries.length} HN reports`,
-);
+const counts = skills.map((s) => `${entriesBySkill.get(s.manifest.id)?.length ?? 0} ${s.manifest.id}`).join(" / ");
+console.log(`Indexes updated — ${counts}`);

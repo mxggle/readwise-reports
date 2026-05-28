@@ -59,6 +59,7 @@ export interface SkillManifest {
   output?: {
     dir?: string;
     navSection?: string;
+    icon?: string;
   };
   env?: {
     required?: string[];

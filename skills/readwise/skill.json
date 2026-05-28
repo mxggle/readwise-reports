@@ -16,7 +16,8 @@
   },
   "output": {
     "dir": "docs/readwise",
-    "navSection": "Reading"
+    "navSection": "Reading",
+    "icon": "📚"
   },
   "env": {
     "required": ["READWISE_TOKEN"]

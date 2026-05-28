@@ -34,19 +34,15 @@ theme:
 
 nav:
   - Dashboard: index.md
+  - HackerNews:
+    - hn/index.md
+    - "2026-05-28": hn/2026-05-28.md
   - Readwise:
     - readwise/index.md
-    # AUTO_READWISE_START
     - "2026-05-28": readwise/2026-05-28.md
     - "2026-05-27": readwise/2026-05-27.md
     - "2026-05-26": readwise/2026-05-26.md
     - "2026-05-25": readwise/2026-05-25.md
-    # AUTO_READWISE_END
-  - HN:
-    - hn/index.md
-    # AUTO_HN_START
-    - "2026-05-28": hn/2026-05-28.md
-    # AUTO_HN_END
   - Topics:
     - topics/index.md
     - AI: topics/ai.md
