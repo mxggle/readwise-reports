@@ -55,11 +55,29 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
     log.info(`Recorded ${fresh.length} processed items.`);
   }
 
+  const notifications = buildNotifications(ctx, items, data.keywords);
+
   return {
     itemsProcessed: fresh.length,
     itemsSkipped: skipped.length,
     outputPath,
+    notifications,
   };
+}
+
+function buildNotifications(ctx: SkillContext, items: ClassifiedItem[], keywordsList: string[]) {
+  const channels = ctx.config.notification?.channels ?? [];
+  if (channels.length === 0) return undefined;
+
+  const top = items.filter((i) => i.action === "READ").slice(0, 3);
+  const body = [
+    `${items.length} 条内容，${top.length} 条优先读。`,
+    top[0] ? `Top 1：${top[0].title}` : "今天没有明显 S 级内容。",
+    `关键词：${keywordsList.slice(0, 5).join(" / ") || "暂无"}`,
+  ].join("\n");
+  const url = ctx.publicSiteUrl ? `${ctx.publicSiteUrl}/${ctx.config.id}/${ctx.date}/` : undefined;
+  const title = `${ctx.config.title} Daily｜${ctx.date}`;
+  return channels.map((channel) => ({ channel, title, body, url }));
 }
 
 async function summarize(ctx: SkillContext, items: ClassifiedItem[], lang: string, log: SkillContext["log"]): Promise<string> {

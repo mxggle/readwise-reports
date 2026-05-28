@@ -5,6 +5,7 @@ export type {
   SkillPaths,
   SkillWriter,
   SkillStore,
+  NotificationPayload,
   AIMode,
   AIProvider,
   AIClient,

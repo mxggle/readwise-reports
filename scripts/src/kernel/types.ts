@@ -123,12 +123,21 @@ export interface SkillContext {
   paths: SkillPaths;
   writer: SkillWriter;
   store: SkillStore;
+  publicSiteUrl?: string;
+}
+
+export interface NotificationPayload {
+  channel: string;
+  title: string;
+  body: string;
+  url?: string;
 }
 
 export interface SkillResult {
   itemsProcessed: number;
   itemsSkipped: number;
   outputPath?: string;
+  notifications?: NotificationPayload[];
 }
 
 export interface DedupItem {

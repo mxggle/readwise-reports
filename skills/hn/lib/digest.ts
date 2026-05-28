@@ -842,6 +842,7 @@ export interface RunDigestResult {
     filteredArticles: number;
     selectedCount: number;
   };
+  topArticles: Array<{ title: string; sourceName: string; link: string; category: string }>;
 }
 
 export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
@@ -936,5 +937,11 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
       filteredArticles: recentArticles.length,
       selectedCount: finalArticles.length,
     },
+    topArticles: finalArticles.slice(0, 5).map((a) => ({
+      title: a.title,
+      sourceName: a.sourceName,
+      link: a.link,
+      category: a.category,
+    })),
   };
 }

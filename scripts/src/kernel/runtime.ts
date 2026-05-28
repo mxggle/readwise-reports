@@ -36,6 +36,7 @@ export async function invokeSkill(entry: SkillEntry, opts: InvokeOptions): Promi
     paths,
     writer: buildWriter(opts.date, paths),
     store: buildStore(env.processedDbPath, opts.date, opts.dryRun),
+    publicSiteUrl: env.publicSiteUrl || undefined,
   };
 
   const mod = await import(pathToFileURL(entry.entryPath).href);
