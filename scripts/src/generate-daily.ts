@@ -4,7 +4,7 @@ import path from "node:path";
 import { execa } from "execa";
 import { env } from "./kernel/env.js";
 import { formatDate, isoHoursAgo } from "./kernel/date.js";
-import { fetchHighlights, fetchReaderDocuments, dedupe } from "./kernel/readwise.js";
+import { fetchHighlights, fetchReaderDocuments, dedupe } from "../../skills/readwise/lib/readwise-api.js";
 import { filterUnprocessed, markProcessedItems, openProcessedStore } from "./kernel/processed-store.js";
 import { classify, keywords } from "./kernel/classify.js";
 import { summarizeWithAi } from "./kernel/ai.js";

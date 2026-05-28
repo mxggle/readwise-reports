@@ -1,6 +1,6 @@
 import { execa } from "execa";
-import { env } from "./env.js";
-import type { SourceItem } from "./types.js";
+import { env } from "../../../scripts/src/kernel/env.js";
+import type { SourceItem } from "../../../scripts/src/kernel/types.js";
 
 async function readwiseApi(path: string) {
   if (!env.readwiseToken) throw new Error("READWISE_TOKEN missing");

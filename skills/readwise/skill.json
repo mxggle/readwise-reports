@@ -1,0 +1,31 @@
+{
+  "id": "readwise",
+  "title": "Readwise",
+  "description": "Daily reading digest from Readwise highlights and Reader documents.",
+  "enabled": true,
+  "ai": {
+    "mode": "auto",
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "outputLanguage": "zh-CN"
+  },
+  "schedule": {
+    "cron": "0 22 * * *",
+    "timezone": "Asia/Tokyo",
+    "lookbackHours": 24
+  },
+  "output": {
+    "dir": "docs/readwise",
+    "navSection": "Reading"
+  },
+  "env": {
+    "required": ["READWISE_TOKEN"]
+  },
+  "dedup": {
+    "enabled": true,
+    "keyField": "id"
+  },
+  "notification": {
+    "channels": ["discord"]
+  }
+}
