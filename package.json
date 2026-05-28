@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx scripts/src/cli.ts --skill readwise --dry-run",
+    "dev:readwise": "tsx scripts/src/cli.ts --skill readwise --dry-run",
     "generate": "tsx scripts/src/cli.ts",
     "generate:list": "tsx scripts/src/cli.ts --list",
     "publish:daily": "tsx scripts/src/publish-daily.ts",
