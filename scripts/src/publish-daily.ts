@@ -15,7 +15,7 @@ async function run(cmd: string, args: string[]) {
   return execa(cmd, args, { stdio: "inherit" });
 }
 
-await run("pnpm", ["skills:run", "--", "--skill", "readwise", "--date", date, "--dry-run"]);
+await run("pnpm", ["generate", "--", "--skill", "readwise", "--date", date, "--dry-run"]);
 await run("pnpm", ["build:index"]);
 
 await run("git", ["add", "docs", "generated", "mkdocs.yml", "README.md"]);
