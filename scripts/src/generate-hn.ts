@@ -1,8 +1,8 @@
 import { mkdir } from "node:fs/promises";
 import path from "node:path";
 import { execa } from "execa";
-import { env } from "./lib/env.js";
-import { formatDate } from "./lib/date.js";
+import { env } from "./kernel/env.js";
+import { formatDate } from "./kernel/date.js";
 
 const now = new Date();
 const date = formatDate(now, env.timezone);

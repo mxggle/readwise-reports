@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { execa } from "execa";
-import { formatDate } from "./lib/date.js";
-import { env } from "./lib/env.js";
-import type { ReportData } from "./lib/types.js";
+import { formatDate } from "./kernel/date.js";
+import { env } from "./kernel/env.js";
+import type { ReportData } from "./kernel/types.js";
 
 dotenv.config();
 

@@ -1,8 +1,8 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import { env } from "./lib/env.js";
-import { markProcessedItems, openProcessedStore } from "./lib/processed-store.js";
-import type { ReportData } from "./lib/types.js";
+import { env } from "./kernel/env.js";
+import { markProcessedItems, openProcessedStore } from "./kernel/processed-store.js";
+import type { ReportData } from "./kernel/types.js";
 
 const rawDir = path.join("generated", "raw");
 const files = (await readdir(rawDir)).filter((file) => file.endsWith(".json")).sort();
