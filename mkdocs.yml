@@ -1,6 +1,6 @@
 site_name: Readwise Reports
 site_description: High-signal reading reports from Readwise and Reader
-site_url: !ENV [PUBLIC_SITE_URL, ""]
+site_url: !ENV [ PUBLIC_SITE_URL, "" ]
 repo_url: ""
 repo_name: readwise-reports
 
@@ -35,26 +35,26 @@ theme:
 nav:
   - Dashboard: index.md
   - HackerNews:
-    - hn/index.md
-    - "2026-05-28": hn/2026-05-28.md
+      - hn/index.md
+      - 2026-05-28: hn/2026-05-28.md
   - Readwise:
-    - readwise/index.md
-    - "2026-05-28": readwise/2026-05-28.md
-    - "2026-05-27": readwise/2026-05-27.md
-    - "2026-05-26": readwise/2026-05-26.md
-    - "2026-05-25": readwise/2026-05-25.md
+      - readwise/index.md
+      - 2026-05-28: readwise/2026-05-28.md
+      - 2026-05-27: readwise/2026-05-27.md
+      - 2026-05-26: readwise/2026-05-26.md
+      - 2026-05-25: readwise/2026-05-25.md
   - Topics:
-    - topics/index.md
-    - AI: topics/ai.md
-    - Programming: topics/programming.md
-    - Career: topics/career.md
-    - Business: topics/business.md
-    - English: topics/english.md
-    - Japanese: topics/japanese.md
-    - Other: topics/other.md
+      - topics/index.md
+      - AI: topics/ai.md
+      - Programming: topics/programming.md
+      - Career: topics/career.md
+      - Business: topics/business.md
+      - English: topics/english.md
+      - Japanese: topics/japanese.md
+      - Other: topics/other.md
   - Archive:
-    - Weekly: weekly/index.md
-    - Monthly: monthly/index.md
+      - Weekly: weekly/index.md
+      - Monthly: monthly/index.md
 
 markdown_extensions:
   - admonition
@@ -68,8 +68,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+      emoji_generator:
 
+        !!python/name:material.extensions.emoji.to_svg ""
 plugins:
   - search

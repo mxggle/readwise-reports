@@ -1,6 +1,7 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import YAML from "yaml";
 import { loadRegistry, type SkillEntry } from "./kernel/registry.js";
 
 const root = process.cwd();
@@ -219,53 +220,51 @@ function buildSkillIndex(skill: SkillEntry, entries: ReportEntry[]): string {
   ].join("\n");
 }
 
-function buildSkillsNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
-  const lines: string[] = [];
+type NavEntry = string | { [key: string]: string | NavEntry[] };
+
+function buildNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): NavEntry[] {
+  const nav: NavEntry[] = [{ Dashboard: "index.md" }];
+
   for (const skill of skills) {
     const folder = skillFolder(skill);
-    lines.push(`  - ${skill.manifest.title}:`);
-    lines.push(`    - ${folder}/index.md`);
+    const items: NavEntry[] = [`${folder}/index.md`];
     for (const entry of entriesBySkill.get(skill.manifest.id) ?? []) {
-      lines.push(`    - "${entry.date}": ${folder}/${entry.href}`);
+      items.push({ [entry.date]: `${folder}/${entry.href}` });
     }
+    nav.push({ [skill.manifest.title]: items });
   }
-  return lines.join("\n");
+
+  nav.push({
+    Topics: [
+      "topics/index.md",
+      { AI: "topics/ai.md" },
+      { Programming: "topics/programming.md" },
+      { Career: "topics/career.md" },
+      { Business: "topics/business.md" },
+      { English: "topics/english.md" },
+      { Japanese: "topics/japanese.md" },
+      { Other: "topics/other.md" },
+    ],
+  });
+  nav.push({
+    Archive: [
+      { Weekly: "weekly/index.md" },
+      { Monthly: "monthly/index.md" },
+    ],
+  });
+
+  return nav;
 }
 
 async function rewriteNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): Promise<void> {
   const navPath = path.join(root, "mkdocs.yml");
   const text = await readFile(navPath, "utf8");
+  const doc = YAML.parseDocument(text);
 
-  const dashboardNav = "  - Dashboard: index.md";
-  const skillsNav = buildSkillsNav(skills, entriesBySkill);
-  const topicsNav = [
-    "  - Topics:",
-    "    - topics/index.md",
-    "    - AI: topics/ai.md",
-    "    - Programming: topics/programming.md",
-    "    - Career: topics/career.md",
-    "    - Business: topics/business.md",
-    "    - English: topics/english.md",
-    "    - Japanese: topics/japanese.md",
-    "    - Other: topics/other.md",
-  ].join("\n");
-  const archiveNav = [
-    "  - Archive:",
-    "    - Weekly: weekly/index.md",
-    "    - Monthly: monthly/index.md",
-  ].join("\n");
-  const newNav = [dashboardNav, skillsNav, topicsNav, archiveNav].join("\n");
+  doc.set("nav", buildNav(skills, entriesBySkill));
 
-  const navMarker = text.match(/\nnav:\n/);
-  if (!navMarker) throw new Error("Could not find 'nav:' block in mkdocs.yml");
-  const startOffset = (navMarker.index ?? 0) + navMarker[0].length;
-  const after = text.slice(startOffset);
-  const nextKey = after.match(/\n([a-zA-Z][a-zA-Z0-9_]*:)/);
-  const endOffset = nextKey ? startOffset + (nextKey.index ?? 0) : text.length;
-
-  const trailing = nextKey ? text.slice(endOffset + 1) : "";
-  const next = text.slice(0, startOffset) + newNav + "\n\n" + trailing;
-  if (next !== text) await writeFile(navPath, next);
+  const output = doc.toString({ lineWidth: 0 });
+  if (output !== text) await writeFile(navPath, output);
 }
 
 const registry = await loadRegistry();
