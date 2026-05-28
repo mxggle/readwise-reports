@@ -2,15 +2,15 @@ import { mkdir } from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { execa } from "execa";
-import type { SourceItem } from "./types.js";
+import type { DedupItem } from "./types.js";
 
 export type ProcessedStore = {
   dbPath: string;
 };
 
-export type FilterResult = {
-  fresh: SourceItem[];
-  skipped: SourceItem[];
+export type FilterResult<T extends DedupItem = DedupItem> = {
+  fresh: T[];
+  skipped: T[];
 };
 
 function sqlString(value: string | undefined | null): string {
@@ -34,7 +34,7 @@ function normalizeUrl(value: string | undefined | null): string {
   }
 }
 
-export function contentHash(item: SourceItem): string {
+export function contentHash(item: DedupItem): string {
   const payload = [
     normalize(item.title).toLowerCase(),
     normalize(item.author).toLowerCase(),
@@ -74,7 +74,7 @@ CREATE INDEX IF NOT EXISTS idx_processed_items_report_date ON processed_items(re
   return { dbPath };
 }
 
-export async function hasProcessedItem(store: ProcessedStore, item: SourceItem): Promise<boolean> {
+export async function hasProcessedItem(store: ProcessedStore, item: DedupItem): Promise<boolean> {
   const id = normalize(item.id);
   const url = normalizeUrl(item.url || item.sourceUrl);
   const hash = contentHash(item);
@@ -88,9 +88,9 @@ export async function hasProcessedItem(store: ProcessedStore, item: SourceItem):
   return rows.length > 0;
 }
 
-export async function filterUnprocessed(store: ProcessedStore, items: SourceItem[]): Promise<FilterResult> {
-  const fresh: SourceItem[] = [];
-  const skipped: SourceItem[] = [];
+export async function filterUnprocessed<T extends DedupItem>(store: ProcessedStore, items: T[]): Promise<FilterResult<T>> {
+  const fresh: T[] = [];
+  const skipped: T[] = [];
   for (const item of items) {
     if (await hasProcessedItem(store, item)) skipped.push(item);
     else fresh.push(item);
@@ -98,9 +98,9 @@ export async function filterUnprocessed(store: ProcessedStore, items: SourceItem
   return { fresh, skipped };
 }
 
-export async function markProcessedItems(
+export async function markProcessedItems<T extends DedupItem>(
   store: ProcessedStore,
-  items: SourceItem[],
+  items: T[],
   reportDate: string,
   processedAt: string,
 ): Promise<void> {

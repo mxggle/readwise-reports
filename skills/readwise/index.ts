@@ -1,12 +1,12 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import type { ClassifiedItem, ReportData, SkillContext, SkillResult } from "../../scripts/src/kernel/types.js";
-import { isoHoursAgo } from "../../scripts/src/kernel/date.js";
-import { filterUnprocessed, markProcessedItems, openProcessedStore } from "../../scripts/src/kernel/processed-store.js";
-import { classify, keywords } from "../../scripts/src/kernel/classify.js";
-import { renderDaily } from "../../scripts/src/kernel/markdown.js";
+import type { SkillContext, SkillResult } from "../_sdk/index.js";
+import { isoHoursAgo, filterUnprocessed, markProcessedItems, openProcessedStore } from "../_sdk/index.js";
 import { env } from "../../scripts/src/kernel/env.js";
+import type { ClassifiedItem, ReportData } from "./lib/types.js";
+import { classify, keywords } from "./lib/classify.js";
+import { renderDaily } from "./lib/markdown.js";
 import { dedupe, fetchHighlights, fetchReaderDocuments } from "./lib/readwise-api.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

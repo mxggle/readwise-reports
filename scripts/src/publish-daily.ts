@@ -4,7 +4,7 @@ import path from "node:path";
 import { execa } from "execa";
 import { formatDate } from "./kernel/date.js";
 import { env } from "./kernel/env.js";
-import type { ReportData } from "./kernel/types.js";
+import type { ReportData } from "../../skills/readwise/lib/types.js";
 
 dotenv.config();
 

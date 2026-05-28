@@ -1,41 +1,3 @@
-export type Topic = "AI" | "Programming" | "Japanese" | "English" | "Career" | "Business" | "Other";
-
-export type SourceItem = {
-  id: string;
-  title: string;
-  author?: string;
-  url?: string;
-  sourceUrl?: string;
-  source: "readwise-highlight" | "reader-document";
-  category?: string;
-  location?: string;
-  text: string;
-  summary?: string;
-  createdAt?: string;
-  updatedAt?: string;
-  publishedDate?: string;
-  tags: string[];
-  wordCount?: number;
-};
-
-export type ClassifiedItem = SourceItem & {
-  topic: Topic;
-  score: number;
-  action: "READ" | "SKIM" | "SAVE" | "IGNORE";
-  reason: string;
-};
-
-export type ReportData = {
-  date: string;
-  generatedAt: string;
-  timezone: string;
-  windowStart: string;
-  windowEnd: string;
-  items: ClassifiedItem[];
-  keywords: string[];
-  aiSummary: string;
-};
-
 export type AIMode = "api" | "agent" | "auto";
 export type AIProvider = "openai" | "gemini" | "anthropic";
 
@@ -110,4 +72,17 @@ export interface SkillResult {
   itemsProcessed: number;
   itemsSkipped: number;
   outputPath?: string;
+}
+
+export interface DedupItem {
+  id: string;
+  url?: string;
+  sourceUrl?: string;
+  title: string;
+  author?: string;
+  source: string;
+  text: string;
+  summary?: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
