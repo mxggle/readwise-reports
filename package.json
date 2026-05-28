@@ -12,6 +12,7 @@
     "build:index": "tsx scripts/src/build-index.ts",
     "backfill:processed": "tsx scripts/src/backfill-processed.ts",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
     "docs:serve": "mkdocs serve",
     "docs:build": "mkdocs build --strict"
   },
@@ -28,7 +29,8 @@
   "devDependencies": {
     "@types/node": "^22.10.2",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.7"
   },
   "packageManager": "pnpm@9.15.0"
 }
