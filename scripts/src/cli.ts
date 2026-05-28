@@ -10,7 +10,8 @@ program
   .option("--all", "Run all enabled skills (default when --skill not given)")
   .option("--date <date>", "Report date YYYY-MM-DD")
   .option("--dry-run", "Do not commit dedup state")
-  .option("--list", "List discovered skills and exit");
+  .option("--list", "List discovered skills and exit")
+  .option("--concurrency <n>", "Max skills to run in parallel (default 1)", "1");
 program.parse();
 const opts = program.opts<{
   skill?: string;
@@ -18,6 +19,7 @@ const opts = program.opts<{
   date?: string;
   dryRun?: boolean;
   list?: boolean;
+  concurrency?: string;
 }>();
 
 const registry = await loadRegistry();
@@ -71,17 +73,30 @@ if (envIssues.length > 0) {
   process.exit(1);
 }
 
-console.log(`Running ${toRun.length} skill(s) for ${date}${dryRun ? " (dry-run)" : ""}`);
+const concurrency = Math.max(1, Number(opts.concurrency ?? "1") || 1);
+
+console.log(`Running ${toRun.length} skill(s) for ${date}${dryRun ? " (dry-run)" : ""}${concurrency > 1 ? ` (parallel: ${concurrency})` : ""}`);
 
 let failed = 0;
-for (const entry of toRun) {
-  console.log(`\n=== ${entry.manifest.id} ===`);
-  try {
-    const result = await invokeSkill(entry, { date, dryRun });
-    console.log(`  -> ${result.itemsProcessed} processed, ${result.itemsSkipped} skipped` + (result.outputPath ? `, output: ${result.outputPath}` : ""));
-  } catch (err) {
-    failed++;
-    console.error(`  FAILED ${entry.manifest.id}:`, err instanceof Error ? err.message : err);
+for (let i = 0; i < toRun.length; i += concurrency) {
+  const batch = toRun.slice(i, i + concurrency);
+  const results = await Promise.allSettled(
+    batch.map(async (entry) => {
+      if (concurrency === 1) console.log(`\n=== ${entry.manifest.id} ===`);
+      const result = await invokeSkill(entry, { date, dryRun });
+      return { entry, result };
+    }),
+  );
+  for (let j = 0; j < results.length; j++) {
+    const r = results[j];
+    const entry = batch[j];
+    if (r.status === "fulfilled") {
+      const { result } = r.value;
+      console.log(`[${entry.manifest.id}] -> ${result.itemsProcessed} processed, ${result.itemsSkipped} skipped` + (result.outputPath ? `, output: ${result.outputPath}` : ""));
+    } else {
+      failed++;
+      console.error(`[${entry.manifest.id}] FAILED:`, r.reason instanceof Error ? r.reason.message : r.reason);
+    }
   }
 }
 
