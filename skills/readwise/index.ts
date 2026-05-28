@@ -15,7 +15,7 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   const { config, date, dryRun, log } = ctx;
   const timezone = config.schedule?.timezone ?? "UTC";
   const lookbackHours = config.schedule?.lookbackHours ?? 24;
-  const outputDir = config.output?.dir ?? `docs/${config.id}`;
+  const outputDir = `docs/${config.id}`;
   const lang = config.ai?.outputLanguage ?? "zh-CN";
 
   const now = new Date();

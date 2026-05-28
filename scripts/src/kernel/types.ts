@@ -1,47 +1,84 @@
-export type AIMode = "api" | "agent" | "auto";
-export type AIProvider = "openai" | "gemini" | "anthropic";
+import { z } from "zod";
 
-export interface SkillManifest {
-  id: string;
-  title: string;
-  description?: string;
-  enabled?: boolean;
-  ai?: {
-    mode?: AIMode;
-    provider?: AIProvider;
-    model?: string;
-    inputLanguage?: string;
-    outputLanguage?: string;
-  };
-  schedule?: {
-    cron?: string;
-    timezone?: string;
-    lookbackHours?: number;
-  };
-  output?: {
-    dir?: string;
-    navSection?: string;
-    icon?: string;
-  };
-  env?: {
-    required?: string[];
-  };
-  dedup?: {
-    enabled?: boolean;
-    keyField?: string;
-  };
-  filters?: {
-    excludeTags?: string[];
-    blockDomains?: string[];
-  };
-  digest?: {
-    maxItems?: number;
-    tone?: string;
-  };
-  notification?: {
-    channels?: string[];
-  };
-}
+export const AIModeSchema = z.enum(["api", "agent", "auto"]);
+export const AIProviderSchema = z.enum(["openai", "gemini", "anthropic"]);
+export type AIMode = z.infer<typeof AIModeSchema>;
+export type AIProvider = z.infer<typeof AIProviderSchema>;
+
+export const SkillManifestSchema = z.object({
+  id: z.string().regex(/^[a-z][a-z0-9-]*$/, "id must be kebab-case starting with a letter"),
+  title: z.string().min(1),
+  description: z.string().optional(),
+  enabled: z.boolean().default(true),
+
+  ai: z
+    .object({
+      mode: AIModeSchema.default("auto"),
+      provider: AIProviderSchema.default("openai"),
+      model: z.string().optional(),
+      inputLanguage: z.string().default("auto"),
+      outputLanguage: z.string().default("en-US"),
+    })
+    .strict()
+    .default({}),
+
+  schedule: z
+    .object({
+      cron: z.string().optional(),
+      timezone: z.string().default("UTC"),
+      lookbackHours: z.number().positive().default(24),
+    })
+    .strict()
+    .default({}),
+
+  output: z
+    .object({
+      navSection: z.string().optional(),
+      icon: z.string().optional(),
+    })
+    .strict()
+    .default({}),
+
+  env: z
+    .object({
+      required: z.array(z.string()).default([]),
+    })
+    .strict()
+    .default({}),
+
+  dedup: z
+    .object({
+      enabled: z.boolean().default(false),
+      keyField: z.string().default("id"),
+    })
+    .strict()
+    .default({}),
+
+  filters: z
+    .object({
+      excludeTags: z.array(z.string()).default([]),
+      blockDomains: z.array(z.string()).default([]),
+    })
+    .strict()
+    .default({}),
+
+  digest: z
+    .object({
+      maxItems: z.number().positive().default(50),
+      tone: z.string().default("concise"),
+    })
+    .strict()
+    .default({}),
+
+  notification: z
+    .object({
+      channels: z.array(z.string()).default([]),
+    })
+    .strict()
+    .default({}),
+}).strict();
+
+export type SkillManifest = z.infer<typeof SkillManifestSchema>;
 
 export interface AICompleteOptions {
   system?: string;

@@ -15,7 +15,6 @@
     "lookbackHours": 24
   },
   "output": {
-    "dir": "docs/readwise",
     "navSection": "Reading",
     "icon": "📚"
   },

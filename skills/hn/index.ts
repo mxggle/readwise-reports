@@ -7,7 +7,7 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   const { config, date, log } = ctx;
   const lookbackHours = config.schedule?.lookbackHours ?? 48;
   const maxItems = config.digest?.maxItems ?? 15;
-  const outputDir = config.output?.dir ?? `docs/${config.id}`;
+  const outputDir = `docs/${config.id}`;
   const outputPath = path.join(outputDir, `${date}.md`);
   const scriptPath = path.join("skills", "hn", "lib", "digest.ts");
 

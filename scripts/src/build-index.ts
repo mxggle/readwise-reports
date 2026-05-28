@@ -20,12 +20,11 @@ function truncate(text: string, max = 180): string {
 }
 
 function skillFolder(skill: SkillEntry): string {
-  const dir = skill.manifest.output?.dir ?? `docs/${skill.manifest.id}`;
-  return dir.replace(/^docs\//, "");
+  return skill.manifest.id;
 }
 
 function skillDir(skill: SkillEntry): string {
-  return skill.manifest.output?.dir ?? `docs/${skill.manifest.id}`;
+  return `docs/${skill.manifest.id}`;
 }
 
 async function readSkillEntries(skill: SkillEntry): Promise<ReportEntry[]> {

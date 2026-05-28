@@ -1,7 +1,8 @@
 import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import type { SkillManifest } from "./types.js";
+import { z } from "zod";
+import { SkillManifestSchema, type SkillManifest } from "./types.js";
 
 export interface SkillEntry {
   manifest: SkillManifest;
@@ -37,9 +38,18 @@ export async function loadRegistry(): Promise<SkillEntry[]> {
       throw err;
     }
 
-    const manifest = JSON.parse(manifestText) as SkillManifest;
+    let manifest: SkillManifest;
+    try {
+      manifest = SkillManifestSchema.parse(JSON.parse(manifestText));
+    } catch (err) {
+      if (err instanceof z.ZodError) {
+        const details = err.issues.map((i) => `  - ${i.path.join(".") || "(root)"}: ${i.message}`).join("\n");
+        throw new Error(`Invalid manifest ${manifestPath}:\n${details}`);
+      }
+      throw new Error(`Failed to parse ${manifestPath}: ${err instanceof Error ? err.message : String(err)}`);
+    }
     if (manifest.id !== folder) {
-      throw new Error(`Skill manifest id "${manifest.id}" does not match folder name "${folder}"`);
+      throw new Error(`${manifestPath}: id "${manifest.id}" does not match folder name "${folder}"`);
     }
 
     const entryPath = path.join(skillDir, "index.ts");

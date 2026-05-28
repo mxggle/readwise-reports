@@ -14,7 +14,6 @@
     "lookbackHours": 48
   },
   "output": {
-    "dir": "docs/hn",
     "navSection": "Tech",
     "icon": "📰"
   },
