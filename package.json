@@ -9,6 +9,8 @@
     "generate:hn": "tsx scripts/src/generate-hn.ts",
     "publish:daily": "tsx scripts/src/publish-daily.ts",
     "generate:date": "tsx scripts/src/generate-daily.ts --date",
+    "skills:run": "tsx scripts/src/cli.ts",
+    "skills:list": "tsx scripts/src/cli.ts --list",
     "notify": "tsx scripts/src/notify-discord.ts",
     "build:index": "tsx scripts/src/build-index.ts",
     "backfill:processed": "tsx scripts/src/backfill-processed.ts",
