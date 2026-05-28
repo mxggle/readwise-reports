@@ -1,14 +1,9 @@
-import { writeFile, mkdir } from 'node:fs/promises';
-import { dirname } from 'node:path';
-import process from 'node:process';
+import type { AIClient } from "../../_sdk/index.js";
 
 // ============================================================================
 // Constants
 // ============================================================================
 
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-const OPENAI_DEFAULT_API_BASE = 'https://api.openai.com/v1';
-const OPENAI_DEFAULT_MODEL = 'gpt-4o-mini';
 const FEED_FETCH_TIMEOUT_MS = 15_000;
 const FEED_CONCURRENCY = 10;
 const GEMINI_BATCH_SIZE = 10;
@@ -166,12 +161,8 @@ interface GeminiSummaryResult {
   }>;
 }
 
-interface AIClient {
-  call(prompt: string): Promise<string>;
-}
-
 // ============================================================================
-// RSS/Atom Parsing (using Bun's built-in HTMLRewriter or manual XML parsing)
+// RSS/Atom Parsing
 // ============================================================================
 
 function stripHtml(html: string): string {
@@ -193,10 +184,9 @@ function extractCDATA(text: string): string {
 }
 
 function getTagContent(xml: string, tagName: string): string {
-  // Handle namespaced and non-namespaced tags
   const patterns = [
     new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)</${tagName}>`, 'i'),
-    new RegExp(`<${tagName}[^>]*/>`, 'i'), // self-closing
+    new RegExp(`<${tagName}[^>]*/>`, 'i'),
   ];
 
   for (const pattern of patterns) {
@@ -220,8 +210,6 @@ function parseDate(dateStr: string): Date | null {
   const d = new Date(dateStr);
   if (!isNaN(d.getTime())) return d;
 
-  // Try common RSS date formats
-  // RFC 822: "Mon, 01 Jan 2024 00:00:00 GMT"
   const rfc822 = dateStr.match(/(\d{1,2})\s+(\w{3})\s+(\d{4})\s+(\d{2}):(\d{2}):(\d{2})/);
   if (rfc822) {
     const parsed = new Date(dateStr);
@@ -234,18 +222,15 @@ function parseDate(dateStr: string): Date | null {
 function parseRSSItems(xml: string): Array<{ title: string; link: string; pubDate: string; description: string }> {
   const items: Array<{ title: string; link: string; pubDate: string; description: string }> = [];
 
-  // Detect format: Atom vs RSS
   const isAtom = xml.includes('<feed') && xml.includes('xmlns="http://www.w3.org/2005/Atom"') || xml.includes('<feed ');
 
   if (isAtom) {
-    // Atom format: <entry>
     const entryPattern = /<entry[\s>]([\s\S]*?)<\/entry>/gi;
     let entryMatch;
     while ((entryMatch = entryPattern.exec(xml)) !== null) {
       const entryXml = entryMatch[1];
       const title = stripHtml(getTagContent(entryXml, 'title'));
 
-      // Atom link: <link href="..." rel="alternate"/>
       let link = getAttrValue(entryXml, 'link[^>]*rel="alternate"', 'href');
       if (!link) {
         link = getAttrValue(entryXml, 'link', 'href');
@@ -264,7 +249,6 @@ function parseRSSItems(xml: string): Array<{ title: string; link: string; pubDat
       }
     }
   } else {
-    // RSS format: <item>
     const itemPattern = /<item[\s>]([\s\S]*?)<\/item>/gi;
     let itemMatch;
     while ((itemMatch = itemPattern.exec(xml)) !== null) {
@@ -324,7 +308,6 @@ async function fetchFeed(feed: { name: string; xmlUrl: string; htmlUrl: string }
     }));
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
-    // Only log non-abort errors to reduce noise
     if (!msg.includes('abort')) {
       console.warn(`[digest] ✗ ${feed.name}: ${msg}`);
     } else {
@@ -360,139 +343,8 @@ async function fetchAllFeeds(feeds: typeof RSS_FEEDS): Promise<Article[]> {
   return allArticles;
 }
 
-// ============================================================================
-// AI Providers (Gemini + OpenAI-compatible fallback)
-// ============================================================================
-
-async function callGemini(prompt: string, apiKey: string): Promise<string> {
-  const response = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: {
-        temperature: 0.3,
-        topP: 0.8,
-        topK: 40,
-      },
-    }),
-  });
-
-  if (!response.ok) {
-    const errorText = await response.text().catch(() => 'Unknown error');
-    throw new Error(`Gemini API error (${response.status}): ${errorText}`);
-  }
-
-  const data = await response.json() as {
-    candidates?: Array<{
-      content?: { parts?: Array<{ text?: string }> };
-    }>;
-  };
-
-  return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-}
-
-async function callOpenAICompatible(
-  prompt: string,
-  apiKey: string,
-  apiBase: string,
-  model: string
-): Promise<string> {
-  const normalizedBase = apiBase.replace(/\/+$/, '');
-  const response = await fetch(`${normalizedBase}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model,
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.3,
-      top_p: 0.8,
-    }),
-  });
-
-  if (!response.ok) {
-    const errorText = await response.text().catch(() => 'Unknown error');
-    throw new Error(`OpenAI-compatible API error (${response.status}): ${errorText}`);
-  }
-
-  const data = await response.json() as {
-    choices?: Array<{
-      message?: {
-        content?: string | Array<{ type?: string; text?: string }>;
-      };
-    }>;
-  };
-
-  const content = data.choices?.[0]?.message?.content;
-  if (typeof content === 'string') return content;
-  if (Array.isArray(content)) {
-    return content
-      .filter(item => item.type === 'text' && typeof item.text === 'string')
-      .map(item => item.text)
-      .join('\n');
-  }
-  return '';
-}
-
-function inferOpenAIModel(apiBase: string): string {
-  const base = apiBase.toLowerCase();
-  if (base.includes('deepseek')) return 'deepseek-chat';
-  return OPENAI_DEFAULT_MODEL;
-}
-
-function createAIClient(config: {
-  geminiApiKey?: string;
-  openaiApiKey?: string;
-  openaiApiBase?: string;
-  openaiModel?: string;
-}): AIClient {
-  const state = {
-    geminiApiKey: config.geminiApiKey?.trim() || '',
-    openaiApiKey: config.openaiApiKey?.trim() || '',
-    openaiApiBase: (config.openaiApiBase?.trim() || OPENAI_DEFAULT_API_BASE).replace(/\/+$/, ''),
-    openaiModel: config.openaiModel?.trim() || '',
-    geminiEnabled: Boolean(config.geminiApiKey?.trim()),
-    fallbackLogged: false,
-  };
-
-  if (!state.openaiModel) {
-    state.openaiModel = inferOpenAIModel(state.openaiApiBase);
-  }
-
-  return {
-    async call(prompt: string): Promise<string> {
-      if (state.geminiEnabled && state.geminiApiKey) {
-        try {
-          return await callGemini(prompt, state.geminiApiKey);
-        } catch (error) {
-          if (state.openaiApiKey) {
-            if (!state.fallbackLogged) {
-              const reason = error instanceof Error ? error.message : String(error);
-              console.warn(`[digest] Gemini failed, switching to OpenAI-compatible fallback (${state.openaiApiBase}, model=${state.openaiModel}). Reason: ${reason}`);
-              state.fallbackLogged = true;
-            }
-            state.geminiEnabled = false;
-            return callOpenAICompatible(prompt, state.openaiApiKey, state.openaiApiBase, state.openaiModel);
-          }
-          throw error;
-        }
-      }
-
-      if (state.openaiApiKey) {
-        return callOpenAICompatible(prompt, state.openaiApiKey, state.openaiApiBase, state.openaiModel);
-      }
-
-      throw new Error('No AI API key configured. Set GEMINI_API_KEY and/or OPENAI_API_KEY.');
-    },
-  };
-}
-
 function parseJsonResponse<T>(text: string): T {
   let jsonText = text.trim();
-  // Strip markdown code blocks if present
   if (jsonText.startsWith('```')) {
     jsonText = jsonText.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
   }
@@ -564,7 +416,7 @@ Please return strictly in JSON format, without including markdown code blocks or
 
 async function scoreArticlesWithAI(
   articles: Article[],
-  aiClient: AIClient
+  ai: AIClient,
 ): Promise<Map<number, { relevance: number; quality: number; timeliness: number; category: CategoryId; keywords: string[] }>> {
   const allScores = new Map<number, { relevance: number; quality: number; timeliness: number; category: CategoryId; keywords: string[] }>();
 
@@ -589,7 +441,7 @@ async function scoreArticlesWithAI(
     const promises = batchGroup.map(async (batch) => {
       try {
         const prompt = buildScoringPrompt(batch);
-        const responseText = await aiClient.call(prompt);
+        const responseText = await ai.complete(prompt, { temperature: 0.3 });
         const parsed = parseJsonResponse<GeminiScoringResult>(responseText);
 
         if (parsed.results && Array.isArray(parsed.results)) {
@@ -664,7 +516,7 @@ Please return strictly in JSON format:
 
 async function summarizeArticles(
   articles: Array<Article & { index: number }>,
-  aiClient: AIClient
+  ai: AIClient,
 ): Promise<Map<number, { summary: string; reason: string }>> {
   const summaries = new Map<number, { summary: string; reason: string }>();
 
@@ -688,7 +540,7 @@ async function summarizeArticles(
     const promises = batchGroup.map(async (batch) => {
       try {
         const prompt = buildSummaryPrompt(batch);
-        const responseText = await aiClient.call(prompt);
+        const responseText = await ai.complete(prompt, { temperature: 0.3 });
         const parsed = parseJsonResponse<GeminiSummaryResult>(responseText);
 
         if (parsed.results && Array.isArray(parsed.results)) {
@@ -720,7 +572,7 @@ async function summarizeArticles(
 
 async function generateHighlights(
   articles: ScoredArticle[],
-  aiClient: AIClient
+  ai: AIClient,
 ): Promise<string> {
   const articleList = articles.slice(0, 10).map((a, i) =>
     `${i + 1}. [${a.category}] ${a.title} — ${a.summary.slice(0, 100)}`
@@ -739,7 +591,7 @@ ${articleList}
 Return only the plain text summary, no JSON, no markdown formatting.`;
 
   try {
-    const text = await aiClient.call(prompt);
+    const text = await ai.complete(prompt, { temperature: 0.3 });
     return text.trim();
   } catch (error) {
     console.warn(`[digest] Highlights generation failed: ${error instanceof Error ? error.message : String(error)}`);
@@ -875,21 +727,17 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
   totalArticles: number;
   filteredArticles: number;
   hours: number;
+  dateStr: string;
 }): string {
-  const now = new Date();
-  const dateStr = now.toISOString().split('T')[0];
-
-  let report = `# 📰 AI Blog Daily Digest — ${dateStr}\n\n`;
+  let report = `# 📰 AI Blog Daily Digest — ${stats.dateStr}\n\n`;
   report += `> From ${stats.totalFeeds} top tech blogs (curated by Karpathy), AI-selected Top ${articles.length}\n\n`;
 
-  // ── Today's Highlights ──
   if (highlights) {
     report += `## 📝 Today's Highlights\n\n`;
     report += `${highlights}\n\n`;
     report += `---\n\n`;
   }
 
-  // ── Top 3 Deep Showcase ──
   if (articles.length >= 3) {
     report += `## 🏆 Must Read\n\n`;
     for (let i = 0; i < Math.min(3, articles.length); i++) {
@@ -910,7 +758,6 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
     report += `---\n\n`;
   }
 
-  // ── Visual Statistics ──
   report += `## 📊 Data Overview\n\n`;
 
   report += `| Scanned | Articles | Range | Selected |\n`;
@@ -939,7 +786,6 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
 
   report += `---\n\n`;
 
-  // ── Category-Grouped Articles ──
   const categoryGroups = new Map<CategoryId, ScoredArticle[]>();
   for (const a of articles) {
     const list = categoryGroups.get(a.category) || [];
@@ -969,8 +815,7 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
     }
   }
 
-  // ── Footer ──
-  report += `*Generated on ${dateStr} ${now.toISOString().split('T')[1]?.slice(0, 5) || ''} | Scanned ${stats.successFeeds} sources → Found ${stats.totalArticles} articles → Selected ${articles.length} articles*\n`;
+  report += `*Generated on ${stats.dateStr} | Scanned ${stats.successFeeds} sources → Found ${stats.totalArticles} articles → Selected ${articles.length} articles*\n`;
   report += `*Based on [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/) RSS feeds list, curated by [Andrej Karpathy](https://x.com/karpathy).*\n`;
   report += `*Created by "Understand AI".*\n`;
 
@@ -978,110 +823,53 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
 }
 
 // ============================================================================
-// CLI
+// Public entry: runDigest
 // ============================================================================
 
-function printUsage(): never {
-  console.log(`AI Daily Digest - AI-powered RSS digest from 90 top tech blogs
-
-Usage:
-  bun scripts/digest.ts [options]
-
-Options:
-  --hours <n>     Time range in hours (default: 48)
-  --top-n <n>     Number of top articles to include (default: 15)
-  --output <path> Output file path (default: ./digest-YYYYMMDD.md)
-  --help          Show this help
-
-Environment:
-  GEMINI_API_KEY   Optional but recommended. Get one at https://aistudio.google.com/apikey
-  OPENAI_API_KEY   Optional fallback key for OpenAI-compatible APIs
-  OPENAI_API_BASE  Optional fallback base URL (default: https://api.openai.com/v1)
-  OPENAI_MODEL     Optional fallback model (default: deepseek-chat for DeepSeek base, else gpt-4o-mini)
-
-Examples:
-  bun scripts/digest.ts --hours 24 --top-n 10
-  bun scripts/digest.ts --hours 72 --top-n 20 --output ./my-digest.md
-`);
-  process.exit(0);
+export interface RunDigestOpts {
+  ai: AIClient;
+  lookbackHours: number;
+  maxItems: number;
+  date: string;
 }
 
-async function main(): Promise<void> {
-  const args = process.argv.slice(2);
-  if (args.includes('--help') || args.includes('-h')) printUsage();
+export interface RunDigestResult {
+  markdown: string;
+  stats: {
+    totalFeeds: number;
+    successFeeds: number;
+    totalArticles: number;
+    filteredArticles: number;
+    selectedCount: number;
+  };
+}
 
-  let hours = 48;
-  let topN = 15;
-  let outputPath = '';
-
-  for (let i = 0; i < args.length; i++) {
-    const arg = args[i]!;
-    if (arg === '--hours' && args[i + 1]) {
-      hours = parseInt(args[++i]!, 10);
-    } else if (arg === '--top-n' && args[i + 1]) {
-      topN = parseInt(args[++i]!, 10);
-    } else if (arg === '--output' && args[i + 1]) {
-      outputPath = args[++i]!;
-    }
-  }
-
-  const geminiApiKey = process.env.GEMINI_API_KEY;
-  const openaiApiKey = process.env.OPENAI_API_KEY;
-  const openaiApiBase = process.env.OPENAI_API_BASE;
-  const openaiModel = process.env.OPENAI_MODEL;
-
-  if (!geminiApiKey && !openaiApiKey) {
-    console.error('[digest] Error: Missing API key. Set GEMINI_API_KEY and/or OPENAI_API_KEY.');
-    console.error('[digest] Gemini key: https://aistudio.google.com/apikey');
-    process.exit(1);
-  }
-
-  const aiClient = createAIClient({
-    geminiApiKey,
-    openaiApiKey,
-    openaiApiBase,
-    openaiModel,
-  });
-
-  if (!outputPath) {
-    const dateStr = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-    outputPath = `./digest-${dateStr}.md`;
-  }
+export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
+  const { ai, lookbackHours, maxItems, date } = opts;
 
   console.log(`[digest] === AI Daily Digest ===`);
-  console.log(`[digest] Time range: ${hours} hours`);
-  console.log(`[digest] Top N: ${topN}`);
-  console.log(`[digest] Output: ${outputPath}`);
-  console.log(`[digest] AI provider: ${geminiApiKey ? 'Gemini (primary)' : 'OpenAI-compatible (primary)'}`);
-  if (openaiApiKey) {
-    const resolvedBase = (openaiApiBase?.trim() || OPENAI_DEFAULT_API_BASE).replace(/\/+$/, '');
-    const resolvedModel = openaiModel?.trim() || inferOpenAIModel(resolvedBase);
-    console.log(`[digest] Fallback: ${resolvedBase} (model=${resolvedModel})`);
-  }
-  console.log('');
+  console.log(`[digest] Time range: ${lookbackHours} hours`);
+  console.log(`[digest] Top N: ${maxItems}`);
 
   console.log(`[digest] Step 1/5: Fetching ${RSS_FEEDS.length} RSS feeds...`);
   const allArticles = await fetchAllFeeds(RSS_FEEDS);
 
   if (allArticles.length === 0) {
-    console.error('[digest] Error: No articles fetched from any feed. Check network connection.');
-    process.exit(1);
+    throw new Error("No articles fetched from any feed. Check network connection.");
   }
 
-  console.log(`[digest] Step 2/5: Filtering by time range (${hours} hours)...`);
-  const cutoffTime = new Date(Date.now() - hours * 60 * 60 * 1000);
+  console.log(`[digest] Step 2/5: Filtering by time range (${lookbackHours} hours)...`);
+  const cutoffTime = new Date(Date.now() - lookbackHours * 60 * 60 * 1000);
   const recentArticles = allArticles.filter(a => a.pubDate.getTime() > cutoffTime.getTime());
 
-  console.log(`[digest] Found ${recentArticles.length} articles within last ${hours} hours`);
+  console.log(`[digest] Found ${recentArticles.length} articles within last ${lookbackHours} hours`);
 
   if (recentArticles.length === 0) {
-    console.error(`[digest] Error: No articles found within the last ${hours} hours.`);
-    console.error(`[digest] Try increasing --hours (e.g., --hours 168 for one week)`);
-    process.exit(1);
+    throw new Error(`No articles found within the last ${lookbackHours} hours.`);
   }
 
   console.log(`[digest] Step 3/5: AI scoring ${recentArticles.length} articles...`);
-  const scores = await scoreArticlesWithAI(recentArticles, aiClient);
+  const scores = await scoreArticlesWithAI(recentArticles, ai);
 
   const scoredArticles = recentArticles.map((article, index) => {
     const score = scores.get(index) || { relevance: 5, quality: 5, timeliness: 5, category: 'other' as CategoryId, keywords: [] };
@@ -1093,13 +881,13 @@ async function main(): Promise<void> {
   });
 
   scoredArticles.sort((a, b) => b.totalScore - a.totalScore);
-  const topArticles = scoredArticles.slice(0, topN);
+  const topArticles = scoredArticles.slice(0, maxItems);
 
-  console.log(`[digest] Top ${topN} articles selected (score range: ${topArticles[topArticles.length - 1]?.totalScore || 0} - ${topArticles[0]?.totalScore || 0})`);
+  console.log(`[digest] Top ${maxItems} articles selected (score range: ${topArticles[topArticles.length - 1]?.totalScore || 0} - ${topArticles[0]?.totalScore || 0})`);
 
   console.log(`[digest] Step 4/5: Generating AI summaries...`);
   const indexedTopArticles = topArticles.map((a, i) => ({ ...a, index: i }));
-  const summaries = await summarizeArticles(indexedTopArticles, aiClient);
+  const summaries = await summarizeArticles(indexedTopArticles, ai);
 
   const finalArticles: ScoredArticle[] = topArticles.map((a, i) => {
     const sm = summaries.get(i) || { summary: a.description.slice(0, 200), reason: '' };
@@ -1124,38 +912,29 @@ async function main(): Promise<void> {
   });
 
   console.log(`[digest] Step 5/5: Generating today's highlights...`);
-  const highlights = await generateHighlights(finalArticles, aiClient);
+  const highlights = await generateHighlights(finalArticles, ai);
 
   const successfulSources = new Set(allArticles.map(a => a.sourceName));
 
-  const report = generateDigestReport(finalArticles, highlights, {
+  const markdown = generateDigestReport(finalArticles, highlights, {
     totalFeeds: RSS_FEEDS.length,
     successFeeds: successfulSources.size,
     totalArticles: allArticles.length,
     filteredArticles: recentArticles.length,
-    hours,
+    hours: lookbackHours,
+    dateStr: date,
   });
 
-  await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, report);
+  console.log(`[digest] Done: ${successfulSources.size} sources → ${allArticles.length} articles → ${recentArticles.length} recent → ${finalArticles.length} selected`);
 
-  console.log('');
-  console.log(`[digest] ✅ Done!`);
-  console.log(`[digest] 📁 Report: ${outputPath}`);
-  console.log(`[digest] 📊 Stats: ${successfulSources.size} sources → ${allArticles.length} articles → ${recentArticles.length} recent → ${finalArticles.length} selected`);
-
-  if (finalArticles.length > 0) {
-    console.log('');
-    console.log(`[digest] 🏆 Top 3 Preview:`);
-    for (let i = 0; i < Math.min(3, finalArticles.length); i++) {
-      const a = finalArticles[i];
-      console.log(`  ${i + 1}. ${a.title}`);
-      console.log(`     ${a.summary.slice(0, 80)}...`);
-    }
-  }
+  return {
+    markdown,
+    stats: {
+      totalFeeds: RSS_FEEDS.length,
+      successFeeds: successfulSources.size,
+      totalArticles: allArticles.length,
+      filteredArticles: recentArticles.length,
+      selectedCount: finalArticles.length,
+    },
+  };
 }
-
-await main().catch((err) => {
-  console.error(`[digest] Fatal error: ${err instanceof Error ? err.message : String(err)}`);
-  process.exit(1);
-});
