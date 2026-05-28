@@ -8,7 +8,7 @@ const now = new Date();
 const date = formatDate(now, env.timezone);
 const hnDir = path.join("docs", "hn");
 const outputPath = path.join(hnDir, `${date}.md`);
-const scriptPath = path.join("scripts", "src", "hn-digest.ts");
+const scriptPath = path.join("skills", "hn", "lib", "digest.ts");
 
 await mkdir(hnDir, { recursive: true });
 

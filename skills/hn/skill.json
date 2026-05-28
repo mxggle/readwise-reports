@@ -1,0 +1,26 @@
+{
+  "id": "hn",
+  "title": "HackerNews",
+  "description": "Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 2025 list).",
+  "enabled": true,
+  "ai": {
+    "mode": "auto",
+    "provider": "gemini",
+    "outputLanguage": "en-US"
+  },
+  "schedule": {
+    "cron": "0 22 * * *",
+    "timezone": "Asia/Tokyo",
+    "lookbackHours": 48
+  },
+  "output": {
+    "dir": "docs/hn",
+    "navSection": "Tech"
+  },
+  "digest": {
+    "maxItems": 15
+  },
+  "notification": {
+    "channels": ["discord"]
+  }
+}
