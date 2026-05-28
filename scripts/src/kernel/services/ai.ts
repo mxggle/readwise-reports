@@ -1,6 +1,7 @@
 import OpenAI from "openai";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rename, stat, unlink, writeFile } from "node:fs/promises";
+import { randomUUID } from "node:crypto";
 import path from "node:path";
 import type { AIClient, AICompleteOptions, AIMode, SkillManifest } from "../types.js";
 
@@ -8,6 +9,9 @@ const TASK_DIR = "generated/agent-tasks";
 const RESULT_DIR = "generated/agent-results";
 const POLL_INTERVAL_MS = 2000;
 const POLL_TIMEOUT_MS = 10 * 60 * 1000;
+const STALE_AGE_MS = 24 * 60 * 60 * 1000;
+const PROTOCOL_VERSION = 1;
+let sweptOnce = false;
 
 export function buildAiClient(manifest: SkillManifest): AIClient {
   const mode = resolveMode(manifest.ai?.mode ?? "auto");
@@ -84,24 +88,40 @@ function agentClient(manifest: SkillManifest): AIClient {
     complete: async (prompt, opts) => {
       await mkdir(TASK_DIR, { recursive: true });
       await mkdir(RESULT_DIR, { recursive: true });
-      const ts = Date.now();
-      const taskFile = path.join(TASK_DIR, `${manifest.id}-${ts}.json`);
-      const resultFile = path.join(RESULT_DIR, `${manifest.id}-${ts}.json`);
+      if (!sweptOnce) {
+        sweptOnce = true;
+        await sweepStaleAgentFiles().catch(() => undefined);
+      }
+
+      const taskId = randomUUID();
+      const taskFile = path.join(TASK_DIR, `${manifest.id}-${taskId}.json`);
+      const resultFile = path.join(RESULT_DIR, `${manifest.id}-${taskId}.json`);
       const task = {
+        version: PROTOCOL_VERSION,
+        taskId,
         skill: manifest.id,
-        ts,
+        createdAt: new Date().toISOString(),
         prompt,
         system: opts?.system,
+        opts: {
+          maxTokens: opts?.maxTokens,
+          temperature: opts?.temperature,
+        },
         resultFile,
       };
-      await writeFile(taskFile, JSON.stringify(task, null, 2));
+      await atomicWriteJson(taskFile, task);
 
       const start = Date.now();
       while (Date.now() - start < POLL_TIMEOUT_MS) {
         await new Promise((r) => setTimeout(r, POLL_INTERVAL_MS));
         try {
           const text = await readFile(resultFile, "utf8");
-          const data = JSON.parse(text) as { completion?: string; error?: string };
+          let data: { completion?: string; error?: string };
+          try {
+            data = JSON.parse(text) as { completion?: string; error?: string };
+          } catch {
+            continue;
+          }
           if (data.error) throw new Error(`Agent reported error: ${data.error}`);
           if (typeof data.completion === "string") return data.completion;
         } catch (err) {
@@ -109,7 +129,39 @@ function agentClient(manifest: SkillManifest): AIClient {
           throw err;
         }
       }
-      throw new Error(`Agent mode: result file ${resultFile} not produced within ${POLL_TIMEOUT_MS}ms`);
+      throw new Error(
+        `Agent mode timeout: skill "${manifest.id}" task ${taskId} produced no result in ${Math.round(POLL_TIMEOUT_MS / 1000)}s.\n` +
+        `  Task file: ${taskFile}\n` +
+        `  Expected result at: ${resultFile} (write { completion: "..." } or { error: "..." } atomically).`,
+      );
     },
   };
+}
+
+async function atomicWriteJson(targetPath: string, data: unknown): Promise<void> {
+  const tmpPath = `${targetPath}.tmp-${randomUUID()}`;
+  await writeFile(tmpPath, JSON.stringify(data, null, 2));
+  await rename(tmpPath, targetPath);
+}
+
+async function sweepStaleAgentFiles(): Promise<void> {
+  const cutoff = Date.now() - STALE_AGE_MS;
+  for (const dir of [TASK_DIR, RESULT_DIR]) {
+    let entries: string[];
+    try {
+      entries = await readdir(dir);
+    } catch (err) {
+      if (err instanceof Error && (err as NodeJS.ErrnoException).code === "ENOENT") continue;
+      throw err;
+    }
+    for (const name of entries) {
+      const full = path.join(dir, name);
+      try {
+        const s = await stat(full);
+        if (s.mtimeMs < cutoff) await unlink(full);
+      } catch {
+        // best-effort cleanup
+      }
+    }
+  }
 }
