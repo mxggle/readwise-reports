@@ -16,6 +16,8 @@ hide:
 
     ---
 
+    Today's tech landscape is dominated by a deepening tension around AI's real-world value and security. Major players like Anthropic and OpenAI appear to have achieved product-market…
+
     [:octicons-arrow-right-24: 阅读](hn/2026-05-28.md)
 
 -   📚 __Readwise · 2026-05-28__

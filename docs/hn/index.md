@@ -10,6 +10,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
     ---
 
+    Today's tech landscape is dominated by a deepening tension around AI's real-world value and security. Major players like Anthropic and OpenAI appear to have achieved product-market…
+
     [:octicons-arrow-right-24: 阅读完整报告](2026-05-28.md)
 
 </div>
@@ -18,4 +20,4 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-05
 
-- [2026-05-28](2026-05-28.md)
+- [2026-05-28](2026-05-28.md)<br/><span class="md-typeset__small">Today's tech landscape is dominated by a deepening tension around AI's real-world value and security. Major players like Anthropic and OpenAI appear to have achieved product-market…</span>
