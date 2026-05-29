@@ -5,8 +5,7 @@
   "enabled": true,
   "ai": {
     "mode": "auto",
-    "provider": "openai",
-    "model": "gpt-4o-mini",
+    "provider": "deepseek",
     "outputLanguage": "zh-CN"
   },
   "schedule": {
@@ -19,7 +18,7 @@
     "icon": "📚"
   },
   "env": {
-    "required": ["READWISE_TOKEN"]
+    "required": []
   },
   "dedup": {
     "enabled": true,

@@ -18,11 +18,19 @@ export type SourceItem = {
   wordCount?: number;
 };
 
+export type ArticleAnalysis = {
+  synopsis: string;
+  keyPoints: string[];
+  novelAngles: string[];
+  verdict: string;
+};
+
 export type ClassifiedItem = SourceItem & {
   topic: Topic;
   score: number;
   action: "READ" | "SKIM" | "SAVE" | "IGNORE";
   reason: string;
+  aiAnalysis?: ArticleAnalysis;
 };
 
 export type ReportData = {

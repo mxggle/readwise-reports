@@ -5,6 +5,7 @@ import type { SkillContext, SkillResult } from "../_sdk/index.js";
 import { isoHoursAgo } from "../_sdk/index.js";
 import type { ClassifiedItem, ReportData } from "./lib/types.js";
 import { classify, keywords } from "./lib/classify.js";
+import { analyzeItems } from "./lib/analyze.js";
 import { renderDaily } from "./lib/markdown.js";
 import { dedupe, fetchHighlights, fetchReaderDocuments } from "./lib/readwise-api.js";
 
@@ -28,9 +29,10 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   ]);
   const deduped = dedupe([...highlights, ...readerDocs]);
   const { fresh, skipped } = await store.filterUnprocessed(deduped);
-  const items = classify(fresh);
+  const classified = classify(fresh);
   log.info(`Fetched ${deduped.length} unique items; ${fresh.length} new, ${skipped.length} already processed.`);
 
+  const items = await analyzeItems(ctx, classified, lang);
   const aiSummary = await summarize(ctx, items, lang, log);
 
   const data: ReportData = {

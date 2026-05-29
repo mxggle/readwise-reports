@@ -5,7 +5,23 @@ const topicEmoji: Record<string, string> = {
 };
 
 function itemBlock(item: ClassifiedItem, index: number) {
-  return `### ${index}. ${topicEmoji[item.topic]} ${item.title}\n\n- **主题**：${item.topic}\n- **动作**：\`${item.action}\`\n- **分数**：${item.score}/100\n- **作者**：${item.author || "Unknown"}\n- **链接**：${item.url ? `[Reader / Source](${item.url})` : "无"}\n- **理由**：${item.reason}\n\n${item.summary ? `> ${item.summary}` : item.text ? `> ${item.text.slice(0, 280).replace(/\n+/g, " ")}` : ""}\n`;
+  const meta = [
+    `- **主题**：${item.topic}`,
+    `- **动作**：\`${item.action}\``,
+    `- **分数**：${item.score}/100`,
+    `- **作者**：${item.author || "Unknown"}`,
+    `- **链接**：${item.url ? `[Reader / Source](${item.url})` : "无"}`,
+  ].join("\n");
+
+  if (item.aiAnalysis) {
+    const { synopsis, keyPoints, novelAngles, verdict } = item.aiAnalysis;
+    const keyPointsText = keyPoints.map((p) => `  - ${p}`).join("\n");
+    const novelText = novelAngles.length > 0 ? `\n**新颖点**\n\n${novelAngles.map((p) => `  - ${p}`).join("\n")}\n` : "";
+    return `### ${index}. ${topicEmoji[item.topic] ?? "🧩"} ${item.title}\n\n${meta}\n\n**是什么**\n\n${synopsis}\n\n**亮点**\n\n${keyPointsText}\n${novelText}\n**综合判断**：${verdict}\n`;
+  }
+
+  const preview = item.summary || item.text.slice(0, 280).replace(/\n+/g, " ");
+  return `### ${index}. ${topicEmoji[item.topic] ?? "🧩"} ${item.title}\n\n${meta}\n- **理由**：${item.reason}\n\n${preview ? `> ${preview}` : ""}\n`;
 }
 
 export function renderDaily(data: ReportData) {
