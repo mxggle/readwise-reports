@@ -1,5 +1,9 @@
 import { execa } from "execa";
+import type { Logger } from "../../_sdk/index.js";
 import type { SourceItem } from "./types.js";
+
+/** Minimal sink for non-fatal fetch warnings; the skill passes its `ctx.log`. */
+type WarnLog = Pick<Logger, "warn">;
 
 const readwiseToken = () => process.env.READWISE_TOKEN || "";
 const readwiseUseCli = () => (process.env.READWISE_USE_CLI || "true") !== "false";
@@ -64,7 +68,7 @@ async function fetchAllPages(basePath: string): Promise<any[]> {
   return out;
 }
 
-export async function fetchHighlights(updatedAfter: string): Promise<SourceItem[]> {
+export async function fetchHighlights(updatedAfter: string, log?: WarnLog): Promise<SourceItem[]> {
   if (readwiseToken()) {
     const books = await fetchAllPages(`/api/v2/export/?updatedAfter=${encodeURIComponent(updatedAfter)}`);
     return books.flatMap(mapExportBook);
@@ -76,7 +80,7 @@ export async function fetchHighlights(updatedAfter: string): Promise<SourceItem[
     const highlights = await fetchHighlightsViaCli(updatedAfter);
     return highlights.map(mapCliHighlight);
   } catch (error) {
-    console.warn("Highlights CLI fetch failed:", error instanceof Error ? error.message : error);
+    log?.warn(`Highlights CLI fetch failed: ${error instanceof Error ? error.message : String(error)}`);
     return [];
   }
 }
@@ -181,7 +185,7 @@ async function fetchReaderDocsViaCli(updatedAfter: string): Promise<any[]> {
   return out;
 }
 
-export async function fetchReaderDocuments(updatedAfter: string): Promise<SourceItem[]> {
+export async function fetchReaderDocuments(updatedAfter: string, log?: WarnLog): Promise<SourceItem[]> {
   if (readwiseToken()) {
     const results = await fetchAllPages(`/api/v3/list/?updatedAfter=${encodeURIComponent(updatedAfter)}`);
     return results.map(mapReaderDoc);
@@ -192,18 +196,27 @@ export async function fetchReaderDocuments(updatedAfter: string): Promise<Source
     const results = await fetchReaderDocsViaCli(updatedAfter);
     return results.map(mapReaderDoc);
   } catch (error) {
-    console.warn("Reader CLI fetch failed:", error instanceof Error ? error.message : error);
+    log?.warn(`Reader CLI fetch failed: ${error instanceof Error ? error.message : String(error)}`);
     return [];
   }
 }
 
+/**
+ * Collapse exact duplicates within a single fetch batch, keyed on the stable
+ * per-item id (`h-<id>` / `r-<id>`).
+ *
+ * We deliberately do NOT key on title|author: every highlight from the same book
+ * carries the book's title and author, so a title|author key would drop all but
+ * one highlight per book. Real cross-source / cross-day dedup (by url and content
+ * hash) is the processed-store's job — this step only removes accidental repeats
+ * of the very same item in one fetch.
+ */
 export function dedupe(items: SourceItem[]) {
   const seen = new Set<string>();
   const out: SourceItem[] = [];
   for (const item of items) {
-    const key = `${item.title.toLowerCase().trim()}|${item.author || ""}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
+    if (seen.has(item.id)) continue;
+    seen.add(item.id);
     out.push(item);
   }
   return out;

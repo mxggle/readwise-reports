@@ -2,9 +2,33 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 
 vi.mock("execa", () => ({ execa: vi.fn() }));
 import { execa } from "execa";
-import { fetchHighlights, fetchReaderDocuments } from "../../skills/readwise/lib/readwise-api.js";
+import { dedupe, fetchHighlights, fetchReaderDocuments } from "../../skills/readwise/lib/readwise-api.js";
+import type { SourceItem } from "../../skills/readwise/lib/types.js";
 
 const mockExeca = execa as unknown as ReturnType<typeof vi.fn>;
+
+function highlight(id: string, title: string, author: string, text: string): SourceItem {
+  return { id, title, author, source: "readwise-highlight", text, tags: [] };
+}
+
+describe("dedupe", () => {
+  it("keeps every highlight from the same book (shared title/author, distinct ids)", () => {
+    const items = [
+      highlight("h-1", "Thinking, Fast and Slow", "Kahneman", "highlight one"),
+      highlight("h-2", "Thinking, Fast and Slow", "Kahneman", "highlight two"),
+      highlight("h-3", "Thinking, Fast and Slow", "Kahneman", "highlight three"),
+    ];
+    expect(dedupe(items).map((i) => i.id)).toEqual(["h-1", "h-2", "h-3"]);
+  });
+
+  it("collapses items that share the same id (true duplicates within a batch)", () => {
+    const items = [
+      highlight("h-1", "Book A", "X", "first"),
+      highlight("h-1", "Book A", "X", "first seen again"),
+    ];
+    expect(dedupe(items).map((i) => i.id)).toEqual(["h-1"]);
+  });
+});
 
 describe("fetchReaderDocuments pagination", () => {
   const realFetch = globalThis.fetch;

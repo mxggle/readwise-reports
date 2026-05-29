@@ -24,8 +24,8 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   log.info(`Window: ${windowStart} -> ${windowEnd}`);
 
   const [highlights, readerDocs] = await Promise.all([
-    fetchHighlights(windowStart),
-    fetchReaderDocuments(windowStart),
+    fetchHighlights(windowStart, log),
+    fetchReaderDocuments(windowStart, log),
   ]);
   const deduped = dedupe([...highlights, ...readerDocs]);
   const { fresh, skipped } = await store.filterUnprocessed(deduped);
