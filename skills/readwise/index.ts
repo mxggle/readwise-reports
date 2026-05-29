@@ -32,8 +32,14 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   const classified = classify(fresh);
   log.info(`Fetched ${deduped.length} unique items; ${fresh.length} new, ${skipped.length} already processed.`);
 
-  const items = await analyzeItems(ctx, classified, lang);
-  const aiSummary = await summarize(ctx, items, lang, log);
+  // Independent AI round-trips: analyzeItems enriches items with per-article
+  // analysis, summarize writes the day's conclusion. summarize reads only base
+  // classified fields (topic/action/title/summary/text), not aiAnalysis, so it
+  // runs against `classified` in parallel with analysis instead of waiting on it.
+  const [items, aiSummary] = await Promise.all([
+    analyzeItems(ctx, classified, lang),
+    summarize(ctx, classified, lang, log),
+  ]);
 
   const data: ReportData = {
     date,

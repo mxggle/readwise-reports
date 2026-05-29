@@ -1,10 +1,8 @@
 import "dotenv/config";
-import Anthropic from "@anthropic-ai/sdk";
-import OpenAI from "openai";
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { mkdir, readFile, writeFile, unlink, readdir, rename, watch } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import path from "node:path";
+import { callProvider, isProviderId, type ProviderId } from "./kernel/services/providers.js";
 
 const TASK_DIR = "generated/agent-tasks";
 const RESULT_DIR = "generated/agent-results";
@@ -19,7 +17,7 @@ interface AgentTask {
   resultFile: string;
 }
 
-function detectProvider(): "anthropic" | "openai" | "deepseek" | "gemini" {
+function detectProvider(): ProviderId {
   if (process.env.ANTHROPIC_API_KEY) return "anthropic";
   if (process.env.OPENAI_API_KEY) return "openai";
   if (process.env.DEEPSEEK_API_KEY) return "deepseek";
@@ -27,62 +25,20 @@ function detectProvider(): "anthropic" | "openai" | "deepseek" | "gemini" {
   throw new Error("No AI provider available. Set ANTHROPIC_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY, or GEMINI_API_KEY.");
 }
 
+/** Honour an explicit WATCHER_PROVIDER (rejecting unknown values), else auto-detect. */
+function resolveProvider(): ProviderId {
+  const raw = process.env.WATCHER_PROVIDER;
+  if (raw === undefined || raw === "") return detectProvider();
+  if (!isProviderId(raw)) throw new Error(`Unknown WATCHER_PROVIDER: ${raw}`);
+  return raw;
+}
+
 async function callAI(task: AgentTask): Promise<string> {
-  const provider = process.env.WATCHER_PROVIDER ?? detectProvider();
-  const messages: { role: "user" | "system"; content: string }[] = [];
+  const provider = resolveProvider();
   const { prompt, system, opts } = task;
-
-  if (provider === "anthropic") {
-    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-    const model = process.env.WATCHER_MODEL ?? "claude-sonnet-4-6";
-    const res = await client.messages.create({
-      model,
-      max_tokens: opts?.maxTokens ?? 4096,
-      ...(system ? { system } : {}),
-      messages: [{ role: "user", content: prompt }],
-    });
-    const block = res.content[0];
-    return block.type === "text" ? block.text.trim() : "";
-  }
-
-  if (provider === "openai") {
-    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-    const model = process.env.WATCHER_MODEL ?? process.env.OPENAI_MODEL ?? "gpt-4o-mini";
-    if (system) messages.push({ role: "system", content: system });
-    messages.push({ role: "user", content: prompt });
-    const res = await client.chat.completions.create({
-      model,
-      messages,
-      temperature: opts?.temperature ?? 0.3,
-      max_tokens: opts?.maxTokens,
-    });
-    return res.choices[0]?.message?.content?.trim() ?? "";
-  }
-
-  if (provider === "deepseek") {
-    const client = new OpenAI({ apiKey: process.env.DEEPSEEK_API_KEY, baseURL: "https://api.deepseek.com" });
-    const model = process.env.WATCHER_MODEL ?? process.env.DEEPSEEK_MODEL ?? "deepseek-chat";
-    if (system) messages.push({ role: "system", content: system });
-    messages.push({ role: "user", content: prompt });
-    const res = await client.chat.completions.create({
-      model,
-      messages,
-      temperature: opts?.temperature ?? 0.3,
-      max_tokens: opts?.maxTokens,
-    });
-    return res.choices[0]?.message?.content?.trim() ?? "";
-  }
-
-  if (provider === "gemini") {
-    const apiKey = process.env.GEMINI_API_KEY!;
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = process.env.WATCHER_MODEL ?? process.env.GEMINI_MODEL ?? "gemini-1.5-flash";
-    const gemModel = genAI.getGenerativeModel({ model, ...(system ? { systemInstruction: system } : {}) });
-    const res = await gemModel.generateContent(prompt);
-    return res.response.text().trim();
-  }
-
-  throw new Error(`Unknown provider: ${provider}`);
+  // WATCHER_MODEL overrides the provider's default model; callProvider falls back
+  // to the provider's *_MODEL env / built-in default when it is unset.
+  return callProvider(provider, prompt, { system, maxTokens: opts?.maxTokens, temperature: opts?.temperature }, process.env.WATCHER_MODEL);
 }
 
 async function atomicWrite(targetPath: string, data: unknown): Promise<void> {
@@ -141,7 +97,7 @@ async function main(): Promise<void> {
   await mkdir(TASK_DIR, { recursive: true });
   await mkdir(RESULT_DIR, { recursive: true });
 
-  const provider = process.env.WATCHER_PROVIDER ?? detectProvider();
+  const provider = resolveProvider();
   console.log(`[watcher] starting — provider: ${provider}`);
   console.log(`[watcher] watching ${TASK_DIR}`);
 

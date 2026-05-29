@@ -77,6 +77,10 @@ export async function openProcessedStore(dbPath: string): Promise<ProcessedStore
   const db = new DatabaseSync(dbPath);
   db.exec(`
 PRAGMA journal_mode = DELETE;
+-- Two skills run against the same DB file under --concurrency>1, each on its own
+-- connection. markProcessedItems uses BEGIN IMMEDIATE, so without a busy timeout a
+-- concurrent writer would get SQLITE_BUSY and throw immediately. Wait instead.
+PRAGMA busy_timeout = 5000;
 CREATE TABLE IF NOT EXISTS processed_items (
   rowid INTEGER PRIMARY KEY AUTOINCREMENT,
   item_id TEXT UNIQUE,

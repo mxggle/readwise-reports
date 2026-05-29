@@ -1,10 +1,8 @@
-import OpenAI from "openai";
-import Anthropic from "@anthropic-ai/sdk";
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { mkdir, readFile, readdir, rename, stat, unlink, writeFile } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import path from "node:path";
-import type { AIClient, AICompleteOptions, AIMode, SkillManifest } from "../types.js";
+import type { AIClient, AIMode, SkillManifest } from "../types.js";
+import { callProvider, isProviderId, PROVIDER_ENV, type ProviderId } from "./providers.js";
 
 const TASK_DIR = "generated/agent-tasks";
 const RESULT_DIR = "generated/agent-results";
@@ -62,25 +60,6 @@ function hostAgentPresent(): boolean {
   );
 }
 
-type ProviderId = "openai" | "gemini" | "deepseek" | "anthropic";
-type ProviderCall = (prompt: string, opts: AICompleteOptions | undefined, modelOverride?: string) => Promise<string>;
-
-/** Env var holding each provider's API key. */
-const PROVIDER_ENV: Record<ProviderId, string> = {
-  openai: "OPENAI_API_KEY",
-  gemini: "GEMINI_API_KEY",
-  deepseek: "DEEPSEEK_API_KEY",
-  anthropic: "ANTHROPIC_API_KEY",
-};
-
-/** Concrete completion call per provider. */
-const PROVIDER_CALL: Record<ProviderId, ProviderCall> = {
-  openai: callOpenAI,
-  gemini: callGemini,
-  deepseek: callDeepSeek,
-  anthropic: callAnthropic,
-};
-
 /** Fallback order used after the preferred provider. */
 const DEFAULT_ORDER: ProviderId[] = ["openai", "gemini", "deepseek", "anthropic"];
 
@@ -99,7 +78,7 @@ function apiClient(manifest: SkillManifest): AIClient {
           // The configured model only applies to the preferred provider; fallbacks
           // use their own default model (a gpt model id is meaningless to Gemini, etc.).
           const model = provider === preferred ? manifest.ai?.model : undefined;
-          return await PROVIDER_CALL[provider](prompt, opts, model);
+          return await callProvider(provider, prompt, opts, model);
         } catch (err) {
           lastErr = err; // best-effort: try the next provider that has a key
         }
@@ -116,71 +95,6 @@ function apiClient(manifest: SkillManifest): AIClient {
 export function providerOrder(preferred: string | undefined): ProviderId[] {
   const head: ProviderId = isProviderId(preferred) ? preferred : "openai";
   return [head, ...DEFAULT_ORDER.filter((p) => p !== head)];
-}
-
-function isProviderId(v: string | undefined): v is ProviderId {
-  return v === "openai" || v === "gemini" || v === "deepseek" || v === "anthropic";
-}
-
-async function callOpenAI(prompt: string, opts: AICompleteOptions | undefined, modelOverride?: string): Promise<string> {
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const model = modelOverride || process.env.OPENAI_MODEL || "gpt-4o-mini";
-  const messages: { role: "system" | "user"; content: string }[] = [];
-  if (opts?.system) messages.push({ role: "system", content: opts.system });
-  messages.push({ role: "user", content: prompt });
-  const res = await client.chat.completions.create({
-    model,
-    messages,
-    temperature: opts?.temperature ?? 0.3,
-    max_tokens: opts?.maxTokens,
-  });
-  return res.choices[0]?.message?.content?.trim() ?? "";
-}
-
-async function callDeepSeek(prompt: string, opts: AICompleteOptions | undefined, modelOverride?: string): Promise<string> {
-  const apiKey = process.env.DEEPSEEK_API_KEY;
-  if (!apiKey) throw new Error("DEEPSEEK_API_KEY missing");
-  const client = new OpenAI({ apiKey, baseURL: "https://api.deepseek.com" });
-  const model = modelOverride || process.env.DEEPSEEK_MODEL || "deepseek-chat";
-  const messages: { role: "system" | "user"; content: string }[] = [];
-  if (opts?.system) messages.push({ role: "system", content: opts.system });
-  messages.push({ role: "user", content: prompt });
-  const res = await client.chat.completions.create({
-    model,
-    messages,
-    temperature: opts?.temperature ?? 0.3,
-    max_tokens: opts?.maxTokens,
-  });
-  return res.choices[0]?.message?.content?.trim() ?? "";
-}
-
-async function callAnthropic(prompt: string, opts: AICompleteOptions | undefined, modelOverride?: string): Promise<string> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) throw new Error("ANTHROPIC_API_KEY missing");
-  const client = new Anthropic({ apiKey });
-  const model = modelOverride || process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
-  const res = await client.messages.create({
-    model,
-    max_tokens: opts?.maxTokens ?? 4096,
-    ...(opts?.temperature !== undefined ? { temperature: opts.temperature } : {}),
-    ...(opts?.system ? { system: opts.system } : {}),
-    messages: [{ role: "user", content: prompt }],
-  });
-  const block = res.content[0];
-  return block && block.type === "text" ? block.text.trim() : "";
-}
-
-async function callGemini(prompt: string, opts: AICompleteOptions | undefined, modelOverride?: string): Promise<string> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) throw new Error("GEMINI_API_KEY missing");
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = modelOverride || process.env.GEMINI_MODEL || "gemini-1.5-flash";
-  const gemModel = genAI.getGenerativeModel({
-    model,
-    ...(opts?.system ? { systemInstruction: opts.system } : {}),
-  });
-  const res = await gemModel.generateContent(prompt);
-  return res.response.text().trim();
 }
 
 function agentClient(manifest: SkillManifest): AIClient {
