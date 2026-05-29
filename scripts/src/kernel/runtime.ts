@@ -34,7 +34,7 @@ export async function invokeSkill(entry: SkillEntry, opts: InvokeOptions): Promi
     date: opts.date,
     timezone: manifest.schedule?.timezone ?? env.timezone,
     paths,
-    writer: buildWriter(opts.date, paths),
+    writer: buildWriter(opts.date, paths, opts.dryRun),
     store: buildStore(env.processedDbPath, opts.date, opts.dryRun),
     publicSiteUrl: env.publicSiteUrl || undefined,
   };
