@@ -75,6 +75,16 @@ CREATE INDEX IF NOT EXISTS idx_processed_items_report_date ON processed_items(re
 }
 
 export async function hasProcessedItem(store: ProcessedStore, item: DedupItem): Promise<boolean> {
+  return (await lookupProcessedReportDate(store, item)) !== null;
+}
+
+/**
+ * Returns the report_date the item was first processed for, or null if unseen.
+ * Used to keep same-day re-runs idempotent: an item already processed for the
+ * current report date still belongs in today's report, whereas one processed
+ * for an earlier date is genuine cross-day dedup and should be skipped.
+ */
+export async function lookupProcessedReportDate(store: ProcessedStore, item: DedupItem): Promise<string | null> {
   const id = normalize(item.id);
   const url = normalizeUrl(item.url || item.sourceUrl);
   const hash = contentHash(item);
@@ -83,17 +93,32 @@ export async function hasProcessedItem(store: ProcessedStore, item: DedupItem): 
     url ? `url = ${sqlString(url)}` : "",
     `content_hash = ${sqlString(hash)}`,
   ].filter(Boolean).join(" OR ");
-  const stdout = await sqlite(store.dbPath, `SELECT rowid FROM processed_items WHERE ${predicates} LIMIT 1;`, true);
-  const rows = stdout ? JSON.parse(stdout) as unknown[] : [];
-  return rows.length > 0;
+  const stdout = await sqlite(
+    store.dbPath,
+    `SELECT report_date FROM processed_items WHERE ${predicates} ORDER BY processed_at LIMIT 1;`,
+    true,
+  );
+  const rows = stdout ? (JSON.parse(stdout) as { report_date: string | null }[]) : [];
+  if (rows.length === 0) return null;
+  return rows[0].report_date ?? "";
 }
 
-export async function filterUnprocessed<T extends DedupItem>(store: ProcessedStore, items: T[]): Promise<FilterResult<T>> {
+export async function filterUnprocessed<T extends DedupItem>(
+  store: ProcessedStore,
+  items: T[],
+  currentReportDate?: string,
+): Promise<FilterResult<T>> {
   const fresh: T[] = [];
   const skipped: T[] = [];
   for (const item of items) {
-    if (await hasProcessedItem(store, item)) skipped.push(item);
-    else fresh.push(item);
+    const seenReportDate = await lookupProcessedReportDate(store, item);
+    // Unseen, or already processed for *today's* report → keep it (idempotent re-run).
+    // Processed for an earlier report date → cross-day dedup, skip.
+    if (seenReportDate === null || (currentReportDate && seenReportDate === currentReportDate)) {
+      fresh.push(item);
+    } else {
+      skipped.push(item);
+    }
   }
   return { fresh, skipped };
 }

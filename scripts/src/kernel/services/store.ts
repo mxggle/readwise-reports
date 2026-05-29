@@ -12,7 +12,7 @@ export function buildStore(dbPath: string, date: string, dryRun: boolean): Skill
 
   return {
     filterUnprocessed: async <T extends DedupItem>(items: T[]) =>
-      filterUnprocessed(await getStore(), items),
+      filterUnprocessed(await getStore(), items, date),
     markProcessed: async <T extends DedupItem>(items: T[]) => {
       if (dryRun) return;
       const now = new Date().toISOString();
