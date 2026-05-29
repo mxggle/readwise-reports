@@ -3,7 +3,7 @@ node_modules/
 site/
 dist/
 .DS_Store
-generated/raw/*.json
+generated/raw/*
 !generated/raw/.gitkeep
 generated/*.sqlite
 generated/*.sqlite-*

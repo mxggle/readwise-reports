@@ -2,16 +2,25 @@ import type { NotificationPayload, SkillContext, SkillResult } from "../_sdk/ind
 import { runDigest } from "./lib/digest.js";
 
 export default async function run(ctx: SkillContext): Promise<SkillResult> {
-  const { config, date, log, ai, writer, publicSiteUrl } = ctx;
+  const { config, date, log, ai, writer, store, publicSiteUrl } = ctx;
   const lookbackHours = config.schedule?.lookbackHours ?? 48;
   const maxItems = config.digest?.maxItems ?? 15;
 
   log.info(`Generating ${config.title} for ${date} (last ${lookbackHours}h, top ${maxItems})...`);
 
-  const { markdown, stats, topArticles } = await runDigest({ ai, lookbackHours, maxItems, date });
+  const { markdown, stats, topArticles, freshItems } = await runDigest({ ai, store, lookbackHours, maxItems, date });
 
   const outputPath = await writer.writeReport(markdown);
   log.info(`Wrote ${outputPath}`);
+
+  // Record processed articles only after the report is written, so a failed run
+  // doesn't silently mark items as seen. markProcessed is a no-op in dry-run.
+  await store.markProcessed(freshItems);
+  if (ctx.dryRun) {
+    log.info("Dry run: dedup state was not updated.");
+  } else {
+    log.info(`Recorded ${freshItems.length} processed items; ${stats.skippedCount} skipped (cross-day).`);
+  }
 
   if (stats.aiStatus !== "ok") {
     log.warn(`AI scoring ${stats.aiStatus} — report marked as degraded.`);
@@ -20,8 +29,8 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   const notifications = buildNotifications(config.notification?.channels ?? [], config.title, date, topArticles, publicSiteUrl, config.id, stats.aiStatus);
 
   return {
-    itemsProcessed: stats.selectedCount,
-    itemsSkipped: 0,
+    itemsProcessed: freshItems.length,
+    itemsSkipped: stats.skippedCount,
     outputPath,
     notifications,
   };

@@ -1,4 +1,4 @@
-import type { AIClient } from "../../_sdk/index.js";
+import type { AIClient, DedupItem, SkillStore } from "../../_sdk/index.js";
 
 // ============================================================================
 // Constants
@@ -139,6 +139,25 @@ interface Article {
   sourceUrl: string;
 }
 
+/** An article carrying the dedup keys the SkillStore needs, plus the original article. */
+interface DedupableArticle extends DedupItem {
+  article: Article;
+}
+
+/** Map an article to a dedup record. The article URL is the natural unique key. */
+function toDedupable(a: Article): DedupableArticle {
+  return {
+    id: a.link,
+    url: a.link,
+    sourceUrl: a.sourceUrl,
+    title: a.title,
+    author: a.sourceName,
+    source: "hn",
+    text: a.description,
+    article: a,
+  };
+}
+
 interface ScoredArticle extends Article {
   score: number;
   scoreBreakdown: {
@@ -177,7 +196,10 @@ interface GeminiSummaryResult {
 
 function stripHtml(html: string): string {
   return html
-    .replace(/<[^>]*>/g, '')
+    // First pass: strip any literal tags present in the raw markup.
+    .replace(/<[^>]*>/g, ' ')
+    // Decode entities — some feeds (e.g. Atom `content` with type="html")
+    // store their HTML entity-encoded, so tags only surface after decoding.
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
@@ -185,6 +207,9 @@ function stripHtml(html: string): string {
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code)))
+    // Second pass: strip tags revealed by entity decoding.
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
@@ -752,15 +777,15 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
     ? highlights.replace(/\n/g, ' ').replace(/"/g, "'").slice(0, 280)
     : '';
   const degraded = stats.aiStatus !== 'ok';
-  const frontmatter = [
-    '---',
+  const fmFields = [
     `title: AI Blog Daily Digest ${stats.dateStr}`,
     `date: ${stats.dateStr}`,
     summaryLine ? `summary: "${summaryLine}"` : '',
     degraded ? `degraded: true` : '',
-    '---',
-    '',
-  ].filter(Boolean).join('\n');
+  ].filter(Boolean);
+  // Trailing '', '' produces the closing '---' plus a blank line before the
+  // heading. Do not filter these out — they are load-bearing newlines.
+  const frontmatter = ['---', ...fmFields, '---', '', ''].join('\n');
 
   let report = frontmatter;
   report += `# 📰 AI Blog Daily Digest — ${stats.dateStr}\n\n`;
@@ -862,6 +887,34 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
   return report;
 }
 
+/** A minimal report for days where dedup leaves no new articles to score. */
+function generateEmptyReport(dateStr: string, stats: {
+  totalFeeds: number;
+  successFeeds: number;
+  totalArticles: number;
+  filteredArticles: number;
+}): string {
+  const frontmatter = [
+    '---',
+    `title: AI Blog Daily Digest ${dateStr}`,
+    `date: ${dateStr}`,
+    'summary: "No new articles today — everything in the window was already covered."',
+    '---',
+    '',
+    '',
+  ].join('\n');
+
+  let report = frontmatter;
+  report += `# 📰 AI Blog Daily Digest — ${dateStr}\n\n`;
+  report += `> No new articles today. Everything within the lookback window had already been covered in earlier digests.\n\n`;
+  report += `## 📊 Data Overview\n\n`;
+  report += `| Scanned | Articles | New |\n`;
+  report += `|:---:|:---:|:---:|\n`;
+  report += `| ${stats.successFeeds}/${stats.totalFeeds} | ${stats.totalArticles} → ${stats.filteredArticles} | **0** |\n\n`;
+  report += `*Generated on ${dateStr}. Based on [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/) RSS feeds, curated by [Andrej Karpathy](https://x.com/karpathy).*\n`;
+  return report;
+}
+
 // ============================================================================
 // Public entry: runDigest
 // ============================================================================
@@ -871,6 +924,8 @@ export interface RunDigestOpts {
   lookbackHours: number;
   maxItems: number;
   date: string;
+  /** When provided, cross-day-seen articles are filtered out before AI scoring. */
+  store?: SkillStore;
 }
 
 export interface RunDigestResult {
@@ -881,13 +936,17 @@ export interface RunDigestResult {
     totalArticles: number;
     filteredArticles: number;
     selectedCount: number;
+    /** Articles dropped because they were already processed on an earlier day. */
+    skippedCount: number;
     aiStatus: AiStatus;
   };
   topArticles: Array<{ title: string; sourceName: string; link: string; category: string }>;
+  /** Fresh dedup records to persist (caller marks them processed after writing the report). */
+  freshItems: DedupItem[];
 }
 
 export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
-  const { ai, lookbackHours, maxItems, date } = opts;
+  const { ai, store, lookbackHours, maxItems, date } = opts;
 
   console.log(`[digest] === AI Daily Digest ===`);
   console.log(`[digest] Time range: ${lookbackHours} hours`);
@@ -910,15 +969,55 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
     throw new Error(`No articles found within the last ${lookbackHours} hours.`);
   }
 
-  console.log(`[digest] Step 3/5: AI scoring ${recentArticles.length} articles...`);
-  const scoring = await scoreArticlesWithAI(recentArticles, ai);
+  // Cross-day dedup: drop articles already processed on an earlier day so we
+  // never re-score them. The lookback window (e.g. 48h) overlaps day to day, so
+  // without this each article would be re-scored and re-summarized on every run.
+  // Same-day re-runs keep their articles (the store treats today's report date as
+  // fresh), so re-running reproduces the report.
+  const successfulSources = new Set(allArticles.map((a) => a.sourceName));
+  let articlesToScore = recentArticles;
+  let skippedCount = 0;
+  let freshItems: DedupItem[] = [];
+  if (store) {
+    const { fresh, skipped } = await store.filterUnprocessed(recentArticles.map(toDedupable));
+    articlesToScore = fresh.map((d) => d.article);
+    freshItems = fresh; // DedupableArticle extends DedupItem; the extra `article` field is ignored on store.
+    skippedCount = skipped.length;
+    console.log(`[digest] Dedup: ${fresh.length} new, ${skipped.length} already processed (cross-day).`);
+  }
+
+  if (articlesToScore.length === 0) {
+    console.log("[digest] No new articles after dedup — emitting an empty digest.");
+    return {
+      markdown: generateEmptyReport(date, {
+        totalFeeds: RSS_FEEDS.length,
+        successFeeds: successfulSources.size,
+        totalArticles: allArticles.length,
+        filteredArticles: recentArticles.length,
+      }),
+      stats: {
+        totalFeeds: RSS_FEEDS.length,
+        successFeeds: successfulSources.size,
+        totalArticles: allArticles.length,
+        filteredArticles: recentArticles.length,
+        selectedCount: 0,
+        skippedCount,
+        aiStatus: "ok",
+      },
+      topArticles: [],
+      freshItems: [],
+    };
+  }
+
+  console.log(`[digest] Step 3/5: AI scoring ${articlesToScore.length} articles...`);
+  const scoring = await scoreArticlesWithAI(articlesToScore, ai);
   const scores = scoring.scores;
   const aiStatus = computeAiStatus(scoring.failedBatches, scoring.totalBatches);
   if (aiStatus !== 'ok') {
     console.warn(`[digest] AI scoring degraded: ${scoring.failedBatches}/${scoring.totalBatches} batches failed (status: ${aiStatus})`);
   }
 
-  const scoredArticles = recentArticles.map((article, index) => {
+  const scoredArticles = articlesToScore.map((article, index) => {
     const score = scores.get(index) || { relevance: 5, quality: 5, timeliness: 5, category: 'other' as CategoryId, keywords: [] };
     return {
       ...article,
@@ -961,8 +1060,6 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
   console.log(`[digest] Step 5/5: Generating today's highlights...`);
   const highlights = await generateHighlights(finalArticles, ai);
 
-  const successfulSources = new Set(allArticles.map(a => a.sourceName));
-
   const markdown = generateDigestReport(finalArticles, highlights, {
     totalFeeds: RSS_FEEDS.length,
     successFeeds: successfulSources.size,
@@ -973,7 +1070,7 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
     aiStatus,
   });
 
-  console.log(`[digest] Done: ${successfulSources.size} sources → ${allArticles.length} articles → ${recentArticles.length} recent → ${finalArticles.length} selected`);
+  console.log(`[digest] Done: ${successfulSources.size} sources → ${allArticles.length} articles → ${recentArticles.length} recent → ${articlesToScore.length} new → ${finalArticles.length} selected`);
 
   return {
     markdown,
@@ -983,6 +1080,7 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
       totalArticles: allArticles.length,
       filteredArticles: recentArticles.length,
       selectedCount: finalArticles.length,
+      skippedCount,
       aiStatus,
     },
     topArticles: finalArticles.slice(0, 5).map((a) => ({
@@ -991,5 +1089,6 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
       link: a.link,
       category: a.category,
     })),
+    freshItems,
   };
 }
