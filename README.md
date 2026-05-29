@@ -1,114 +1,273 @@
-# Readwise Reports
+# readwise-reports
 
-本项目是一个本地文件化的 Readwise 自动日报系统：
+A local-first, AI-powered daily report system built on a pluggable **Skill** architecture.
+Each data source (Readwise, HackerNews, …) is an isolated Skill that fetches, processes, and
+publishes its own report. The Kernel wires everything together.
 
-- 获取 Readwise highlights 和 Reader 当天新增/更新内容
-- 自动分类：AI / Programming / Japanese / English / Career / Business / Other
-- 生成漂亮 Markdown 日报
-- 用本地 SQLite 账本记录已处理内容，避免 Reader/Redirect 未归档导致日报重复
-- 更新 MkDocs Material 站点索引
-- GitHub Actions 自动部署 GitHub Pages
-- Discord 只发送摘要和网页链接，不发送长正文
+---
 
-## 快速开始
+## Architecture
+
+```mermaid
+flowchart TD
+    CLI["CLI\nscripts/src/cli.ts"]
+    PUB["Publisher\npublish-daily.ts"]
+
+    subgraph Kernel
+        REG["Registry\nDiscovers skills/"]
+        RT["Runtime\nBuilds SkillContext"]
+        AI["AI Service\nOpenAI / Gemini / Agent"]
+        STORE["Store\nDedup SQLite"]
+        WRITER["Writer\ndocs/ + generated/raw/"]
+        LOGGER["Logger"]
+    end
+
+    subgraph Skills
+        RW["readwise/\nskill.json + index.ts"]
+        HN["hn/\nskill.json + index.ts"]
+        DOT["…/\nnew skills here"]
+    end
+
+    subgraph Output
+        DOCS["docs/{id}/{date}.md\nMkDocs pages"]
+        RAW["generated/raw/{id}/{date}.json\nRaw data"]
+        SITE["site/\nStatic site (GitHub Pages)"]
+        DC["Discord\nNotification"]
+    end
+
+    CLI --> REG
+    PUB --> REG
+    REG --> RT
+    RT --> AI
+    RT --> STORE
+    RT --> WRITER
+    RT --> LOGGER
+    RT --> RW
+    RT --> HN
+    RT --> DOT
+    RW & HN & DOT --> WRITER
+    RW & HN & DOT --> STORE
+    RW & HN & DOT --> DC
+    WRITER --> DOCS & RAW
+    PUB -->|"build:index + git push"| SITE
+```
+
+### Key design decisions
+
+| Decision | Rationale |
+|---|---|
+| Skills are self-contained directories | Add/remove a data source by adding/deleting one folder |
+| Kernel provides `SkillContext` | Skills never import from `scripts/` directly; only from `_sdk/` |
+| Dedup is per-item, not per-date | Prevents re-processing if a source surfaces the same item across days |
+| AI mode is auto-detected | Runs via direct API in cron jobs, via agent protocol inside Claude Code sessions |
+| Local cron pushes to git; CI only deploys | Avoids storing Readwise OAuth tokens in GitHub Secrets |
+
+---
+
+## Quick Start
 
 ```bash
-cd ~/readwise-reports
-cp .env.example .env
+cp .env.example .env        # fill in your tokens
 pnpm install
-python3 -m pip install -r requirements.txt
-pnpm generate
-pnpm docs:serve
+pip install -r requirements.txt
+pnpm generate               # run all enabled skills for today
+pnpm docs:serve             # preview at http://127.0.0.1:8000
 ```
 
-打开本地文档：<http://127.0.0.1:8000>
+---
 
-## 配置
+## Configuration
 
-编辑 `.env`：
+Edit `.env`:
 
-```bash
+```env
+# Readwise — optional. With a token the skill uses the Readwise API; without it,
+# it falls back to the local `readwise` CLI (disable with READWISE_USE_CLI=false).
 READWISE_TOKEN=...
+
+# Notifications
 DISCORD_WEBHOOK_URL=...
+
+# Published site URL (used in notification links)
 PUBLIC_SITE_URL=https://<user>.github.io/readwise-reports
-OPENAI_API_KEY=... # 可选
-GEMINI_API_KEY=... # 可选
-```
 
-如果没有 `READWISE_TOKEN`，脚本会尝试使用已登录的本地 `readwise` CLI。
+# AI providers — at least one required when any skill resolves to API mode.
+# Preferred provider is set per-skill in skill.json; it falls back to any other
+# provider that has a key.
+OPENAI_API_KEY=...
+GEMINI_API_KEY=...
+DEEPSEEK_API_KEY=...
+ANTHROPIC_API_KEY=...
 
-## 常用命令
-
-```bash
-pnpm generate          # 生成今天日报
-pnpm dev               # dry-run，不通知 Discord，也不写入去重账本
-pnpm backfill:processed # 从 generated/raw/*.json 回填 SQLite 去重账本
-pnpm build:index       # 重新生成索引
-pnpm docs:build        # 构建 MkDocs 站点
-pnpm docs:serve        # 本地预览
-```
-
-## 去重账本
-
-日报会把成功处理过的内容写入本地 SQLite：
-
-```text
-generated/readwise-processed.sqlite
-```
-
-去重判断顺序：
-
-1. `item_id`，例如 Reader document id / Readwise highlight id
-2. 规范化后的 `url`
-3. `title + author + url + text/summary` 生成的 `content_hash`
-
-这样即使 Reader/Redirect 里没有归档、标已读或删除，第二天再次拉到同一条内容也会跳过。
-
-可用 `.env` 覆盖数据库位置：
-
-```bash
+# Optional overrides
+REPORT_TIMEZONE=Asia/Tokyo
 READWISE_PROCESSED_DB=generated/readwise-processed.sqlite
+# Force AI mode for every skill (api | agent | auto). publish:daily defaults to api.
+AI_MODE=api
 ```
 
-## GitHub Pages
+---
 
-当前推荐架构：**本地 cron 生成报告并 push，GitHub Actions 只负责部署 Pages**。
+## Commands
 
-原因：本地已经登录 Readwise CLI，不需要把 Readwise OAuth 状态搬到 GitHub Actions。GitHub 只托管静态站点，职责更干净。
+| Command | What it does |
+|---|---|
+| `pnpm generate` | Run all enabled skills for today |
+| `pnpm generate --skill readwise` | Run one specific skill |
+| `pnpm generate --dry-run` | Run end-to-end but write nothing to disk (no report, no raw snapshot, no dedup update) |
+| `pnpm generate --list` | List discovered skills and their status |
+| `pnpm generate --concurrency 2` | Run up to 2 skills in parallel |
+| `pnpm publish:daily` | Full pipeline: generate → build index → git push → notify |
+| `pnpm build:index` | Rebuild MkDocs nav index only |
+| `pnpm backfill:processed` | Rebuild dedup SQLite from existing raw JSON files |
+| `pnpm typecheck` | TypeScript type check |
+| `pnpm test` | Run Vitest test suite |
+| `pnpm docs:serve` | Local MkDocs preview |
+| `pnpm docs:build` | Production MkDocs build |
 
-已配置的项目 Pages 地址：
+---
 
-```text
-https://mxggle.github.io/readwise-reports/
+## Skill System
+
+Each Skill lives in `skills/{id}/` and must follow this structure:
+
+```
+skills/{id}/
+├── skill.json       # Manifest — id must match folder name
+├── index.ts         # Entry: export default async function run(ctx: SkillContext): Promise<SkillResult>
+├── lib/             # Private helpers (optional)
+└── prompts/         # AI prompt templates (optional)
 ```
 
-GitHub Actions 会在 `main` 分支 push 后自动构建 MkDocs 并部署 GitHub Pages。
+### `skill.json` reference
 
-如果以后想改成 GitHub Actions 也负责生成报告，需要在仓库 Secrets 里配置：
+```jsonc
+{
+  "id": "my-source",            // kebab-case, must match folder name
+  "title": "My Source",
+  "description": "...",
+  "enabled": true,
 
-- `READWISE_TOKEN`
-- `DISCORD_WEBHOOK_URL`
-- `PUBLIC_SITE_URL`
-- `OPENAI_API_KEY` 或 `GEMINI_API_KEY`，可选
+  "ai": {
+    "mode": "auto",             // "api" | "agent" | "auto" (overridable by AI_MODE env)
+    "provider": "openai",       // preferred; falls back to any other provider with a key
+    "model": "gpt-4o-mini",     // optional; applies only to the preferred provider
+    "outputLanguage": "en-US"
+  },
 
-## 输出结构
+  "schedule": {
+    "cron": "0 22 * * *",
+    "timezone": "Asia/Tokyo",
+    "lookbackHours": 24
+  },
 
-```text
+  "output": {
+    "navSection": "Tech",       // MkDocs nav section
+    "icon": "📰"
+  },
+
+  "env": {
+    "required": ["MY_API_KEY"]  // CLI will refuse to start if missing
+  },
+
+  "dedup": {
+    "enabled": true,
+    "keyField": "id"
+  },
+
+  "digest": {
+    "maxItems": 15,
+    "tone": "concise"
+  },
+
+  "notification": {
+    "channels": ["discord"]
+  }
+}
+```
+
+### Adding a new Skill
+
+1. Create `skills/{id}/` with `skill.json` and `index.ts`.
+2. Import types only from `../_sdk/index.js`.
+3. Return a `SkillResult` with `itemsProcessed`, `itemsSkipped`, and optionally `outputPath` and `notifications`.
+4. Run `pnpm generate --skill {id} --dry-run` to verify.
+5. Run `pnpm generate --list` to confirm it appears as `ready`.
+
+### Removing a Skill
+
+Delete the `skills/{id}/` directory. Nothing else to change.
+
+---
+
+## Dedup System
+
+Processed items are stored in a local SQLite database (`generated/readwise-processed.sqlite`).
+On each run the Skill calls `store.filterUnprocessed(items)` before processing, and
+`store.markProcessed(fresh)` after. In `--dry-run` mode nothing is written to disk —
+the store is read but not updated, and no report or raw snapshot is written.
+
+The dedup key is the `DedupItem.id` field (configurable via `skill.json → dedup.keyField`).
+
+To rebuild from existing raw files:
+
+```bash
+pnpm backfill:processed
+```
+
+---
+
+## Output Structure
+
+```
 readwise-reports/
-  docs/
-    index.md
-    daily/
-    weekly/
-    monthly/
-    topics/
-  scripts/
-  generated/
-  .github/workflows/
+├── docs/
+│   ├── index.md
+│   ├── readwise/
+│   │   └── 2026-05-28.md
+│   └── hn/
+│       └── 2026-05-28.md
+├── generated/
+│   ├── raw/
+│   │   ├── readwise/
+│   │   │   └── 2026-05-28.json
+│   │   └── hn/
+│   │       └── 2026-05-28.json
+│   └── readwise-processed.sqlite
+├── scripts/         # Kernel + CLI
+├── skills/          # Data source plugins
+└── site/            # Built MkDocs site (git-ignored)
 ```
 
-## 设计原则
+---
 
-- Discord 是入口，不是知识库。
-- Markdown 是长期资产。
-- SQLite 只保存自动化状态，报告正文仍保持文件化、可 grep、可 git diff、可迁移。
-- 小而稳定，避免自动化变成第二份工作。
+## CI / CD
+
+**Local cron** runs `pnpm publish:daily` → generates reports → pushes `docs/` (the published
+source of truth) to `main`. Everything under `generated/` is a local build artifact and is not committed.
+
+**GitHub Actions** watches `main` and deploys the MkDocs static site to GitHub Pages.
+It never needs AI API keys or Readwise tokens.
+
+```mermaid
+sequenceDiagram
+    participant Cron as Local cron
+    participant Repo as GitHub repo (main)
+    participant GHA as GitHub Actions
+    participant Pages as GitHub Pages
+
+    Cron->>Repo: git push docs/ mkdocs.yml README.md
+    Repo->>GHA: push event triggers workflow
+    GHA->>GHA: mkdocs build --strict
+    GHA->>Pages: deploy static site
+```
+
+---
+
+## Design Principles
+
+- **Discord is an inbox, not a knowledge base.** Notifications are short summaries with a link.
+- **Markdown is the long-term asset.** Reports are plain files — grep-able, diff-able, migratable.
+- **SQLite holds automation state only.** Report content stays in files.
+- **Skills are portable.** Each one is a self-contained plugin with no cross-skill dependencies.
+- **Keep it small and stable.** Automation should not become a second job.

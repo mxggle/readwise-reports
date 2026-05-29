@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const AIModeSchema = z.enum(["api", "agent", "auto"]);
-export const AIProviderSchema = z.enum(["openai", "gemini", "anthropic"]);
+export const AIProviderSchema = z.enum(["openai", "gemini", "anthropic", "deepseek"]);
 export type AIMode = z.infer<typeof AIModeSchema>;
 export type AIProvider = z.infer<typeof AIProviderSchema>;
 
