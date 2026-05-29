@@ -3,6 +3,7 @@ import { env } from "./kernel/env.js";
 import { formatDate } from "./kernel/date.js";
 import { findSkill, loadRegistry } from "./kernel/registry.js";
 import { invokeSkill } from "./kernel/runtime.js";
+import { resolveAiMode } from "./kernel/services/ai.js";
 
 const program = new Command();
 program
@@ -76,6 +77,28 @@ if (envIssues.length > 0) {
 const concurrency = Math.max(1, Number(opts.concurrency ?? "1") || 1);
 
 console.log(`Running ${toRun.length} skill(s) for ${date}${dryRun ? " (dry-run)" : ""}${concurrency > 1 ? ` (parallel: ${concurrency})` : ""}`);
+
+const agentModeSkills = toRun.filter((e) => resolveAiMode(e.manifest) === "agent");
+if (agentModeSkills.length > 0) {
+  console.log(
+    [
+      "",
+      "┌─ AGENT AI MODE ──────────────────────────────────────────────────────────────",
+      `│ These skills delegate every AI call to YOU, the host agent (no API key used):`,
+      `│   ${agentModeSkills.map((e) => e.manifest.id).join(", ")}`,
+      "│ This process will write task files and BLOCK, polling for your answers.",
+      "│ While it runs, act as the watcher — in another shell / turn:",
+      "│   1. pnpm agent:tasks list            # see pending tasks (--json for raw)",
+      "│   2. read each task's prompt, answer it with your own model",
+      "│   3. pnpm agent:tasks resolve <taskId> --text \"<your answer>\"",
+      "│      (or --file <path>, or --error \"<why>\")",
+      "│ Repeat until this process exits. If nobody drains tasks it times out in 10 min.",
+      "│ Do NOT also run `pnpm watcher` (that one uses an external API key and competes).",
+      "└──────────────────────────────────────────────────────────────────────────────",
+      "",
+    ].join("\n"),
+  );
+}
 
 let failed = 0;
 for (let i = 0; i < toRun.length; i += concurrency) {

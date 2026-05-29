@@ -11,12 +11,15 @@
     "notify": "tsx scripts/src/notify-discord.ts",
     "build:index": "tsx scripts/src/build-index.ts",
     "backfill:processed": "tsx scripts/src/backfill-processed.ts",
+    "watcher": "tsx scripts/src/agent-watcher.ts",
+    "agent:tasks": "tsx scripts/src/agent-tasks.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "docs:serve": "mkdocs serve",
     "docs:build": "mkdocs build --strict"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.99.0",
     "@google/generative-ai": "^0.24.1",
     "commander": "^12.1.0",
     "dotenv": "^16.4.7",

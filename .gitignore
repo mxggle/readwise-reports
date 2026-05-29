@@ -7,3 +7,5 @@ generated/raw/*.json
 !generated/raw/.gitkeep
 generated/*.sqlite
 generated/*.sqlite-*
+generated/agent-tasks/
+generated/agent-results/
