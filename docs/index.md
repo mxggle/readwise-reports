@@ -12,21 +12,19 @@ hide:
 
 <div class="grid cards" markdown>
 
--   📰 __HackerNews · 2026-05-28__
+-   📰 __HackerNews · 2026-05-29__
 
     ---
 
-    Today's tech landscape is dominated by a deepening tension around AI's real-world value and security. Major players like Anthropic and OpenAI appear to have achieved product-market…
+    [:octicons-arrow-right-24: 阅读](hn/2026-05-29.md)
 
-    [:octicons-arrow-right-24: 阅读](hn/2026-05-28.md)
-
--   📚 __Readwise · 2026-05-28__
+-   📚 __Readwise · 2026-05-29__
 
     ---
 
-    今天的高价值内容集中在 Career、AI。最值得优先处理的是《Building OpenCode with Dax Raad》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。
+    今天的高价值内容集中在 AI、Career。最值得优先处理的是《EP216: RAGs vs Agents》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。
 
-    [:octicons-arrow-right-24: 阅读](readwise/2026-05-28.md)
+    [:octicons-arrow-right-24: 阅读](readwise/2026-05-29.md)
 
 </div>
 
@@ -34,6 +32,7 @@ hide:
 
 | 日期 | HackerNews | Readwise |
 | --- | --- | --- |
+| 2026-05-29 | [📰 HackerNews](hn/2026-05-29.md) | [📚 Readwise](readwise/2026-05-29.md) |
 | 2026-05-28 | [📰 HackerNews](hn/2026-05-28.md) | [📚 Readwise](readwise/2026-05-28.md) |
 | 2026-05-27 | — | [📚 Readwise](readwise/2026-05-27.md) |
 | 2026-05-26 | — | [📚 Readwise](readwise/2026-05-26.md) |

@@ -36,9 +36,11 @@ nav:
   - Dashboard: index.md
   - HackerNews:
       - hn/index.md
+      - 2026-05-29: hn/2026-05-29.md
       - 2026-05-28: hn/2026-05-28.md
   - Readwise:
       - readwise/index.md
+      - 2026-05-29: readwise/2026-05-29.md
       - 2026-05-28: readwise/2026-05-28.md
       - 2026-05-27: readwise/2026-05-27.md
       - 2026-05-26: readwise/2026-05-26.md
