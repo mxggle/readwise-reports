@@ -16,13 +16,15 @@ hide:
 
     ---
 
+    Today’s tech landscape is dominated by the accelerating financial and product maturity of major AI firms, with Anthropic’s $47 billion run-rate revenue and the release of Claude Op…
+
     [:octicons-arrow-right-24: 阅读](hn/2026-05-29.md)
 
 -   📚 __Readwise · 2026-05-29__
 
     ---
 
-    今天的高价值内容集中在 阅读。最值得优先处理的是《暂无高质量内容》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。
+    ### 今日阅读总结 1. **Anthropic 发布 Opus 4.8**：模型提升“微小但切实”，核心改进是**诚实性**——错误率降低约4倍，更倾向于承认不确定性而非编造答案，定价与前代持平。 2. **行业趋势**：Anthropic 正加速追赶 OpenAI，强调*
 
     [:octicons-arrow-right-24: 阅读](readwise/2026-05-29.md)
 

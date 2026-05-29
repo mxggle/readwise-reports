@@ -10,6 +10,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
     ---
 
+    Today’s tech landscape is dominated by the accelerating financial and product maturity of major AI firms, with Anthropic’s $47 billion run-rate revenue and the release of Claude Op…
+
     [:octicons-arrow-right-24: 阅读完整报告](2026-05-29.md)
 
 </div>
@@ -18,5 +20,5 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-05
 
-- [2026-05-29](2026-05-29.md)
+- [2026-05-29](2026-05-29.md)<br/><span class="md-typeset__small">Today’s tech landscape is dominated by the accelerating financial and product maturity of major AI firms, with Anthropic’s $47 billion run-rate revenue and the release of Claude Op…</span>
 - [2026-05-28](2026-05-28.md)<br/><span class="md-typeset__small">Today's tech landscape is dominated by a deepening tension around AI's real-world value and security. Major players like Anthropic and OpenAI appear to have achieved product-market…</span>
