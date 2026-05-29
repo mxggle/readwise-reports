@@ -5,7 +5,7 @@
   "enabled": true,
   "ai": {
     "mode": "auto",
-    "provider": "gemini",
+    "provider": "deepseek",
     "outputLanguage": "en-US"
   },
   "schedule": {

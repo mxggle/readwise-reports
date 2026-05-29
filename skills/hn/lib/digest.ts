@@ -111,6 +111,16 @@ const RSS_FEEDS: Array<{ name: string; xmlUrl: string; htmlUrl: string }> = [
 
 type CategoryId = 'ai-ml' | 'security' | 'engineering' | 'tools' | 'opinion' | 'other';
 
+/** Health of AI scoring: ok = all batches scored, partial = some failed, failed = all fell back to defaults. */
+export type AiStatus = 'ok' | 'partial' | 'failed';
+
+/** Classify AI scoring health from per-batch failure counts. */
+export function computeAiStatus(failedBatches: number, totalBatches: number): AiStatus {
+  if (totalBatches === 0 || failedBatches === 0) return 'ok';
+  if (failedBatches >= totalBatches) return 'failed';
+  return 'partial';
+}
+
 const CATEGORY_META: Record<CategoryId, { emoji: string; label: string }> = {
   'ai-ml': { emoji: '🤖', label: 'AI / ML' },
   'security': { emoji: '🔒', label: 'Security' },
@@ -414,11 +424,18 @@ Please return strictly in JSON format, without including markdown code blocks or
 }`;
 }
 
+interface ScoringOutcome {
+  scores: Map<number, { relevance: number; quality: number; timeliness: number; category: CategoryId; keywords: string[] }>;
+  totalBatches: number;
+  failedBatches: number;
+}
+
 async function scoreArticlesWithAI(
   articles: Article[],
   ai: AIClient,
-): Promise<Map<number, { relevance: number; quality: number; timeliness: number; category: CategoryId; keywords: string[] }>> {
+): Promise<ScoringOutcome> {
   const allScores = new Map<number, { relevance: number; quality: number; timeliness: number; category: CategoryId; keywords: string[] }>();
+  let failedBatches = 0;
 
   const indexed = articles.map((article, index) => ({
     index,
@@ -458,6 +475,7 @@ async function scoreArticlesWithAI(
           }
         }
       } catch (error) {
+        failedBatches++;
         console.warn(`[digest] Scoring batch failed: ${error instanceof Error ? error.message : String(error)}`);
         for (const item of batch) {
           allScores.set(item.index, { relevance: 5, quality: 5, timeliness: 5, category: 'other', keywords: [] });
@@ -469,7 +487,7 @@ async function scoreArticlesWithAI(
     console.log(`[digest] Scoring progress: ${Math.min(i + MAX_CONCURRENT_GEMINI, batches.length)}/${batches.length} batches`);
   }
 
-  return allScores;
+  return { scores: allScores, totalBatches: batches.length, failedBatches };
 }
 
 // ============================================================================
@@ -728,8 +746,30 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
   filteredArticles: number;
   hours: number;
   dateStr: string;
+  aiStatus: AiStatus;
 }): string {
-  let report = `# 📰 AI Blog Daily Digest — ${stats.dateStr}\n\n`;
+  const summaryLine = highlights
+    ? highlights.replace(/\n/g, ' ').replace(/"/g, "'").slice(0, 280)
+    : '';
+  const degraded = stats.aiStatus !== 'ok';
+  const frontmatter = [
+    '---',
+    `title: AI Blog Daily Digest ${stats.dateStr}`,
+    `date: ${stats.dateStr}`,
+    summaryLine ? `summary: "${summaryLine}"` : '',
+    degraded ? `degraded: true` : '',
+    '---',
+    '',
+  ].filter(Boolean).join('\n');
+
+  let report = frontmatter;
+  report += `# 📰 AI Blog Daily Digest — ${stats.dateStr}\n\n`;
+  if (degraded) {
+    const detail = stats.aiStatus === 'failed'
+      ? 'AI scoring failed for every batch — rankings and categories below are placeholder defaults, not AI-judged.'
+      : 'AI scoring failed for some batches — a subset of rankings and categories below are placeholder defaults.';
+    report += `> ⚠️ **Degraded run.** ${detail}\n\n`;
+  }
   report += `> From ${stats.totalFeeds} top tech blogs (curated by Karpathy), AI-selected Top ${articles.length}\n\n`;
 
   if (highlights) {
@@ -841,6 +881,7 @@ export interface RunDigestResult {
     totalArticles: number;
     filteredArticles: number;
     selectedCount: number;
+    aiStatus: AiStatus;
   };
   topArticles: Array<{ title: string; sourceName: string; link: string; category: string }>;
 }
@@ -870,7 +911,12 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
   }
 
   console.log(`[digest] Step 3/5: AI scoring ${recentArticles.length} articles...`);
-  const scores = await scoreArticlesWithAI(recentArticles, ai);
+  const scoring = await scoreArticlesWithAI(recentArticles, ai);
+  const scores = scoring.scores;
+  const aiStatus = computeAiStatus(scoring.failedBatches, scoring.totalBatches);
+  if (aiStatus !== 'ok') {
+    console.warn(`[digest] AI scoring degraded: ${scoring.failedBatches}/${scoring.totalBatches} batches failed (status: ${aiStatus})`);
+  }
 
   const scoredArticles = recentArticles.map((article, index) => {
     const score = scores.get(index) || { relevance: 5, quality: 5, timeliness: 5, category: 'other' as CategoryId, keywords: [] };
@@ -924,6 +970,7 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
     filteredArticles: recentArticles.length,
     hours: lookbackHours,
     dateStr: date,
+    aiStatus,
   });
 
   console.log(`[digest] Done: ${successfulSources.size} sources → ${allArticles.length} articles → ${recentArticles.length} recent → ${finalArticles.length} selected`);
@@ -936,6 +983,7 @@ export async function runDigest(opts: RunDigestOpts): Promise<RunDigestResult> {
       totalArticles: allArticles.length,
       filteredArticles: recentArticles.length,
       selectedCount: finalArticles.length,
+      aiStatus,
     },
     topArticles: finalArticles.slice(0, 5).map((a) => ({
       title: a.title,
