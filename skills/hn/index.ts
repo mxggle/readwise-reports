@@ -8,13 +8,14 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
 
   log.info(`Generating ${config.title} for ${date} (last ${lookbackHours}h, top ${maxItems})...`);
 
-  const { markdown, stats, topArticles, freshItems } = await runDigest({ ai, store, lookbackHours, maxItems, date });
+  const { markdown, stats, topArticles, freshItems } = await runDigest({ ai, log, store, lookbackHours, maxItems, date });
 
   const outputPath = await writer.writeReport(markdown);
   log.info(`Wrote ${outputPath}`);
 
-  // Record processed articles only after the report is written, so a failed run
-  // doesn't silently mark items as seen. markProcessed is a no-op in dry-run.
+  // Record only the articles that made it into the report (runDigest already
+  // narrows freshItems to the selected set), and only after the report is written
+  // so a failed run doesn't silently mark items as seen. No-op in dry-run.
   await store.markProcessed(freshItems);
   if (ctx.dryRun) {
     log.info("Dry run: dedup state was not updated.");
