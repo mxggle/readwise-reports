@@ -8,6 +8,10 @@ import type { NotificationPayload } from "./kernel/types.js";
 
 dotenv.config();
 
+// Automated publish must never resolve to agent mode (which blocks polling a
+// watcher) — force API mode unless the operator explicitly set AI_MODE.
+if (!process.env.AI_MODE) process.env.AI_MODE = "api";
+
 const date = formatDate(new Date(), env.timezone);
 
 async function run(cmd: string, args: string[]) {
@@ -31,7 +35,7 @@ let failed = 0;
 for (const entry of enabled) {
   console.log(`\n[publish] === ${entry.manifest.id} ===`);
   try {
-    const result = await invokeSkill(entry, { date, dryRun: true });
+    const result = await invokeSkill(entry, { date, dryRun: false });
     console.log(`[publish] ${entry.manifest.id}: ${result.itemsProcessed} processed, ${result.itemsSkipped} skipped`);
     if (result.notifications) notifications.push(...result.notifications);
   } catch (err) {
@@ -47,7 +51,10 @@ if (failed === enabled.length) {
 
 await run("pnpm", ["build:index"]);
 
-await run("git", ["add", "docs", "generated", "mkdocs.yml", "README.md"]);
+// Whitelist exactly what should be committed. docs/ is the published source of
+// truth; everything under generated/ (raw snapshots, sqlite dedup DB, transient
+// agent-tasks/agent-results) is a local build artifact and stays out of commits.
+await run("git", ["add", "docs", "mkdocs.yml", "README.md"]);
 const diff = await execa("git", ["diff", "--cached", "--quiet"], { reject: false });
 if (diff.exitCode === 0) {
   console.log("[publish] No report changes to commit");
