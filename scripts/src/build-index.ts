@@ -14,8 +14,26 @@ type ReportEntry = {
   summary: string;
 };
 
+// Reduce report-summary markdown to clean prose so it can sit safely inside a
+// dashboard card's plain-text slot (no leaked headings, bold markers, or links).
+function stripMarkdown(text: string): string {
+  return text
+    .replace(/```[\s\S]*?```/g, " ") // fenced code
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ") // images
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1") // links → label
+    .replace(/^\s{0,3}#{1,6}\s+/gm, "") // ATX headings
+    .replace(/^\s{0,3}>\s?/gm, "") // blockquotes
+    .replace(/^\s{0,3}[-*+]\s+/gm, "") // list bullets
+    .replace(/(\*\*|__)(.*?)\1/g, "$2") // bold
+    .replace(/(\*|_)(.*?)\1/g, "$2") // italic
+    .replace(/`([^`]*)`/g, "$1") // inline code
+    .replace(/[*_`#>¶]/g, "") // stray/unbalanced markers
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function truncate(text: string, max = 180): string {
-  const clean = text.replace(/\s+/g, " ").trim();
+  const clean = stripMarkdown(text);
   if (clean.length <= max) return clean;
   return clean.slice(0, max).replace(/[，,。.；;]\s*\S*$/, "") + "…";
 }

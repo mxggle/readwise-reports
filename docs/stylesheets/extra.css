@@ -1,0 +1,328 @@
+/* =============================================================
+   Readwise Reports — calm reading theme for Material for MkDocs
+   Principles: low chroma, color only on links, system font,
+   small comfortable size, quiet chrome. Three switchable tones:
+   slate (Dark) · sepia (Sepia) · default (Light).
+   ============================================================= */
+
+/* ---------- Fonts: system stack + CJK fallback (theme.font: false) ---------- */
+:root {
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --md-code-font: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  --rw-radius: 14px;
+}
+
+/* =============================================================
+   TONE PALETTES
+   Each maps calm --rw-* tokens onto Material's variables.
+   The header is deliberately set to the page background (no bright bar).
+   ============================================================= */
+
+/* ---------- Dark ---------- */
+[data-md-color-scheme="slate"] {
+  --rw-bg:#1a1a19; --rw-surface:#222221; --rw-surface-2:#262625;
+  --rw-border:rgba(255,255,255,.085); --rw-border-h:rgba(255,255,255,.18);
+  --rw-text:#cecbc4; --rw-head:#edeae3; --rw-muted:#928f87; --rw-faint:#605d56;
+  --rw-accent:#86a0c0; --rw-accent-h:#a8bdd8;
+}
+/* ---------- Sepia (custom scheme) ---------- */
+[data-md-color-scheme="sepia"] {
+  --rw-bg:#f4ecdc; --rw-surface:#fbf5e9; --rw-surface-2:#f6eedc;
+  --rw-border:rgba(60,45,20,.14); --rw-border-h:rgba(60,45,20,.32);
+  --rw-text:#43392a; --rw-head:#2a2114; --rw-muted:#7c705c; --rw-faint:#9a8d76;
+  --rw-accent:#9a5b34; --rw-accent-h:#7d4624;
+}
+/* ---------- Light ---------- */
+[data-md-color-scheme="default"] {
+  --rw-bg:#fbfbfa; --rw-surface:#ffffff; --rw-surface-2:#f5f5f3;
+  --rw-border:rgba(0,0,0,.09); --rw-border-h:rgba(0,0,0,.22);
+  --rw-text:#33312e; --rw-head:#16140f; --rw-muted:#6c685f; --rw-faint:#9b978e;
+  --rw-accent:#3f6ea5; --rw-accent-h:#2d5688;
+}
+
+/* ---------- Shared mapping onto Material variables ---------- */
+[data-md-color-scheme] {
+  --md-default-bg-color: var(--rw-bg);
+  --md-default-fg-color: var(--rw-head);
+  --md-default-fg-color--light: var(--rw-muted);
+  --md-default-fg-color--lighter: var(--rw-faint);
+  --md-default-fg-color--lightest: var(--rw-border);
+  --md-typeset-color: var(--rw-text);
+  --md-typeset-a-color: var(--rw-accent);
+
+  /* Header / tabs use "primary"; set to page bg so there is no bright bar */
+  --md-primary-fg-color: var(--rw-bg);
+  --md-primary-fg-color--light: var(--rw-bg);
+  --md-primary-fg-color--dark: var(--rw-bg);
+  --md-primary-bg-color: var(--rw-head);
+  --md-primary-bg-color--light: var(--rw-muted);
+
+  --md-accent-fg-color: var(--rw-accent-h);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--rw-accent) 12%, transparent);
+
+  --md-code-bg-color: var(--rw-surface-2);
+  --md-code-fg-color: var(--rw-text);
+
+  --md-footer-bg-color: var(--rw-surface);
+  --md-footer-bg-color--dark: var(--rw-bg);
+  --md-footer-fg-color: var(--rw-muted);
+  --md-footer-fg-color--light: var(--rw-faint);
+  --md-footer-fg-color--lighter: var(--rw-faint);
+}
+
+/* =============================================================
+   TYPOGRAPHY — small, comfortable, system
+   Base: 0.82rem (~13.1px at 16px root).
+   Line-height 1.8 gives CJK and Latin both generous leading.
+   Scale: H1 1.55 → H2 1.08 → H3 0.95 → body 0.82 → small 0.74
+   ============================================================= */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+.md-typeset p { margin: 0.75em 0; }
+
+/* H1 — page title. Restrained: not a hero banner, just clear identity.
+   Weight 600 (not 700) reduces heaviness without losing definition.
+   No letter-spacing: negative spacing disrupts CJK glyph spacing. */
+.md-typeset h1 {
+  font-size: 1.55rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--rw-head);
+  margin: 0 0 0.5em;
+}
+
+/* H2 — section label. Quiet, structural. Lighter than H1, ruled underline
+   provides enough separation without visual shouting. */
+.md-typeset h2 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--rw-head);
+  margin: 2.2em 0 0.75em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--rw-border);
+}
+
+/* H3 — subsection label inside reports. Keeps hierarchy below H2. */
+.md-typeset h3 {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--rw-head);
+  margin: 1.6em 0 0.45em;
+}
+
+/* H4 — tight label, used rarely */
+.md-typeset h4 {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--rw-head);
+  margin: 1.2em 0 0.35em;
+}
+
+/* First paragraph after H1 reads as a subtitle / lede — muted */
+.md-typeset h1 + p,
+.md-typeset .md-content__inner > p:first-of-type { color: var(--rw-muted); }
+
+/* Comfortable reading measure for long prose (not the dashboard grid).
+   66ch ≈ ~66 Latin chars ≈ ~33–40 CJK chars — within the 60–75 CJK-aware target. */
+.md-typeset > p,
+.md-typeset > ul,
+.md-typeset > ol,
+.md-typeset > blockquote { max-width: 60rem; }
+
+/* =============================================================
+   HEADER & NAV — quiet, hairline divider, no bright bar/shadow
+   ============================================================= */
+.md-header {
+  background-color: var(--rw-bg);
+  color: var(--rw-head);
+  border-bottom: 1px solid var(--rw-border);
+  box-shadow: none !important;
+}
+.md-tabs {
+  background-color: var(--rw-bg);
+  color: var(--rw-head);
+  border-bottom: 1px solid var(--rw-border);
+}
+.md-header__title { font-weight: 600; letter-spacing: 0; }
+.md-tabs__link { opacity: 0.68; font-weight: 500; font-size: 0.78rem; }
+.md-tabs__link:hover { opacity: 1; }
+.md-tabs__link--active { opacity: 1; font-weight: 600; }
+
+/* search box: calm surface, not a bright pill */
+.md-search__form {
+  background-color: var(--rw-surface);
+  border: 1px solid var(--rw-border);
+  border-radius: 10px;
+  box-shadow: none;
+}
+.md-search__form:hover { background-color: var(--rw-surface-2); }
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form { border-radius: 10px; }
+.md-search__input { color: var(--rw-head); }
+.md-search__input::placeholder { color: var(--rw-faint); }
+.md-search__output { border-radius: 10px; }
+
+/* =============================================================
+   CARDS (grid cards on the dashboard / topic pages)
+
+   Card anatomy:
+     - Title row: emoji + __bold source · date__ (rendered as <strong>)
+     - <hr> divider
+     - Prose excerpt (paragraph)
+     - "→ 阅读" link
+   ============================================================= */
+.md-typeset .grid { gap: 1rem; }
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > .card,
+.md-typeset .grid > .card {
+  border: 1px solid var(--rw-border);
+  border-radius: var(--rw-radius);
+  background-color: var(--rw-surface);
+  padding: 1.2rem 1.35rem 1.1rem;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > .card:hover,
+.md-typeset .grid > .card:hover {
+  border-color: var(--rw-border-h);
+  background-color: var(--rw-surface-2);
+  box-shadow: none;
+}
+
+/* Divider inside card */
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 0.6rem 0;
+  border-color: var(--rw-border);
+}
+
+/* Card title: the __bold__ source+date line.
+   Slightly larger than body, normal heading color, not overpowering. */
+.md-typeset .grid.cards > ul > li > p:first-child,
+.md-typeset .grid.cards > ul > li > p:first-child strong {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--rw-head);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Card excerpt: body text, slightly muted, comfortable line height.
+   max-width is redundant inside a grid cell but ensures no overflow. */
+.md-typeset .grid.cards > ul > li > p:not(:first-child):not(:last-child) {
+  font-size: 0.80rem;
+  line-height: 1.75;
+  color: var(--rw-text);
+  margin: 0;
+}
+
+/* Card CTA link ("→ 阅读"): normal weight, accent color, quiet */
+.md-typeset .grid.cards > ul > li > p:last-child {
+  margin: 0;
+  font-size: 0.78rem;
+}
+.md-typeset .grid.cards > ul > li > p:last-child a {
+  font-weight: 500;
+  color: var(--rw-accent);
+  text-decoration: none;
+}
+.md-typeset .grid.cards > ul > li > p:last-child a:hover {
+  color: var(--rw-accent-h);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* Topic mini-cards (icon + link only, no excerpt): keep link weight normal */
+.md-typeset .grid.cards > ul > li > a:not(.md-button),
+.md-typeset .grid.cards > .card > a:not(.md-button) {
+  font-weight: 500;
+  font-size: 0.82rem;
+}
+
+/* =============================================================
+   TABLES — hairline, rounded, quiet header row
+   ============================================================= */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--rw-border);
+  border-radius: var(--rw-radius);
+  overflow: hidden;
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--rw-surface-2);
+  color: var(--rw-muted);
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 1px solid var(--rw-border);
+  padding: 0.55em 0.9em;
+}
+.md-typeset table:not([class]) td {
+  border: none;
+  border-bottom: 1px solid var(--rw-border);
+  padding: 0.5em 0.9em;
+}
+.md-typeset table:not([class]) tr:last-child td { border-bottom: none; }
+.md-typeset table:not([class]) tbody tr:hover { background-color: var(--rw-surface); }
+
+/* =============================================================
+   LINKS — color only here; underline on hover
+   ============================================================= */
+.md-typeset a { text-decoration: none; }
+.md-typeset a:hover {
+  color: var(--rw-accent-h);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* =============================================================
+   LISTS — tighter rhythm, consistent with body
+   ============================================================= */
+.md-typeset ul,
+.md-typeset ol {
+  line-height: 1.75;
+}
+.md-typeset li { margin: 0.2em 0; }
+.md-typeset li + li { margin-top: 0.25em; }
+
+/* =============================================================
+   CODE, QUOTES, RULES, MISC
+   ============================================================= */
+.md-typeset code {
+  border-radius: 6px;
+  padding: 0.1em 0.35em;
+  font-size: 0.88em; /* relative to parent, keeps code small */
+}
+.md-typeset pre > code { border-radius: var(--rw-radius); }
+.md-typeset blockquote {
+  border-left: 2px solid var(--rw-border-h);
+  color: var(--rw-muted);
+}
+.md-typeset hr { border-bottom-color: var(--rw-border); }
+
+/* table of contents */
+.md-nav__link--active { color: var(--rw-accent); }
+.md-nav__item .md-nav__link { font-size: 0.75rem; }
+
+/* footer */
+.md-footer { background-color: var(--rw-surface); }
+.md-footer-meta { background-color: var(--rw-bg); border-top: 1px solid var(--rw-border); }
+
+/* selection */
+::selection { background: color-mix(in srgb, var(--rw-accent) 26%, transparent); }
+
+/* tighten the content top spacing a touch */
+.md-content__inner { padding-top: 1rem; }
+.md-content__inner::before { height: 0; }

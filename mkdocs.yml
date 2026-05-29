@@ -7,19 +7,26 @@ repo_name: readwise-reports
 theme:
   name: material
   language: zh
+  font: false
   palette:
     - scheme: slate
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: default
-      primary: indigo
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Dark — switch to Sepia
+    - scheme: sepia
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/book-open-page-variant
+        name: Sepia — switch to Light
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light — switch to Dark
   features:
     - navigation.instant
     - navigation.tracking
@@ -76,3 +83,6 @@ markdown_extensions:
         !!python/name:material.extensions.emoji.to_svg ""
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
