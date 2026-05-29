@@ -12,21 +12,21 @@ hide:
 
 <div class="grid cards" markdown>
 
--   📰 __HackerNews · 2026-05-29__
+-   📰 __HackerNews · 2026-05-30__
 
     ---
 
-    Today’s tech landscape is dominated by the accelerating financial and product maturity of major AI firms, with Anthropic’s $47 billion run-rate revenue and the release of Claude Op…
+    Today’s tech headlines are dominated by mounting skepticism around the sustainability of the AI boom, with multiple analyses questioning whether the industry is in a speculative bu…
 
-    [:octicons-arrow-right-24: 阅读](hn/2026-05-29.md)
+    [:octicons-arrow-right-24: 阅读](hn/2026-05-30.md)
 
--   📚 __Readwise · 2026-05-29__
+-   📚 __Readwise · 2026-05-30__
 
     ---
 
-    今日阅读总结 1. Anthropic 发布 Opus 4.8：模型提升“微小但切实”，核心改进是诚实性——错误率降低约4倍，更倾向于承认不确定性而非编造答案，定价与前代持平。 2. 行业趋势：Anthropic 正加速追赶 OpenAI，强调
+    今天阅读内容的核心趋势是：AI 代理需定期保存中间状态（如推理链）以提升可靠性，Apple 计划在6月8日WWDC发布全新Siri界面与聊天机器人应用，Anthropic规模已超越OpenAI。对Harry的职业/学习意义：应关注AI代理状态管理技术，以及Apple生态中AI交互
 
-    [:octicons-arrow-right-24: 阅读](readwise/2026-05-29.md)
+    [:octicons-arrow-right-24: 阅读](readwise/2026-05-30.md)
 
 </div>
 
@@ -34,6 +34,7 @@ hide:
 
 | 日期 | HackerNews | Readwise |
 | --- | --- | --- |
+| 2026-05-30 | [📰 HackerNews](hn/2026-05-30.md) | [📚 Readwise](readwise/2026-05-30.md) |
 | 2026-05-29 | [📰 HackerNews](hn/2026-05-29.md) | [📚 Readwise](readwise/2026-05-29.md) |
 | 2026-05-28 | [📰 HackerNews](hn/2026-05-28.md) | [📚 Readwise](readwise/2026-05-28.md) |
 | 2026-05-27 | — | [📚 Readwise](readwise/2026-05-27.md) |
