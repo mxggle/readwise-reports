@@ -1,0 +1,32 @@
+{
+  "id": "github-trends",
+  "title": "GitHub Trends",
+  "description": "过去24小时GitHub趋势项目汇总",
+  "enabled": true,
+  "ai": {
+    "mode": "api",
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "inputLanguage": "en",
+    "outputLanguage": "zh-CN"
+  },
+  "schedule": {
+    "cron": "0 8 * * *",
+    "timezone": "Asia/Shanghai",
+    "lookbackHours": 24
+  },
+  "output": {
+    "navSection": "开发",
+    "icon": "📈"
+  },
+  "env": {
+    "required": []
+  },
+  "digest": {
+    "maxItems": 10,
+    "tone": "informative"
+  },
+  "notification": {
+    "channels": []
+  }
+}
