@@ -6,17 +6,21 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-05-30__
+-   :material-star-shooting: __最新 · 2026-06-01__
 
     ---
 
-    今天阅读内容的核心趋势是：AI 代理需定期保存中间状态（如推理链）以提升可靠性，Apple 计划在6月8日WWDC发布全新Siri界面与聊天机器人应用，Anthropic规模已超越OpenAI。对Harry的职业/学习意义：应关注AI代理状态管理技术，以及Apple生态中AI交互
+    今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-05-30.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-01.md)
 
 </div>
 
 ## 历史报告
+
+### 2026-06
+
+- [2026-06-01](2026-06-01.md)<br/><span class="md-typeset__small">今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可</span>
 
 ### 2026-05
 

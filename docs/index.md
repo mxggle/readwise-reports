@@ -6,49 +6,55 @@ hide:
 
 # Reading Dashboard
 
-本站每天聚合 3 个数据源（HackerNews、note AI（日本語）、Readwise），每日生成结构化阅读报告。
+本站每天聚合 4 个数据源（GitHub Trends、HackerNews、note AI（日本語）、Readwise），每日生成结构化阅读报告。
 
 ## 今日速览
 
 <div class="grid cards" markdown>
 
--   📰 __HackerNews · 2026-05-30__
+-   📈 __GitHub Trends · 2026-06-01__
 
     ---
 
-    Today’s tech headlines are dominated by mounting skepticism around the sustainability of the AI boom, with multiple analyses questioning whether the industry is in a speculative bu…
+    [:octicons-arrow-right-24: 阅读](github-trends/2026-06-01.md)
 
-    [:octicons-arrow-right-24: 阅读](hn/2026-05-30.md)
-
--   🇯🇵 __note AI（日本語） · 2026-05-31__
+-   📰 __HackerNews · 2026-06-01__
 
     ---
 
-    今日 note.com の人気 AI 記事 5 本：Claude Opus 4.8登場！「正直なAI」って何が嬉しいの？ AIの"正直さ"を一緒に考えてみた / 【Skywork創作録】AIは「事象」を描ける。でも、「恐怖」は誰が描く？｜AI創作実験記 / AIでオリジナルキャラを作る方法|PolloAIで具現化 プロンプト公開 / 黒パグのAIショートショ…
+    Today’s top articles reveal a deepening divide in the AI community, with debates shifting from technical implementation—such as the choice between building agents versus pipelines—…
 
-    [:octicons-arrow-right-24: 阅读](note-com-jp/2026-05-31.md)
+    [:octicons-arrow-right-24: 阅读](hn/2026-06-01.md)
 
--   📚 __Readwise · 2026-05-30__
+-   🇯🇵 __note AI（日本語） · 2026-06-01__
 
     ---
 
-    今天阅读内容的核心趋势是：AI 代理需定期保存中间状态（如推理链）以提升可靠性，Apple 计划在6月8日WWDC发布全新Siri界面与聊天机器人应用，Anthropic规模已超越OpenAI。对Harry的职业/学习意义：应关注AI代理状态管理技术，以及Apple生态中AI交互
+    今日 note.com の人気 AI 記事 5 本：AIコンパニオン文化の未来について考える / AI時代にこそ自分の記録を残す意味がある / 週刊AIニュース[PEST編] (2026/5/25~5/31号) / 残念なプレゼン（間違ったピッチ） / モデルを変えても、あなたの文脈は消えるべきではない
 
-    [:octicons-arrow-right-24: 阅读](readwise/2026-05-30.md)
+    [:octicons-arrow-right-24: 阅读](note-com-jp/2026-06-01.md)
+
+-   📚 __Readwise · 2026-06-01__
+
+    ---
+
+    今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可
+
+    [:octicons-arrow-right-24: 阅读](readwise/2026-06-01.md)
 
 </div>
 
 ## 最近 7 天
 
-| 日期 | HackerNews | note AI（日本語） | Readwise |
-| --- | --- | --- | --- |
-| 2026-05-31 | — | [🇯🇵 note AI（日本語）](note-com-jp/2026-05-31.md) | — |
-| 2026-05-30 | [📰 HackerNews](hn/2026-05-30.md) | — | [📚 Readwise](readwise/2026-05-30.md) |
-| 2026-05-29 | [📰 HackerNews](hn/2026-05-29.md) | — | [📚 Readwise](readwise/2026-05-29.md) |
-| 2026-05-28 | [📰 HackerNews](hn/2026-05-28.md) | — | [📚 Readwise](readwise/2026-05-28.md) |
-| 2026-05-27 | — | — | [📚 Readwise](readwise/2026-05-27.md) |
-| 2026-05-26 | — | — | [📚 Readwise](readwise/2026-05-26.md) |
-| 2026-05-25 | — | — | [📚 Readwise](readwise/2026-05-25.md) |
+| 日期 | GitHub Trends | HackerNews | note AI（日本語） | Readwise |
+| --- | --- | --- | --- | --- |
+| 2026-06-01 | [📈 GitHub Trends](github-trends/2026-06-01.md) | [📰 HackerNews](hn/2026-06-01.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-01.md) | [📚 Readwise](readwise/2026-06-01.md) |
+| 2026-05-31 | [📈 GitHub Trends](github-trends/2026-05-31.md) | — | [🇯🇵 note AI（日本語）](note-com-jp/2026-05-31.md) | — |
+| 2026-05-30 | — | [📰 HackerNews](hn/2026-05-30.md) | — | [📚 Readwise](readwise/2026-05-30.md) |
+| 2026-05-29 | — | [📰 HackerNews](hn/2026-05-29.md) | — | [📚 Readwise](readwise/2026-05-29.md) |
+| 2026-05-28 | — | [📰 HackerNews](hn/2026-05-28.md) | — | [📚 Readwise](readwise/2026-05-28.md) |
+| 2026-05-27 | — | — | — | [📚 Readwise](readwise/2026-05-27.md) |
+| 2026-05-26 | — | — | — | [📚 Readwise](readwise/2026-05-26.md) |
 
 ## 主题入口
 

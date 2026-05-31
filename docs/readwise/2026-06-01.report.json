@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "source": "readwise",
+  "title": "Readwise Daily｜2026-06-01",
+  "date": "2026-06-01",
+  "summary": "今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可训练状态，通过回滚与反思优化智能体，这对Harry理解前沿模型训练方法有直接参考价值。**今天最该做的一件事**：系统学习DQN核心原理（奖励建模与策略梯度），并尝试用小型项目验证其与现有工作流的结合点。",
+  "stats": [
+    {
+      "label": "输入",
+      "value": "54 条"
+    },
+    {
+      "label": "值得读",
+      "value": "0 精读 · 5 扫读"
+    },
+    {
+      "label": "主题分布",
+      "value": "AI: 15 · Other: 37 · Career: 2"
+    },
+    {
+      "label": "窗口",
+      "value": "2026-05-30 22:32 → 2026-05-31 22:32"
+    }
+  ],
+  "keywords": [
+    "comments",
+    "how",
+    "one",
+    "solution",
+    "week",
+    "new",
+    "plus",
+    "agents",
+    "all",
+    "can",
+    "library",
+    "statement"
+  ],
+  "sections": [
+    {
+      "name": "今日重点",
+      "entries": []
+    },
+    {
+      "name": "值得扫读",
+      "entries": [
+        {
+          "score": 60,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "Introduction to Deep RL and DQN",
+          "source": "Reader",
+          "author": "Daily Dose of DS",
+          "url": "https://read.readwise.io/read/01kszw9vcwa6shsvbkn02v73vj",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章强调理解强化学习中的奖励信号、策略优化、探索与信用分配等核心概念，正变得像五年前理解反向传播一样基础且重要。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章强调理解强化学习中的奖励信号、策略优化、探索与信用分配等核心概念，正变得像五年前理解反向传播一样基础且重要。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- 奖励信号是塑造模型行为的关键机制。\n- 策略优化是强化学习的核心过程。\n- 探索与信用分配之间的相互作用是深度强化学习的重要课题。\n- 掌握这些概念的重要性已与理解反向传播相当。"
+            },
+            {
+              "heading": "新颖点",
+              "content": "- 将强化学习的基础概念与反向传播的历史地位相提并论，暗示了AI领域知识重心的转移。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "这篇文章简洁地指出了当前AI领域知识焦点的转变，对于理解技术趋势有启发价值。"
+            }
+          ]
+        },
+        {
+          "score": 60,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "😹 Grok killed a whole town in 4 days",
+          "source": "Reader",
+          "author": "Eric Gerard Ruiz",
+          "url": "https://read.readwise.io/read/01kszj0ttfzj7ay66d9n1ncfwz",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章标题提及Grok在4天内摧毁了一个小镇，并补充说有一家公司在一个月内烧掉了5亿美元用于AI。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章标题提及Grok在4天内摧毁了一个小镇，并补充说有一家公司在一个月内烧掉了5亿美元用于AI。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- Grok（可能指AI模型或项目）在极短时间内造成了巨大破坏。\n- 一家公司在AI上一个月内烧掉了5亿美元。\n- 标题暗示了AI发展中的高风险和潜在失控问题。"
+            },
+            {
+              "heading": "新颖点",
+              "content": "- 将AI的破坏性后果与巨额资金消耗并列，揭示了AI领域可能存在的非理性繁荣与风险失控。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "标题具有冲击力，但缺乏具体细节，核心价值在于引发对AI风险和资本效率的思考。"
+            }
+          ]
+        },
+        {
+          "score": 60,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "The Speed of Prototyping in the Age of AI",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kszf3r3bvzqvqvcqq5psb443",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章标题讨论在AI时代原型制作的速度，但内容仅显示为“Comments”，无具体论述。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章标题讨论在AI时代原型制作的速度，但内容仅显示为“Comments”，无具体论述。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- AI时代原型制作速度是讨论焦点。\n- 内容为空，无法提取具体信息。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
+            }
+          ]
+        },
+        {
+          "score": 60,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "Talk Is Cheap: The Operational Impact of LLM Use",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kszf3r013e944gr39hxxh6e8",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章标题讨论LLM使用的运营影响，但内容仅显示为“Comments”，无具体论述。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章标题讨论LLM使用的运营影响，但内容仅显示为“Comments”，无具体论述。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- LLM使用的运营影响是讨论焦点。\n- 内容为空，无法提取具体信息。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
+            }
+          ]
+        },
+        {
+          "score": 60,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "Odysseus – self-hosted AI workspace",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kszdq0r94zhq3djpz7mhbzb1",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章标题介绍Odysseus——一个自托管的AI工作空间，但内容仅显示为“Comments”，无具体论述。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章标题介绍Odysseus——一个自托管的AI工作空间，但内容仅显示为“Comments”，无具体论述。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- Odysseus是一个自托管的AI工作空间。\n- 内容为空，无法提取具体信息。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "适合保存，暂不深读",
+      "entries": [
+        {
+          "score": 50,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "Atherton spent $145K to delay train electrification. The rest of us paid $400M",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kt029yh07s7dwhxz6ca1zvym",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 50,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "It's Not Just X. It's Y",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kt029ye5qpw933kdavjhkpn4",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 50,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "The need for a socialist planned economy (2021)",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kt0215nxhs1bewckn1jv913q",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 50,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "New solar desalination breakthrough makes fresh water without toxic brine",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kt01cwdajt45dsv414qtfbeq",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 50,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "'Backrooms' Stuns with $81M Debut",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kszt7w90dphdt4ntcvsafc46",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        }
+      ]
+    },
+    {
+      "name": "跳过",
+      "entries": [
+        {
+          "score": 30,
+          "scoreMax": 100,
+          "emoji": "💼",
+          "title": "Show HN: The Tired Engineer",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01ksz5ph13xxvg0v70p4c6nc0e",
+          "tags": [
+            "Career"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "Codex just found a “workaround” of not having sudo on...",
+          "source": "Reader",
+          "author": "Son Luong",
+          "url": "https://read.readwise.io/read/01kszqh14y5zy6mk0356knbx3a",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Codex just found a “workaround” of not having sudo on my pc…",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "An Analysis of GrapheneOS's Server Infrastructure",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01kszdq0nbnrpcktj0pk2rne34",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Comments",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "今天帮 @urcyanide 查了很教科书的一个问题",
+          "source": "Reader",
+          "author": "Nadeshiko Manju",
+          "url": "https://read.readwise.io/read/01gvewhzjb6rh02w5vk6r3p8rv",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "今天帮 @urcyanide 查了很教科书的一个问题\n首先，下午的时候，网友求助我说某个客户的服务出现一个很奇怪的情况。具体现象为服务访问超时。抓包发现，一直在发送 SYN，但是服务侧没有响应（即三次握手没法建立），tcpdump 的抓包结果也验证了这点。我们能看到一直在发 SYN 包，但是没响应",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "警钟已经敲响了。",
+          "source": "Reader",
+          "author": "即刻精选",
+          "url": "https://read.readwise.io/read/01gs24pk7a82hjv7t20cvrwn1v",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "警钟已经敲响了。\nChatGPT最可能取代的10种工作\n\n作 者：韩旭阳\n来 源：华尔街见闻\n\nChatGPT的横空出世，在业界掀起了惊涛骇浪。专家表示，ChatGPT和相关人工智能技术可能会威胁到一些工作岗位，尤其是白领工作。",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "推荐几个 @edXOnline 上我觉得很符合当今趋势的免费课程，这些课程都不是指定的专业领域如编程或设计，而是一些能够增强综合能力和表现的普适性课程，不定期补充此 #thread",
+          "source": "Reader",
+          "author": "Thomas Yao 🌊",
+          "url": "https://read.readwise.io/read/01gs0a37jr6f9qt59eg0b8vzxp",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "推荐几个 @edXOnline 上我觉得很符合当今趋势的免费课程，这些课程都不是指定的专业领域如编程或设计，而是一些能够增强综合能力和表现的普适性课程，不定期补充此 #thread\n\n1/n 哈佛大学的远程协作课程，教授如何使用好工具以及新的沟通模式来进行好团队的远程协作和交流",
+          "body": []
+        },
+        {
+          "score": 20,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "I've listened to more than 500 podcasts in the last...",
+          "source": "Reader",
+          "author": "Ali Abdaal",
+          "url": "https://read.readwise.io/read/01gq58r6crxna2gdgnq881ceam",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "I've listened to more than 500 podcasts in the last two years, but these 12 are my favourite 👇",
+          "body": []
+        },
+        {
+          "score": 0,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "Quoting Karen Kwok for Reuters Breakingviews",
+          "source": "Reader",
+          "author": "Simon Willison's Weblog",
+          "url": "https://read.readwise.io/read/01ksxvwx33mc7d9ne99y0ahsxf",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together.\n— Karen Kwok for Reuters Breakingviews, citing \"a person familiar with the matter\"\nTags: anthropic, ai",
+          "body": []
+        }
+      ]
+    }
+  ]
+}
