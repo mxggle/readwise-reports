@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skill 管理面板</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script>
+      window.PANEL_TOKEN = "__PANEL_TOKEN__";
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <h1>Skill 管理面板</h1>
+        <span id="health" class="health" title="检查连接中…"><span class="dot"></span><span id="health-text">连接中…</span></span>
+      </div>
+      <div class="actions">
+        <button id="btn-import" class="ghost">📦 导入</button>
+        <button id="btn-refresh" class="ghost" title="刷新">↻</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="skill-list" class="card-grid">
+        <div class="empty muted">加载中…</div>
+      </div>
+    </main>
+
+    <!-- Scrim behind the detail drawer -->
+    <div id="scrim" hidden></div>
+
+    <!-- Detail drawer (right) -->
+    <aside id="detail" class="side" hidden>
+      <header>
+        <div>
+          <div id="d-title" class="d-title"></div>
+          <code id="d-id" class="muted"></code>
+        </div>
+        <button id="d-close" class="ghost">✕</button>
+      </header>
+      <nav class="tabs">
+        <button data-tab="overview" class="tab active">概览</button>
+        <button data-tab="files" class="tab">文件 / 提示词</button>
+        <button data-tab="runs" class="tab">运行记录</button>
+      </nav>
+      <section class="tab-body">
+        <div data-pane="overview" class="pane"></div>
+        <div data-pane="files" class="pane" hidden>
+          <div class="files-layout">
+            <ul id="d-tree" class="tree"></ul>
+            <div class="editor">
+              <div class="editor-head"><span id="ed-path" class="muted">选择左侧文件</span><button id="ed-save" disabled>保存</button></div>
+              <textarea id="ed-area" spellcheck="false" placeholder="选择左侧文件查看 / 编辑"></textarea>
+            </div>
+          </div>
+        </div>
+        <div data-pane="runs" class="pane" hidden></div>
+      </section>
+    </aside>
+
+    <!-- Live run log drawer (bottom) -->
+    <section id="log-drawer" class="drawer" hidden>
+      <header>
+        <span id="log-title">运行</span>
+        <span class="spacer"></span>
+        <button id="log-cancel" class="danger">取消运行</button>
+        <button id="log-close" class="ghost">关闭</button>
+      </header>
+      <pre id="log-output"></pre>
+    </section>
+
+    <!-- Import -->
+    <dialog id="dlg-import">
+      <form method="dialog">
+        <h2>导入 Skill</h2>
+        <label>本地文件夹路径<input id="imp-path" placeholder="/Users/you/some-skill" /></label>
+        <p class="hint">或上传 zip（含 <code>skill.json</code> + <code>index.ts</code>）：</p>
+        <label>Zip 文件<input id="imp-zip" type="file" accept=".zip,application/zip" /></label>
+        <menu>
+          <button value="cancel" class="ghost">取消</button>
+          <button type="button" id="imp-submit">导入</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <!-- Report viewer -->
+    <dialog id="dlg-report" class="wide">
+      <form method="dialog">
+        <div class="rep-head">
+          <h2 id="rep-title">日报</h2>
+          <select id="rep-date"></select>
+        </div>
+        <div id="rep-body" class="report markdown"></div>
+        <menu><button value="cancel" class="ghost">关闭</button></menu>
+      </form>
+    </dialog>
+
+    <div id="toasts" class="toasts"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

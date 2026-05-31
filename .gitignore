@@ -9,3 +9,5 @@ generated/*.sqlite
 generated/*.sqlite-*
 generated/agent-tasks/
 generated/agent-results/
+generated/panel-runs/
+.trash/

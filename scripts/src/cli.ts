@@ -3,6 +3,7 @@ import { env } from "./kernel/env.js";
 import { formatDate } from "./kernel/date.js";
 import { findSkill, loadRegistry } from "./kernel/registry.js";
 import { invokeSkill } from "./kernel/runtime.js";
+import { describeSkillStatus, formatSkillStatus } from "./kernel/status.js";
 import { resolveAiMode } from "./kernel/services/ai.js";
 
 const program = new Command();
@@ -31,10 +32,7 @@ if (opts.list) {
   } else {
     console.log(`Discovered ${registry.length} skill(s):`);
     for (const entry of registry) {
-      const enabled = entry.manifest.enabled !== false;
-      const required = entry.manifest.env?.required ?? [];
-      const missing = required.filter((v) => !process.env[v]);
-      const status = !enabled ? "disabled" : missing.length ? `missing env: ${missing.join(", ")}` : "ready";
+      const status = formatSkillStatus(describeSkillStatus(entry));
       console.log(`  - ${entry.manifest.id.padEnd(12)} ${entry.manifest.title.padEnd(20)} [${status}]`);
     }
   }

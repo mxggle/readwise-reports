@@ -6,7 +6,7 @@ hide:
 
 # Reading Dashboard
 
-本站每天聚合 2 个数据源（HackerNews、Readwise），每日生成结构化阅读报告。
+本站每天聚合 3 个数据源（HackerNews、note AI（日本語）、Readwise），每日生成结构化阅读报告。
 
 ## 今日速览
 
@@ -20,6 +20,14 @@ hide:
 
     [:octicons-arrow-right-24: 阅读](hn/2026-05-30.md)
 
+-   🇯🇵 __note AI（日本語） · 2026-05-31__
+
+    ---
+
+    今日 note.com の人気 AI 記事 5 本：Claude Opus 4.8登場！「正直なAI」って何が嬉しいの？ AIの"正直さ"を一緒に考えてみた / 【Skywork創作録】AIは「事象」を描ける。でも、「恐怖」は誰が描く？｜AI創作実験記 / AIでオリジナルキャラを作る方法|PolloAIで具現化 プロンプト公開 / 黒パグのAIショートショ…
+
+    [:octicons-arrow-right-24: 阅读](note-com-jp/2026-05-31.md)
+
 -   📚 __Readwise · 2026-05-30__
 
     ---
@@ -32,14 +40,15 @@ hide:
 
 ## 最近 7 天
 
-| 日期 | HackerNews | Readwise |
-| --- | --- | --- |
-| 2026-05-30 | [📰 HackerNews](hn/2026-05-30.md) | [📚 Readwise](readwise/2026-05-30.md) |
-| 2026-05-29 | [📰 HackerNews](hn/2026-05-29.md) | [📚 Readwise](readwise/2026-05-29.md) |
-| 2026-05-28 | [📰 HackerNews](hn/2026-05-28.md) | [📚 Readwise](readwise/2026-05-28.md) |
-| 2026-05-27 | — | [📚 Readwise](readwise/2026-05-27.md) |
-| 2026-05-26 | — | [📚 Readwise](readwise/2026-05-26.md) |
-| 2026-05-25 | — | [📚 Readwise](readwise/2026-05-25.md) |
+| 日期 | HackerNews | note AI（日本語） | Readwise |
+| --- | --- | --- | --- |
+| 2026-05-31 | — | [🇯🇵 note AI（日本語）](note-com-jp/2026-05-31.md) | — |
+| 2026-05-30 | [📰 HackerNews](hn/2026-05-30.md) | — | [📚 Readwise](readwise/2026-05-30.md) |
+| 2026-05-29 | [📰 HackerNews](hn/2026-05-29.md) | — | [📚 Readwise](readwise/2026-05-29.md) |
+| 2026-05-28 | [📰 HackerNews](hn/2026-05-28.md) | — | [📚 Readwise](readwise/2026-05-28.md) |
+| 2026-05-27 | — | — | [📚 Readwise](readwise/2026-05-27.md) |
+| 2026-05-26 | — | — | [📚 Readwise](readwise/2026-05-26.md) |
+| 2026-05-25 | — | — | [📚 Readwise](readwise/2026-05-25.md) |
 
 ## 主题入口
 

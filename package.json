@@ -7,6 +7,7 @@
     "dev:readwise": "tsx scripts/src/cli.ts --skill readwise --dry-run",
     "generate": "tsx scripts/src/cli.ts",
     "generate:list": "tsx scripts/src/cli.ts --list",
+    "panel": "tsx scripts/src/server/server.ts",
     "publish:daily": "tsx scripts/src/publish-daily.ts",
     "notify": "tsx scripts/src/notify-discord.ts",
     "build:index": "tsx scripts/src/build-index.ts",
@@ -21,10 +22,13 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.99.0",
     "@google/generative-ai": "^0.24.1",
+    "@hono/node-server": "^2.0.4",
     "commander": "^12.1.0",
     "dotenv": "^16.4.7",
     "execa": "^9.5.2",
+    "fflate": "^0.8.3",
     "gray-matter": "^4.0.3",
+    "hono": "^4.12.23",
     "openai": "^4.77.0",
     "yaml": "^2.9.0",
     "zod": "^3.24.1"
