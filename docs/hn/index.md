@@ -6,13 +6,13 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-01__
+-   :material-star-shooting: __最新 · 2026-06-02__
 
     ---
 
-    Today’s top articles reveal a deepening divide in the AI community, with debates shifting from technical implementation—such as the choice between building agents versus pipelines—…
+    Today’s tech headlines are dominated by a surge in AI-powered social engineering attacks, as hackers successfully manipulated Meta’s AI support bot to hijack high-profile Instagram…
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-01.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-02.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-02](2026-06-02.md)<br/><span class="md-typeset__small">Today’s tech headlines are dominated by a surge in AI-powered social engineering attacks, as hackers successfully manipulated Meta’s AI support bot to hijack high-profile Instagram…</span>
 - [2026-06-01](2026-06-01.md)<br/><span class="md-typeset__small">Today’s top articles reveal a deepening divide in the AI community, with debates shifting from technical implementation—such as the choice between building agents versus pipelines—…</span>
 
 ### 2026-05

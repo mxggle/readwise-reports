@@ -11,7 +11,7 @@
     },
     {
       "label": "值得读",
-      "value": "0 精读 · 5 扫读"
+      "value": "1 精读 · 4 扫读"
     },
     {
       "label": "主题分布",
@@ -23,29 +23,25 @@
     }
   ],
   "keywords": [
-    "comments",
     "how",
     "one",
     "solution",
+    "last",
+    "agents",
     "week",
     "new",
-    "plus",
-    "agents",
-    "all",
-    "can",
     "library",
-    "statement"
+    "plus",
+    "statement",
+    "deep",
+    "subscription"
   ],
   "sections": [
     {
       "name": "今日重点",
-      "entries": []
-    },
-    {
-      "name": "值得扫读",
       "entries": [
         {
-          "score": 60,
+          "score": 79,
           "scoreMax": 100,
           "emoji": "🤖",
           "title": "Introduction to Deep RL and DQN",
@@ -74,9 +70,120 @@
               "content": "这篇文章简洁地指出了当前AI领域知识焦点的转变，对于理解技术趋势有启发价值。"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "值得扫读",
+      "entries": [
+        {
+          "score": 65,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "The solution might be cancelling my AI subscription",
+          "source": "Reader",
+          "author": "Simon Willison's Weblog",
+          "url": "https://read.readwise.io/read/01ksze4ne3g2travf13wesh4y5",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usua",
+          "body": []
         },
         {
-          "score": 60,
+          "score": 62,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "🥇Top AI Papers of the Week",
+          "source": "Reader",
+          "author": "NLP Newsletter",
+          "url": "https://read.readwise.io/read/01ksz8ypes9kad6t41dqtcsyxd",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "文章介绍微软研究院的一项研究，将紧凑的自然语言技能文档作为冻结智能体的可训练状态，并通过回滚、反思和由保留验证集控制的有限编辑来学习该文档。",
+          "body": [
+            {
+              "heading": "是什么",
+              "content": "文章介绍微软研究院的一项研究，将紧凑的自然语言技能文档作为冻结智能体的可训练状态，并通过回滚、反思和由保留验证集控制的有限编辑来学习该文档。"
+            },
+            {
+              "heading": "亮点",
+              "content": "- 微软研究院提出了一种新的智能体训练方法。\n- 该方法将自然语言技能文档视为可训练状态。\n- 训练过程包括回滚、反思和有限编辑。\n- 编辑过程由保留验证集进行控制。"
+            },
+            {
+              "heading": "新颖点",
+              "content": "- 将自然语言文档作为智能体的可训练状态，而非直接训练模型参数，是一种新颖的范式。\n- 通过回滚和反思机制，结合验证集约束，实现了对智能体行为的可控学习。"
+            },
+            {
+              "heading": "综合判断",
+              "content": "这篇文章介绍了一种前沿的AI研究思路，对于关注智能体训练和自然语言交互的读者具有重要参考价值。"
+            }
+          ]
+        },
+        {
+          "score": 59,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "Holding the human line as cyborgs ⊗ A framework for action",
+          "source": "Reader",
+          "author": "Patrick Tanguay",
+          "url": "https://read.readwise.io/read/01ksyqq8jp149najc96c0f34ha",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "No.405 — Big Tech’s anti-labor playbook ⊗ Evidence for the future? ⊗ Māori data sovereignty ⊗ Superhot rock holds the energy of the future ⊗ Britain tries a new solution: beavers",
+          "body": []
+        },
+        {
+          "score": 58,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "Wisereads Vol. 145 — The Library Book by Susan Orlean, Packy McCormick on Riding the Leopard, and more",
+          "source": "Reader",
+          "author": "hello@readwise.io (Readwise)",
+          "url": "https://read.readwise.io/read/01kszb82fys7dm45p0msj4c49c",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Last week, we shared a preview of Brad Stulberg's new release, The Way of Excellence: A Guide to True Greatness and Deep Satisfaction in a Chaotic World. This week, we're sharing a preview of The Library Book, Susan Orle",
+          "body": []
+        }
+      ]
+    },
+    {
+      "name": "适合保存，暂不深读",
+      "entries": [
+        {
+          "score": 53,
+          "scoreMax": 100,
+          "emoji": "🤖",
+          "title": "A rational conversation on where AI is actually going | Benedict Evans",
+          "source": "Reader",
+          "author": "Lenny's Newsletter",
+          "url": "https://read.readwise.io/read/01ksz11h2se2ar7ntf1cjme9tn",
+          "tags": [
+            "AI"
+          ],
+          "excerpt": "Benedict Evans is an independent analyst and former partner at Andreessen Horowitz, where he spent years as their in-house “thinker” tracking the most important technology trends.",
+          "body": []
+        },
+        {
+          "score": 52,
+          "scoreMax": 100,
+          "emoji": "🧩",
+          "title": "Wisereads Vol. 145 — The Library Book by Susan Orlean, Packy McCormick on Riding the Leopard, and more",
+          "source": "Reader",
+          "author": "Readwise",
+          "url": "https://read.readwise.io/read/01kszbgcp0pyd8zs884gn2vxpj",
+          "tags": [
+            "Other"
+          ],
+          "excerpt": "Last week, we shared a preview of Brad Stulberg's new release, The Way of Excellence: A Guide to True Greatness and Deep Satisfaction in a Chaotic World.",
+          "body": []
+        },
+        {
+          "score": 48,
           "scoreMax": 100,
           "emoji": "🤖",
           "title": "😹 Grok killed a whole town in 4 days",
@@ -107,159 +214,31 @@
           ]
         },
         {
-          "score": 60,
+          "score": 48,
           "scoreMax": 100,
           "emoji": "🤖",
-          "title": "The Speed of Prototyping in the Age of AI",
+          "title": "😺 The Pope’s Warning on AI's Babel",
           "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kszf3r3bvzqvqvcqq5psb443",
+          "author": "Grant Harvey",
+          "url": "https://read.readwise.io/read/01ksz5mrnqxcbqdr11jptnsrn5",
           "tags": [
             "AI"
           ],
-          "excerpt": "文章标题讨论在AI时代原型制作的速度，但内容仅显示为“Comments”，无具体论述。",
-          "body": [
-            {
-              "heading": "是什么",
-              "content": "文章标题讨论在AI时代原型制作的速度，但内容仅显示为“Comments”，无具体论述。"
-            },
-            {
-              "heading": "亮点",
-              "content": "- AI时代原型制作速度是讨论焦点。\n- 内容为空，无法提取具体信息。"
-            },
-            {
-              "heading": "综合判断",
-              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
-            }
-          ]
+          "excerpt": "PLUS: US Gov wants to stop “violent anti-tech extremism”",
+          "body": []
         },
         {
-          "score": 60,
+          "score": 48,
           "scoreMax": 100,
           "emoji": "🤖",
-          "title": "Talk Is Cheap: The Operational Impact of LLM Use",
+          "title": "😼 Robinhood gave AI agents wallets",
           "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kszf3r013e944gr39hxxh6e8",
+          "author": "Grant Harvey",
+          "url": "https://read.readwise.io/read/01ksz5mrk6gsd14a39a8g19af5",
           "tags": [
             "AI"
           ],
-          "excerpt": "文章标题讨论LLM使用的运营影响，但内容仅显示为“Comments”，无具体论述。",
-          "body": [
-            {
-              "heading": "是什么",
-              "content": "文章标题讨论LLM使用的运营影响，但内容仅显示为“Comments”，无具体论述。"
-            },
-            {
-              "heading": "亮点",
-              "content": "- LLM使用的运营影响是讨论焦点。\n- 内容为空，无法提取具体信息。"
-            },
-            {
-              "heading": "综合判断",
-              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
-            }
-          ]
-        },
-        {
-          "score": 60,
-          "scoreMax": 100,
-          "emoji": "🤖",
-          "title": "Odysseus – self-hosted AI workspace",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kszdq0r94zhq3djpz7mhbzb1",
-          "tags": [
-            "AI"
-          ],
-          "excerpt": "文章标题介绍Odysseus——一个自托管的AI工作空间，但内容仅显示为“Comments”，无具体论述。",
-          "body": [
-            {
-              "heading": "是什么",
-              "content": "文章标题介绍Odysseus——一个自托管的AI工作空间，但内容仅显示为“Comments”，无具体论述。"
-            },
-            {
-              "heading": "亮点",
-              "content": "- Odysseus是一个自托管的AI工作空间。\n- 内容为空，无法提取具体信息。"
-            },
-            {
-              "heading": "综合判断",
-              "content": "由于缺乏实际内容，这篇文章没有提供任何有价值的信息，可以跳过。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "适合保存，暂不深读",
-      "entries": [
-        {
-          "score": 50,
-          "scoreMax": 100,
-          "emoji": "🧩",
-          "title": "Atherton spent $145K to delay train electrification. The rest of us paid $400M",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kt029yh07s7dwhxz6ca1zvym",
-          "tags": [
-            "Other"
-          ],
-          "excerpt": "Comments",
-          "body": []
-        },
-        {
-          "score": 50,
-          "scoreMax": 100,
-          "emoji": "🧩",
-          "title": "It's Not Just X. It's Y",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kt029ye5qpw933kdavjhkpn4",
-          "tags": [
-            "Other"
-          ],
-          "excerpt": "Comments",
-          "body": []
-        },
-        {
-          "score": 50,
-          "scoreMax": 100,
-          "emoji": "🧩",
-          "title": "The need for a socialist planned economy (2021)",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kt0215nxhs1bewckn1jv913q",
-          "tags": [
-            "Other"
-          ],
-          "excerpt": "Comments",
-          "body": []
-        },
-        {
-          "score": 50,
-          "scoreMax": 100,
-          "emoji": "🧩",
-          "title": "New solar desalination breakthrough makes fresh water without toxic brine",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kt01cwdajt45dsv414qtfbeq",
-          "tags": [
-            "Other"
-          ],
-          "excerpt": "Comments",
-          "body": []
-        },
-        {
-          "score": 50,
-          "scoreMax": 100,
-          "emoji": "🧩",
-          "title": "'Backrooms' Stuns with $81M Debut",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kszt7w90dphdt4ntcvsafc46",
-          "tags": [
-            "Other"
-          ],
-          "excerpt": "Comments",
+          "excerpt": "PLUS: AxiomProver, Google cyber agents, MagicPath, and AI music.",
           "body": []
         }
       ]
@@ -268,21 +247,7 @@
       "name": "跳过",
       "entries": [
         {
-          "score": 30,
-          "scoreMax": 100,
-          "emoji": "💼",
-          "title": "Show HN: The Tired Engineer",
-          "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01ksz5ph13xxvg0v70p4c6nc0e",
-          "tags": [
-            "Career"
-          ],
-          "excerpt": "Comments",
-          "body": []
-        },
-        {
-          "score": 20,
+          "score": 40,
           "scoreMax": 100,
           "emoji": "🧩",
           "title": "Codex just found a “workaround” of not having sudo on...",
@@ -296,21 +261,21 @@
           "body": []
         },
         {
-          "score": 20,
+          "score": 38,
           "scoreMax": 100,
           "emoji": "🧩",
-          "title": "An Analysis of GrapheneOS's Server Infrastructure",
+          "title": "相信很多朋友已经被【ChatGPT 用 2 个月达到月活用户 1 亿】的新闻刷屏了，此前记录是 TikTok 用时 9 个月",
           "source": "Reader",
-          "author": "Hacker News",
-          "url": "https://read.readwise.io/read/01kszdq0nbnrpcktj0pk2rne34",
+          "author": "starzq.eth⛩️",
+          "url": "https://read.readwise.io/read/01grqbyybgjfwb2red0nvdgke0",
           "tags": [
             "Other"
           ],
-          "excerpt": "Comments",
+          "excerpt": "相信很多朋友已经被【ChatGPT 用 2 个月达到月活用户 1 亿】的新闻刷屏了，此前记录是 TikTok 用时 9 个月 每一次亿级产品的出现，背后都是对【人才需求】的范式转移，早早做好准备的人会在新的浪潮中受益终身 下面我将分享 3 点 ChatGPT 对人才需求带来的变化，以及需要的应对措施和机会点👇🏻 1/21",
           "body": []
         },
         {
-          "score": 20,
+          "score": 38,
           "scoreMax": 100,
           "emoji": "🧩",
           "title": "今天帮 @urcyanide 查了很教科书的一个问题",
@@ -320,11 +285,11 @@
           "tags": [
             "Other"
           ],
-          "excerpt": "今天帮 @urcyanide 查了很教科书的一个问题\n首先，下午的时候，网友求助我说某个客户的服务出现一个很奇怪的情况。具体现象为服务访问超时。抓包发现，一直在发送 SYN，但是服务侧没有响应（即三次握手没法建立），tcpdump 的抓包结果也验证了这点。我们能看到一直在发 SYN 包，但是没响应",
+          "excerpt": "今天帮 @urcyanide 查了很教科书的一个问题 首先，下午的时候，网友求助我说某个客户的服务出现一个很奇怪的情况。具体现象为服务访问超时。抓包发现，一直在发送 SYN，但是服务侧没有响应（即三次握手没法建立），tcpdump 的抓包结果也验证了这点。我们能看到一直在发 SYN 包，但是没响应",
           "body": []
         },
         {
-          "score": 20,
+          "score": 38,
           "scoreMax": 100,
           "emoji": "🧩",
           "title": "警钟已经敲响了。",
@@ -334,11 +299,11 @@
           "tags": [
             "Other"
           ],
-          "excerpt": "警钟已经敲响了。\nChatGPT最可能取代的10种工作\n\n作 者：韩旭阳\n来 源：华尔街见闻\n\nChatGPT的横空出世，在业界掀起了惊涛骇浪。专家表示，ChatGPT和相关人工智能技术可能会威胁到一些工作岗位，尤其是白领工作。",
+          "excerpt": "警钟已经敲响了。 ChatGPT最可能取代的10种工作 作 者：韩旭阳 来 源：华尔街见闻 ChatGPT的横空出世，在业界掀起了惊涛骇浪。专家表示，ChatGPT和相关人工智能技术可能会威胁到一些工作岗位，尤其是白领工作。",
           "body": []
         },
         {
-          "score": 20,
+          "score": 38,
           "scoreMax": 100,
           "emoji": "🧩",
           "title": "推荐几个 @edXOnline 上我觉得很符合当今趋势的免费课程，这些课程都不是指定的专业领域如编程或设计，而是一些能够增强综合能力和表现的普适性课程，不定期补充此 #thread",
@@ -348,11 +313,11 @@
           "tags": [
             "Other"
           ],
-          "excerpt": "推荐几个 @edXOnline 上我觉得很符合当今趋势的免费课程，这些课程都不是指定的专业领域如编程或设计，而是一些能够增强综合能力和表现的普适性课程，不定期补充此 #thread\n\n1/n 哈佛大学的远程协作课程，教授如何使用好工具以及新的沟通模式来进行好团队的远程协作和交流",
+          "excerpt": "推荐几个 @edXOnline 上我觉得很符合当今趋势的免费课程，这些课程都不是指定的专业领域如编程或设计，而是一些能够增强综合能力和表现的普适性课程，不定期补充此 #thread 1/n 哈佛大学的远程协作课程，教授如何使用好工具以及新的沟通模式来进行好团队的远程协作和交流",
           "body": []
         },
         {
-          "score": 20,
+          "score": 38,
           "scoreMax": 100,
           "emoji": "🧩",
           "title": "I've listened to more than 500 podcasts in the last...",
@@ -366,17 +331,31 @@
           "body": []
         },
         {
-          "score": 0,
+          "score": 33,
           "scoreMax": 100,
-          "emoji": "🤖",
-          "title": "Quoting Karen Kwok for Reuters Breakingviews",
+          "emoji": "💼",
+          "title": "Resume to get shortlisted in FAANG!",
           "source": "Reader",
-          "author": "Simon Willison's Weblog",
-          "url": "https://read.readwise.io/read/01ksxvwx33mc7d9ne99y0ahsxf",
+          "author": "Rohit Ghumare | That #DevOps Guy✍️",
+          "url": "https://read.readwise.io/read/01gqphqj2j9sthqh55v8w246ax",
           "tags": [
-            "AI"
+            "Career"
           ],
-          "excerpt": "Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together.\n— Karen Kwok for Reuters Breakingviews, citing \"a person familiar with the matter\"\nTags: anthropic, ai",
+          "excerpt": "Resume to get shortlisted in FAANG!",
+          "body": []
+        },
+        {
+          "score": 33,
+          "scoreMax": 100,
+          "emoji": "💼",
+          "title": "Show HN: The Tired Engineer",
+          "source": "Reader",
+          "author": "Hacker News",
+          "url": "https://read.readwise.io/read/01ksz5ph13xxvg0v70p4c6nc0e",
+          "tags": [
+            "Career"
+          ],
+          "excerpt": "Comments",
           "body": []
         }
       ]
