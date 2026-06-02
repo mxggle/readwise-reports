@@ -1,7 +1,7 @@
 {
   "id": "note-com-jp",
   "title": "note AI（日本語）",
-  "description": "note.com で過去24時間に人気の AI 技術記事を、中文要約＋やさしい日本語(N3–N2)＋全文で配信。",
+  "description": "note.com で過去24時間に人気の AI 技術記事を、中文要約＋やさしい日本語(N3–N2)で配信。",
   "enabled": true,
   "ai": {
     "mode": "auto",

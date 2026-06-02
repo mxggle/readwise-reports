@@ -51,13 +51,10 @@ function renderArticle(article: ProcessedArticle, index: number, timezone: strin
     .filter(Boolean)
     .join(" ・ ");
 
-  // Article titles are H2; section labels below are H3 — so any headings inside
-  // the AI output or the original body are nested at H4+.
-  const summary = article.summaryZh ? nestHeadings(article.summaryZh, 4) : "_（AI 摘要生成失败，请直接阅读下方全文。）_";
+  const summary = article.summaryZh ? nestHeadings(article.summaryZh, 4) : "_（AI 摘要生成失败，请直接阅读原文。）_";
   const rewrite = article.rewriteJa
     ? nestHeadings(article.rewriteJa, 4)
-    : "_（AI によるやさしい日本語版の生成に失敗しました。下の全文をご覧ください。）_";
-  const body = article.bodyMarkdown ? nestHeadings(article.bodyMarkdown, 4) : "_（本文を取得できませんでした。）_";
+    : "_（AI によるやさしい日本語版の生成に失敗しました。原文をご覧ください。）_";
   const truncatedNote = article.bodyTruncated
     ? "\n\n> ⚠️ 本文が長いため、やさしい日本語版は前半を中心にカバーしています。\n"
     : "";
@@ -75,10 +72,6 @@ function renderArticle(article: ProcessedArticle, index: number, timezone: strin
     "",
     rewrite,
     truncatedNote,
-    "",
-    "### 📖 全文（原文）",
-    "",
-    body,
     "",
     "---",
     "",
@@ -112,7 +105,7 @@ export function renderReport({ date, timezone, hashtags, articles, skippedCount 
     `# 🇯🇵 note AI 日本語ダイジェスト — ${date}`,
     "",
     `> note.com で過去 24 時間に人気の AI 記事｜タグ: ${tagLine}`,
-    "> 各記事：① 中文摘要 ② やさしい日本語 (N3–N2) ③ 全文（原文）",
+    "> 各記事：① 中文摘要 ② やさしい日本語 (N3–N2) ③ [note で読む]（リンク）",
     "",
   ];
 
