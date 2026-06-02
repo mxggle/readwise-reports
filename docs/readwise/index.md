@@ -6,13 +6,13 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-02__
+-   :material-star-shooting: __最新 · 2026-06-03__
 
     ---
 
-    今天阅读内容的核心趋势是：AI正从工具演变为可被直接操纵的“系统后门”，同时也在渗透进物理世界（如家政数据采集）。对Harry而言，职业上需警惕AI安全漏洞（如Meta客服机器人被一句话劫持账户），学习上应关注“零代码构建应用”的可行性（如Bryce用AI开发iPhone应用）。
+    今日阅读总结 1. 趋势：AI 工具正从命令行（如 strace-ui）向交互式终端界面（TUI）复兴，同时 Anthropic 等公司加速 IPO 与融资，AI 原生工程成为职业新方向。 2. 对 Harry 的意义：将学习热情转化为一人公司（如健身→
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-02.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-03.md)
 
 </div>
 
@@ -20,7 +20,8 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
-- [2026-06-02](2026-06-02.md)<br/><span class="md-typeset__small">今天阅读内容的核心趋势是：AI正从工具演变为可被直接操纵的“系统后门”，同时也在渗透进物理世界（如家政数据采集）。对Harry而言，职业上需警惕AI安全漏洞（如Meta客服机器人被一句话劫持账户），学习上应关注“零代码构建应用”的可行性（如Bryce用AI开发iPhone应用）。</span>
+- [2026-06-03](2026-06-03.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 工具正从命令行（如 strace-ui）向交互式终端界面（TUI）复兴，同时 Anthropic 等公司加速 IPO 与融资，AI 原生工程成为职业新方向。 2. 对 Harry 的意义：将学习热情转化为一人公司（如健身→</span>
+- [2026-06-02](2026-06-02.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 正从文本生成转向“物理世界理解”，NVIDIA Cosmos 3 和 xAI Grok Imagine 代表视频模型成为下一波重点；同时，GitHub 等平台因过度追求 AI 功能而牺牲可靠性，暴露了基础设施的脆弱性。 2.</span>
 - [2026-06-01](2026-06-01.md)<br/><span class="md-typeset__small">今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可</span>
 
 ### 2026-05
