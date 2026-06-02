@@ -29,6 +29,11 @@ export default async function run(ctx: SkillContext): Promise<SkillResult> {
   ]);
   const deduped = dedupe([...highlights, ...readerDocs]);
   const { fresh, skipped } = await store.filterUnprocessed(deduped);
+  if (fresh.length === 0) {
+    log.info(`Fetched ${deduped.length} unique items; no new reportable content after dedup.`);
+    return { itemsProcessed: 0, itemsSkipped: 0 };
+  }
+
   const classified = classify(fresh);
   log.info(`Fetched ${deduped.length} unique items; ${fresh.length} new, ${skipped.length} already processed.`);
 

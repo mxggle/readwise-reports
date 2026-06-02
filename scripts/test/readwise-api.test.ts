@@ -32,6 +32,7 @@ describe("dedupe", () => {
 
 describe("fetchReaderDocuments pagination", () => {
   const realFetch = globalThis.fetch;
+  const longBody = "This article has enough substantive body text to be eligible for the daily report and exercise pagination behavior.";
 
   afterEach(() => {
     globalThis.fetch = realFetch;
@@ -45,8 +46,8 @@ describe("fetchReaderDocuments pagination", () => {
     globalThis.fetch = (async (url: string) => {
       calls.push(String(url));
       const body = String(url).includes("pageCursor=CURSOR2")
-        ? { count: 2, nextPageCursor: null, results: [{ id: 2, title: "B" }] }
-        : { count: 2, nextPageCursor: "CURSOR2", results: [{ id: 1, title: "A" }] };
+        ? { count: 2, nextPageCursor: null, results: [{ id: 2, title: "B", html_content: `<p>${longBody}</p>`, category: "article", parent_id: null }] }
+        : { count: 2, nextPageCursor: "CURSOR2", results: [{ id: 1, title: "A", html_content: `<p>${longBody}</p>`, category: "article", parent_id: null }] };
       return { ok: true, status: 200, json: async () => body } as Response;
     }) as typeof fetch;
 
@@ -55,6 +56,8 @@ describe("fetchReaderDocuments pagination", () => {
     expect(docs.map((d) => d.id)).toEqual(["r-1", "r-2"]);
     expect(calls).toHaveLength(2);
     expect(calls[0]).toContain("updatedAfter=");
+    expect(calls[0]).toContain("withHtmlContent=true");
+    expect(calls[0]).toContain("limit=100");
     expect(calls[1]).toContain("pageCursor=CURSOR2");
   });
 
@@ -66,7 +69,7 @@ describe("fetchReaderDocuments pagination", () => {
       return {
         ok: true,
         status: 200,
-        json: async () => ({ nextPageCursor: "STUCK", results: [{ id: requests }] }),
+        json: async () => ({ nextPageCursor: "STUCK", results: [{ id: requests, title: `Doc ${requests}`, html_content: `<p>${longBody}</p>`, category: "article", parent_id: null }] }),
       } as Response;
     }) as typeof fetch;
 
@@ -74,6 +77,67 @@ describe("fetchReaderDocuments pagination", () => {
 
     expect(requests).toBe(2); // page 1 sets cursor=STUCK, page 2 returns STUCK again → stop
     expect(docs).toHaveLength(2);
+  });
+
+  it("maps html_content to text and filters Reader child docs plus empty placeholders", async () => {
+    process.env.READWISE_TOKEN = "test-token";
+    globalThis.fetch = (async () => ({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        nextPageCursor: null,
+        results: [
+          {
+            id: "article",
+            title: "Useful article",
+            html_content: "<article><h1>Useful article</h1><p>A substantive explanation of AI workflow design with concrete implementation steps.</p></article>",
+            summary: "Comments",
+            category: "article",
+            parent_id: null,
+            tags: { ai: {} },
+          },
+          {
+            id: "child-highlight",
+            title: "Reader highlight child",
+            html_content: "<p>A child highlight should not be treated as a full document.</p>",
+            category: "highlight",
+            parent_id: "article",
+          },
+          {
+            id: "comments",
+            title: "Comments only",
+            html_content: "",
+            summary: "Comments",
+            category: "article",
+            parent_id: null,
+          },
+          {
+            id: "short-summary",
+            title: "Short summary",
+            html_content: `<p>${longBody}</p>`,
+            summary: "Good morning.",
+            category: "article",
+            parent_id: null,
+          },
+        ],
+      }),
+    }) as Response) as typeof fetch;
+
+    const docs = await fetchReaderDocuments("2026-01-01T00:00:00Z");
+
+    expect(docs).toHaveLength(2);
+    expect(docs[0]).toMatchObject({
+      id: "r-article",
+      title: "Useful article",
+      text: "Useful article A substantive explanation of AI workflow design with concrete implementation steps.",
+      summary: undefined,
+      tags: ["ai"],
+    });
+    expect(docs[1]).toMatchObject({
+      id: "r-short-summary",
+      summary: undefined,
+      text: longBody,
+    });
   });
 });
 

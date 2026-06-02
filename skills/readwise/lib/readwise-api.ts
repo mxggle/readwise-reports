@@ -14,7 +14,7 @@ const MAX_PAGES = 100;
 const PAGE_SIZE = 100;
 
 const READER_FIELDS =
-  "title,author,source,category,location,tags,site_name,word_count,reading_time,created_at,updated_at,published_date,summary,url,source_url,saved_at";
+  "title,author,source,category,location,tags,site_name,word_count,reading_time,created_at,updated_at,published_date,summary,url,source_url,saved_at,parent_id,content,html_content";
 
 // Highlight fields for the CLI list path. Requesting book_* fields enriches each
 // highlight with its parent book's metadata in the same request (no N+1 lookups).
@@ -32,6 +32,43 @@ function normalizeTags(...sources: any[]): string[] {
     }
   }
   return out.filter(Boolean);
+}
+
+function textFromHtml(html: string): string {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function readerText(d: any): string {
+  return textFromHtml(d.html_content || d.content || d.summary || "");
+}
+
+function isPlaceholderText(value: string | undefined | null): boolean {
+  return /^(comments?|no content|this tweet contains no text)$/i.test((value || "").trim());
+}
+
+function readerSummary(value: string | undefined | null): string | undefined {
+  const summary = (value || "").trim();
+  if (!summary || isPlaceholderText(summary) || summary.length < 80) return undefined;
+  return summary;
+}
+
+function isReportableReaderDoc(d: any): boolean {
+  if (d.parent_id) return false;
+  if (d.category === "highlight" || d.category === "note") return false;
+  const text = readerText(d);
+  if (isPlaceholderText(text)) return false;
+  return text.length >= 80;
 }
 
 async function readwiseApi(path: string, attempt = 0): Promise<any> {
@@ -142,6 +179,8 @@ async function fetchHighlightsViaCli(updatedAfter: string): Promise<any[]> {
 }
 
 function mapReaderDoc(d: any): SourceItem {
+  const text = readerText(d);
+  const summary = readerSummary(d.summary);
   return {
     id: `r-${d.id}`,
     title: d.title || "Untitled Reader document",
@@ -151,12 +190,12 @@ function mapReaderDoc(d: any): SourceItem {
     source: "reader-document",
     category: d.category,
     location: d.location,
-    text: d.content || d.summary || "",
-    summary: d.summary,
+    text,
+    summary,
     createdAt: d.created_at || d.saved_at,
     updatedAt: d.updated_at,
     publishedDate: d.published_date,
-    tags: Object.keys(d.tags || {}),
+    tags: normalizeTags(d.tags),
     wordCount: d.word_count,
   };
 }
@@ -187,14 +226,14 @@ async function fetchReaderDocsViaCli(updatedAfter: string): Promise<any[]> {
 
 export async function fetchReaderDocuments(updatedAfter: string, log?: WarnLog): Promise<SourceItem[]> {
   if (readwiseToken()) {
-    const results = await fetchAllPages(`/api/v3/list/?updatedAfter=${encodeURIComponent(updatedAfter)}`);
-    return results.map(mapReaderDoc);
+    const results = await fetchAllPages(`/api/v3/list/?updatedAfter=${encodeURIComponent(updatedAfter)}&limit=${PAGE_SIZE}&withHtmlContent=true`);
+    return results.filter(isReportableReaderDoc).map(mapReaderDoc);
   }
 
   if (!readwiseUseCli()) return [];
   try {
     const results = await fetchReaderDocsViaCli(updatedAfter);
-    return results.map(mapReaderDoc);
+    return results.filter(isReportableReaderDoc).map(mapReaderDoc);
   } catch (error) {
     log?.warn(`Reader CLI fetch failed: ${error instanceof Error ? error.message : String(error)}`);
     return [];
