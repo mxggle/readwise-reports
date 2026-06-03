@@ -12,6 +12,11 @@
   --md-code-font: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas,
     "Liberation Mono", monospace;
   --rw-radius: 14px;
+
+  /* Font stacks used by the theme axis (see THEME AXIS section). */
+  --rw-serif: "Newsreader", "Noto Serif SC", Georgia, serif;
+  --rw-display: "Fraunces", "Noto Serif SC", Georgia, serif;
+  --rw-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
 /* =============================================================
@@ -326,3 +331,135 @@
 /* tighten the content top spacing a touch */
 .md-content__inner { padding-top: 1rem; }
 .md-content__inner::before { height: 0; }
+
+/* =============================================================
+   THEME AXIS  (orthogonal to the tone palette above)
+
+     data-md-color-scheme  → tone   : Light / Dark / Sepia  (colours)
+     data-rw-theme         → theme  : calm / editorial / terminal
+                                       (type, density, accent, radius)
+
+   "calm" is the default and equals the styling defined above, so it
+   needs no block here — removing the attribute reverts to it.
+   Editorial and Terminal only LAYER differences on top: fonts, type
+   scale, accent and radius. Tone (bg/text/surface) is untouched.
+   ============================================================= */
+
+/* ---------- EDITORIAL : serif magazine ---------- */
+[data-rw-theme="editorial"] {
+  --md-text-font: var(--rw-serif);
+  --rw-radius: 6px;
+  --rw-accent: #b07a4e;
+  --rw-accent-h: #caa078;
+}
+[data-md-color-scheme="default"][data-rw-theme="editorial"],
+[data-md-color-scheme="sepia"][data-rw-theme="editorial"] {
+  --rw-accent: #9a5b34;
+  --rw-accent-h: #7d4624;
+}
+[data-rw-theme="editorial"] .md-typeset {
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+[data-rw-theme="editorial"] .md-typeset h1,
+[data-rw-theme="editorial"] .md-typeset h2,
+[data-rw-theme="editorial"] .md-typeset h3,
+[data-rw-theme="editorial"] .md-typeset h4 {
+  font-family: var(--rw-display);
+  letter-spacing: 0;
+}
+[data-rw-theme="editorial"] .md-typeset h1 {
+  font-size: 1.95rem;
+  font-weight: 560;
+  line-height: 1.08;
+}
+[data-rw-theme="editorial"] .md-typeset h2 { font-weight: 560; }
+
+/* ---------- TERMINAL : dense, monospace, green signal ---------- */
+[data-rw-theme="terminal"] {
+  --rw-radius: 8px;
+  --rw-accent: #7bbf9a;
+  --rw-accent-h: #a3d6bd;
+}
+[data-md-color-scheme="default"][data-rw-theme="terminal"],
+[data-md-color-scheme="sepia"][data-rw-theme="terminal"] {
+  --rw-accent: #2f8f63;
+  --rw-accent-h: #1f6e49;
+}
+[data-rw-theme="terminal"] .md-typeset {
+  font-size: 0.8rem;
+  line-height: 1.62;
+}
+/* Monospace headings give report pages an unmistakable terminal read.
+   CJK glyphs fall back to the system stack; Latin renders in JetBrains Mono. */
+[data-rw-theme="terminal"] .md-typeset h1,
+[data-rw-theme="terminal"] .md-typeset h2,
+[data-rw-theme="terminal"] .md-typeset h3,
+[data-rw-theme="terminal"] .md-typeset h4 {
+  font-family: var(--rw-mono);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+[data-rw-theme="terminal"] .md-typeset h1 { font-size: 1.4rem; font-weight: 700; }
+[data-rw-theme="terminal"] .md-typeset h2 {
+  font-size: 0.98rem;
+  border-bottom-style: dashed;
+}
+/* Header brand + tabs pick up the mono voice too. */
+[data-rw-theme="terminal"] .md-header__title,
+[data-rw-theme="terminal"] .md-tabs__link {
+  font-family: var(--rw-mono);
+  letter-spacing: -0.01em;
+}
+
+/* =============================================================
+   主题 SWITCHER  (injected into the header by overrides/main.html)
+   Quiet mono pills, mirrors the existing palette toggle's restraint.
+   ============================================================= */
+.rw-theme-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0.4rem 0 auto;
+  padding-right: 0.2rem;
+}
+.rw-theme-switch__lbl {
+  font-family: var(--rw-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rw-faint);
+  margin-right: 4px;
+}
+.rw-theme-switch button {
+  font-family: var(--rw-mono);
+  font-size: 0.68rem;
+  line-height: 1;
+  color: var(--rw-muted);
+  background: transparent;
+  border: 1px solid var(--rw-border);
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+.rw-theme-switch button:hover {
+  color: var(--rw-head);
+  border-color: var(--rw-border-h);
+}
+.rw-theme-switch button[aria-pressed="true"] {
+  color: var(--rw-bg);
+  background: var(--rw-accent);
+  border-color: var(--rw-accent);
+  font-weight: 600;
+}
+
+/* On narrow screens the header is crowded — drop the label, then the
+   whole control (theme stays persisted from a desktop choice). */
+@media (max-width: 76.1875em) {
+  .rw-theme-switch__lbl { display: none; }
+  .rw-theme-switch { margin-left: 0.4rem; }
+}
+@media (max-width: 59.9375em) {
+  .rw-theme-switch { display: none; }
+}

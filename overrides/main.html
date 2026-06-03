@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+<!-- ============================================================
+     Readwise Reports — theme axis override
+     Adds a "主题" switcher (Calm / Editorial / Terminal) alongside
+     Material's built-in tone palette (Light / Dark / Sepia).
+     The theme is stored on <html data-rw-theme> + localStorage;
+     all visual differences live in stylesheets/extra.css.
+     ============================================================ -->
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- Fonts used by the Editorial (serif/display) and Terminal (mono) themes.
+       Calm uses the system stack and ignores these. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=JetBrains+Mono:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap">
+  <!-- Restore the saved theme before first paint to avoid a flash. -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("rw-theme");
+        document.documentElement.setAttribute("data-rw-theme", t || "calm");
+      } catch (e) {
+        document.documentElement.setAttribute("data-rw-theme", "calm");
+      }
+    })();
+  </script>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    (function () {
+      var THEMES = [
+        { val: "calm", label: "Calm" },
+        { val: "editorial", label: "Editorial" },
+        { val: "terminal", label: "Terminal" }
+      ];
+
+      function current() {
+        return document.documentElement.getAttribute("data-rw-theme") || "calm";
+      }
+
+      function setAttr(val) {
+        // Tone (data-md-color-scheme) lives on <body>, so theme tokens must
+        // also sit on <body> to override the tone accent at the same cascade
+        // level. <html> too, so radius/fonts resolve before <body> exists.
+        document.documentElement.setAttribute("data-rw-theme", val);
+        if (document.body) document.body.setAttribute("data-rw-theme", val);
+      }
+
+      function apply(val) {
+        setAttr(val);
+        try { localStorage.setItem("rw-theme", val); } catch (e) {}
+        sync();
+      }
+
+      function sync() {
+        var cur = current();
+        document.querySelectorAll("[data-rw-theme-btn]").forEach(function (b) {
+          b.setAttribute("aria-pressed", b.dataset.rwThemeBtn === cur);
+        });
+      }
+
+      function build() {
+        var wrap = document.createElement("div");
+        wrap.className = "rw-theme-switch";
+        wrap.setAttribute("role", "group");
+        wrap.setAttribute("aria-label", "主题");
+        var lbl = document.createElement("span");
+        lbl.className = "rw-theme-switch__lbl";
+        lbl.textContent = "主题";
+        wrap.appendChild(lbl);
+        THEMES.forEach(function (t) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.dataset.rwThemeBtn = t.val;
+          b.textContent = t.label;
+          b.title = "主题：" + t.label;
+          b.addEventListener("click", function () { apply(t.val); });
+          wrap.appendChild(b);
+        });
+        return wrap;
+      }
+
+      function setup() {
+        setAttr(current()); // mirror the theme onto <body> after instant nav
+        var header = document.querySelector(".md-header__inner");
+        if (!header) return;
+        if (!header.querySelector(".rw-theme-switch")) {
+          var control = build();
+          var palette = header.querySelector(".md-header__option");
+          if (palette) header.insertBefore(control, palette);
+          else header.appendChild(control);
+        }
+        sync();
+      }
+
+      if (typeof document$ !== "undefined" && document$.subscribe) {
+        document$.subscribe(setup); // fires on first load and every instant navigation
+      } else if (document.readyState !== "loading") {
+        setup();
+      } else {
+        document.addEventListener("DOMContentLoaded", setup);
+      }
+    })();
+  </script>
+{% endblock %}
