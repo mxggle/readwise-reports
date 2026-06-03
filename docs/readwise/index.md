@@ -6,13 +6,13 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-03__
+-   :material-star-shooting: __最新 · 2026-06-04__
 
     ---
 
-    今日阅读总结 1. 趋势：AI 工具正从命令行（如 strace-ui）向交互式终端界面（TUI）复兴，同时 Anthropic 等公司加速 IPO 与融资，AI 原生工程成为职业新方向。 2. 对 Harry 的意义：将学习热情转化为一人公司（如健身→
+    今日阅读总结 1. AI Agent 取代工程师风险：文章指出，即使是AI工程师也面临被AI Agent取代的风险，因为AI正从工具演变为自主决策者，这直接挑战了Harry的职业安全感，提示他需从“造AI”转向“用AI解决复杂问题”。 2. AI数学推理突破
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-03.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-04.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-04](2026-06-04.md)<br/><span class="md-typeset__small">今日阅读总结 1. AI Agent 取代工程师风险：文章指出，即使是AI工程师也面临被AI Agent取代的风险，因为AI正从工具演变为自主决策者，这直接挑战了Harry的职业安全感，提示他需从“造AI”转向“用AI解决复杂问题”。 2. AI数学推理突破</span>
 - [2026-06-03](2026-06-03.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 工具正从命令行（如 strace-ui）向交互式终端界面（TUI）复兴，同时 Anthropic 等公司加速 IPO 与融资，AI 原生工程成为职业新方向。 2. 对 Harry 的意义：将学习热情转化为一人公司（如健身→</span>
 - [2026-06-02](2026-06-02.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 正从文本生成转向“物理世界理解”，NVIDIA Cosmos 3 和 xAI Grok Imagine 代表视频模型成为下一波重点；同时，GitHub 等平台因过度追求 AI 功能而牺牲可靠性，暴露了基础设施的脆弱性。 2.</span>
 - [2026-06-01](2026-06-01.md)<br/><span class="md-typeset__small">今日阅读聚焦AI趋势：深度强化学习（DQN）正成为与反向传播同等重要的基础技能，理解奖励信号、策略优化与探索-信用分配机制对Harry的职业发展至关重要。AI原型开发速度显著提升，但运营成本高昂（某公司月烧5亿美元），提示需平衡效率与资源管理。微软研究提出用自然语言技能文档作为可</span>
