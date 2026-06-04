@@ -6,11 +6,11 @@
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-04__
+-   :material-star-shooting: __最新 · 2026-06-05__
 
     ---
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-04.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-05.md)
 
 </div>
 
@@ -18,6 +18,7 @@
 
 ### 2026-06
 
+- [2026-06-05](2026-06-05.md)
 - [2026-06-04](2026-06-04.md)
 - [2026-06-03](2026-06-03.md)
 - [2026-06-02](2026-06-02.md)

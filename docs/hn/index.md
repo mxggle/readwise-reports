@@ -6,13 +6,13 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-04__
+-   :material-star-shooting: __最新 · 2026-06-05__
 
     ---
 
-    Today’s top tech articles reveal a growing tension between the push for AI sovereignty and the practical costs of AI adoption, as the UK doubles down on domestic datacenters while …
+    Today’s top tech coverage signals a major shift in the AI landscape, with the once-close Microsoft-OpenAI partnership showing signs of fracture and competitive tension. Meanwhile…
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-04.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-05.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-05](2026-06-05.md)<br/><span class="md-typeset__small">Today’s top tech coverage signals a major shift in the AI landscape, with the once-close Microsoft-OpenAI partnership showing signs of fracture and competitive tension. Meanwhile…</span>
 - [2026-06-04](2026-06-04.md)<br/><span class="md-typeset__small">Today’s top tech articles reveal a growing tension between the push for AI sovereignty and the practical costs of AI adoption, as the UK doubles down on domestic datacenters while …</span>
 - [2026-06-03](2026-06-03.md)<br/><span class="md-typeset__small">Today’s tech headlines reveal a deepening tension between AI ambition and tangible results, as Apple’s unreleased Siri revamp and Microsoft’s new reasoning models highlight ongoing…</span>
 - [2026-06-02](2026-06-02.md)<br/><span class="md-typeset__small">Today’s tech headlines are dominated by a surge in AI-powered social engineering attacks, as hackers successfully manipulated Meta’s AI support bot to hijack high-profile Instagram…</span>
