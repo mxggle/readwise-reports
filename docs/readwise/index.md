@@ -6,13 +6,13 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-05__
+-   :material-star-shooting: __最新 · 2026-06-06__
 
     ---
 
-    今日阅读总结： 1. 趋势：AI 开发工具的实际效率提升被高估（开发者自认为快 20%，实际慢 19%），但 AI 正从辅助编码走向“自我构建”（Anthropic 的递归自我改进），同时 RAG 系统、LLM 推理加速（8.5 倍）和开源漏洞发现框架成为技术热
+    今日阅读总结 1. AI趋势：Sakana AI提出递归自我改进（RSI）范式，主张日本应通过跳脱传统“暴力堆模型”路径，在AI和科学发现领域实现全球领先，这对Harry意味着关注非规模化、高效能AI方法论。 2. 编程实践：一篇技术文章强烈批判
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-05.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-06.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-06](2026-06-06.md)<br/><span class="md-typeset__small">今日阅读总结 1. AI趋势：Sakana AI提出递归自我改进（RSI）范式，主张日本应通过跳脱传统“暴力堆模型”路径，在AI和科学发现领域实现全球领先，这对Harry意味着关注非规模化、高效能AI方法论。 2. 编程实践：一篇技术文章强烈批判</span>
 - [2026-06-05](2026-06-05.md)<br/><span class="md-typeset__small">今日阅读总结： 1. 趋势：AI 开发工具的实际效率提升被高估（开发者自认为快 20%，实际慢 19%），但 AI 正从辅助编码走向“自我构建”（Anthropic 的递归自我改进），同时 RAG 系统、LLM 推理加速（8.5 倍）和开源漏洞发现框架成为技术热</span>
 - [2026-06-04](2026-06-04.md)<br/><span class="md-typeset__small">今日阅读总结 1. AI Agent 取代工程师风险：文章指出，即使是AI工程师也面临被AI Agent取代的风险，因为AI正从工具演变为自主决策者，这直接挑战了Harry的职业安全感，提示他需从“造AI”转向“用AI解决复杂问题”。 2. AI数学推理突破</span>
 - [2026-06-03](2026-06-03.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 工具正从命令行（如 strace-ui）向交互式终端界面（TUI）复兴，同时 Anthropic 等公司加速 IPO 与融资，AI 原生工程成为职业新方向。 2. 对 Harry 的意义：将学习热情转化为一人公司（如健身→</span>
