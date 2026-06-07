@@ -6,13 +6,13 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-06__
+-   :material-star-shooting: __最新 · 2026-06-08__
 
     ---
 
-    Today’s tech discourse is dominated by a fierce debate over the true state and trajectory of artificial intelligence, with prominent voices both panning the industry as a speculati…
+    Today’s tech landscape is sharply divided between the promise and peril of AI, with developers grappling with AI-generated code’s trade-offs and productivity paradoxes, while marke…
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-06.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-08.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-08](2026-06-08.md)<br/><span class="md-typeset__small">Today’s tech landscape is sharply divided between the promise and peril of AI, with developers grappling with AI-generated code’s trade-offs and productivity paradoxes, while marke…</span>
 - [2026-06-06](2026-06-06.md)<br/><span class="md-typeset__small">Today’s tech discourse is dominated by a fierce debate over the true state and trajectory of artificial intelligence, with prominent voices both panning the industry as a speculati…</span>
 - [2026-06-05](2026-06-05.md)<br/><span class="md-typeset__small">Today’s top tech coverage signals a major shift in the AI landscape, with the once-close Microsoft-OpenAI partnership showing signs of fracture and competitive tension. Meanwhile…</span>
 - [2026-06-04](2026-06-04.md)<br/><span class="md-typeset__small">Today’s top tech articles reveal a growing tension between the push for AI sovereignty and the practical costs of AI adoption, as the UK doubles down on domestic datacenters while …</span>
