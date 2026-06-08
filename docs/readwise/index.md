@@ -6,13 +6,13 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-08__
+-   :material-star-shooting: __最新 · 2026-06-09__
 
     ---
 
-    今日阅读总结 1. 趋势：AI 性能优化（如 Linear 的毫秒级响应）和 Token 机制（如 BPE 分词）是当前工程重点；强化学习中的 REINFORCE 与 Actor-Critic 方法仍是理解模型稳定性的核心。 2. 对 Harry 的意义
+    今日阅读总结 1. 趋势：AI编码已从“能写正确代码”转向“能写高质量、可维护的代码”，新基准FrontierCode开始衡量模型能否写出让维护者愿意合并的PR；同时，AI Agent正在从根本上重构软件工程范式，传统“人分解问题、写静态代码”的模式正被颠覆。
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-08.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-09.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-09](2026-06-09.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI编码已从“能写正确代码”转向“能写高质量、可维护的代码”，新基准FrontierCode开始衡量模型能否写出让维护者愿意合并的PR；同时，AI Agent正在从根本上重构软件工程范式，传统“人分解问题、写静态代码”的模式正被颠覆。</span>
 - [2026-06-08](2026-06-08.md)<br/><span class="md-typeset__small">今日阅读总结 1. 趋势：AI 性能优化（如 Linear 的毫秒级响应）和 Token 机制（如 BPE 分词）是当前工程重点；强化学习中的 REINFORCE 与 Actor-Critic 方法仍是理解模型稳定性的核心。 2. 对 Harry 的意义</span>
 - [2026-06-06](2026-06-06.md)<br/><span class="md-typeset__small">今日阅读总结 1. AI趋势：Sakana AI提出递归自我改进（RSI）范式，主张日本应通过跳脱传统“暴力堆模型”路径，在AI和科学发现领域实现全球领先，这对Harry意味着关注非规模化、高效能AI方法论。 2. 编程实践：一篇技术文章强烈批判</span>
 - [2026-06-05](2026-06-05.md)<br/><span class="md-typeset__small">今日阅读总结： 1. 趋势：AI 开发工具的实际效率提升被高估（开发者自认为快 20%，实际慢 19%），但 AI 正从辅助编码走向“自我构建”（Anthropic 的递归自我改进），同时 RAG 系统、LLM 推理加速（8.5 倍）和开源漏洞发现框架成为技术热</span>

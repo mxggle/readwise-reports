@@ -6,13 +6,13 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-08__
+-   :material-star-shooting: __最新 · 2026-06-09__
 
     ---
 
-    Today’s tech landscape is sharply divided between the promise and peril of AI, with developers grappling with AI-generated code’s trade-offs and productivity paradoxes, while marke…
+    Today’s top articles reveal a tech landscape grappling with the limits of artificial intelligence, both in terms of technical progress and financial sustainability. A dominant tren…
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-08.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-09.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-09](2026-06-09.md)<br/><span class="md-typeset__small">Today’s top articles reveal a tech landscape grappling with the limits of artificial intelligence, both in terms of technical progress and financial sustainability. A dominant tren…</span>
 - [2026-06-08](2026-06-08.md)<br/><span class="md-typeset__small">Today’s tech landscape is sharply divided between the promise and peril of AI, with developers grappling with AI-generated code’s trade-offs and productivity paradoxes, while marke…</span>
 - [2026-06-06](2026-06-06.md)<br/><span class="md-typeset__small">Today’s tech discourse is dominated by a fierce debate over the true state and trajectory of artificial intelligence, with prominent voices both panning the industry as a speculati…</span>
 - [2026-06-05](2026-06-05.md)<br/><span class="md-typeset__small">Today’s top tech coverage signals a major shift in the AI landscape, with the once-close Microsoft-OpenAI partnership showing signs of fracture and competitive tension. Meanwhile…</span>
