@@ -12,35 +12,35 @@ hide:
 
 <div class="grid cards" markdown>
 
--   📈 __GitHub Trends · 2026-06-09__
+-   📈 __GitHub Trends · 2026-06-10__
 
     ---
 
-    [:octicons-arrow-right-24: 阅读](github-trends/2026-06-09.md)
+    [:octicons-arrow-right-24: 阅读](github-trends/2026-06-10.md)
 
--   📰 __HackerNews · 2026-06-09__
-
-    ---
-
-    Today’s top articles reveal a tech landscape grappling with the limits of artificial intelligence, both in terms of technical progress and financial sustainability. A dominant tren…
-
-    [:octicons-arrow-right-24: 阅读](hn/2026-06-09.md)
-
--   🇯🇵 __note AI（日本語） · 2026-06-09__
+-   📰 __HackerNews · 2026-06-10__
 
     ---
 
-    今日 note.com の人気 AI 記事 5 本：自分への財産になるnoteという旅 / エンジニア向けLLM使い分け戦略｜2026年最新比較 / 遅咲きこそ最強！あなたの花を旬で咲かせる７つの習慣「あなたは大器晩成だから」─妻の言葉で救われた僕の人生 / 【経営者必読】Anthropic IPO申請で激変するAI投資環境—Claude料金崩壊とOpenA…
+    Today’s tech landscape is dominated by two major stories: a historic surge in security vulnerabilities and Apple’s aggressive push into AI. Microsoft’s June 2026 Patch Tuesday shat…
 
-    [:octicons-arrow-right-24: 阅读](note-com-jp/2026-06-09.md)
+    [:octicons-arrow-right-24: 阅读](hn/2026-06-10.md)
 
--   📚 __Readwise · 2026-06-09__
+-   🇯🇵 __note AI（日本語） · 2026-06-10__
 
     ---
 
-    今日阅读总结 1. 趋势：AI编码已从“能写正确代码”转向“能写高质量、可维护的代码”，新基准FrontierCode开始衡量模型能否写出让维护者愿意合并的PR；同时，AI Agent正在从根本上重构软件工程范式，传统“人分解问题、写静态代码”的模式正被颠覆。
+    今日 note.com の人気 AI 記事 5 本：「チャットは死んだ」の真意と、AIパートナーの未来。 / 【🏢企業案件レビュー✨️】ネットの評判だけでは分からなかった──HUAKUA G3を実際に使ってみた話 / お笑い♡インシデントレポート道場【第1話】 / 【AI最新情報】WWDC 2026全解説——SiriがGemini搭載、iOS 27、Tim…
 
-    [:octicons-arrow-right-24: 阅读](readwise/2026-06-09.md)
+    [:octicons-arrow-right-24: 阅读](note-com-jp/2026-06-10.md)
+
+-   📚 __Readwise · 2026-06-10__
+
+    ---
+
+    今日阅读总结 1. FPGA上的超快AI推理：一篇硕士论文解释了如何用Kolmogorov-Arnold网络在FPGA上实现超快推理和在线学习，对硬件加速和低延迟AI应用有重要参考价值。 2. 可控文本生成CAD模型：新论文提出PR-CAD方法，利用大语
+
+    [:octicons-arrow-right-24: 阅读](readwise/2026-06-10.md)
 
 </div>
 
@@ -48,13 +48,13 @@ hide:
 
 | 日期 | GitHub Trends | HackerNews | note AI（日本語） | Readwise |
 | --- | --- | --- | --- | --- |
+| 2026-06-10 | [📈 GitHub Trends](github-trends/2026-06-10.md) | [📰 HackerNews](hn/2026-06-10.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-10.md) | [📚 Readwise](readwise/2026-06-10.md) |
 | 2026-06-09 | [📈 GitHub Trends](github-trends/2026-06-09.md) | [📰 HackerNews](hn/2026-06-09.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-09.md) | [📚 Readwise](readwise/2026-06-09.md) |
 | 2026-06-08 | [📈 GitHub Trends](github-trends/2026-06-08.md) | [📰 HackerNews](hn/2026-06-08.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-08.md) | [📚 Readwise](readwise/2026-06-08.md) |
 | 2026-06-06 | [📈 GitHub Trends](github-trends/2026-06-06.md) | [📰 HackerNews](hn/2026-06-06.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-06.md) | [📚 Readwise](readwise/2026-06-06.md) |
 | 2026-06-05 | [📈 GitHub Trends](github-trends/2026-06-05.md) | [📰 HackerNews](hn/2026-06-05.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-05.md) | [📚 Readwise](readwise/2026-06-05.md) |
 | 2026-06-04 | [📈 GitHub Trends](github-trends/2026-06-04.md) | [📰 HackerNews](hn/2026-06-04.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-04.md) | [📚 Readwise](readwise/2026-06-04.md) |
 | 2026-06-03 | [📈 GitHub Trends](github-trends/2026-06-03.md) | [📰 HackerNews](hn/2026-06-03.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-03.md) | [📚 Readwise](readwise/2026-06-03.md) |
-| 2026-06-02 | [📈 GitHub Trends](github-trends/2026-06-02.md) | [📰 HackerNews](hn/2026-06-02.md) | [🇯🇵 note AI（日本語）](note-com-jp/2026-06-02.md) | [📚 Readwise](readwise/2026-06-02.md) |
 
 ## 主题入口
 
