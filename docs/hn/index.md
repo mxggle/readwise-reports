@@ -6,13 +6,13 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 <div class="grid cards" markdown>
 
--   :material-star-shooting: __最新 · 2026-06-10__
+-   :material-star-shooting: __最新 · 2026-06-11__
 
     ---
 
-    Today’s tech landscape is dominated by two major stories: a historic surge in security vulnerabilities and Apple’s aggressive push into AI. Microsoft’s June 2026 Patch Tuesday shat…
+    Today’s top technical articles reveal a tech landscape grappling with the consequences of advanced AI, from landmark legal accountability to new model limitations. A major legal pr…
 
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-10.md)
+    [:octicons-arrow-right-24: 阅读完整报告](2026-06-11.md)
 
 </div>
 
@@ -20,6 +20,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-11](2026-06-11.md)<br/><span class="md-typeset__small">Today’s top technical articles reveal a tech landscape grappling with the consequences of advanced AI, from landmark legal accountability to new model limitations. A major legal pr…</span>
 - [2026-06-10](2026-06-10.md)<br/><span class="md-typeset__small">Today’s tech landscape is dominated by two major stories: a historic surge in security vulnerabilities and Apple’s aggressive push into AI. Microsoft’s June 2026 Patch Tuesday shat…</span>
 - [2026-06-09](2026-06-09.md)<br/><span class="md-typeset__small">Today’s top articles reveal a tech landscape grappling with the limits of artificial intelligence, both in terms of technical progress and financial sustainability. A dominant tren…</span>
 - [2026-06-08](2026-06-08.md)<br/><span class="md-typeset__small">Today’s tech landscape is sharply divided between the promise and peril of AI, with developers grappling with AI-generated code’s trade-offs and productivity paradoxes, while marke…</span>
