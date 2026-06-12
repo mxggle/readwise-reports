@@ -1,17 +1,32 @@
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import matter from "gray-matter";
 import YAML from "yaml";
 import { loadRegistry, type SkillEntry } from "./kernel/registry.js";
 
 const root = process.cwd();
 const DATE_RE = /^\d{4}-\d{2}-\d{2}\.md$/;
+const TOPICS = ["AI", "Programming", "Career", "Business", "English", "Japanese", "Other"] as const;
+
+type Topic = (typeof TOPICS)[number];
 
 type ReportEntry = {
   date: string;
   href: string;
   title: string;
   summary: string;
+};
+
+export type TopicItem = {
+  topic: Topic;
+  date: string;
+  title: string;
+  url: string;
+  reportHref: string;
+  action: string;
+  score: string;
+  reason: string;
 };
 
 // Reduce report-summary markdown to clean prose so it can sit safely inside a
@@ -36,6 +51,124 @@ function truncate(text: string, max = 180): string {
   const clean = stripMarkdown(text);
   if (clean.length <= max) return clean;
   return clean.slice(0, max).replace(/[，,。.；;]\s*\S*$/, "") + "…";
+}
+
+function isTopic(value: string): value is Topic {
+  return TOPICS.includes(value as Topic);
+}
+
+function cleanReportHeading(text: string): string {
+  return text
+    .replace(/^\d+\.\s+/, "")
+    .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F]+\s*/u, "")
+    .trim();
+}
+
+function markdownListLink(title: string, url: string): string {
+  return `[${title.replace(/]/g, "\\]")}](${url})`;
+}
+
+function cleanInlineText(text: string): string {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+export function collectTopicItemsFromReport(report: ReportEntry, markdown: string): TopicItem[] {
+  const items: TopicItem[] = [];
+  const reportHref = `../readwise/${report.href}`;
+  const headingRe = /^###\s+(.+)$/gm;
+  const headings = [...markdown.matchAll(headingRe)];
+
+  for (let i = 0; i < headings.length; i++) {
+    const match = headings[i];
+    const title = cleanReportHeading(match[1]);
+    const start = (match.index ?? 0) + match[0].length;
+    const end = headings[i + 1]?.index ?? markdown.length;
+    const block = markdown.slice(start, end);
+    const topic = block.match(/^- \*\*主题\*\*：(.+)$/m)?.[1]?.trim();
+    if (!topic || !isTopic(topic)) continue;
+
+    items.push({
+      topic,
+      date: report.date,
+      title: cleanInlineText(title),
+      url: block.match(/^- \*\*链接\*\*：\[[^\]]+\]\(([^)]+)\)/m)?.[1]?.trim() || reportHref,
+      reportHref,
+      action: block.match(/^- \*\*动作\*\*：`?([^`\n]+)`?/m)?.[1]?.trim() || "",
+      score: block.match(/^- \*\*分数\*\*：([^ \n]+\/100)/m)?.[1]?.trim() || "",
+      reason: cleanInlineText(block.match(/^- \*\*理由\*\*：(.+)$/m)?.[1] || ""),
+    });
+  }
+
+  const listRe = /^- \*\*\[([^\]]+)\] \[([^\]]+)\]\(([^)]+)\)\*\*：([^\n]*)/gm;
+  for (const match of markdown.matchAll(listRe)) {
+    const topic = match[1].trim();
+    if (!isTopic(topic)) continue;
+    items.push({
+      topic,
+      date: report.date,
+      title: cleanInlineText(match[2]),
+      url: match[3].trim(),
+      reportHref,
+      action: "",
+      score: "",
+      reason: cleanInlineText(match[4]),
+    });
+  }
+
+  return items;
+}
+
+export function buildTopicPage(topic: Topic, items: TopicItem[]): string {
+  const sorted = [...items].sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+  const grouped = new Map<string, TopicItem[]>();
+  for (const item of sorted) {
+    const month = item.date.slice(0, 7);
+    if (!grouped.has(month)) grouped.set(month, []);
+    grouped.get(month)!.push(item);
+  }
+
+  const sections = [...grouped.entries()]
+    .map(([month, monthItems]) => {
+      const byDate = new Map<string, TopicItem[]>();
+      for (const item of monthItems) {
+        if (!byDate.has(item.date)) byDate.set(item.date, []);
+        byDate.get(item.date)!.push(item);
+      }
+      const dates = [...byDate.entries()]
+        .map(([date, dateItems]) => {
+          const rows = dateItems
+            .map((item) => {
+              const meta = [item.action ? `\`${item.action}\`` : "", item.score, `[日报](${item.reportHref})`]
+                .filter(Boolean)
+                .join(" · ");
+              const reason = item.reason ? `：${item.reason}` : "";
+              return `- ${markdownListLink(item.title, item.url)}${meta ? ` · ${meta}` : ""}${reason}`;
+            })
+            .join("\n");
+          return `### ${date}\n\n${rows}`;
+        })
+        .join("\n\n");
+      return `## ${month}\n\n${dates}`;
+    })
+    .join("\n\n");
+
+  return [
+    `# ${topic}`,
+    "",
+    `最近 Readwise 日报中归入 **${topic}** 的条目。`,
+    "",
+    sections || "*暂无条目*",
+    "",
+  ].join("\n");
+}
+
+function buildTopicsIndex(): string {
+  return [
+    "# Topics",
+    "",
+    ...TOPICS.map((topic) => `- [${topic}](${topic.toLowerCase()}.md)`),
+    "",
+  ].join("\n");
 }
 
 function skillFolder(skill: SkillEntry): string {
@@ -285,22 +418,56 @@ async function rewriteNav(skills: SkillEntry[], entriesBySkill: Map<string, Repo
   if (output !== text) await writeFile(navPath, output);
 }
 
-const registry = await loadRegistry();
-const skills = registry.filter((s) => s.manifest.enabled !== false);
-const entriesBySkill = new Map<string, ReportEntry[]>();
-for (const skill of skills) {
-  entriesBySkill.set(skill.manifest.id, await readSkillEntries(skill));
+async function collectAllTopicItems(readwiseEntries: ReportEntry[]): Promise<TopicItem[]> {
+  const items: TopicItem[] = [];
+  for (const entry of readwiseEntries) {
+    const markdown = await readFile(path.join(root, "docs", "readwise", entry.href), "utf8");
+    items.push(...collectTopicItemsFromReport(entry, markdown));
+  }
+  return items;
 }
 
-await Promise.all([
-  writeFile(path.join(root, "docs", "index.md"), buildDashboard(skills, entriesBySkill)),
-  ...skills.map(async (skill) => {
-    const entries = entriesBySkill.get(skill.manifest.id) ?? [];
-    const indexPath = path.join(root, skillDir(skill), "index.md");
-    await writeFile(indexPath, buildSkillIndex(skill, entries));
-  }),
-  rewriteNav(skills, entriesBySkill),
-]);
+async function writeTopicPages(readwiseEntries: ReportEntry[]): Promise<void> {
+  const topicDir = path.join(root, "docs", "topics");
+  await mkdir(topicDir, { recursive: true });
+  const topicItems = await collectAllTopicItems(readwiseEntries);
+  await Promise.all([
+    writeFile(path.join(topicDir, "index.md"), buildTopicsIndex()),
+    ...TOPICS.map((topic) =>
+      writeFile(
+        path.join(topicDir, `${topic.toLowerCase()}.md`),
+        buildTopicPage(
+          topic,
+          topicItems.filter((item) => item.topic === topic),
+        ),
+      ),
+    ),
+  ]);
+}
 
-const counts = skills.map((s) => `${entriesBySkill.get(s.manifest.id)?.length ?? 0} ${s.manifest.id}`).join(" / ");
-console.log(`Indexes updated — ${counts}`);
+export async function buildIndexes(): Promise<string> {
+  const registry = await loadRegistry();
+  const skills = registry.filter((s) => s.manifest.enabled !== false);
+  const entriesBySkill = new Map<string, ReportEntry[]>();
+  for (const skill of skills) {
+    entriesBySkill.set(skill.manifest.id, await readSkillEntries(skill));
+  }
+
+  await Promise.all([
+    writeFile(path.join(root, "docs", "index.md"), buildDashboard(skills, entriesBySkill)),
+    ...skills.map(async (skill) => {
+      const entries = entriesBySkill.get(skill.manifest.id) ?? [];
+      const indexPath = path.join(root, skillDir(skill), "index.md");
+      await writeFile(indexPath, buildSkillIndex(skill, entries));
+    }),
+    writeTopicPages(entriesBySkill.get("readwise") ?? []),
+    rewriteNav(skills, entriesBySkill),
+  ]);
+
+  return skills.map((s) => `${entriesBySkill.get(s.manifest.id)?.length ?? 0} ${s.manifest.id}`).join(" / ");
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const counts = await buildIndexes();
+  console.log(`Indexes updated — ${counts}`);
+}
