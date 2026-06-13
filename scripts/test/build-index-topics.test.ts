@@ -1,5 +1,21 @@
 import { describe, expect, it } from "vitest";
-import { buildTopicPage, collectTopicItemsFromReport } from "../src/build-index.js";
+import { buildTopicPage, collectTopicItemsFromReport, mdToUrl } from "../src/build-index.js";
+
+describe("mdToUrl", () => {
+  it("converts a dated report path to a directory URL", () => {
+    expect(mdToUrl("github-trends/2026-06-12.md")).toBe("github-trends/2026-06-12/");
+  });
+  it("converts a sibling topic page to a directory URL", () => {
+    expect(mdToUrl("programming.md")).toBe("programming/");
+  });
+  it("collapses index.md to the current directory", () => {
+    expect(mdToUrl("index.md")).toBe("./");
+    expect(mdToUrl("hn/index.md")).toBe("hn/");
+  });
+  it("leaves non-markdown hrefs untouched", () => {
+    expect(mdToUrl("https://example.com/x")).toBe("https://example.com/x");
+  });
+});
 
 describe("topic index generation", () => {
   it("collects topic items from Readwise report markdown", () => {
