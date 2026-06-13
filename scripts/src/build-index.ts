@@ -68,6 +68,28 @@ function markdownListLink(title: string, url: string): string {
   return `[${title.replace(/]/g, "\\]")}](${url})`;
 }
 
+// MkDocs only rewrites `.md` links written in Markdown syntax; links inside
+// raw-HTML blocks (our cards / archive table) are emitted verbatim. With
+// use_directory_urls (the default) a page `foo/bar.md` is served at `foo/bar/`,
+// so we must convert hrefs ourselves or the browser 404s on the literal `.md`.
+export function mdToUrl(href: string): string {
+  if (!href.endsWith(".md")) return href;
+  const noExt = href.slice(0, -3);
+  if (noExt === "index") return "./";
+  if (noExt.endsWith("/index")) return noExt.slice(0, -"index".length);
+  return `${noExt}/`;
+}
+
+// Summaries and titles flow into generated raw-HTML blocks (cards, archive
+// table); escape them so stray angle brackets can't break the page.
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 function cleanInlineText(text: string): string {
   return text.replace(/\s+/g, " ").trim();
 }
@@ -138,11 +160,14 @@ export function buildTopicPage(topic: Topic, items: TopicItem[]): string {
         .map(([date, dateItems]) => {
           const rows = dateItems
             .map((item) => {
+              // Title on its own line; action/score/reason demoted to a muted
+              // meta line so the list scans by title.
               const meta = [item.action ? `\`${item.action}\`` : "", item.score, `[日报](${item.reportHref})`]
                 .filter(Boolean)
                 .join(" · ");
-              const reason = item.reason ? `：${item.reason}` : "";
-              return `- ${markdownListLink(item.title, item.url)}${meta ? ` · ${meta}` : ""}${reason}`;
+              const reason = item.reason ? ` · ${item.reason}` : "";
+              const metaLine = meta || reason ? `<br><small class="rw-item-meta">${meta}${reason}</small>` : "";
+              return `- ${markdownListLink(item.title, item.url)}${metaLine}`;
             })
             .join("\n");
           return `### ${date}\n\n${rows}`;
@@ -162,11 +187,58 @@ export function buildTopicPage(topic: Topic, items: TopicItem[]): string {
   ].join("\n");
 }
 
-function buildTopicsIndex(): string {
+const TOPIC_ICON: Record<Topic, string> = {
+  AI: "🤖",
+  Programming: "💻",
+  Career: "💼",
+  Business: "📈",
+  English: "🔤",
+  Japanese: "🇯🇵",
+  Other: "🗂️",
+};
+
+// Topic landing page: one card per topic showing how many items it holds and
+// the most recent few titles, so each topic is browsable at a glance instead
+// of a bare list of links.
+function buildTopicsIndex(items: TopicItem[]): string {
+  const byTopic = new Map<Topic, TopicItem[]>();
+  for (const item of items) {
+    if (!byTopic.has(item.topic)) byTopic.set(item.topic, []);
+    byTopic.get(item.topic)!.push(item);
+  }
+
+  const cards = TOPICS.map((topic) => {
+    const topicItems = (byTopic.get(topic) ?? []).slice().sort((a, b) => b.date.localeCompare(a.date));
+    const count = topicItems.length;
+    const preview = topicItems
+      .slice(0, 3)
+      .map((i) => `<span class="rw-topic__item">${escapeHtml(i.title)}</span>`)
+      .join("");
+    const countLabel = count ? `${count} 条` : "暂无";
+    return [
+      `<a class="rw-card rw-topic" href="${mdToUrl(`${topic.toLowerCase()}.md`)}">`,
+      `  <span class="rw-card__head"><span class="rw-card__source">${TOPIC_ICON[topic]} ${topic}</span><span class="rw-card__date">${countLabel}</span></span>`,
+      preview ? `  <span class="rw-topic__items">${preview}</span>` : "",
+      "</a>",
+    ]
+      .filter(Boolean)
+      .join("\n");
+  }).join("\n");
+
   return [
+    "---",
+    "title: Topics",
+    "hide:",
+    "  - toc",
+    "---",
+    "",
     "# Topics",
     "",
-    ...TOPICS.map((topic) => `- [${topic}](${topic.toLowerCase()}.md)`),
+    "Readwise 日报中的条目按主题归档。",
+    "",
+    '<div class="rw-cards">',
+    cards,
+    "</div>",
     "",
   ].join("\n");
 }
@@ -205,117 +277,106 @@ async function readSkillEntries(skill: SkillEntry): Promise<ReportEntry[]> {
   );
 }
 
-function heroCard(skill: SkillEntry, entry: ReportEntry | undefined): string {
+// Fully clickable report card. mkdocs rewrites relative `.md` hrefs in the
+// final HTML tree, so linking to source files works inside raw HTML too.
+function reportCard(skill: SkillEntry, entry: ReportEntry | undefined, hrefPrefix: string): string {
   const icon = skill.manifest.output?.icon ?? "📄";
-  const label = skill.manifest.title;
-  const folder = skillFolder(skill);
+  const label = escapeHtml(skill.manifest.title);
 
   if (!entry) {
-    return [`-   ${icon} __${label}__`, "", "    ---", "", "    *暂无报告*"].join("\n");
+    return [
+      '<div class="rw-card rw-card--empty">',
+      `  <span class="rw-card__source">${icon} ${label}</span>`,
+      '  <span class="rw-card__summary">暂无报告</span>',
+      "</div>",
+    ].join("\n");
   }
 
-  const lines = [
-    `-   ${icon} __${label} · ${entry.date}__`,
-    "",
-    "    ---",
-    "",
-  ];
-  if (entry.summary) lines.push(`    ${entry.summary}`, "");
-  lines.push(`    [:octicons-arrow-right-24: 阅读](${folder}/${entry.href})`);
-  return lines.join("\n");
+  const summary = entry.summary ? escapeHtml(entry.summary) : "阅读当日完整报告";
+  return [
+    `<a class="rw-card" href="${mdToUrl(`${hrefPrefix}${entry.href}`)}">`,
+    `  <span class="rw-card__head"><span class="rw-card__source">${icon} ${label}</span><time class="rw-card__date">${entry.date}</time></span>`,
+    `  <span class="rw-card__summary">${summary}</span>`,
+    '  <span class="rw-card__cta">阅读报告 →</span>',
+    "</a>",
+  ].join("\n");
 }
 
-function heroCardOnIndex(entry: ReportEntry | undefined): string {
-  if (!entry) {
-    return ["-   __最新报告__", "", "    ---", "", "    *暂无报告*"].join("\n");
-  }
-  const lines = [
-    `-   :material-star-shooting: __最新 · ${entry.date}__`,
-    "",
-    "    ---",
-    "",
-  ];
-  if (entry.summary) lines.push(`    ${entry.summary}`, "");
-  lines.push(`    [:octicons-arrow-right-24: 阅读完整报告](${entry.href})`);
-  return lines.join("\n");
-}
+const TOPIC_CHIPS: ReadonlyArray<{ topic: Topic; href: string }> = TOPICS.map((topic) => ({
+  topic,
+  href: `topics/${topic.toLowerCase()}.md`,
+}));
 
-function buildDashboard(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
-  const heroCards = skills
-    .map((s) => heroCard(s, entriesBySkill.get(s.manifest.id)?.[0]))
-    .join("\n\n");
-
+function buildArchiveTable(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
   const allDates = new Set<string>();
   for (const entries of entriesBySkill.values()) {
     for (const e of entries) allDates.add(e.date);
   }
   const recent = [...allDates].sort().reverse().slice(0, 7);
+  if (recent.length === 0) return "*暂无报告*";
 
-  const headerRow = ["日期", ...skills.map((s) => s.manifest.title)];
-  const dividerRow = headerRow.map(() => "---");
-  const dataRows = recent.map((d) => {
-    const cells = [
-      d,
-      ...skills.map((s) => {
-        const entry = entriesBySkill.get(s.manifest.id)?.find((e) => e.date === d);
-        if (!entry) return "—";
-        const icon = s.manifest.output?.icon ?? "📄";
-        return `[${icon} ${s.manifest.title}](${skillFolder(s)}/${entry.href})`;
-      }),
-    ];
-    return "| " + cells.join(" | ") + " |";
-  });
-  const tableRows = [
-    "| " + headerRow.join(" | ") + " |",
-    "| " + dividerRow.join(" | ") + " |",
-    dataRows.length ? dataRows.join("\n") : "| " + headerRow.map(() => "—").join(" | ") + " |",
+  const head = ["日期", ...skills.map((s) => escapeHtml(s.manifest.title))]
+    .map((h) => `<th>${h}</th>`)
+    .join("");
+  const rows = recent
+    .map((d) => {
+      const cells = skills
+        .map((s) => {
+          const entry = entriesBySkill.get(s.manifest.id)?.find((e) => e.date === d);
+          if (!entry) return '<td class="rw-archive__miss">—</td>';
+          const icon = s.manifest.output?.icon ?? "📄";
+          const label = escapeHtml(`${s.manifest.title} · ${d}`);
+          return `<td><a href="${mdToUrl(`${skillFolder(s)}/${entry.href}`)}" title="${label}" aria-label="${label}">${icon}</a></td>`;
+        })
+        .join("");
+      return `<tr><td class="rw-archive__date">${d}</td>${cells}</tr>`;
+    })
+    .join("\n");
+
+  return [
+    '<table class="rw-archive">',
+    `<thead><tr>${head}</tr></thead>`,
+    "<tbody>",
+    rows,
+    "</tbody>",
+    "</table>",
   ].join("\n");
+}
 
-  const titles = skills.map((s) => s.manifest.title).join("、");
+function buildDashboard(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[]>): string {
+  const cards = skills
+    .map((s) => reportCard(s, entriesBySkill.get(s.manifest.id)?.[0], `${skillFolder(s)}/`))
+    .join("\n");
+
+  const chips = TOPIC_CHIPS.map(({ topic, href }) => `<a href="${mdToUrl(href)}">${topic}</a>`).join("\n");
 
   return [
     "---",
     "title: Dashboard",
     "hide:",
     "  - navigation",
+    "  - toc",
     "---",
     "",
     "# Reading Dashboard",
     "",
-    `本站每天聚合 ${skills.length} 个数据源（${titles}），每日生成结构化阅读报告。`,
+    `每天从 ${skills.length} 个数据源生成结构化阅读报告。`,
     "",
-    "## 今日速览",
+    "## 最新报告",
     "",
-    '<div class="grid cards" markdown>',
-    "",
-    heroCards,
-    "",
+    '<div class="rw-cards">',
+    cards,
     "</div>",
+    "",
+    "## 主题",
+    "",
+    '<nav class="rw-chips" aria-label="主题入口">',
+    chips,
+    "</nav>",
     "",
     "## 最近 7 天",
     "",
-    tableRows,
-    "",
-    "## 主题入口",
-    "",
-    '<div class="grid cards" markdown>',
-    "",
-    "-   :material-robot-outline: [__AI__](topics/ai.md)",
-    "-   :material-code-tags: [__Programming__](topics/programming.md)",
-    "-   :material-briefcase-outline: [__Career__](topics/career.md)",
-    "-   :material-chart-line: [__Business__](topics/business.md)",
-    "-   :material-translate: [__English__](topics/english.md)",
-    "-   :material-syllabary-hiragana: [__Japanese__](topics/japanese.md)",
-    "-   :material-dots-horizontal: [__Other__](topics/other.md)",
-    "",
-    "</div>",
-    "",
-    "## 系统原则",
-    "",
-    "- Discord 只发摘要和链接，不塞长文。",
-    "- Markdown 是长期知识库，适合搜索、回看、沉淀。",
-    "- 本地文件化，不依赖重数据库。",
-    "- 小而稳定，能每天跑，不把自己变成赛博盆栽。",
+    buildArchiveTable(skills, entriesBySkill),
     "",
   ].join("\n");
 }
@@ -334,12 +395,14 @@ function groupByMonth(entries: ReportEntry[]): { month: string; rows: ReportEntr
 
 function buildSkillIndex(skill: SkillEntry, entries: ReportEntry[]): string {
   const latest = entries[0];
-  const grouped = groupByMonth(entries);
+  // The latest report is the hero card; the history list starts from the
+  // second entry so the same report never appears twice on one page.
+  const grouped = groupByMonth(entries.slice(1));
   const sections = grouped
     .map(({ month, rows }) => {
       const rowsMd = rows
         .map((r) => {
-          const summary = r.summary ? `<br/><span class="md-typeset__small">${r.summary}</span>` : "";
+          const summary = r.summary ? `<br><small class="rw-item-meta">${escapeHtml(r.summary)}</small>` : "";
           return `- [${r.date}](${r.href})${summary}`;
         })
         .join("\n");
@@ -358,15 +421,13 @@ function buildSkillIndex(skill: SkillEntry, entries: ReportEntry[]): string {
     "",
     "## 最新",
     "",
-    '<div class="grid cards" markdown>',
-    "",
-    heroCardOnIndex(latest),
-    "",
+    '<div class="rw-cards rw-cards--single">',
+    reportCard(skill, latest, ""),
     "</div>",
     "",
-    "## 历史报告",
+    "## 更早",
     "",
-    sections || "*暂无报告*",
+    sections || "*暂无更早的报告*",
     "",
   ].join("\n");
 }
@@ -379,8 +440,10 @@ function buildNav(skills: SkillEntry[], entriesBySkill: Map<string, ReportEntry[
   for (const skill of skills) {
     const folder = skillFolder(skill);
     const items: NavEntry[] = [`${folder}/index.md`];
-    for (const entry of entriesBySkill.get(skill.manifest.id) ?? []) {
-      items.push({ [entry.date]: `${folder}/${entry.href}` });
+    // Group dated reports by month so the sidebar stays scannable as the
+    // archive grows, instead of one flat list of bare dates.
+    for (const { month, rows } of groupByMonth(entriesBySkill.get(skill.manifest.id) ?? [])) {
+      items.push({ [month]: rows.map((entry) => ({ [entry.date]: `${folder}/${entry.href}` })) });
     }
     nav.push({ [skill.manifest.title]: items });
   }
@@ -432,7 +495,7 @@ async function writeTopicPages(readwiseEntries: ReportEntry[]): Promise<void> {
   await mkdir(topicDir, { recursive: true });
   const topicItems = await collectAllTopicItems(readwiseEntries);
   await Promise.all([
-    writeFile(path.join(topicDir, "index.md"), buildTopicsIndex()),
+    writeFile(path.join(topicDir, "index.md"), buildTopicsIndex(topicItems)),
     ...TOPICS.map((topic) =>
       writeFile(
         path.join(topicDir, `${topic.toLowerCase()}.md`),

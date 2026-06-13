@@ -44,67 +44,76 @@ nav:
   - Dashboard: index.md
   - GitHub Trends:
       - github-trends/index.md
-      - 2026-06-12: github-trends/2026-06-12.md
-      - 2026-06-11: github-trends/2026-06-11.md
-      - 2026-06-10: github-trends/2026-06-10.md
-      - 2026-06-09: github-trends/2026-06-09.md
-      - 2026-06-08: github-trends/2026-06-08.md
-      - 2026-06-06: github-trends/2026-06-06.md
-      - 2026-06-05: github-trends/2026-06-05.md
-      - 2026-06-04: github-trends/2026-06-04.md
-      - 2026-06-03: github-trends/2026-06-03.md
-      - 2026-06-02: github-trends/2026-06-02.md
-      - 2026-06-01: github-trends/2026-06-01.md
-      - 2026-05-31: github-trends/2026-05-31.md
+      - 2026-06:
+          - 2026-06-13: github-trends/2026-06-13.md
+          - 2026-06-12: github-trends/2026-06-12.md
+          - 2026-06-11: github-trends/2026-06-11.md
+          - 2026-06-10: github-trends/2026-06-10.md
+          - 2026-06-09: github-trends/2026-06-09.md
+          - 2026-06-08: github-trends/2026-06-08.md
+          - 2026-06-06: github-trends/2026-06-06.md
+          - 2026-06-05: github-trends/2026-06-05.md
+          - 2026-06-04: github-trends/2026-06-04.md
+          - 2026-06-03: github-trends/2026-06-03.md
+          - 2026-06-02: github-trends/2026-06-02.md
+          - 2026-06-01: github-trends/2026-06-01.md
+      - 2026-05:
+          - 2026-05-31: github-trends/2026-05-31.md
   - HackerNews:
       - hn/index.md
-      - 2026-06-12: hn/2026-06-12.md
-      - 2026-06-11: hn/2026-06-11.md
-      - 2026-06-10: hn/2026-06-10.md
-      - 2026-06-09: hn/2026-06-09.md
-      - 2026-06-08: hn/2026-06-08.md
-      - 2026-06-06: hn/2026-06-06.md
-      - 2026-06-05: hn/2026-06-05.md
-      - 2026-06-04: hn/2026-06-04.md
-      - 2026-06-03: hn/2026-06-03.md
-      - 2026-06-02: hn/2026-06-02.md
-      - 2026-06-01: hn/2026-06-01.md
-      - 2026-05-30: hn/2026-05-30.md
-      - 2026-05-29: hn/2026-05-29.md
-      - 2026-05-28: hn/2026-05-28.md
+      - 2026-06:
+          - 2026-06-12: hn/2026-06-12.md
+          - 2026-06-11: hn/2026-06-11.md
+          - 2026-06-10: hn/2026-06-10.md
+          - 2026-06-09: hn/2026-06-09.md
+          - 2026-06-08: hn/2026-06-08.md
+          - 2026-06-06: hn/2026-06-06.md
+          - 2026-06-05: hn/2026-06-05.md
+          - 2026-06-04: hn/2026-06-04.md
+          - 2026-06-03: hn/2026-06-03.md
+          - 2026-06-02: hn/2026-06-02.md
+          - 2026-06-01: hn/2026-06-01.md
+      - 2026-05:
+          - 2026-05-30: hn/2026-05-30.md
+          - 2026-05-29: hn/2026-05-29.md
+          - 2026-05-28: hn/2026-05-28.md
   - note AI（日本語）:
       - note-com-jp/index.md
-      - 2026-06-12: note-com-jp/2026-06-12.md
-      - 2026-06-11: note-com-jp/2026-06-11.md
-      - 2026-06-10: note-com-jp/2026-06-10.md
-      - 2026-06-09: note-com-jp/2026-06-09.md
-      - 2026-06-08: note-com-jp/2026-06-08.md
-      - 2026-06-06: note-com-jp/2026-06-06.md
-      - 2026-06-05: note-com-jp/2026-06-05.md
-      - 2026-06-04: note-com-jp/2026-06-04.md
-      - 2026-06-03: note-com-jp/2026-06-03.md
-      - 2026-06-02: note-com-jp/2026-06-02.md
-      - 2026-06-01: note-com-jp/2026-06-01.md
-      - 2026-05-31: note-com-jp/2026-05-31.md
+      - 2026-06:
+          - 2026-06-12: note-com-jp/2026-06-12.md
+          - 2026-06-11: note-com-jp/2026-06-11.md
+          - 2026-06-10: note-com-jp/2026-06-10.md
+          - 2026-06-09: note-com-jp/2026-06-09.md
+          - 2026-06-08: note-com-jp/2026-06-08.md
+          - 2026-06-06: note-com-jp/2026-06-06.md
+          - 2026-06-05: note-com-jp/2026-06-05.md
+          - 2026-06-04: note-com-jp/2026-06-04.md
+          - 2026-06-03: note-com-jp/2026-06-03.md
+          - 2026-06-02: note-com-jp/2026-06-02.md
+          - 2026-06-01: note-com-jp/2026-06-01.md
+      - 2026-05:
+          - 2026-05-31: note-com-jp/2026-05-31.md
   - Readwise:
       - readwise/index.md
-      - 2026-06-12: readwise/2026-06-12.md
-      - 2026-06-11: readwise/2026-06-11.md
-      - 2026-06-10: readwise/2026-06-10.md
-      - 2026-06-09: readwise/2026-06-09.md
-      - 2026-06-08: readwise/2026-06-08.md
-      - 2026-06-06: readwise/2026-06-06.md
-      - 2026-06-05: readwise/2026-06-05.md
-      - 2026-06-04: readwise/2026-06-04.md
-      - 2026-06-03: readwise/2026-06-03.md
-      - 2026-06-02: readwise/2026-06-02.md
-      - 2026-06-01: readwise/2026-06-01.md
-      - 2026-05-30: readwise/2026-05-30.md
-      - 2026-05-29: readwise/2026-05-29.md
-      - 2026-05-28: readwise/2026-05-28.md
-      - 2026-05-27: readwise/2026-05-27.md
-      - 2026-05-26: readwise/2026-05-26.md
-      - 2026-05-25: readwise/2026-05-25.md
+      - 2026-06:
+          - 2026-06-12: readwise/2026-06-12.md
+          - 2026-06-11: readwise/2026-06-11.md
+          - 2026-06-10: readwise/2026-06-10.md
+          - 2026-06-09: readwise/2026-06-09.md
+          - 2026-06-08: readwise/2026-06-08.md
+          - 2026-06-06: readwise/2026-06-06.md
+          - 2026-06-05: readwise/2026-06-05.md
+          - 2026-06-04: readwise/2026-06-04.md
+          - 2026-06-03: readwise/2026-06-03.md
+          - 2026-06-02: readwise/2026-06-02.md
+          - 2026-06-01: readwise/2026-06-01.md
+      - 2026-05:
+          - 2026-05-30: readwise/2026-05-30.md
+          - 2026-05-29: readwise/2026-05-29.md
+          - 2026-05-28: readwise/2026-05-28.md
+          - 2026-05-27: readwise/2026-05-27.md
+          - 2026-05-26: readwise/2026-05-26.md
+          - 2026-05-25: readwise/2026-05-25.md
   - Topics:
       - topics/index.md
       - AI: topics/ai.md
@@ -126,7 +135,11 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format ""
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:

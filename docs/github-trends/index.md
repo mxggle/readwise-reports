@@ -4,17 +4,15 @@
 
 ## 最新
 
-<div class="grid cards" markdown>
-
--   :material-star-shooting: __最新 · 2026-06-12__
-
-    ---
-
-    [:octicons-arrow-right-24: 阅读完整报告](2026-06-12.md)
-
+<div class="rw-cards rw-cards--single">
+<a class="rw-card" href="2026-06-13/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-06-13</time></span>
+  <span class="rw-card__summary">阅读当日完整报告</span>
+  <span class="rw-card__cta">阅读报告 →</span>
+</a>
 </div>
 
-## 历史报告
+## 更早
 
 ### 2026-06
 
