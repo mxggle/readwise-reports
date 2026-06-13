@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-14
+
+- [Israeli firm BlackCore suspected of meddling in New York and Scotland votes](https://read.readwise.io/read/01kv008njna9csfrykwt198m69)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-11
 
 - [Britain Became as Poor as Mississippi](https://read.readwise.io/read/01ktrzcbps2wn13jzr9gryk6jh)<br><small class="rw-item-meta">[日报](../readwise/2026-06-11.md) · 有信息量，但不用深读</small>

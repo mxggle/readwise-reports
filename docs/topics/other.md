@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-14
+
+- [Show HN: Putt.day a daily mini golf game](https://read.readwise.io/read/01ktz1q897ghfy076g97dm3cwr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-12
 
 - [US-Canada border library gets new Quebec-only entrance](https://read.readwise.io/read/01ktvg0j9nhj2j2cmyhq916f6t)<br><small class="rw-item-meta">[日报](../readwise/2026-06-12.md) · 未来特定场景可能有用</small>

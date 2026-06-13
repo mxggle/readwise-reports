@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-14
+
+- [Do you avoid LinkedIn because "someone will see?"](https://read.readwise.io/read/01kv12ajm2wtf1yfxk6c6mpagc)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-12
 
 - [BYD is bringing its 5-min 'Flash' electric car charging to Canada](https://read.readwise.io/read/01ktv9ht6y2chcsr3hvg84k30n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-12.md) · 未来特定场景可能有用</small>

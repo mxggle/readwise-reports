@@ -4,6 +4,18 @@
 
 ## 2026-06
 
+### 2026-06-14
+
+- [🤖 AI Agents Weekly: Claude Fable 5, Kimi K2.7-Code, NotebookLM Goes Agentic, DiffusionGemma, MiMo Code, and More](https://read.readwise.io/read/01kv0v78z4ghcfxt45cp1g1901)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>
+- [🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you nee…](https://read.readwise.io/read/01kv1d0fej2k7p4pknt1nhwvhf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>
+- [AI Coding at Home Without Going Broke](https://read.readwise.io/read/01kv0ykkamdg1pvm42kesbwpdy)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>
+- [As a result of a US government directive, we are...](https://read.readwise.io/read/01ktz91n324bstaz7vzhhm7zxy)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>
+- [EP218: The Typical AI Agent Stack, Explained](https://read.readwise.io/read/01kv0tkht47vgx5r907h525rct)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-14.md)</small>
+- [EP218: The Typical AI Agent Stack, Explained](https://read.readwise.io/read/01kv0t597djxbnfk1t8p4gm0f9)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-14.md)</small>
+- [Leaving Mozilla](https://read.readwise.io/read/01ktzwkfhkfejq433m0gj4ba3k)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>
+- [On CPU Physics and CPU Cycles](https://read.readwise.io/read/01ktznxahdw0f53sh2ch2dn4dx)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-06-14.md)</small>
+- [The two-speed problem.](https://read.readwise.io/read/01kv0ewafnj3ykx7b4a4jzenx1)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-12
 
 - [😸 WATCH: Skills vs Projects vs Custom GPT vs Agents vs Plugins vs...](https://read.readwise.io/read/01ktvvgaccqmpamk5sregmw3q6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-12.md) · 有信息量，但不用深读</small>

@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-12/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-12</time></span>
-  <span class="rw-card__summary">今日阅读总结 1. 趋势：AI训练数据来源正从公开网络转向用户生成内容（如《宝可梦GO》的30亿环境扫描），并被用于军事无人机导航；同时，勒索软件团伙通过高额分成（90%）吸引黑客，形成新型网络犯罪生态。 2. 对Harry的意义：职业上需关注数据主权与</span>
+<a class="rw-card" href="2026-06-14/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-14</time></span>
+  <span class="rw-card__summary">今日阅读总结 1. 趋势：AI 正从“提示→回答”的聊天模式，转向“目标→思考→工具→检查→修正→完成”的自主智能体（Agent）工作流；同时，底层硬件（如 CPU 物理、浮点加法器）和自建 BIOS 等底层技术仍被深入探讨，显示“软硬结合”仍是效率关键。 2.</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-12](2026-06-12.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI训练数据来源正从公开网络转向用户生成内容（如《宝可梦GO》的30亿环境扫描），并被用于军事无人机导航；同时，勒索软件团伙通过高额分成（90%）吸引黑客，形成新型网络犯罪生态。 2. 对Harry的意义：职业上需关注数据主权与</small>
 - [2026-06-11](2026-06-11.md)<br><small class="rw-item-meta">今日阅读总结 1. AI与制度速度错配：AI发展极快，但政治与监管机构反应迟缓（如《指环王》树人比喻），未来趋势是“技术快于治理”的矛盾加剧。 2. 生成式AI的创造力局限：当前生成式AI（如大语言模型）无法同时做到“新颖且优秀”，其本质是模仿而非真正发</small>
 - [2026-06-10](2026-06-10.md)<br><small class="rw-item-meta">今日阅读总结 1. FPGA上的超快AI推理：一篇硕士论文解释了如何用Kolmogorov-Arnold网络在FPGA上实现超快推理和在线学习，对硬件加速和低延迟AI应用有重要参考价值。 2. 可控文本生成CAD模型：新论文提出PR-CAD方法，利用大语</small>
 - [2026-06-09](2026-06-09.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI编码已从“能写正确代码”转向“能写高质量、可维护的代码”，新基准FrontierCode开始衡量模型能否写出让维护者愿意合并的PR；同时，AI Agent正在从根本上重构软件工程范式，传统“人分解问题、写静态代码”的模式正被颠覆。</small>
