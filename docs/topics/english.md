@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-15
+
+- [Rome Fell and Nobody Noticed](https://read.readwise.io/read/01kv3q8eatkf1sfxgnc75sb5xe)<br><small class="rw-item-meta">`READ` · 91/100 · [日报](../readwise/2026-06-15.md)</small>
+
 ### 2026-06-14
 
 - [Israeli firm BlackCore suspected of meddling in New York and Scotland votes](https://read.readwise.io/read/01kv008njna9csfrykwt198m69)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>

@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-15
+
+- [How to Earn a Billion Dollars](https://read.readwise.io/read/01kv35n9kp64qsmrbbtcbya4p4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>
+- [How to Earn a Billion Dollars](https://read.readwise.io/read/01kv302nag5j4v0sqc39e4v4qh)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-14
 
 - [Reddit RSS feeds recent rate limiting and solution](https://read.readwise.io/read/01ktzbrz320ykz8hdzpqfwm2ws)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>

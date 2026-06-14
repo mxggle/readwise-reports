@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-14/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-14</time></span>
-  <span class="rw-card__summary">Today, the tech world is dominated by a seismic government intervention in AI, as the U.S. Commerce Department has ordered Anthropic to shut down its latest Fable and Mythos models…</span>
+<a class="rw-card" href="2026-06-15/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-15</time></span>
+  <span class="rw-card__summary">Today’s tech highlights center on the growing convergence of WebAssembly and package ecosystems, with tools like Pyodide and Luau enabling Python and Lua packages to run directly i…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-14](2026-06-14.md)<br><small class="rw-item-meta">Today, the tech world is dominated by a seismic government intervention in AI, as the U.S. Commerce Department has ordered Anthropic to shut down its latest Fable and Mythos models…</small>
 - [2026-06-12](2026-06-12.md)<br><small class="rw-item-meta">Today’s tech headlines are dominated by a fierce AI arms race, marked by aggressive pricing strategies from OpenAI and regulatory friction as Apple delays Siri AI in the EU due to …</small>
 - [2026-06-11](2026-06-11.md)<br><small class="rw-item-meta">Today’s top technical articles reveal a tech landscape grappling with the consequences of advanced AI, from landmark legal accountability to new model limitations. A major legal pr…</small>
 - [2026-06-10](2026-06-10.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by two major stories: a historic surge in security vulnerabilities and Apple’s aggressive push into AI. Microsoft’s June 2026 Patch Tuesday shat…</small>

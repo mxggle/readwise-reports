@@ -4,6 +4,15 @@
 
 ## 2026-06
 
+### 2026-06-15
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kv3any36658djh4y410qn16z)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-15.md)</small>
+- [🙀 US Gov Shuts Down Claude Fable](https://read.readwise.io/read/01kv3phbpbqz0bv48b38qdjwnn)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 有信息量，但不用深读</small>
+- [Bring Siri AI to EU iPhone Users Safely](https://read.readwise.io/read/01kv3wxbyvtgamydcvfe7ythh3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 有信息量，但不用深读</small>
+- [Software Architecture Guide](https://read.readwise.io/read/01kv28z0jr54pvg7cmn2pjp2mp)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-15.md)</small>
+- [UK police officer under criminal investigation over alleged use of AI](https://read.readwise.io/read/01kv2xdhbqkfjhy31n9v7fsacq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 有信息量，但不用深读</small>
+- [UK set to announce social media ban for under-16s](https://read.readwise.io/read/01kv3afj6w826fwfma4qsnjwhs)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-14
 
 - [🤖 AI Agents Weekly: Claude Fable 5, Kimi K2.7-Code, NotebookLM Goes Agentic, DiffusionGemma, MiMo Code, and More](https://read.readwise.io/read/01kv0v78z4ghcfxt45cp1g1901)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 有信息量，但不用深读</small>

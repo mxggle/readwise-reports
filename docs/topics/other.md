@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-15
+
+- [Abu Fanous](https://read.readwise.io/read/01kv41hw410kfx09k689sdtavq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>
+- [Free SQL→ER diagram tool, runs in the browser, nothing uploaded](https://read.readwise.io/read/01kv28z0nr5eve2b5g2rpfy21n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-14
 
 - [Show HN: Putt.day a daily mini golf game](https://read.readwise.io/read/01ktz1q897ghfy076g97dm3cwr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-14.md) · 未来特定场景可能有用</small>
