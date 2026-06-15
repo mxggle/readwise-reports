@@ -4,6 +4,16 @@
 
 ## 2026-06
 
+### 2026-06-16
+
+- ["They screwed us": Personality clashes sent Anthropic's models offline](https://read.readwise.io/read/01kv5wtd05d129rnnp9q13kvc3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
+- [🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software](https://read.readwise.io/read/01kv5xn4jr7srctk7qh80gt8cp)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-16.md)</small>
+- [Anthropic's Safety Superpower](https://read.readwise.io/read/01kv5edjnw4dg6phc2g2vwt11s)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-16.md)</small>
+- [Fable 5 gets pulled 🤖, Oracle wins federal HR 🏛️, CISA sets 3-day patch clock ⏳](https://read.readwise.io/read/01kv5mw0edyvmx60ckng4tkx07)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 有信息量，但不用深读</small>
+- [How TimescaleDB compresses time-series data](https://read.readwise.io/read/01kv65zns8nr5hmqwf8vcdzd26)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-16.md)</small>
+- [I Love the Computer](https://read.readwise.io/read/01kv6frr5kr4qbs0vbse6ajmhq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 有信息量，但不用深读</small>
+- [Salesforce to Acquire Fin (formerly Intercom) for $3.6BN](https://read.readwise.io/read/01kv5n6jjjqb51a704bpbvyb3n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-15
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kv3any36658djh4y410qn16z)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-15.md)</small>

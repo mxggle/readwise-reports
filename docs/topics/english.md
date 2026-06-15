@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-16
+
+- [Stop leaving LinkedIn money on the table](https://read.readwise.io/read/01kv4bk5kasbqygy9k2matwy16)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
+- [Why I Email Complete Strangers](https://read.readwise.io/read/01kv6ntf0dge14awrs6zmzh43p)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-15
 
 - [Rome Fell and Nobody Noticed](https://read.readwise.io/read/01kv3q8eatkf1sfxgnc75sb5xe)<br><small class="rw-item-meta">`READ` · 91/100 · [日报](../readwise/2026-06-15.md)</small>

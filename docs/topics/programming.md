@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-16
+
+- [Belgian politicians would rather risk treason charges than trust engineers](https://read.readwise.io/read/01kv5j5bpw88ppjt6ehmf7g58n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-11
 
 - [Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow](https://read.readwise.io/read/01ktr25gj5tgh584cdcz2jsg7f)<br><small class="rw-item-meta">[日报](../readwise/2026-06-11.md) · 未来特定场景可能有用</small>

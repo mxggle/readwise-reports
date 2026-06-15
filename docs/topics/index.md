@@ -10,24 +10,24 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">159 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">Software Architecture Guide</span><span class="rw-topic__item">UK set to announce social media ban for under-16s</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">166 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How TimescaleDB compresses time-series data</span><span class="rw-topic__item">🎙️ How I AI: Claude Fable 5 review &amp; How Braintrust uses AI agents, evals, and CI to ship better software</span><span class="rw-topic__item">Anthropic's Safety Superpower</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">18 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</span><span class="rw-topic__item">Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code</span><span class="rw-topic__item">GitHub Is Down</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">19 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Belgian politicians would rather risk treason charges than trust engineers</span><span class="rw-topic__item">Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</span><span class="rw-topic__item">Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
-  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">11 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Do you avoid LinkedIn because &quot;someone will see?&quot;</span><span class="rw-topic__item">BYD is bringing its 5-min 'Flash' electric car charging to Canada</span><span class="rw-topic__item">Starlink shifts hardware from one-time purchase to $10/month rental</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">12 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How Brexit has made Britain poorer – in charts</span><span class="rw-topic__item">Do you avoid LinkedIn because &quot;someone will see?&quot;</span><span class="rw-topic__item">BYD is bringing its 5-min 'Flash' electric car charging to Canada</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">7 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">How to Earn a Billion Dollars</span><span class="rw-topic__item">How to Earn a Billion Dollars</span><span class="rw-topic__item">Reddit RSS feeds recent rate limiting and solution</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">9 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Techno-libertarians are flocking to the Caribbean</span><span class="rw-topic__item">US battery manufacturing output continues to break records</span><span class="rw-topic__item">How to Earn a Billion Dollars</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">9 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Rome Fell and Nobody Noticed</span><span class="rw-topic__item">Israeli firm BlackCore suspected of meddling in New York and Scotland votes</span><span class="rw-topic__item">Britain Became as Poor as Mississippi</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">11 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Why I Email Complete Strangers</span><span class="rw-topic__item">Stop leaving LinkedIn money on the table</span><span class="rw-topic__item">Rome Fell and Nobody Noticed</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">3 条</span></span>

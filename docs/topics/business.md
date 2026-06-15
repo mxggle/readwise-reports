@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-16
+
+- [Techno-libertarians are flocking to the Caribbean](https://read.readwise.io/read/01kv6kqyh94zky7bd3n0ypr4x4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
+- [US battery manufacturing output continues to break records](https://read.readwise.io/read/01kv6gnxbm178k0fjm5ztdzmdb)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-15
 
 - [How to Earn a Billion Dollars](https://read.readwise.io/read/01kv35n9kp64qsmrbbtcbya4p4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>

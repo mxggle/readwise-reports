@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-15/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-15</time></span>
-  <span class="rw-card__summary">今日阅读总结 1. AI趋势：超长上下文成为智能体、代码库推理和多模态工作流的核心需求，但密集注意力机制仍使百万token部署成本高昂；PPO强化学习在治理、ROI证明和监管适配方面存在断裂。 2. 软件架构：架构是系统内部设计的关键方面，良好架构能降低</span>
+<a class="rw-card" href="2026-06-16/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-16</time></span>
+  <span class="rw-card__summary">今天阅读内容聚焦AI工程与数据压缩趋势：TimescaleDB通过混合行列引擎实现时序数据98%压缩率；Anthropic发布Fable模型并强调安全护栏，引发对“危险模型”营销争议；AI编码正从提示工程转向自主长时运行代理，核心是构建目标-评估-循环的控制系统；Codex Mo</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-15](2026-06-15.md)<br><small class="rw-item-meta">今日阅读总结 1. AI趋势：超长上下文成为智能体、代码库推理和多模态工作流的核心需求，但密集注意力机制仍使百万token部署成本高昂；PPO强化学习在治理、ROI证明和监管适配方面存在断裂。 2. 软件架构：架构是系统内部设计的关键方面，良好架构能降低</small>
 - [2026-06-14](2026-06-14.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI 正从“提示→回答”的聊天模式，转向“目标→思考→工具→检查→修正→完成”的自主智能体（Agent）工作流；同时，底层硬件（如 CPU 物理、浮点加法器）和自建 BIOS 等底层技术仍被深入探讨，显示“软硬结合”仍是效率关键。 2.</small>
 - [2026-06-12](2026-06-12.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI训练数据来源正从公开网络转向用户生成内容（如《宝可梦GO》的30亿环境扫描），并被用于军事无人机导航；同时，勒索软件团伙通过高额分成（90%）吸引黑客，形成新型网络犯罪生态。 2. 对Harry的意义：职业上需关注数据主权与</small>
 - [2026-06-11](2026-06-11.md)<br><small class="rw-item-meta">今日阅读总结 1. AI与制度速度错配：AI发展极快，但政治与监管机构反应迟缓（如《指环王》树人比喻），未来趋势是“技术快于治理”的矛盾加剧。 2. 生成式AI的创造力局限：当前生成式AI（如大语言模型）无法同时做到“新颖且优秀”，其本质是模仿而非真正发</small>
