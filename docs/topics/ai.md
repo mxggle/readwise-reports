@@ -4,6 +4,18 @@
 
 ## 2026-06
 
+### 2026-06-17
+
+- [Ada Palmer – Machiavelli is the most misunderstood thinker of all time](https://read.readwise.io/read/01kv8swzv2e5qmtt1f9315hxy2)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-17.md)</small>
+- [Aurimas Griciūnas, James Stanier, and elvis posted new notes](https://read.readwise.io/read/01kv98mk67sgmte9fz875pvpar)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 有信息量，但不用深读</small>
+- [Cloudflare CAPTCHA on at least one ampersand](https://read.readwise.io/read/01kv6x99mb7bhhysc53caehgvr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 未来特定场景可能有用</small>
+- [Hermes Kanban: Mission Control for your Agents](https://read.readwise.io/read/01kv95wh6pzg0t9qe7z14czff7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 有信息量，但不用深读</small>
+- [How Open-Weight Models Changed the AI Landscape](https://read.readwise.io/read/01kv8hs832thxh5hmpcbraymwq)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-17.md)</small>
+- [I Fired Google](https://read.readwise.io/read/01kv8e2gy5atp1yn4w2s57s715)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 未来特定场景可能有用</small>
+- [The time the x86 emulator team found code so bad they fixed it during emulation](https://read.readwise.io/read/01kv7d60rzfksa656tv2vb81s8)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 有信息量，但不用深读</small>
+- [Three Ways Codex Can Use a Computer](https://read.readwise.io/read/01kv966kxb8xpz7qgfxn6hm5b8)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 有信息量，但不用深读</small>
+- [Why is Meta destroying its engineering organization?](https://read.readwise.io/read/01kv8msvk9psgkgh6angqpqndm)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-17.md)</small>
+
 ### 2026-06-16
 
 - ["They screwed us": Personality clashes sent Anthropic's models offline](https://read.readwise.io/read/01kv5wtd05d129rnnp9q13kvc3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>

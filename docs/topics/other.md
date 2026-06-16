@@ -4,6 +4,12 @@
 
 ## 2026-06
 
+### 2026-06-17
+
+- [Apple is about to make Hide My Email useless](https://read.readwise.io/read/01kv8zj1gkbqxrvb03wj0ery09)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 未来特定场景可能有用</small>
+- [New way of making espresso with ultrasound](https://read.readwise.io/read/01kv7vfhrfmxtbzms6rrfavcwc)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 有信息量，但不用深读</small>
+- [Swedish parliament abolishes permanent residence visas for migrants](https://read.readwise.io/read/01kv6q3gvb8sczawj814cqdmee)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-15
 
 - [Abu Fanous](https://read.readwise.io/read/01kv41hw410kfx09k689sdtavq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-15.md) · 未来特定场景可能有用</small>

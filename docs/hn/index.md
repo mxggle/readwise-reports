@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-16/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-16</time></span>
-  <span class="rw-card__summary">Today’s top articles reveal a tech landscape grappling with AI’s economic and operational realities, as debates over its sustainability and impact on jobs intensify. A major trend …</span>
+<a class="rw-card" href="2026-06-17/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-17</time></span>
+  <span class="rw-card__summary">Today’s top stories reveal a tech landscape marked by AI’s soaring costs and eroding dominance, as OpenAI’s spending skyrockets to $34 billion while its competitive lead fades…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-16](2026-06-16.md)<br><small class="rw-item-meta">Today’s top articles reveal a tech landscape grappling with AI’s economic and operational realities, as debates over its sustainability and impact on jobs intensify. A major trend …</small>
 - [2026-06-15](2026-06-15.md)<br><small class="rw-item-meta">Today’s tech highlights center on the growing convergence of WebAssembly and package ecosystems, with tools like Pyodide and Luau enabling Python and Lua packages to run directly i…</small>
 - [2026-06-14](2026-06-14.md)<br><small class="rw-item-meta">Today, the tech world is dominated by a seismic government intervention in AI, as the U.S. Commerce Department has ordered Anthropic to shut down its latest Fable and Mythos models…</small>
 - [2026-06-12](2026-06-12.md)<br><small class="rw-item-meta">Today’s tech headlines are dominated by a fierce AI arms race, marked by aggressive pricing strategies from OpenAI and regulatory friction as Apple delays Siri AI in the EU due to …</small>

@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">166 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">How TimescaleDB compresses time-series data</span><span class="rw-topic__item">🎙️ How I AI: Claude Fable 5 review &amp; How Braintrust uses AI agents, evals, and CI to ship better software</span><span class="rw-topic__item">Anthropic's Safety Superpower</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">175 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Ada Palmer – Machiavelli is the most misunderstood thinker of all time</span><span class="rw-topic__item">Why is Meta destroying its engineering organization?</span><span class="rw-topic__item">How Open-Weight Models Changed the AI Landscape</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">19 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Belgian politicians would rather risk treason charges than trust engineers</span><span class="rw-topic__item">Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</span><span class="rw-topic__item">Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">20 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How to become dangerously focused</span><span class="rw-topic__item">Belgian politicians would rather risk treason charges than trust engineers</span><span class="rw-topic__item">Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">12 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">22 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Free SQL→ER diagram tool, runs in the browser, nothing uploaded</span><span class="rw-topic__item">Abu Fanous</span><span class="rw-topic__item">Show HN: Putt.day a daily mini golf game</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">25 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">New way of making espresso with ultrasound</span><span class="rw-topic__item">Swedish parliament abolishes permanent residence visas for migrants</span><span class="rw-topic__item">Apple is about to make Hide My Email useless</span></span>
 </a>
 </div>
