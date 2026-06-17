@@ -4,6 +4,20 @@
 
 ## 2026-06
 
+### 2026-06-18
+
+- [[AINews\] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding](https://read.readwise.io/read/01kva1d5y7fwhabqp98c47fe31)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-18.md)</small>
+- [🔬 The Self-Driving Lab — Joseph Krause, Radical AI](https://read.readwise.io/read/01kvbbt1cgz7knpr8313s4d9yb)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-06-18.md)</small>
+- [😺 Watch: Elorian wants to fix AI's toddler vision](https://read.readwise.io/read/01kvbsww0gzwc1wy4ga8csnjxt)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 有信息量，但不用深读</small>
+- [😺 Watch: The man fixing AI's sight](https://read.readwise.io/read/01kvbg9epy78ya5ttvfex2yxda)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 有信息量，但不用深读</small>
+- [A Robot Is Sprinting Towards You: Do You Want It Running on Claude or Grok?](https://read.readwise.io/read/01kvbq3egjbp8t0fzqp3k8ed5r)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 有信息量，但不用深读</small>
+- [Leaked OpenAI financials show $38.5B loss and compute burn](https://read.readwise.io/read/01kv9wt3t38035tnbjg7chafwf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>
+- [NetNewsWire Status](https://read.readwise.io/read/01kv9zpdn6h441svftvmd55m6b)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 有信息量，但不用深读</small>
+- [SpaceX buys Cursor 💰, camera AirPods 🎧, S3 annotations 👨‍💻](https://read.readwise.io/read/01kvakmgncqpm0e0xb269q9cgw)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>
+- [The AI Product Operating Model](https://read.readwise.io/read/01kvbqpnkkz194vrqak0047gw3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 有信息量，但不用深读</small>
+- [The Competitive Moat That AI Can't Replicate](https://read.readwise.io/read/01kvbbmrpjxha6gfe1nxdcea4e)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>
+- [Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More](https://read.readwise.io/read/01kv9dd0d0e6yr8m8nhrwbevdy)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-18.md)</small>
+
 ### 2026-06-17
 
 - [Ada Palmer – Machiavelli is the most misunderstood thinker of all time](https://read.readwise.io/read/01kv8swzv2e5qmtt1f9315hxy2)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-17.md)</small>

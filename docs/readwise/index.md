@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-17/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-17</time></span>
-  <span class="rw-card__summary">今日阅读总结 1. 趋势：AI领域正从“大模型竞赛”转向“实用化与本地化”——开源权重模型改变格局，本地模型性能显著提升，但编码代理在真实场景中仍存在严重的“人机对齐”问题（分析超2万次会话发现失败模式）。 2. 组织变革：Meta正在“摧毁”其工程组织</span>
+<a class="rw-card" href="2026-06-18/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-18</time></span>
+  <span class="rw-card__summary">今日阅读总结 1. 趋势：AI 正从“辅助编码”向“全栈生产”演进，GLM-5.2 成为全球最强前端编码模型，Cursor 获 SpaceX 60 亿美元订单，AI 工具在创意和科学领域（如药物化学）加速落地。 2. 对 Harry 的意义：Wolfra</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-17](2026-06-17.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI领域正从“大模型竞赛”转向“实用化与本地化”——开源权重模型改变格局，本地模型性能显著提升，但编码代理在真实场景中仍存在严重的“人机对齐”问题（分析超2万次会话发现失败模式）。 2. 组织变革：Meta正在“摧毁”其工程组织</small>
 - [2026-06-16](2026-06-16.md)<br><small class="rw-item-meta">今天阅读内容聚焦AI工程与数据压缩趋势：TimescaleDB通过混合行列引擎实现时序数据98%压缩率；Anthropic发布Fable模型并强调安全护栏，引发对“危险模型”营销争议；AI编码正从提示工程转向自主长时运行代理，核心是构建目标-评估-循环的控制系统；Codex Mo</small>
 - [2026-06-15](2026-06-15.md)<br><small class="rw-item-meta">今日阅读总结 1. AI趋势：超长上下文成为智能体、代码库推理和多模态工作流的核心需求，但密集注意力机制仍使百万token部署成本高昂；PPO强化学习在治理、ROI证明和监管适配方面存在断裂。 2. 软件架构：架构是系统内部设计的关键方面，良好架构能降低</small>
 - [2026-06-14](2026-06-14.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI 正从“提示→回答”的聊天模式，转向“目标→思考→工具→检查→修正→完成”的自主智能体（Agent）工作流；同时，底层硬件（如 CPU 物理、浮点加法器）和自建 BIOS 等底层技术仍被深入探讨，显示“软硬结合”仍是效率关键。 2.</small>

@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-18
+
+- [Show HN: An 8-bit live gamecast for baseball](https://read.readwise.io/read/01kvb7mkw95d38y0xyeqv4637p)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-16
 
 - [How Brexit has made Britain poorer – in charts](https://read.readwise.io/read/01kv62q73vt8nxwkv2m3nb1rq7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 有信息量，但不用深读</small>

@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-18
+
+- [datasette-tailscale 0.1a0](https://read.readwise.io/read/01kv9e4991rwk1jcpdwhe3kgvz)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-17
 
 - [How to become dangerously focused](https://read.readwise.io/read/01kv82yz8ee9ecf7q989sc0457)<br><small class="rw-item-meta">[日报](../readwise/2026-06-17.md) · 未来特定场景可能有用</small>
