@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-20
+
+- [datasette-acl 0.6a0](https://read.readwise.io/read/01kvek7zrj4h2ejw80cdk84nn2)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-18
 
 - [datasette-tailscale 0.1a0](https://read.readwise.io/read/01kv9e4991rwk1jcpdwhe3kgvz)<br><small class="rw-item-meta">[日报](../readwise/2026-06-18.md) · 未来特定场景可能有用</small>

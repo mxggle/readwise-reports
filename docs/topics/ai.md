@@ -4,6 +4,18 @@
 
 ## 2026-06
 
+### 2026-06-20
+
+- [[Hands-on\] Build Your Own AI Avatar With Human-like Memory](https://read.readwise.io/read/01kvgscsrpw71has2d5gtre7c0)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-20.md)</small>
+- [🗞️ What's New: Freelance to multi-7-figures, profit by repackaging tools, negative ROI on AI?](https://read.readwise.io/read/01kvgef75c3a2eek86k4dgxntm)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 有信息量，但不用深读</small>
+- [Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand](https://read.readwise.io/read/01kvepkk7csebz4yvbwd3jprrb)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 有信息量，但不用深读</small>
+- [Midjourney's strangest bet yet](https://read.readwise.io/read/01kvg6q0chvhd0gfgsvzmdmcq2)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 有信息量，但不用深读</small>
+- [Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28](https://read.readwise.io/read/01kvfcjv79cxwg1fvje2q4jtcx)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-20.md)</small>
+- [The honest reason I talk so much about money](https://read.readwise.io/read/01kvgrkr9dxt8b3cgwm1p2qgyt)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 未来特定场景可能有用</small>
+- [This is the most confusing time in human history](https://read.readwise.io/read/01kvfspj1gpq92gxc59ragtvzr)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-20.md)</small>
+- [一个 /teach 干翻我三年学习方法](https://read.readwise.io/read/01kvg0d2efwj52n2r0ank03gsd)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 有信息量，但不用深读</small>
+- [如果你想真正理解 LLM 是怎么被训练出来的，CS336 是最值得系统刷的一套公开课。](https://read.readwise.io/read/01kvevstcbfgyw2n30shyecffk)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-18
 
 - [[AINews\] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding](https://read.readwise.io/read/01kva1d5y7fwhabqp98c47fe31)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-18.md)</small>

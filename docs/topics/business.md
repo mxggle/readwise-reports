@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-20
+
+- [Windows 11 update broke the Recycle Bin, OneDrive, and your PC's stability](https://read.readwise.io/read/01kvght1m6kbxhf5qk3de9hhc4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-16
 
 - [Techno-libertarians are flocking to the Caribbean](https://read.readwise.io/read/01kv6kqyh94zky7bd3n0ypr4x4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>
