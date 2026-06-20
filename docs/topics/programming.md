@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-21
+
+- [Ask HN: Due to spam on GitHub, what platforms can I move my projects?](https://read.readwise.io/read/01kvk3g56b6zs671we0fr6mvkv)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 未来特定场景可能有用</small>
+- [Systemd 261 released with systemd-sysinstall, IMDSD, and storagectl](https://read.readwise.io/read/01kvkhv1vk4vs7t1c4nddbbbwv)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-20
 
 - [datasette-acl 0.6a0](https://read.readwise.io/read/01kvek7zrj4h2ejw80cdk84nn2)<br><small class="rw-item-meta">[日报](../readwise/2026-06-20.md) · 未来特定场景可能有用</small>

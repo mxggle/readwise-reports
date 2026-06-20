@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-20/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-20</time></span>
-  <span class="rw-card__summary">今日阅读总结 1. 趋势：AI 代理正从“构建工具”转向“构建控制框架”，强调对代理行为、时机和边界的精细控制；同时，通过会话挖掘自动生成技能（SKILL.md）成为提升代理能力的关键方向，但当前技术（如GRPO）提升有限，主要受限于边界检测弱、片段表示无序和离</span>
+<a class="rw-card" href="2026-06-21/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-21</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《The ability to regrow body parts is dormant in mammals, not lost》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-20](2026-06-20.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI 代理正从“构建工具”转向“构建控制框架”，强调对代理行为、时机和边界的精细控制；同时，通过会话挖掘自动生成技能（SKILL.md）成为提升代理能力的关键方向，但当前技术（如GRPO）提升有限，主要受限于边界检测弱、片段表示无序和离</small>
 - [2026-06-18](2026-06-18.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI 正从“辅助编码”向“全栈生产”演进，GLM-5.2 成为全球最强前端编码模型，Cursor 获 SpaceX 60 亿美元订单，AI 工具在创意和科学领域（如药物化学）加速落地。 2. 对 Harry 的意义：Wolfra</small>
 - [2026-06-17](2026-06-17.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI领域正从“大模型竞赛”转向“实用化与本地化”——开源权重模型改变格局，本地模型性能显著提升，但编码代理在真实场景中仍存在严重的“人机对齐”问题（分析超2万次会话发现失败模式）。 2. 组织变革：Meta正在“摧毁”其工程组织</small>
 - [2026-06-16](2026-06-16.md)<br><small class="rw-item-meta">今天阅读内容聚焦AI工程与数据压缩趋势：TimescaleDB通过混合行列引擎实现时序数据98%压缩率；Anthropic发布Fable模型并强调安全护栏，引发对“危险模型”营销争议；AI编码正从提示工程转向自主长时运行代理，核心是构建目标-评估-循环的控制系统；Codex Mo</small>

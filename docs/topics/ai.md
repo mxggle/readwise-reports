@@ -4,6 +4,16 @@
 
 ## 2026-06
 
+### 2026-06-21
+
+- [Agency stole bestselling author's book, used AI to relaunch as their own](https://read.readwise.io/read/01kvk43m2zvk6b84vmj0b2rspp)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 有信息量，但不用深读</small>
+- [AMD will reinstate memory encryption on Ryzen 9000 CPUs via BIOS update in July](https://read.readwise.io/read/01kvkamww8yhc3bqm2v7sjsge0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 有信息量，但不用深读</small>
+- [From PGP to Mythos: a brief history of export controls that didn't stop anyone](https://read.readwise.io/read/01kvjmswg1ndyt7vzz6fdxtftq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 未来特定场景可能有用</small>
+- [How to Feed a Dictator](https://read.readwise.io/read/01kvha91yr3qnh42wv3tzpg7qr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 有信息量，但不用深读</small>
+- [The ability to regrow body parts is dormant in mammals, not lost](https://read.readwise.io/read/01kvk39em3kje0hck1fdb3x18k)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-21.md) · 和长期目标强相关，值得完整读</small>
+- [WTF Is a Loop? Part 2: The 15 Loops People Are Actually Running (and the Commands to Steal Them)](https://read.readwise.io/read/01kvkj26hc69xcxekfdej107dp)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-06-21.md) · 和长期目标强相关，值得完整读</small>
+- [WTF Is a Loop? Peter Steinberger vs. Boris Cherny](https://read.readwise.io/read/01kvkhsfngytwwc46rtdam8c5y)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-06-21.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-06-20
 
 - [[Hands-on\] Build Your Own AI Avatar With Human-like Memory](https://read.readwise.io/read/01kvgscsrpw71has2d5gtre7c0)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-20.md)</small>
