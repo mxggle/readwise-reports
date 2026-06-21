@@ -4,6 +4,19 @@
 
 ## 2026-06
 
+### 2026-06-22
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kvnbqw8kwfaydzwwdct9ndda)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-22.md) · 和长期目标强相关，值得完整读</small>
+- [😼 DeepMind mapped AI agent controls](https://read.readwise.io/read/01kvnnvtpx4nd8m4vh3dcypc6q)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 有信息量，但不用深读</small>
+- [100 Greatest Bird Names of All Time](https://read.readwise.io/read/01kvn1qsts8bp8fm5ar5vx49wg)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 有信息量，但不用深读</small>
+- [Anthropic to Require ID Verification for Certain Capabilities Starting July 8](https://read.readwise.io/read/01kvn448vxzpdexkyy4xjanq4j)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 有信息量，但不用深读</small>
+- [Building Reliable Agentic AI Systems](https://read.readwise.io/read/01kvmafbh18rgc7cqrm50dd8fv)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-22.md) · 和长期目标强相关，值得完整读</small>
+- [Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Team…](https://read.readwise.io/read/01kvn3e0bzztwrkxcphv2tvkrn)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 未来特定场景可能有用</small>
+- [Codex 公认最强的 6个 Skill，有没有你没装的](https://read.readwise.io/read/01kvn7mtt4fhgxjkzrqp22yp79)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 未来特定场景可能有用</small>
+- [Everything Is Logarithms](https://read.readwise.io/read/01kvp26h2wdm1ne4gc05srmd0n)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-22.md) · 和长期目标强相关，值得完整读</small>
+- [Readwise Sunday Favorites ❤️: Ted Chiang, Robert T. Kiyosaki, and more](https://read.readwise.io/read/01kvn19xc20p29wwhggwqrc3jq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 有信息量，但不用深读</small>
+- [Show HN: CleverCrow: give tokens to your favorite projects](https://read.readwise.io/read/01kvnvg5w0f1p3xmkewevd7ybj)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-21
 
 - [Agency stole bestselling author's book, used AI to relaunch as their own](https://read.readwise.io/read/01kvk43m2zvk6b84vmj0b2rspp)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 有信息量，但不用深读</small>

@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">202 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">The ability to regrow body parts is dormant in mammals, not lost</span><span class="rw-topic__item">WTF Is a Loop? Part 2: The 15 Loops People Are Actually Running (and the Commands to Steal Them)</span><span class="rw-topic__item">WTF Is a Loop? Peter Steinberger vs. Boris Cherny</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">212 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Everything Is Logarithms</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">Building Reliable Agentic AI Systems</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">24 条</span></span>
@@ -22,12 +22,12 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Show HN: An 8-bit live gamecast for baseball</span><span class="rw-topic__item">How Brexit has made Britain poorer – in charts</span><span class="rw-topic__item">Do you avoid LinkedIn because &quot;someone will see?&quot;</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">12 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Lithuanian startup launches open-source network to detect Shahed-type drones</span><span class="rw-topic__item">Satellite reveals immense scale of GPS signal tampering</span><span class="rw-topic__item">Windows 11 update broke the Recycle Bin, OneDrive, and your PC's stability</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">13 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Do you hate social media?</span><span class="rw-topic__item">Lithuanian startup launches open-source network to detect Shahed-type drones</span><span class="rw-topic__item">Satellite reveals immense scale of GPS signal tampering</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">11 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Why I Email Complete Strangers</span><span class="rw-topic__item">Stop leaving LinkedIn money on the table</span><span class="rw-topic__item">Rome Fell and Nobody Noticed</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">12 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Pre-2022 Books</span><span class="rw-topic__item">Why I Email Complete Strangers</span><span class="rw-topic__item">Stop leaving LinkedIn money on the table</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">3 条</span></span>

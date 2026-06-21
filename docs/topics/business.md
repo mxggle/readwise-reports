@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-22
+
+- [Do you hate social media?](https://read.readwise.io/read/01kvnt89mf4an9p45gk6k2sss0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-21
 
 - [Lithuanian startup launches open-source network to detect Shahed-type drones](https://read.readwise.io/read/01kvjh6dyk37vw585vxv8ehac7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 未来特定场景可能有用</small>

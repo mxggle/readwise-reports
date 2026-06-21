@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-22
+
+- [Pre-2022 Books](https://read.readwise.io/read/01kvkks5a1vfkerx98apzjqdp4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-16
 
 - [Stop leaving LinkedIn money on the table](https://read.readwise.io/read/01kv4bk5kasbqygy9k2matwy16)<br><small class="rw-item-meta">[日报](../readwise/2026-06-16.md) · 未来特定场景可能有用</small>

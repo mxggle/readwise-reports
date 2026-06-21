@@ -5,8 +5,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-21/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-21</time></span>
+<a class="rw-card" href="2026-06-22/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-06-22</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-06
 
+- [2026-06-21](2026-06-21.md)
 - [2026-06-20](2026-06-20.md)<br><small class="rw-item-meta">Today’s top articles reveal a deepening reckoning with the economics of scale in tech, as AI’s massive operational costs—exemplified by OpenAI’s $34 billion spend against $13 billi…</small>
 - [2026-06-18](2026-06-18.md)<br><small class="rw-item-meta">Today’s top technical articles reveal two dominant themes: the growing tension between individual AI-driven productivity and stagnant organizational structures, and the escalating …</small>
 - [2026-06-17](2026-06-17.md)<br><small class="rw-item-meta">Today’s top stories reveal a tech landscape marked by AI’s soaring costs and eroding dominance, as OpenAI’s spending skyrockets to $34 billion while its competitive lead fades…</small>
