@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-23
+
+- [Britain's prime minister to step down, Burnham puts himself forward as successor](https://read.readwise.io/read/01kvqjjskn2ddpmkk156hrw5gc)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-06-23.md) · 和长期目标强相关，值得完整读</small>
+- [IELTS 4.0-5.0](https://read.readwise.io/read/01kvq0j07mjxp4zh6dezekngxq)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-22
 
 - [Pre-2022 Books](https://read.readwise.io/read/01kvkks5a1vfkerx98apzjqdp4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-22.md) · 未来特定场景可能有用</small>

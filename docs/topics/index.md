@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">212 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Everything Is Logarithms</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">Building Reliable Agentic AI Systems</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">222 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The Flat Curve Society</span><span class="rw-topic__item">How to survive AI mass replacement (and escape wage slavery)</span><span class="rw-topic__item">冷饭硬炒？一文讲明白 Loop Engineering</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">24 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Systemd 261 released with systemd-sysinstall, IMDSD, and storagectl</span><span class="rw-topic__item">Ask HN: Due to spam on GitHub, what platforms can I move my projects?</span><span class="rw-topic__item">datasette-acl 0.6a0</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">25 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Linux and Secure Boot certificate expiration</span><span class="rw-topic__item">Systemd 261 released with systemd-sysinstall, IMDSD, and storagectl</span><span class="rw-topic__item">Ask HN: Due to spam on GitHub, what platforms can I move my projects?</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">13 条</span></span>
@@ -26,8 +26,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Do you hate social media?</span><span class="rw-topic__item">Lithuanian startup launches open-source network to detect Shahed-type drones</span><span class="rw-topic__item">Satellite reveals immense scale of GPS signal tampering</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">12 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Pre-2022 Books</span><span class="rw-topic__item">Why I Email Complete Strangers</span><span class="rw-topic__item">Stop leaving LinkedIn money on the table</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">14 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Britain's prime minister to step down, Burnham puts himself forward as successor</span><span class="rw-topic__item">IELTS 4.0-5.0</span><span class="rw-topic__item">Pre-2022 Books</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">3 条</span></span>

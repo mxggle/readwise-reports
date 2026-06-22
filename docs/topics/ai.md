@@ -4,6 +4,19 @@
 
 ## 2026-06
 
+### 2026-06-23
+
+- [😺 GLM 5.2 brings 1M context](https://read.readwise.io/read/01kvqd4k9tx41zxymkjnhhp98n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>
+- [Anthropic's profit secret is leaking](https://read.readwise.io/read/01kvqkdrvrcnr76rpntb6p3aad)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>
+- [Claude: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6](https://read.readwise.io/read/01kvpcr1rj96azw5nf16gn8m5y)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>
+- [Git is forever. I'm building Oak anyways](https://read.readwise.io/read/01kvr10202qen99zdhq5tfb5mp)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>
+- [How to survive AI mass replacement (and escape wage slavery)](https://read.readwise.io/read/01kvrpf7s1m78g490fk1phm8wz)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-23.md) · 和长期目标强相关，值得完整读</small>
+- [Japan's answer to Claude Mythos](https://read.readwise.io/read/01kvqy131kvdp6v5s33w2c80d6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>
+- [The Flat Curve Society](https://read.readwise.io/read/01kvpqbc16qb8s9z5hw14f9cdh)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-23.md) · 和长期目标强相关，值得完整读</small>
+- [The Optimal Amount of Slop Is Non-Zero](https://read.readwise.io/read/01kvr5dcgjcph92dh6sb63dw5c)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>
+- [Zero Trust Meets AI Sprawl 🔐, Shadow Apps Turn Into Network Risk ⚠️, Big IT Bets On Agent Control 🤖](https://read.readwise.io/read/01kvqnmz5v92tyt7bg8k2s7ye4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>
+- [冷饭硬炒？一文讲明白 Loop Engineering](https://read.readwise.io/read/01kvp4yvcbs0z6178acy5vb1p6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-22
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kvnbqw8kwfaydzwwdct9ndda)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-22.md) · 和长期目标强相关，值得完整读</small>

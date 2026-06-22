@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-23
+
+- [Linux and Secure Boot certificate expiration](https://read.readwise.io/read/01kvrdeg9947kbcw8z8xpmxpae)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-21
 
 - [Ask HN: Due to spam on GitHub, what platforms can I move my projects?](https://read.readwise.io/read/01kvk3g56b6zs671we0fr6mvkv)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 未来特定场景可能有用</small>
