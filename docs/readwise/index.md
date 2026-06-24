@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-23/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-23</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI、English。最值得优先处理的是《The Flat Curve Society》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
+<a class="rw-card" href="2026-06-25/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-25</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI、Programming。最值得优先处理的是《I taught a bucket to speak Git》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-23](2026-06-23.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、English。最值得优先处理的是《The Flat Curve Society》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-06-22](2026-06-22.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Everything Is Logarithms》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-06-21](2026-06-21.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《The ability to regrow body parts is dormant in mammals, not lost》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完</small>
 - [2026-06-20](2026-06-20.md)<br><small class="rw-item-meta">今日阅读总结 1. 趋势：AI 代理正从“构建工具”转向“构建控制框架”，强调对代理行为、时机和边界的精细控制；同时，通过会话挖掘自动生成技能（SKILL.md）成为提升代理能力的关键方向，但当前技术（如GRPO）提升有限，主要受限于边界检测弱、片段表示无序和离</small>

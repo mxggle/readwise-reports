@@ -4,6 +4,18 @@
 
 ## 2026-06
 
+### 2026-06-25
+
+- [😺 Watch: How to manage thousands of computers with AI](https://read.readwise.io/read/01kvxm8dfbyfxpx8a6z4g9ete0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
+- [Elastic lays off 7% of employees](https://read.readwise.io/read/01kvxvh5wee8dt3s3fm4xyhgwg)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>
+- [Founding a company in Germany: €9600, 152 days and I still can't send an invoice](https://read.readwise.io/read/01kvwvn8swhvz07s0kc814wrrf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
+- [How the war on terror primed America for autocracy](https://read.readwise.io/read/01kvvsdm4ns73463xgphpcajj2)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
+- [I taught a bucket to speak Git](https://read.readwise.io/read/01kvx7gyswh9sak3adchj9tf3f)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-25.md) · 和长期目标强相关，值得完整读</small>
+- [Power and Prediction](https://read.readwise.io/read/01kvvj56bn2sa0j0vky0ax0pha)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>
+- [Show HN: Y – A malleable coding-agent desktop app built with Electron](https://read.readwise.io/read/01kvvjk10r4jbntrzncxnj37s6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
+- [Speculation Is All You Need!](https://read.readwise.io/read/01kvxtrz3k43tzsgpy135jj8qa)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-25.md) · 和长期目标强相关，值得完整读</small>
+- [Thomann takes legal action against Fender](https://read.readwise.io/read/01kvxj4vttc3vnc4ver9wsbht1)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-23
 
 - [😺 GLM 5.2 brings 1M context](https://read.readwise.io/read/01kvqd4k9tx41zxymkjnhhp98n)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 有信息量，但不用深读</small>

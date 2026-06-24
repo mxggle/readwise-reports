@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-25
+
+- [Zero-Downtime Deployments with Docker Compose – No Kubernetes Required](https://read.readwise.io/read/01kvxnc7y08aqhdabhz1d8k7e8)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-06-25.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-06-23
 
 - [Linux and Secure Boot certificate expiration](https://read.readwise.io/read/01kvrdeg9947kbcw8z8xpmxpae)<br><small class="rw-item-meta">[日报](../readwise/2026-06-23.md) · 未来特定场景可能有用</small>

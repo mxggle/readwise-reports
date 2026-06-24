@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-25
+
+- [European Commission's Metsola Overrides MEPs to Force Through Chat Control](https://read.readwise.io/read/01kvwk2t29cpwg3dcrgavacfkc)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>
+- [Texas man sentenced to 30 years for transporting pamphlets](https://read.readwise.io/read/01kvwyfacvk51d4aewc64hg6yy)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-21
 
 - [UHF X11: X11 Built for VisionOS and Apple Vision Pro](https://read.readwise.io/read/01kvk1p6vefjabndvnnkxxfrce)<br><small class="rw-item-meta">[日报](../readwise/2026-06-21.md) · 未来特定场景可能有用</small>
