@@ -4,6 +4,21 @@
 
 ## 2026-06
 
+### 2026-06-26
+
+- [AI Coworkers Join The Chat 🤖, Nvidia’s Moat Gets A Challenger 🧱, AI Spend Needs A CFO 🧾](https://read.readwise.io/read/01kvzcbjx217727dpwhkd796m7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
+- [Apple announces significant price increases for MacBooks, iPads, more](https://read.readwise.io/read/01kvzexm011kmcv0hh2da7hgxh)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
+- [China just dethroned El Capitan](https://read.readwise.io/read/01kvzar73wyqetsqaw3k47grs5)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
+- [Claude Code in Slack](https://read.readwise.io/read/01kvzera7n6hnxprm7s4mpeejf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
+- [How to Survive AI Mass Replacement](https://read.readwise.io/read/01kvzpg7xstgmfeqqm0b0r66r2)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 未来特定场景可能有用</small>
+- [How to Survive AI Mass Replacement](https://read.readwise.io/read/01kvzperya2qxgwjm4ak39xgfm)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 未来特定场景可能有用</small>
+- [Migrating from Proxmox to NixOS and Incus](https://read.readwise.io/read/01kw0dap7kf1948amx1hv1w4bj)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-26.md) · 和长期目标强相关，值得完整读</small>
+- [simonw/browser-compat-db](https://read.readwise.io/read/01kvy1n5m3egyh3gs5vn5m1kyn)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
+- [The 'papers, please' era of the internet will decimate your privacy](https://read.readwise.io/read/01kw0ebb43zzx4beer2egyfvdd)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 未来特定场景可能有用</small>
+- [UN hypocrisy in AI Environmental demands](https://read.readwise.io/read/01kvzk62w5dfnenbe6x3apm0yk)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-26.md) · 和长期目标强相关，值得完整读</small>
+- [Un-0: Generating Images with Coupled Oscillators](https://read.readwise.io/read/01kw09denpgs962ajp1k05cev5)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-06-26.md) · 和长期目标强相关，值得完整读</small>
+- [Where every major LLM stands politically](https://read.readwise.io/read/01kvzj85b8sa08jbsrg9vgzm2f)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-25
 
 - [😺 Watch: How to manage thousands of computers with AI](https://read.readwise.io/read/01kvxm8dfbyfxpx8a6z4g9ete0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 有信息量，但不用深读</small>
