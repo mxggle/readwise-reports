@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">243 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Migrating from Proxmox to NixOS and Incus</span><span class="rw-topic__item">Un-0: Generating Images with Coupled Oscillators</span><span class="rw-topic__item">UN hypocrisy in AI Environmental demands</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">255 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The next big breakthrough will be AIs learning on the job</span><span class="rw-topic__item">I keynoted alongside OpenAI and DeepMind</span><span class="rw-topic__item">Our AIE keynote is live! Watch it now</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">27 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Hey Nico</span><span class="rw-topic__item">Zero-Downtime Deployments with Docker Compose – No Kubernetes Required</span><span class="rw-topic__item">Linux and Secure Boot certificate expiration</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">28 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">datasette-export-database 0.3a2</span><span class="rw-topic__item">Hey Nico</span><span class="rw-topic__item">Zero-Downtime Deployments with Docker Compose – No Kubernetes Required</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">13 条</span></span>

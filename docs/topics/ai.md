@@ -4,6 +4,21 @@
 
 ## 2026-06
 
+### 2026-06-27
+
+- [A data race that doesn't compile (in Rust)](https://read.readwise.io/read/01kw0shnh43vdyz1rz4anzxa70)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>
+- [AI and Liability](https://read.readwise.io/read/01kw0enxy1z9pg8bfq5531r0b0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 未来特定场景可能有用</small>
+- [I keynoted alongside OpenAI and DeepMind](https://read.readwise.io/read/01kw25k84qfmxt8xz65mcmwx4p)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-06-27.md) · 和长期目标强相关，值得完整读</small>
+- [Liva AI (YC S25) Is Hiring](https://read.readwise.io/read/01kw2eey6s3ww4nxt4mcy4nx30)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>
+- [My AI Engineer keynote is live today](https://read.readwise.io/read/01kw24f3bgr8rxjq4sqmnc5sdm)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>
+- [Our AIE keynote is live! Watch it now](https://read.readwise.io/read/01kw24eftwsf1ac231wr64emfb)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-06-27.md) · 和长期目标强相关，值得完整读</small>
+- [Previewing GPT‑5.6 Sol: a next-generation model](https://read.readwise.io/read/01kw2ep41dj21c1c5gchx7twd3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>
+- [Quoting Timothy B. Lee](https://read.readwise.io/read/01kw2wkbk3jv6zvh06gpnh1fww)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 未来特定场景可能有用</small>
+- [The AI industry is pouring millions into US elections](https://read.readwise.io/read/01kw2850qbq047w47j69wkrawe)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 未来特定场景可能有用</small>
+- [The next big breakthrough will be AIs learning on the job](https://read.readwise.io/read/01kw2e046j1jz79pab77pp60ex)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-27.md) · 和长期目标强相关，值得完整读</small>
+- [Why current LLM costs are not sustainable](https://read.readwise.io/read/01kw1gc36whqh4tw0etxnbwsb4)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 未来特定场景可能有用</small>
+- [用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程](https://read.readwise.io/read/01kw1xsf0r0he4paq4jntjkpy6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-26
 
 - [AI Coworkers Join The Chat 🤖, Nvidia’s Moat Gets A Challenger 🧱, AI Spend Needs A CFO 🧾](https://read.readwise.io/read/01kvzcbjx217727dpwhkd796m7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-26.md) · 有信息量，但不用深读</small>
