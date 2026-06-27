@@ -4,6 +4,18 @@
 
 ## 2026-06
 
+### 2026-06-28
+
+- [🤖 AI Agents Weekly: GPT-5.6, Ornith-1.0, Codex Inside OpenAI, Claude Tag, Qwen-AgentWorld, AI SDK 7, and More](https://read.readwise.io/read/01kw4syke954h2m55p4hsej74m)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>
+- [Ask HN: MacBook vs. Dedicated GPU for LLM](https://read.readwise.io/read/01kw3ksm83pmnyc42s3ddnq1xw)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>
+- [Fintech Engineering Handbook](https://read.readwise.io/read/01kw4arwc36hjy5ckg453q0y3e)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-28.md) · 和长期目标强相关，值得完整读</small>
+- [GitHub for PMs: Version Control for Everything You Build With AI](https://read.readwise.io/read/01kw5bvgkjqsax2hce100kkap6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>
+- [GLP-1 drugs led to weight loss and reversed depression-like behavior in mice](https://read.readwise.io/read/01kw5gvt6973tf8vab44h04ywr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>
+- [Letter: the US lifts its block on Mythos 5, allowing...](https://read.readwise.io/read/01kw32t8ckpm5s5t88t2w5kzj3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
+- [Manufactured certainty.](https://read.readwise.io/read/01kw4kbyfm0b81xxdy57r3j08s)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
+- [Prompt Engineering & Loop Engineering, Clearly Explained!](https://read.readwise.io/read/01kw3atqjjt81w9g2n2yvc2cp1)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-28.md) · 和长期目标强相关，值得完整读</small>
+- [The Card That Made the Apple II Serious](https://read.readwise.io/read/01kw57q3hwvv0va3fhd8jn8fga)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-06-28.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-06-27
 
 - [A data race that doesn't compile (in Rust)](https://read.readwise.io/read/01kw0shnh43vdyz1rz4anzxa70)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 有信息量，但不用深读</small>

@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-28
+
+- [Ships keep moving through Hormuz despite strike](https://read.readwise.io/read/01kw58m55wz7zzw24tg7j2zck6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-23
 
 - [Britain's prime minister to step down, Burnham puts himself forward as successor](https://read.readwise.io/read/01kvqjjskn2ddpmkk156hrw5gc)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-06-23.md) · 和长期目标强相关，值得完整读</small>

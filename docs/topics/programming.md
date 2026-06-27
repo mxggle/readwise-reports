@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-28
+
+- [The open source DOCX editor submitted to HN a few weeks ago has been deleted](https://read.readwise.io/read/01kw30zqdrxp5bx7pk1e82qngv)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-27
 
 - [datasette-export-database 0.3a2](https://read.readwise.io/read/01kw0eny1ktmgmn86pnxnd1eh8)<br><small class="rw-item-meta">[日报](../readwise/2026-06-27.md) · 未来特定场景可能有用</small>

@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-28
+
+- [US strikes Iran in response to drone strike on commercial ship](https://read.readwise.io/read/01kw31m2b67k5pss97yagc89r5)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-25
 
 - [European Commission's Metsola Overrides MEPs to Force Through Chat Control](https://read.readwise.io/read/01kvwk2t29cpwg3dcrgavacfkc)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>
