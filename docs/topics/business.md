@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-30
+
+- [European ISPs Want Rightsholders Held Accountable for Overblocking Damage](https://read.readwise.io/read/01kwa2wec4xqm6vz42wq4taq86)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-29
 
 - [Ask HN: Is there a bad employers (who have a records of not paying) list?](https://read.readwise.io/read/01kw7ak3cqqgh4grcc5t3jcyt0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 未来特定场景可能有用</small>

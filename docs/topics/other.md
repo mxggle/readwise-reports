@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-30
+
+- [Mullvad VPN co-founder donated ~500,000USD to Swedish far-right political party](https://read.readwise.io/read/01kwa3g2ke2gc6s8eebfahdqr3)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 未来特定场景可能有用</small>
+- [Replacing Systemd with OpenRC in Debian](https://read.readwise.io/read/01kw95gp60eajv78xdj1ywewqp)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-29
 
 - [EU to legislate about Chat Control behind closed doors](https://read.readwise.io/read/01kw7dshmnqngjjjyk82wq4dfw)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>

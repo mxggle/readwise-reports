@@ -4,6 +4,17 @@
 
 ## 2026-06
 
+### 2026-06-30
+
+- [🗞️ What's New: $1.7M/year from $20 Upwork gigs, accidental billboard marketing, coding is 1 of 9+ biz skills](https://read.readwise.io/read/01kwaesyyjfedd369gv1v6vhfa)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 未来特定场景可能有用</small>
+- [How AI Agents Manage Memory and Avoid Forgetfulness](https://read.readwise.io/read/01kwa0zakavk1tdgzqrdtbg5v5)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 有信息量，但不用深读</small>
+- [Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding](https://read.readwise.io/read/01kwa31c5jfw4k8sja3vk0fqq7)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-06-30.md) · 和长期目标强相关，值得完整读</small>
+- [Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped](https://read.readwise.io/read/01kw9daapeknptcq6hc60cce2g)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 未来特定场景可能有用</small>
+- [The 80% Problem: The Last 20% Is Where the Engineer Used to Live](https://read.readwise.io/read/01kwac13yphrar936yvy2x3rrx)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 未来特定场景可能有用</small>
+- [US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?](https://read.readwise.io/read/01kw95gnwpykc4a43pfsekqnec)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-30.md) · 和长期目标强相关，值得完整读</small>
+- [Why did one day of AI cost more than a month of servers?](https://read.readwise.io/read/01kw9wpwg9k140fzk2ww5cs2xx)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 有信息量，但不用深读</small>
+- [You really shouldn't copy-paste errors into Claude Code](https://read.readwise.io/read/01kwaphqe2wdpmvkm9nr1tsrzc)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-29
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kw7ej2z94mra43v7jbk2cb3f)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-29.md) · 和长期目标强相关，值得完整读</small>

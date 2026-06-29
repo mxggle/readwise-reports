@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-30
+
+- [A field guide to the modern front end for developers who hand-wrote HTML](https://read.readwise.io/read/01kw9xah4ksv80h285pnd0es3a)<br><small class="rw-item-meta">[日报](../readwise/2026-06-30.md) · 有信息量，但不用深读</small>
+- [JumpServer: Open-Source Privileged Access Management](https://read.readwise.io/read/01kwadre472fjn9nnnr955mqgp)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-06-30.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-06-28
 
 - [The open source DOCX editor submitted to HN a few weeks ago has been deleted](https://read.readwise.io/read/01kw30zqdrxp5bx7pk1e82qngv)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
