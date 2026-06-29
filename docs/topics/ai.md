@@ -4,6 +4,16 @@
 
 ## 2026-06
 
+### 2026-06-29
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kw7ej2z94mra43v7jbk2cb3f)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-29.md) · 和长期目标强相关，值得完整读</small>
+- [Common mistake](https://read.readwise.io/read/01kw7rwvxcrw93zx0836rwhhdf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 未来特定场景可能有用</small>
+- [Karpathy's Agentic Engineering Finally Has Proper Tooling](https://read.readwise.io/read/01kw8a1r2wfwhrtnwdrckhjqnk)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-06-29.md) · 和长期目标强相关，值得完整读</small>
+- [Quoting Jon Udell](https://read.readwise.io/read/01kw8428xeqn3zsbygzp1fnewr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 未来特定场景可能有用</small>
+- [Response to AI slop is from Robin Williams](https://read.readwise.io/read/01kw5yzcqer9rab8y5cj34c4fq)<br><small class="rw-item-meta">`READ` · 89/100 · [日报](../readwise/2026-06-29.md) · 和长期目标强相关，值得完整读</small>
+- [Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs](https://read.readwise.io/read/01kw7y36qaj5r3ggvyqg2b84sf)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>
+- [Z.ai’s GLM 5.2 finds bugs as well as Mythos, Trump admin to free Fable soon](https://read.readwise.io/read/01kw8b21ccwbfjghd575rdr5ze)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-28
 
 - [🤖 AI Agents Weekly: GPT-5.6, Ornith-1.0, Codex Inside OpenAI, Claude Tag, Qwen-AgentWorld, AI SDK 7, and More](https://read.readwise.io/read/01kw4syke954h2m55p4hsej74m)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>

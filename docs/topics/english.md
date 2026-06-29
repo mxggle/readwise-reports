@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-29
+
+- [POSIX Is Not a Shell](https://read.readwise.io/read/01kw865d5rhv7r8h0dqm7yexx7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>
+- [The origins of the school system aimed to produce independent, critical thinkers](https://read.readwise.io/read/01kw757p3sm8t6ajz8zpvxpnqr)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>
+
 ### 2026-06-28
 
 - [Ships keep moving through Hormuz despite strike](https://read.readwise.io/read/01kw58m55wz7zzw24tg7j2zck6)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 有信息量，但不用深读</small>

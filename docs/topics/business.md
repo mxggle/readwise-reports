@@ -4,6 +4,10 @@
 
 ## 2026-06
 
+### 2026-06-29
+
+- [Ask HN: Is there a bad employers (who have a records of not paying) list?](https://read.readwise.io/read/01kw7ak3cqqgh4grcc5t3jcyt0)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-25
 
 - [Mark Zuckerberg wants Meta to launch its own prediction market](https://read.readwise.io/read/01kvwzm4cp9p1fr6zxzqgk0njj)<br><small class="rw-item-meta">[日报](../readwise/2026-06-25.md) · 未来特定场景可能有用</small>

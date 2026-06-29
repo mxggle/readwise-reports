@@ -4,6 +4,11 @@
 
 ## 2026-06
 
+### 2026-06-29
+
+- [EU to legislate about Chat Control behind closed doors](https://read.readwise.io/read/01kw7dshmnqngjjjyk82wq4dfw)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 有信息量，但不用深读</small>
+- [Show HN: Decomp Academy – Learn to decompile GameCube games into matching C](https://read.readwise.io/read/01kw5ysdn2anhhhebc65aj86b7)<br><small class="rw-item-meta">[日报](../readwise/2026-06-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-06-28
 
 - [US strikes Iran in response to drone strike on commercial ship](https://read.readwise.io/read/01kw31m2b67k5pss97yagc89r5)<br><small class="rw-item-meta">[日报](../readwise/2026-06-28.md) · 未来特定场景可能有用</small>
