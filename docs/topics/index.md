@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">279 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</span><span class="rw-topic__item">US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?</span><span class="rw-topic__item">You really shouldn't copy-paste errors into Claude Code</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">288 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">TabFM: A zero-shot foundation model for tabular data</span><span class="rw-topic__item">Understanding lattice risks: Many differences between marketing and reality</span><span class="rw-topic__item">Something Is Wrong with Modern Longevity Science</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">31 条</span></span>
@@ -22,8 +22,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Show HN: An 8-bit live gamecast for baseball</span><span class="rw-topic__item">How Brexit has made Britain poorer – in charts</span><span class="rw-topic__item">Do you avoid LinkedIn because &quot;someone will see?&quot;</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">16 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">European ISPs Want Rightsholders Held Accountable for Overblocking Damage</span><span class="rw-topic__item">Ask HN: Is there a bad employers (who have a records of not paying) list?</span><span class="rw-topic__item">Mark Zuckerberg wants Meta to launch its own prediction market</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">17 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The best thing that's ever happened for multiplayer games?</span><span class="rw-topic__item">European ISPs Want Rightsholders Held Accountable for Overblocking Damage</span><span class="rw-topic__item">Ask HN: Is there a bad employers (who have a records of not paying) list?</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
   <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">17 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">33 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Replacing Systemd with OpenRC in Debian</span><span class="rw-topic__item">Mullvad VPN co-founder donated ~500,000USD to Swedish far-right political party</span><span class="rw-topic__item">EU to legislate about Chat Control behind closed doors</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">36 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">US Supreme Court Just Blew Up EU-US Data Transfers</span><span class="rw-topic__item">Have You Restarted Your Computer This Week?</span><span class="rw-topic__item">American Pride Falls to 25-Year Record Low</span></span>
 </a>
 </div>

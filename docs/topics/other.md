@@ -2,6 +2,14 @@
 
 最近 Readwise 日报中归入 **Other** 的条目。
 
+## 2026-07
+
+### 2026-07-01
+
+- [American Pride Falls to 25-Year Record Low](https://read.readwise.io/read/01kwc7c41p9exspky19ebcqfcx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>
+- [Have You Restarted Your Computer This Week?](https://read.readwise.io/read/01kwceh581nmbnqn7cqp8a6d2k)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>
+- [US Supreme Court Just Blew Up EU-US Data Transfers](https://read.readwise.io/read/01kwbfzvkrdwesj1n2g0kx7rew)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>
+
 ## 2026-06
 
 ### 2026-06-30

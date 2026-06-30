@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-06-30/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-06-30</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI、Programming。最值得优先处理的是《Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完</span>
+<a class="rw-card" href="2026-07-01/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-07-01</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI、English。最值得优先处理的是《TabFM: A zero-shot foundation model for tabular data》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-06
 
+- [2026-06-30](2026-06-30.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Programming。最值得优先处理的是《Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完</small>
 - [2026-06-29](2026-06-29.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Response to AI slop is from Robin Williams》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-06-28](2026-06-28.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、English。最值得优先处理的是《The Card That Made the Apple II Serious》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动</small>
 - [2026-06-27](2026-06-27.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《The next big breakthrough will be AIs learning on the job》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，</small>

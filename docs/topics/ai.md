@@ -2,6 +2,20 @@
 
 最近 Readwise 日报中归入 **AI** 的条目。
 
+## 2026-07
+
+### 2026-07-01
+
+- [Claude Sonnet 5](https://read.readwise.io/read/01kwcwedtyrs27snvb61mzm5e2)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>
+- [Impressions from visiting OpenAI, Anthropic, & Cursor](https://read.readwise.io/read/01kwcstg5h2zdh1ngvbm3kp3re)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>
+- [Meta's brain-to-text breakthrough](https://read.readwise.io/read/01kwch95edydx6fxpdkg3jb753)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>
+- [Scammers Sell Seeds for Exotic AI-Generated Flowers That Don't Exist](https://read.readwise.io/read/01kwckpptf1whw1c8z50wnyn6d)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>
+- [Show HN: Bored People Chat – Anonymous global chat room](https://read.readwise.io/read/01kwbkan3854y93mg2bqy36cd4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>
+- [Something Is Wrong with Modern Longevity Science](https://read.readwise.io/read/01kwd4tk6wb8g2255vbdcyv2x4)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-01.md) · 和长期目标强相关，值得完整读</small>
+- [South Korea to spend $1T on more memory chip production and humanoid robots](https://read.readwise.io/read/01kwasnneg4xcz1hmksfyyhevb)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>
+- [TabFM: A zero-shot foundation model for tabular data](https://read.readwise.io/read/01kwdada3wx7kt6q5t4c28pgny)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-01.md) · 和长期目标强相关，值得完整读</small>
+- [Understanding lattice risks: Many differences between marketing and reality](https://read.readwise.io/read/01kwd99ggmhrs51pvkafd2gpyn)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-01.md) · 和长期目标强相关，值得完整读</small>
+
 ## 2026-06
 
 ### 2026-06-30
