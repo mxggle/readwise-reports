@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Programming** 的条目。
 
+## 2026-07
+
+### 2026-07-02
+
+- [Asahi Linux 7.1 Progress Report](https://read.readwise.io/read/01kwek6406fa329hjjk125vz7g)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>
+
 ## 2026-06
 
 ### 2026-06-30

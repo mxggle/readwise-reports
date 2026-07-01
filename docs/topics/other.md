@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-02
+
+- [Physical disc production ending in Jan 2028 for new games on PlayStation](https://read.readwise.io/read/01kwev19j0c2nn9f1vv3zw7csk)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-01
 
 - [American Pride Falls to 25-Year Record Low](https://read.readwise.io/read/01kwc7c41p9exspky19ebcqfcx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>

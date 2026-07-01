@@ -4,6 +4,19 @@
 
 ## 2026-07
 
+### 2026-07-02
+
+- [😺 Watch: AI can do your taxes now](https://read.readwise.io/read/01kwfmj9cdhcx9sg7n6ke7z0mf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>
+- [Ahmad Osman on why local AI is catching up](https://read.readwise.io/read/01kwdg904th69vn7eg7tv7jack)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-07-02.md) · 和长期目标强相关，值得完整读</small>
+- [Are readers generating fiction with AI models?](https://read.readwise.io/read/01kwfd24snxb21ngd5rxgv7b2y)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>
+- [Firms that adopt AI grow headcount 10% over the two years following adoption](https://read.readwise.io/read/01kwe1kkw1bvbr0p03fgrd1pn4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>
+- [Forward Deployed Engineers and the future of software engineering](https://read.readwise.io/read/01kwdgt8bbz79kp07xtbjekz3f)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-02.md) · 和长期目标强相关，值得完整读</small>
+- [Hanami 3.0: In Full Bloom](https://read.readwise.io/read/01kwfewscq4h3dvvbrtd1c73zd)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>
+- [How Cursor deploys AI inside the enterprise](https://read.readwise.io/read/01kwfh7gwdz73pawg7d9f4xk9y)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>
+- [Meta is adding rate limits and soft paywall to smart glasses](https://read.readwise.io/read/01kwe7e5xrab53fcv2d05r63vr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>
+- [Quoting Anthropic](https://read.readwise.io/read/01kwdgprpzy05rye5w6p9d4gmx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>
+- [Supersonic flight returning to US after half-century ban](https://read.readwise.io/read/01kwdwd5j3ej7gaxaz29zhv6ez)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-01
 
 - [Claude Sonnet 5](https://read.readwise.io/read/01kwcwedtyrs27snvb61mzm5e2)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 有信息量，但不用深读</small>

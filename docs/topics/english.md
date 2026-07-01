@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **English** 的条目。
 
+## 2026-07
+
+### 2026-07-02
+
+- [I Left Harry's All-Night Hamburgers](https://read.readwise.io/read/01kwfsnzzaep83nmfz6g70e0hs)<br><small class="rw-item-meta">`READ` · 97/100 · [日报](../readwise/2026-07-02.md) · 和长期目标强相关，值得完整读</small>
+
 ## 2026-06
 
 ### 2026-06-29
