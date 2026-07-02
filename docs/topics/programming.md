@@ -4,6 +4,12 @@
 
 ## 2026-07
 
+### 2026-07-03
+
+- [Multi-Region Architecture: Going Global Without Going Broke](https://read.readwise.io/read/01kwhr6aek7gw3eqhqyx2kr8np)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>
+- [Multi-Region Architecture: Going Global Without Going Broke](https://read.readwise.io/read/01kwhqq3bvtrjxkazhhrj9f9bv)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>
+- [Navalmanack: The Almanack of Naval Ravikant and more](https://read.readwise.io/read/01kwj0jecvtfx6nn5sgsygta2s)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-02
 
 - [Asahi Linux 7.1 Progress Report](https://read.readwise.io/read/01kwek6406fa329hjjk125vz7g)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 未来特定场景可能有用</small>

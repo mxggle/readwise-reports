@@ -4,6 +4,17 @@
 
 ## 2026-07
 
+### 2026-07-03
+
+- [24-bit/192kHz music downloads and why they make no sense](https://read.readwise.io/read/01kwhvsn5t0y46rnjervfw2ex5)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-03.md) · 和长期目标强相关，值得完整读</small>
+- [Bring Back Crappy Forums](https://read.readwise.io/read/01kwgcemskacgcstpk7x9c73e2)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>
+- [CursorBench 3.1](https://read.readwise.io/read/01kwgr0par4zpmt57msy6qwct6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 有信息量，但不用深读</small>
+- [How to Achieve 2.8x Faster Automatic Speech Recognition](https://read.readwise.io/read/01kwj4me5bh8s5wk6z342geg65)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-03.md) · 和长期目标强相关，值得完整读</small>
+- [Kimi K2.7 Code is generally available in GitHub Copilot](https://read.readwise.io/read/01kwgp42vwz8wdwx2qg4smvtf0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 有信息量，但不用深读</small>
+- [Lightning Memory-Mapped Database Manager (LMDB) 1.0](https://read.readwise.io/read/01kwj7k4j5mt7b4k4mjm3y7s5v)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 有信息量，但不用深读</small>
+- [Please stop the AI Confidence Theater](https://read.readwise.io/read/01kwj449eqxv2ge7cegq605xbr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 有信息量，但不用深读</small>
+- [The Fall of the Theorem Economy](https://read.readwise.io/read/01kwh0gxq6kdszt4f56kfwhpkv)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-03.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-07-02
 
 - [😺 Watch: AI can do your taxes now](https://read.readwise.io/read/01kwfmj9cdhcx9sg7n6ke7z0mf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-02.md) · 有信息量，但不用深读</small>

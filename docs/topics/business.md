@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-03
+
+- [Google loses fight over record $4.7B EU antitrust fine](https://read.readwise.io/read/01kwh19e25k7phbhjzx1p9zhpg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-01
 
 - [The best thing that's ever happened for multiplayer games?](https://read.readwise.io/read/01kwd4cn3r8301d1c4gxthxcyc)<br><small class="rw-item-meta">[日报](../readwise/2026-07-01.md) · 未来特定场景可能有用</small>
