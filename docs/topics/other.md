@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-04
+
+- [Valve open source the Steam Machine e-ink screen so you can make your own](https://read.readwise.io/read/01kwm2mqp52grmdqq4nsb8nn80)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-03
 
 - [Healthy but Sedentary People Show Early Decline in Cellular Energy Production](https://read.readwise.io/read/01kwfze2f9kv7vsq932dr9wab1)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 有信息量，但不用深读</small>

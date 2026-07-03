@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-04
+
+- [Markets are competitive if and only if P = NP](https://read.readwise.io/read/01kwmb02kgm61ww2h97efzzee4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>
+- [Simple, beautiful Emacs modeline: modusregel](https://read.readwise.io/read/01kwjg6kpbvhfhw22rtj5zyr70)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-03
 
 - [Google loses fight over record $4.7B EU antitrust fine](https://read.readwise.io/read/01kwh19e25k7phbhjzx1p9zhpg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>

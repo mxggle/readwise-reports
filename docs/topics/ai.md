@@ -4,6 +4,19 @@
 
 ## 2026-07
 
+### 2026-07-04
+
+- [Ask HN: Is anyone experimenting with different ways of using LLMs for coding?](https://read.readwise.io/read/01kwkb97hw610h9j46tr0v93jr)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-04.md) · 和长期目标强相关，值得完整读</small>
+- [Best Simple System for Now](https://read.readwise.io/read/01kwmavr2gpf05w3656w6z1dh7)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-04.md) · 和长期目标强相关，值得完整读</small>
+- [CarPlay Is Additive](https://read.readwise.io/read/01kwjs13qh7zez8stgsgks8qct)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>
+- [Fable's judgement](https://read.readwise.io/read/01kwmn8txg47bzqthb5pzkcrpp)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>
+- [I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination](https://read.readwise.io/read/01kwmkkwpqtb3g86kt8846v6dk)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-04.md) · 和长期目标强相关，值得完整读</small>
+- [June 2026 newsletter](https://read.readwise.io/read/01kwm7em7frab1ca5jdhdc3xnn)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>
+- [Prompt, Context, Harness & Loop Engineering](https://read.readwise.io/read/01kwmzgbt81ggg9qy0c6p2zy4s)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>
+- [Show HN: Updated my landing page with Fable (retro pixel style)](https://read.readwise.io/read/01kwmz70mkgyhfwne90agymwag)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>
+- [The Demoralization of the White-Collar Worker](https://read.readwise.io/read/01kwn1aehzx9sz0q5pb4n8gp8w)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>
+- [The most profitable skill of the 21st century (not AI)](https://read.readwise.io/read/01kwmdg2gwezpwy6b3j5n852vx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-03
 
 - [24-bit/192kHz music downloads and why they make no sense](https://read.readwise.io/read/01kwhvsn5t0y46rnjervfw2ex5)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-03.md) · 和长期目标强相关，值得完整读</small>
