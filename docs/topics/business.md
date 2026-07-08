@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-09
+
+- [GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup](https://read.readwise.io/read/01kwzdk2jxbj3ana06e39ntyvp)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>
+- [List of European organizations that have banned personal messaging apps at work](https://read.readwise.io/read/01kx0qejb6vz2fdjhsnepajgn8)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-04
 
 - [Markets are competitive if and only if P = NP](https://read.readwise.io/read/01kwmb02kgm61ww2h97efzzee4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 有信息量，但不用深读</small>

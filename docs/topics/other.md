@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-09
+
+- [Anyone here with an "in" with eBay?](https://read.readwise.io/read/01kx13yhcs5pjhfjcr243y4mgy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-04
 
 - [Valve open source the Steam Machine e-ink screen so you can make your own](https://read.readwise.io/read/01kwm2mqp52grmdqq4nsb8nn80)<br><small class="rw-item-meta">[日报](../readwise/2026-07-04.md) · 未来特定场景可能有用</small>

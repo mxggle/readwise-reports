@@ -4,6 +4,19 @@
 
 ## 2026-07
 
+### 2026-07-09
+
+- [😺 Watch: ComfyUI Proves AI Art Is Not Zero Effort](https://read.readwise.io/read/01kx1svjp64bdb7byvyeepj3cs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>
+- [Andrew Ng just dropped a 3-hour course on how to...](https://read.readwise.io/read/01kx1qcy8vd05am3w0zt9had0c)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>
+- [Build Your Own 100% Local AI Second Brain](https://read.readwise.io/read/01kx1bd3t19zbn3njebj9tgy72)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>
+- [Decoding the obfuscated bash script on a Uniqlo t-shirt](https://read.readwise.io/read/01kx0g458rtp7rgfsrdy3g1cr2)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>
+- [Grok 4.5](https://read.readwise.io/read/01kx1f7nsv8ate8pmm3sazaytk)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-07-09.md) · 和长期目标强相关，值得完整读</small>
+- [Mistral's Robostral Navigate: a state of the art robotics navigation model](https://read.readwise.io/read/01kx12kg2gdjmzxpn3nc8b9q33)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-09.md) · 和长期目标强相关，值得完整读</small>
+- [My client had a disastrous email launch](https://read.readwise.io/read/01kx172308ms2h9q4hhsy2d1wh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
+- [OpenAI no longer recommends SWE-Bench Pro](https://read.readwise.io/read/01kx1rzt2k48q0xk6rjs52q3vm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-09.md) · 和长期目标强相关，值得完整读</small>
+- [OpenAI's next AI models arrive tomorrow](https://read.readwise.io/read/01kx14h9rdaw70k1n7qvxj0wgz)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
+- [The space bit of SpaceX is worth $8 a share, says Morgan Stanley](https://read.readwise.io/read/01kx0cmwx2q297cxgdp8dzyz9t)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-04
 
 - [Ask HN: Is anyone experimenting with different ways of using LLMs for coding?](https://read.readwise.io/read/01kwkb97hw610h9j46tr0v93jr)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-04.md) · 和长期目标强相关，值得完整读</small>
