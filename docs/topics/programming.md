@@ -4,6 +4,13 @@
 
 ## 2026-07
 
+### 2026-07-10
+
+- [Rubiks Cube Solver](https://read.readwise.io/read/01kx4dtbjpm50gyxzegmkf12rc)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>
+- [Streaming vs Batch: Two Philosophies of Data Processing](https://read.readwise.io/read/01kx3rzywch3mhgraw3a8xp22w)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>
+- [Streaming vs Batch: Two Philosophies of Data Processing](https://read.readwise.io/read/01kx3rmz8p95fm726rsxr00m7b)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>
+- [Transparency efforts behind the Helium Browser](https://read.readwise.io/read/01kx3n2hzxacjz370d6zbm9hmy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-03
 
 - [Multi-Region Architecture: Going Global Without Going Broke](https://read.readwise.io/read/01kwhr6aek7gw3eqhqyx2kr8np)<br><small class="rw-item-meta">[日报](../readwise/2026-07-03.md) · 未来特定场景可能有用</small>

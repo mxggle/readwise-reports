@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">326 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">OpenAI no longer recommends SWE-Bench Pro</span><span class="rw-topic__item">Mistral's Robostral Navigate: a state of the art robotics navigation model</span><span class="rw-topic__item">Grok 4.5</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">334 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Auditory and spontaneous movement responses to music over first postnatal year</span><span class="rw-topic__item">The Glass Backbone: Why the Army's Logistics Will Break in the Next War</span><span class="rw-topic__item">Ergo: Long Form Philosophy Lectures</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">35 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Multi-Region Architecture: Going Global Without Going Broke</span><span class="rw-topic__item">Multi-Region Architecture: Going Global Without Going Broke</span><span class="rw-topic__item">Navalmanack: The Almanack of Naval Ravikant and more</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">39 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Transparency efforts behind the Helium Browser</span><span class="rw-topic__item">Rubiks Cube Solver</span><span class="rw-topic__item">Streaming vs Batch: Two Philosophies of Data Processing</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">13 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">40 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Anyone here with an &quot;in&quot; with eBay?</span><span class="rw-topic__item">Valve open source the Steam Machine e-ink screen so you can make your own</span><span class="rw-topic__item">Healthy but Sedentary People Show Early Decline in Cellular Energy Production</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">41 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">No leap second will be introduced at the end of December 2026</span><span class="rw-topic__item">Anyone here with an &quot;in&quot; with eBay?</span><span class="rw-topic__item">Valve open source the Steam Machine e-ink screen so you can make your own</span></span>
 </a>
 </div>

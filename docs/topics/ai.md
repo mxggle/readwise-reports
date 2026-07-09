@@ -4,6 +4,17 @@
 
 ## 2026-07
 
+### 2026-07-10
+
+- [Auditory and spontaneous movement responses to music over first postnatal year](https://read.readwise.io/read/01kx3waxyeh9gbzaxp4j4tm4f3)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-10.md) · 和长期目标强相关，值得完整读</small>
+- [Ergo: Long Form Philosophy Lectures](https://read.readwise.io/read/01kx2gp50hxbt74zpmg1kj2bq1)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-07-10.md) · 和长期目标强相关，值得完整读</small>
+- [GLM 5.2 is nearly as accurate as a human book keeper](https://read.readwise.io/read/01kx43q0d027rk28035jke782d)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 有信息量，但不用深读</small>
+- [Introducing Muse Spark 1.1](https://read.readwise.io/read/01kx3vamxkbg0ds2m50tbqqfan)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 有信息量，但不用深读</small>
+- [Is It Safe to Host HTML That Runs Its Own JavaScript?](https://read.readwise.io/read/01kx3jd2trem5t1f1rnn5y6yrt)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 有信息量，但不用深读</small>
+- [Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%](https://read.readwise.io/read/01kx21934bv93fsakjm9abwjrf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 有信息量，但不用深读</small>
+- [The Glass Backbone: Why the Army's Logistics Will Break in the Next War](https://read.readwise.io/read/01kx3hhevqtjwjnj7mkxtr4ddm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-10.md) · 和长期目标强相关，值得完整读</small>
+- [TrueBiz (YC S22) – Senior Software Engineer – Remote (US) – Full-Time](https://read.readwise.io/read/01kx3cb0r0q6ack7tbd30qw058)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-09
 
 - [😺 Watch: ComfyUI Proves AI Art Is Not Zero Effort](https://read.readwise.io/read/01kx1svjp64bdb7byvyeepj3cs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 有信息量，但不用深读</small>

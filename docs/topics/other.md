@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-10
+
+- [No leap second will be introduced at the end of December 2026](https://read.readwise.io/read/01kx3n2hrqkm494fgj81hm8zs3)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-09
 
 - [Anyone here with an "in" with eBay?](https://read.readwise.io/read/01kx13yhcs5pjhfjcr243y4mgy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-09.md) · 未来特定场景可能有用</small>
