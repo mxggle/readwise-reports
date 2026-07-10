@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-11
+
+- [Garnix Is Joining Shopify](https://read.readwise.io/read/01kx6dvev2jq815yx3bersqscd)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>
+- [War Atlas: An interactive cartography of every named war in human history](https://read.readwise.io/read/01kx6m1acwpg6yfpz4q3qj68f5)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-10
 
 - [No leap second will be introduced at the end of December 2026](https://read.readwise.io/read/01kx3n2hrqkm494fgj81hm8zs3)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>

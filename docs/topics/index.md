@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">334 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Auditory and spontaneous movement responses to music over first postnatal year</span><span class="rw-topic__item">The Glass Backbone: Why the Army's Logistics Will Break in the Next War</span><span class="rw-topic__item">Ergo: Long Form Philosophy Lectures</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">345 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Moss (YC F25) Is Hiring</span><span class="rw-topic__item">RAG &amp; Fine-tuning in LLMs</span><span class="rw-topic__item">Adam Brown – Einstein's happiest thought: General Relativity from scratch</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">39 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">41 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">No leap second will be introduced at the end of December 2026</span><span class="rw-topic__item">Anyone here with an &quot;in&quot; with eBay?</span><span class="rw-topic__item">Valve open source the Steam Machine e-ink screen so you can make your own</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">43 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Garnix Is Joining Shopify</span><span class="rw-topic__item">War Atlas: An interactive cartography of every named war in human history</span><span class="rw-topic__item">No leap second will be introduced at the end of December 2026</span></span>
 </a>
 </div>

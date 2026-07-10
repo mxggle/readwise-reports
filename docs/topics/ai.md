@@ -4,6 +4,20 @@
 
 ## 2026-07
 
+### 2026-07-11
+
+- [A Love Letter to Flashcards](https://read.readwise.io/read/01kx6b3cs9whvwfbzm36cetvvf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
+- [Adam Brown – Einstein's happiest thought: General Relativity from scratch](https://read.readwise.io/read/01kx6edvve9yppqbwrq9ynv8xx)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-11.md) · 和长期目标强相关，值得完整读</small>
+- [AI Gets To Work 🤖, Process Beats Prompts 🧠, Identity Takes Center Stage 🔐](https://read.readwise.io/read/01kx60vd5tea1vvk7b2dfvsjxq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
+- [An Update on the scraper situation](https://read.readwise.io/read/01kx6tnrk74edmnfmrcm0tdgcj)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>
+- [Anyone else get a vague GitHub shakedown notice?](https://read.readwise.io/read/01kx6hd51retq6rqjnfga3pvhk)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
+- [How do you use Vim in the era of AI?](https://read.readwise.io/read/01kx645etec463cskkyyh521rm)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>
+- [Moss (YC F25) Is Hiring](https://read.readwise.io/read/01kx6y5eh55eb7g9n4c3d6zhc4)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-07-11.md) · 和长期目标强相关，值得完整读</small>
+- [OpenAI massive day](https://read.readwise.io/read/01kx68at18dsy2zs2qvcnjbn1p)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
+- [Quoting OpenAI](https://read.readwise.io/read/01kx4s37ewcpdkh4hjc40m7bh3)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>
+- [RAG & Fine-tuning in LLMs](https://read.readwise.io/read/01kx716b9fsrkw4c120wmgjs4z)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-11.md) · 和长期目标强相关，值得完整读</small>
+- [Who approved OpenAI’s Sol model?](https://read.readwise.io/read/01kx6222nb4we24cqvga0sam8w)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-10
 
 - [Auditory and spontaneous movement responses to music over first postnatal year](https://read.readwise.io/read/01kx3waxyeh9gbzaxp4j4tm4f3)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-10.md) · 和长期目标强相关，值得完整读</small>
