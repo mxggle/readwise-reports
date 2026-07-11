@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-12
+
+- [Weekend Profile: Count Binface, Nigel Farage’s space-warrior foe](https://read.readwise.io/read/01kx7asxe43ffd80sb0dmgqqvg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-11
 
 - [Garnix Is Joining Shopify](https://read.readwise.io/read/01kx6dvev2jq815yx3bersqscd)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 未来特定场景可能有用</small>

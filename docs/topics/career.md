@@ -2,6 +2,13 @@
 
 最近 Readwise 日报中归入 **Career** 的条目。
 
+## 2026-07
+
+### 2026-07-12
+
+- [Leaded Gas Was a Known Poison the Day It Was Invented (2016)](https://read.readwise.io/read/01kx9472q5g8hkz97ck7q9gde9)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
+- [The iconic blue IKEA FRAKTA bag comes with a free lifetime warranty](https://read.readwise.io/read/01kx7c35rr9fhm31x16baevw63)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
+
 ## 2026-06
 
 ### 2026-06-18

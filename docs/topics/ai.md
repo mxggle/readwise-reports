@@ -4,6 +4,18 @@
 
 ## 2026-07
 
+### 2026-07-12
+
+- [EP221: How Docker Works Under the Hood](https://read.readwise.io/read/01kx8xm64f6w0jtn5evqd3cjgq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>
+- [EP221: How Docker Works Under the Hood](https://read.readwise.io/read/01kx8x8096ds1fst646gaxzbce)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>
+- [I ignored YouTube until this happened](https://read.readwise.io/read/01kx92vx8n7xz7d312a7tkwstv)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
+- [OpenAI Forked Git on GitHub](https://read.readwise.io/read/01kx9f9z05389jhtxntapdy67r)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
+- [Semantic/Hybrid Search in the Browser](https://read.readwise.io/read/01kx8pkk0cksqxankzdvd3324e)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-12.md) · 和长期目标强相关，值得完整读</small>
+- [Sixtyfour (YC P25) Is Hiring](https://read.readwise.io/read/01kx929at032gr9aa0bmzakdrf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>
+- [Speculations Concerning the First Ultraintelligent Machine (1965) [pdf\]](https://read.readwise.io/read/01kx8q79q2abdt7f5s3x7ra5nf)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-12.md) · 和长期目标强相关，值得完整读</small>
+- [The Chinese Voice Actor Forced to Prove He's Human](https://read.readwise.io/read/01kx9d09kzcvtn03qbzt10anqe)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>
+- [Who manages the agents?](https://read.readwise.io/read/01kx96qth63k9n3yx33bxpa5yh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-11
 
 - [A Love Letter to Flashcards](https://read.readwise.io/read/01kx6b3cs9whvwfbzm36cetvvf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-11.md) · 有信息量，但不用深读</small>
