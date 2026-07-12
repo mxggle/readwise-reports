@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-13
+
+- [Why study Diophantine equations?](https://read.readwise.io/read/01kxbja7w17krg2rd18aej5cqm)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
+- [Yt-Dlp Sequence Diagrams](https://read.readwise.io/read/01kxb53ds0xx2am0a41teh5czy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-12
 
 - [Weekend Profile: Count Binface, Nigel Farage’s space-warrior foe](https://read.readwise.io/read/01kx7asxe43ffd80sb0dmgqqvg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>

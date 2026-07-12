@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-13
+
+- [How to articulate yourself intelligently](https://read.readwise.io/read/01kxahgx5r8z3x4eezcts5ww1z)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-10
 
 - [Rubiks Cube Solver](https://read.readwise.io/read/01kx4dtbjpm50gyxzegmkf12rc)<br><small class="rw-item-meta">[日报](../readwise/2026-07-10.md) · 未来特定场景可能有用</small>

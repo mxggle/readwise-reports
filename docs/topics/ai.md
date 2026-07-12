@@ -4,6 +4,18 @@
 
 ## 2026-07
 
+### 2026-07-13
+
+- [AI Boosts Research Careers but Flattens Scientific Discovery](https://read.readwise.io/read/01kxbax0a4a29d9amt269bnavh)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-13.md) · 和长期目标强相关，值得完整读</small>
+- [Anthropic 官方团队把 Claude Code 从底层原理到真实项目实战，完整讲了一遍！](https://read.readwise.io/read/01kxbeqfnenfewshvxytgb7f7m)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>
+- [Claude Code get 50% more weekly limit](https://read.readwise.io/read/01kxbrspmt5ds398stdsaaay71)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
+- [Fable gets another bump](https://read.readwise.io/read/01kxc399ea9m89gjyqcrwfwt6w)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
+- [I love LLMs, I hate hype](https://read.readwise.io/read/01kxbvqgqkc0th2pvy2czsq4nh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>
+- [RISCBoy is an open-source portable games console, designed from scratch](https://read.readwise.io/read/01kx9ng3r5j649dnfghksbzpfn)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>
+- [Show HN: Quantum-Qec / Matrix-Free Quantum Homeostatic Engine(Blueprint)](https://read.readwise.io/read/01kxa4tfgwsf7ffsm2jawcfx7h)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-13.md) · 和长期目标强相关，值得完整读</small>
+- [The One-Step Trap (In AI Research)](https://read.readwise.io/read/01kxbxvqsfwkwwqzzweftddmpd)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-13.md) · 和长期目标强相关，值得完整读</small>
+- [Website is served from a 200KB binary](https://read.readwise.io/read/01kxbmvmb12s8ezk3a4xrr4x46)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-12
 
 - [EP221: How Docker Works Under the Hood](https://read.readwise.io/read/01kx8xm64f6w0jtn5evqd3cjgq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 有信息量，但不用深读</small>

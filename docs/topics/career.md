@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-13
+
+- [Under federal rule, colleges must leave grads better off or lose financial aid](https://read.readwise.io/read/01kxa8sqd623me9x9vfdwpeprr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-12
 
 - [Leaded Gas Was a Known Poison the Day It Was Invented (2016)](https://read.readwise.io/read/01kx9472q5g8hkz97ck7q9gde9)<br><small class="rw-item-meta">[日报](../readwise/2026-07-12.md) · 未来特定场景可能有用</small>
