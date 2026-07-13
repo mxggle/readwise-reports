@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-14
+
+- [An Infuriating Goodbye to Photoshop](https://read.readwise.io/read/01kxdnf8wna8wn53vh04r8pqjj)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-13
 
 - [How to articulate yourself intelligently](https://read.readwise.io/read/01kxahgx5r8z3x4eezcts5ww1z)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>

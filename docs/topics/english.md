@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-14
+
+- [Sam Neill Has Died](https://read.readwise.io/read/01kxd3p5qkhjmq1e5p7vtf4ftm)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-12
 
 - [Earendel (Astronomical Object)](https://read.readwise.io/read/01kx9472smkpywwdsshg27qppx)<br><small class="rw-item-meta">`READ` · 83/100 · [日报](../readwise/2026-07-12.md) · 和长期目标强相关，值得完整读</small>

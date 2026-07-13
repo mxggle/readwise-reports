@@ -4,6 +4,18 @@
 
 ## 2026-07
 
+### 2026-07-14
+
+- [🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build…](https://read.readwise.io/read/01kxe0tj7c5tb2cb0h00ctgtsp)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-14.md) · 和长期目标强相关，值得完整读</small>
+- [🗞️ What's New: $15k/mo after LinkedIn lawsuit, buy competitor contracts, "Aeslop's Fable"?](https://read.readwise.io/read/01kxeh578n9wkkz3mzn956zaq0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>
+- [Agentic RL: Environments, Trajectories, and the Training Loop](https://read.readwise.io/read/01kxejdztkhnjpzpv60pw78ac4)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-14.md) · 和长期目标强相关，值得完整读</small>
+- [Apple’s Price Hike Hits IT Budgets 💻, Who Owns the Repo? 🔐, Why AI Agents Get It Wrong 🤖](https://read.readwise.io/read/01kxdr5vg7vz29w52dvny98cnq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>
+- [Architecture Description Languages [pdf\]](https://read.readwise.io/read/01kxc9t2xgcbc3gpks4by3dz4p)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-14.md) · 和长期目标强相关，值得完整读</small>
+- [How Microsoft Ships AI Agents at Enterprise Scale](https://read.readwise.io/read/01kxe0yb7d5ac2cab7v1sh1vsn)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>
+- [How Microsoft Ships AI Agents at Enterprise Scale](https://read.readwise.io/read/01kxe0kw5qxe9anfs5cedaxxvg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>
+- [SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)](https://read.readwise.io/read/01kxems3qkmw5teh8eq75pmah7)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>
+- [Show HN: I implemented a neural network in SQL](https://read.readwise.io/read/01kxejspqg08dwx016fvr1p4ep)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-13
 
 - [AI Boosts Research Careers but Flattens Scientific Discovery](https://read.readwise.io/read/01kxbax0a4a29d9amt269bnavh)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-13.md) · 和长期目标强相关，值得完整读</small>

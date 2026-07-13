@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-14
+
+- [The infinite scroll may become endangered if controversial Calif. law passes](https://read.readwise.io/read/01kxeek7a3rjsg8ybxzh1n2rwz)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-13
 
 - [Why study Diophantine equations?](https://read.readwise.io/read/01kxbja7w17krg2rd18aej5cqm)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 未来特定场景可能有用</small>
