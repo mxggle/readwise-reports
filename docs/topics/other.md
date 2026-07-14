@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-15
+
+- [Germany set to restrict its Freedom of Information Act](https://read.readwise.io/read/01kxg8pq4fsm3r2mmd5552vzmq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-14
 
 - [The infinite scroll may become endangered if controversial Calif. law passes](https://read.readwise.io/read/01kxeek7a3rjsg8ybxzh1n2rwz)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>

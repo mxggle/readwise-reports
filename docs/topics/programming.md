@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-15
+
+- [Using uvx in GitHub Actions in a cache-friendly way](https://read.readwise.io/read/01kxf2kndb8wghwtht791s8ene)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-14
 
 - [An Infuriating Goodbye to Photoshop](https://read.readwise.io/read/01kxdnf8wna8wn53vh04r8pqjj)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>

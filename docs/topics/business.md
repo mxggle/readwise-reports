@@ -4,6 +4,12 @@
 
 ## 2026-07
 
+### 2026-07-15
+
+- [Microsoft Deletes User's 25-Year-Old Account with Thousands Spent on Games](https://read.readwise.io/read/01kxhbsb5jpvraxytt0c4tzp7e)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>
+- [New York becomes the first state to impose a data center moratorium](https://read.readwise.io/read/01kxghcgk30hjkcbrdg1tczvbx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>
+- [StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal](https://read.readwise.io/read/01kxh61whj4jngmxcpf2rv1v26)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-14
 
 - [Count Binface](https://read.readwise.io/read/01kxcv6wbpq2pk766svz01vbca)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 未来特定场景可能有用</small>

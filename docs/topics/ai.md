@@ -4,6 +4,17 @@
 
 ## 2026-07
 
+### 2026-07-15
+
+- [Building Food Metadata with LLM Juries](https://read.readwise.io/read/01kxf6k0jezxcnsae1gab28yp9)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-15.md) · 和长期目标强相关，值得完整读</small>
+- [ESBMC-Arduino: Closing the Deployment Gap for Formal Verification](https://read.readwise.io/read/01kxf3d764xwne56bs6z8mwxm5)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>
+- [Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations](https://read.readwise.io/read/01kxgpvgrbkw9pnh6sc0nfhm84)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>
+- [Obsess. For f*ck's sake. You only get one life. Don’t screw it up by being normal.](https://read.readwise.io/read/01kxg5s2d9k487wyhf71gg4h71)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>
+- [Quoting Armin Ronacher](https://read.readwise.io/read/01kxgxe8x16g63pxa1z8162vkc)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>
+- [The Economics of Recursive Self-Improvement [pdf\]](https://read.readwise.io/read/01kxf6k0nfm4thmg7g64wbwc3s)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-15.md) · 和长期目标强相关，值得完整读</small>
+- [The Future Worth Building Is Human – Thinking Machines Lab](https://read.readwise.io/read/01kxg6eernafgec4qfpgzkyb9w)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-15.md) · 和长期目标强相关，值得完整读</small>
+- [The Git history command deserves more attention](https://read.readwise.io/read/01kxf2vwvkdxad4j4dk0e3nfsh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-14
 
 - [🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build…](https://read.readwise.io/read/01kxe0tj7c5tb2cb0h00ctgtsp)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-14.md) · 和长期目标强相关，值得完整读</small>
