@@ -4,6 +4,12 @@
 
 ## 2026-07
 
+### 2026-07-16
+
+- [Ask HN: How do you track feedback when you post across multiple places?](https://read.readwise.io/read/01kxjdsdd6bb48s6pze28vspa5)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 未来特定场景可能有用</small>
+- [Privacy Incidents – Real-world examples of why your photos need protection](https://read.readwise.io/read/01kxjztwyc73nzy5hqafkebcxh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 未来特定场景可能有用</small>
+- [US Debt Clock Live](https://read.readwise.io/read/01kxkeyezzabz3dxkv2bzz3qfk)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-15
 
 - [Germany set to restrict its Freedom of Information Act](https://read.readwise.io/read/01kxg8pq4fsm3r2mmd5552vzmq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 有信息量，但不用深读</small>

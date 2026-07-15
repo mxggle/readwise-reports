@@ -4,6 +4,17 @@
 
 ## 2026-07
 
+### 2026-07-16
+
+- [[AINews\] not much happened today](https://read.readwise.io/read/01kxhh3ptbaqbdwgxgcs0nacra)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-16.md) · 和长期目标强相关，值得完整读</small>
+- [America pays workers just 27% of what its wealth allows – the worst in the OECD](https://read.readwise.io/read/01kxjjck4s3hjesze0d00zam03)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 有信息量，但不用深读</small>
+- [CVE-2026-59208: Cross-Issuer Account Takeover in n8n](https://read.readwise.io/read/01kxk656kwm0fkd5tejbd07f95)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 有信息量，但不用深读</small>
+- [GitHub - pageman/sutskever-30-implementations: Sutskever 30 implementations inspired by https://papercode.vercel.app/](https://read.readwise.io/read/01kxjs3m05ge1mg7a8825st29j)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-16.md) · 和长期目标强相关，值得完整读</small>
+- [Grok Build is open source](https://read.readwise.io/read/01kxkv3q2bzjakgp4hyjhxbmxa)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 未来特定场景可能有用</small>
+- [I Left Google DeepMind](https://read.readwise.io/read/01kxkkzv45dgh7f7gyb48dnd7h)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-16.md) · 和长期目标强相关，值得完整读</small>
+- [I tricked Claude into leaking your deepest, darkest secrets](https://read.readwise.io/read/01kxj9hag7qkngqy5pht7f6y90)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 有信息量，但不用深读</small>
+- [The writing habit that saved my brain (and my future)](https://read.readwise.io/read/01kxkweax1s2j9zn51xq987kw4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-15
 
 - [Building Food Metadata with LLM Juries](https://read.readwise.io/read/01kxf6k0jezxcnsae1gab28yp9)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-15.md) · 和长期目标强相关，值得完整读</small>
