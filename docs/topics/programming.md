@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-17
+
+- [P2P local file transfer based on WebRTC](https://read.readwise.io/read/01kxkz8yccagvewjtrxxz4wf8a)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-16
 
 - [Prioritize mental health, and why communication is so important](https://read.readwise.io/read/01kxjw2mqwx1n36kfqw08cqws6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 有信息量，但不用深读</small>

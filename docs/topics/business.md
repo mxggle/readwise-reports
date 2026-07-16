@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-17
+
+- [Ente – Opening Our Books](https://read.readwise.io/read/01kxndxt9h8zd18maw8hyzgme6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-15
 
 - [Microsoft Deletes User's 25-Year-Old Account with Thousands Spent on Games](https://read.readwise.io/read/01kxhbsb5jpvraxytt0c4tzp7e)<br><small class="rw-item-meta">[日报](../readwise/2026-07-15.md) · 未来特定场景可能有用</small>

@@ -10,20 +10,20 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">388 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">I Left Google DeepMind</span><span class="rw-topic__item">GitHub - pageman/sutskever-30-implementations: Sutskever 30 implementations inspired by https://papercode.vercel.app/</span><span class="rw-topic__item">[AINews] not much happened today</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">399 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM</span><span class="rw-topic__item">An Interactive Map of AI</span><span class="rw-topic__item">The Tokio/Rayon Trap and Why Async/Await Fails Concurrency</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">44 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span><span class="rw-topic__item">Quoting GitHub Changeling</span><span class="rw-topic__item">Using uvx in GitHub Actions in a cache-friendly way</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">P2P local file transfer based on WebRTC</span><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span><span class="rw-topic__item">Quoting GitHub Changeling</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">16 条</span></span>
   <span class="rw-topic__items"><span class="rw-topic__item">Under federal rule, colleges must leave grads better off or lose financial aid</span><span class="rw-topic__item">The iconic blue IKEA FRAKTA bag comes with a free lifetime warranty</span><span class="rw-topic__item">Leaded Gas Was a Known Poison the Day It Was Invented (2016)</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">26 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal</span><span class="rw-topic__item">New York becomes the first state to impose a data center moratorium</span><span class="rw-topic__item">Microsoft Deletes User's 25-Year-Old Account with Thousands Spent on Games</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">27 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Ente – Opening Our Books</span><span class="rw-topic__item">StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal</span><span class="rw-topic__item">New York becomes the first state to impose a data center moratorium</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
   <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">20 条</span></span>

@@ -4,6 +4,20 @@
 
 ## 2026-07
 
+### 2026-07-17
+
+- [A Guide to Multi-Tenancy: Benefits and Challenges](https://read.readwise.io/read/01kxnxgpcsgavc5q0w81136dxk)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>
+- [A Guide to Multi-Tenancy: Benefits and Challenges](https://read.readwise.io/read/01kxnx1axypfrg9mw927jq3zb0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>
+- [Agents Need a New Kind of Web Search](https://read.readwise.io/read/01kxpa2k0jdkyb1nfnegd3mqb3)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 有信息量，但不用深读</small>
+- [An Interactive Map of AI](https://read.readwise.io/read/01kxmhh7r54nsgbnh3cp3qxndg)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-17.md) · 和长期目标强相关，值得完整读</small>
+- [DJB Netstrings (1997)](https://read.readwise.io/read/01kxms789904kyczj1qv60zc64)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 有信息量，但不用深读</small>
+- [How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM](https://read.readwise.io/read/01kxntwky2jv5pnyk58j1cjk8a)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-17.md) · 和长期目标强相关，值得完整读</small>
+- [Is there a real difference between AI and human intelligence?](https://read.readwise.io/read/01kxnnpgq2psw50ns8rccw2hqf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>
+- [Kimi K3 Intelligence, Performance and Price Analysis](https://read.readwise.io/read/01kxpavd8sr9m1ce05fyrqa7j6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 有信息量，但不用深读</small>
+- [Kimi K3: Open Frontier Intelligence](https://read.readwise.io/read/01kxp6aq1shqtrdry7ap5x192k)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 有信息量，但不用深读</small>
+- [OpenAI Has the Best Model (Again)](https://read.readwise.io/read/01kxpg3sjf4v491b59x15dv0gg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 有信息量，但不用深读</small>
+- [The Tokio/Rayon Trap and Why Async/Await Fails Concurrency](https://read.readwise.io/read/01kxmf7ehem7s6h1ev22m348ce)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-17.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-07-16
 
 - [[AINews\] not much happened today](https://read.readwise.io/read/01kxhh3ptbaqbdwgxgcs0nacra)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-16.md) · 和长期目标强相关，值得完整读</small>
