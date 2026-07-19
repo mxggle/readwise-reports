@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-20
+
+- [Show HN: How much profit does your employer make per employee?](https://read.readwise.io/read/01kxxxqsy6av2dsfepayw3zgkq)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-13
 
 - [Under federal rule, colleges must leave grads better off or lose financial aid](https://read.readwise.io/read/01kxa8sqd623me9x9vfdwpeprr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-13.md) · 有信息量，但不用深读</small>

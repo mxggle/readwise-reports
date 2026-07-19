@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-20
+
+- [Less Is More: Why Audio on SoundCloud Looks Different](https://read.readwise.io/read/01kxxtsnw56fht0ck51x36r4hj)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-14
 
 - [Sam Neill Has Died](https://read.readwise.io/read/01kxd3p5qkhjmq1e5p7vtf4ftm)<br><small class="rw-item-meta">[日报](../readwise/2026-07-14.md) · 有信息量，但不用深读</small>

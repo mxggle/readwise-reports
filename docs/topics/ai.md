@@ -4,6 +4,17 @@
 
 ## 2026-07
 
+### 2026-07-20
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kxxkp5ngh4nw28913xbbcrrz)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-20.md) · 和长期目标强相关，值得完整读</small>
+- [😸 July 19 (Sunday)](https://read.readwise.io/read/01kxxty9pnybn9ag7m01xyvg3x)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 有信息量，但不用深读</small>
+- [AI Mania Is Eviscerating Global Decision-Making](https://read.readwise.io/read/01kxwcb0t5bqch1wp7wrfywdeg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>
+- [Better and Cheaper Than IPTV](https://read.readwise.io/read/01kxw002jv9xfx9ptt4abrn513)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 有信息量，但不用深读</small>
+- [Claude Code uses Bun written in Rust now](https://read.readwise.io/read/01kxw918zvv23mqes545ryqyfg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>
+- [Heavy TV watching associated with smaller brain structures, study finds](https://read.readwise.io/read/01kxy1pa59p98jeerae5t2zycv)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 有信息量，但不用深读</small>
+- [I burned all my tokens researching how to save tokens](https://read.readwise.io/read/01kxx6r779ehy2ejgsq9h5bd7d)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-20.md) · 和长期目标强相关，值得完整读</small>
+- [What I learned selling 2,500 MIDI recorders: Hardware is not so hard](https://read.readwise.io/read/01kxx2vfp5e3gn6bzb5st2vy2c)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-20.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-07-17
 
 - [A Guide to Multi-Tenancy: Benefits and Challenges](https://read.readwise.io/read/01kxnxgpcsgavc5q0w81136dxk)<br><small class="rw-item-meta">[日报](../readwise/2026-07-17.md) · 未来特定场景可能有用</small>

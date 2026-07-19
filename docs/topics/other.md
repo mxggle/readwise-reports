@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-20
+
+- [HMD Touch 4G](https://read.readwise.io/read/01kxxs5sqg383qehda1zvgmnnp)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>
+- [In today's press conference, we explained our efforts over the...](https://read.readwise.io/read/01kxvrddb98wch29mt0q4eeynr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-16
 
 - [Ask HN: How do you track feedback when you post across multiple places?](https://read.readwise.io/read/01kxjdsdd6bb48s6pze28vspa5)<br><small class="rw-item-meta">[日报](../readwise/2026-07-16.md) · 未来特定场景可能有用</small>
