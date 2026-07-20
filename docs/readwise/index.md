@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-07-20/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-07-20</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《🥇Top AI Papers of the Week》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
+<a class="rw-card" href="2026-07-21/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-07-21</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Stop Using OpenCode》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-07
 
+- [2026-07-20](2026-07-20.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《🥇Top AI Papers of the Week》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-07-17](2026-07-17.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的</small>
 - [2026-07-16](2026-07-16.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《I Left Google DeepMind》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-07-15](2026-07-15.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Programming。最值得优先处理的是《The Future Worth Building Is Human – Thinking Machines Lab》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做</small>

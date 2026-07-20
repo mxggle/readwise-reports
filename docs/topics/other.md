@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-21
+
+- [Donation Controversy](https://read.readwise.io/read/01ky0rzdhcngj7p4rp6v1rq234)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
+- [The EU is about to sell our most sensitive data to the US for visa-free travel](https://read.readwise.io/read/01kxzs0cckt1mfr5bqypyys1v8)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-20
 
 - [HMD Touch 4G](https://read.readwise.io/read/01kxxs5sqg383qehda1zvgmnnp)<br><small class="rw-item-meta">[日报](../readwise/2026-07-20.md) · 未来特定场景可能有用</small>

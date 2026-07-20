@@ -4,6 +4,20 @@
 
 ## 2026-07
 
+### 2026-07-21
+
+- [Big Tech Needs to Justify AI Spending as Investors Dump Stocks](https://read.readwise.io/read/01kxyyx5qm8qd3myfhfwmw9xbs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
+- [Claude Fable produced a counterexample to the Jacobian Conjecture](https://read.readwise.io/read/01kxyswddwcxxw27jy98j3k5kx)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
+- [Creator of OCaml: Functional Programming, Formal Verification, Programming Languages | Xavier Leroy](https://read.readwise.io/read/01kxztfzq63zd18kst0rkzb3ty)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-21.md) · 和长期目标强相关，值得完整读</small>
+- [Databricks Hits $188B 💰, Meta Eyes a $10B Compute Deal ☁️, Gmail Gets Smarter Editing ✍️](https://read.readwise.io/read/01kxzrzqa2cvkr9ygwj8mep0ss)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
+- [How To Turn Your Love For Learning Into A One-Person Business w/ Paul Musso](https://read.readwise.io/read/01ky0r9njxrv0sfchvqnqhq1vs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
+- [Human mathematicians are being outcounterexampled](https://read.readwise.io/read/01ky0hnvhze56rvd1m5jfkn9yy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 有信息量，但不用深读</small>
+- [I'm Done with Mullvad](https://read.readwise.io/read/01kxz9bryet51qh1yvy42ykzn1)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-21.md) · 和长期目标强相关，值得完整读</small>
+- [Over 30% of new ArXiv submissions now read as AI-written](https://read.readwise.io/read/01ky07eh5s298stkm6q08h61x0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 有信息量，但不用深读</small>
+- [Stop Using OpenCode](https://read.readwise.io/read/01kxzv4ndpgqhgvmr6dv8fkhks)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-21.md) · 和长期目标强相关，值得完整读</small>
+- [The Power of Awareness: Overcoming Surveillance Capitalism](https://read.readwise.io/read/01ky0pqdp71nwgf5ry25jb1cb7)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 有信息量，但不用深读</small>
+- [The Voice of Google](https://read.readwise.io/read/01ky03413zvb36e7vmk3350xt9)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-20
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kxxkp5ngh4nw28913xbbcrrz)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-20.md) · 和长期目标强相关，值得完整读</small>

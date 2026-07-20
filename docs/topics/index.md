@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">407 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">I burned all my tokens researching how to save tokens</span><span class="rw-topic__item">What I learned selling 2,500 MIDI recorders: Hardware is not so hard</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">418 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Stop Using OpenCode</span><span class="rw-topic__item">Creator of OCaml: Functional Programming, Formal Verification, Programming Languages | Xavier Leroy</span><span class="rw-topic__item">I'm Done with Mullvad</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">53 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">HMD Touch 4G</span><span class="rw-topic__item">In today's press conference, we explained our efforts over the...</span><span class="rw-topic__item">Ask HN: How do you track feedback when you post across multiple places?</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">55 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The EU is about to sell our most sensitive data to the US for visa-free travel</span><span class="rw-topic__item">Donation Controversy</span><span class="rw-topic__item">HMD Touch 4G</span></span>
 </a>
 </div>
