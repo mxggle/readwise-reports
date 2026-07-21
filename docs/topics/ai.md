@@ -4,6 +4,21 @@
 
 ## 2026-07
 
+### 2026-07-22
+
+- [[AINews\] not much happened today](https://read.readwise.io/read/01ky1d7js57qevmcdppwzxv33d)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-22.md) · 和长期目标强相关，值得完整读</small>
+- [5 LLM Quantization Techniques](https://read.readwise.io/read/01ky3bwjj1j96enxgaj8k5r6re)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 有信息量，但不用深读</small>
+- [Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Office…](https://read.readwise.io/read/01ky32tazg4wqh9rjqm0jkndy0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 未来特定场景可能有用</small>
+- [Do we just want slaves?](https://read.readwise.io/read/01ky1jjcy608m36br8gncyb11x)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 有信息量，但不用深读</small>
+- [Five US tech giants' hidden debts soar to $1.65T on opaque AI funding](https://read.readwise.io/read/01ky1e3ybskt6cv3kw3kr5s8me)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 有信息量，但不用深读</small>
+- [Gemini 3.6 Flash](https://read.readwise.io/read/01ky2kjmdca4cr2syhs3werzhj)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 未来特定场景可能有用</small>
+- [Meta's $10B Bet](https://read.readwise.io/read/01ky2jpqcp5kehzv2n233rkg0a)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 未来特定场景可能有用</small>
+- [New US homeownership measure puts people first](https://read.readwise.io/read/01ky2a2prr0n7w5daafbvb1wad)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 未来特定场景可能有用</small>
+- [OpenAI and Hugging Face partner to address security incident](https://read.readwise.io/read/01ky3529q3c4djx1qs0x879pfq)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-07-22.md) · 和长期目标强相关，值得完整读</small>
+- [Pushing software engineering limits with “napkin math”](https://read.readwise.io/read/01ky2t8at4zbh7ppbdra8fnkx3)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-22.md) · 和长期目标强相关，值得完整读</small>
+- [Running Doom on Our Custom CPU and Going Viral](https://read.readwise.io/read/01ky1e3yj6b8bq5w5c6br79g6a)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 有信息量，但不用深读</small>
+- [Sarah's Wager](https://read.readwise.io/read/01ky2k9z1nvrzqvag5fj7tx6nc)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-21
 
 - [Big Tech Needs to Justify AI Spending as Investors Dump Stocks](https://read.readwise.io/read/01kxyyx5qm8qd3myfhfwmw9xbs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-21.md) · 未来特定场景可能有用</small>
