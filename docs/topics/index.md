@@ -10,16 +10,16 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">430 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">[AINews] not much happened today</span><span class="rw-topic__item">Pushing software engineering limits with “napkin math”</span><span class="rw-topic__item">OpenAI and Hugging Face partner to address security incident</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">442 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Apple Will 'Watch Everything Burn' When the AI Bubble Bursts</span><span class="rw-topic__item">How NVIDIA Builds Open Models for the Age of AI</span><span class="rw-topic__item">How NVIDIA Builds Open Models for the Age of AI</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
   <span class="rw-topic__items"><span class="rw-topic__item">P2P local file transfer based on WebRTC</span><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span><span class="rw-topic__item">Quoting GitHub Changeling</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
-  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">17 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Show HN: How much profit does your employer make per employee?</span><span class="rw-topic__item">Under federal rule, colleges must leave grads better off or lose financial aid</span><span class="rw-topic__item">The iconic blue IKEA FRAKTA bag comes with a free lifetime warranty</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">18 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Japan legend Miura, 59, scores first goal since 2022</span><span class="rw-topic__item">Show HN: How much profit does your employer make per employee?</span><span class="rw-topic__item">Under federal rule, colleges must leave grads better off or lose financial aid</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
   <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">27 条</span></span>

@@ -4,6 +4,21 @@
 
 ## 2026-07
 
+### 2026-07-28
+
+- [Apple Will 'Watch Everything Burn' When the AI Bubble Bursts](https://read.readwise.io/read/01kyj2rj4fw3gvx4e93j3kh499)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-28.md) · 和长期目标强相关，值得完整读</small>
+- [Chinese chipmaker shares surge 470%](https://read.readwise.io/read/01kyhgkse4rpcrd12e9q2v0s6j)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 有信息量，但不用深读</small>
+- [GitHub Copilot 发布"Harness"工作流：用单一工具完成原型、规划、实现与代码审查](https://read.readwise.io/read/01kyjtb5dynwkpehcv8kfy4sc2)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 未来特定场景可能有用</small>
+- [How NVIDIA Builds Open Models for the Age of AI](https://read.readwise.io/read/01kyj2ekfwz6tmk95pa1wt6pe1)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-28.md) · 和长期目标强相关，值得完整读</small>
+- [How NVIDIA Builds Open Models for the Age of AI](https://read.readwise.io/read/01kyj23r1w8yjmc5atc1ecytt0)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-28.md) · 和长期目标强相关，值得完整读</small>
+- [Jensen Huang's first-ever post on X is in defense of open access to AI models](https://read.readwise.io/read/01kyjdgjtz6nnbsbcjant5pv85)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 有信息量，但不用深读</small>
+- [Kimi K3 开源：2.8T MoE 模型与技术报告](https://read.readwise.io/read/01kyj9v6d4wg6fzpdpx8bcn4t6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 未来特定场景可能有用</small>
+- [Kimi K3 开源分布式智能体环境 AgentENV](https://read.readwise.io/read/01kyj9v6bwrw2k1vs9vbhpe26e)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 未来特定场景可能有用</small>
+- [Kimi 发布视觉感知基准 PerceptionBench](https://read.readwise.io/read/01kyjtb580pgkfc01xpepp01nb)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 未来特定场景可能有用</small>
+- [Show HN: Distill and serve small models with frontier quality for half the cost](https://read.readwise.io/read/01kygdhr6c74c4xevpa4sy2paf)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 有信息量，但不用深读</small>
+- [Show HN: Infrawrench – a tool to manage cloud and svcs with workflows and chat](https://read.readwise.io/read/01kyj96z66yjpz7nmbsg659fmg)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 有信息量，但不用深读</small>
+- [用AI Skill自动生成可协作HTML PPT](https://read.readwise.io/read/01kygtv8339xjfznqwct705zrs)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-22
 
 - [[AINews\] not much happened today](https://read.readwise.io/read/01ky1d7js57qevmcdppwzxv33d)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-22.md) · 和长期目标强相关，值得完整读</small>
