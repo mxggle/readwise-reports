@@ -4,6 +4,11 @@
 
 ## 2026-07
 
+### 2026-07-29
+
+- [7.1 Earthquake in Japan](https://read.readwise.io/read/01kykvta40v0zdc42n2p882fqr)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 未来特定场景可能有用</small>
+- [Internet is no longer accessible?](https://read.readwise.io/read/01kyk8jza53anhwc4m5d9thzs5)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-07-22
 
 - [Is surveillance risk chilling your online speech?](https://read.readwise.io/read/01ky1c32e359qeg31fzydkqs86)<br><small class="rw-item-meta">[日报](../readwise/2026-07-22.md) · 未来特定场景可能有用</small>

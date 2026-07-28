@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-07-28/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-07-28</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：AIにコードを書かせるほど、なぜ保守が難しくなるのか？バイブコーディング時代の「見えない技術的負債」 / Kimiを開発したMoonshot AIの創業者・ヤン・ジーリン（楊植麟）とは？生い立ちや経歴、何がすごいのかを解説 / noteを始めて、121日目の自己紹介。 / Obsidian入門｜セカンドブレ…</span>
+<a class="rw-card" href="2026-07-29/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-07-29</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Open Secure AI Alliance、始動。NVIDIAとMicrosoftら40社が「オープンなAI」で結束した理由 / デイリーAI検索備忘録(2026/7/28号) / Kimi K3 のオープンウェイトが公開！この規模のモデルがオープン化された意義とは / 【文章で稼ぐ3つの方法】才能がな…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-07
 
+- [2026-07-28](2026-07-28.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIにコードを書かせるほど、なぜ保守が難しくなるのか？バイブコーディング時代の「見えない技術的負債」 / Kimiを開発したMoonshot AIの創業者・ヤン・ジーリン（楊植麟）とは？生い立ちや経歴、何がすごいのかを解説 / noteを始めて、121日目の自己紹介。 / Obsidian入門｜セカンドブレ…</small>
 - [2026-07-22](2026-07-22.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIに「金を払え」と言われ続けたので、何に払っているのか調べた。 難しいことは全部技術捕遺行きのわかりやすい解説 / Kimi K3の躍進により、重みが自前で配備可能（主権的配備）になる未来が現実味を帯びてきました / PwC が公開した「生成AIの将来技術動向 2026年」を読み解きます / 準備が完璧な…</small>
 - [2026-07-21](2026-07-21.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：🏫サヨちゃん AI帝国教育院 学生時VER / 「戦力外」になる前に。Gartnerの自律型AIエージェント40%廃止予測から学ぶ設計 / 【AIにまかせる技術】覚えてはいる。でも、選んだのは私じゃない｜コンテキスト設計 / 科学と電球の発明で妖怪は消えた。 しかし、21世紀に再び復活した。 / 【低単価…</small>
 - [2026-07-20](2026-07-20.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Kimi K3は米国AIへの「本物の脅威」か——価格・性能・オープン化で見えた新時代 / うちのグラサン猫、シリーズ化をして登場してた。 / やはり、今回の崩壊劇は、中国のAIの驚異がLLMの現状をかつてのIntelのように胡座をかいて自分達の事だけ政治介入してたら足払いされたんでは？ / 【エージェント化…</small>

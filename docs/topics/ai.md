@@ -4,6 +4,20 @@
 
 ## 2026-07
 
+### 2026-07-29
+
+- [11 products I love, free for a year—the biggest Product Pass expansion in 2 years](https://read.readwise.io/read/01kymqsmceqst6fmewkac5v0fa)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>
+- [Discovering Cryptographic Weaknesses with Claude](https://read.readwise.io/read/01kymwcd9g7hh2xgzy7487ph84)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-29.md) · 和长期目标强相关，值得完整读</small>
+- [How building software is changing at Anthropic](https://read.readwise.io/read/01kymqc7xmm13hp32p01qr8fat)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>
+- [How to Build Frontier-Lab Quality Evals with Daniel McKinnon, ex-PM at Meta, Google](https://read.readwise.io/read/01kynbbff795ejmyazpzjx26nt)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>
+- [I showed an AI an image it couldn't see – then caught it lying about what it saw](https://read.readwise.io/read/01kymrahp1b3g8ay52bwyfnnpm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-29.md) · 和长期目标强相关，值得完整读</small>
+- [I vibe-coded a travel app in a weekend, security scan found 8 critical flaws](https://read.readwise.io/read/01kymwcdprnt7tgfyvsmrwjdrn)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>
+- [moonshotai/Kimi-K3](https://read.readwise.io/read/01kyjzp19dp1qbcpae9b961zn0)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 未来特定场景可能有用</small>
+- [Perplexity 推出 Windows 版个人电脑智能体](https://read.readwise.io/read/01kymr0bqmztf107h4311a1st4)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 未来特定场景可能有用</small>
+- [Show HN: I put a $2.43 necklace on 3 outfits. VLMs priced it at $19 to $104](https://read.readwise.io/read/01kyme7t59zc6ppkgcbvk9w2w3)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 未来特定场景可能有用</small>
+- [Steel Bank Common Lisp version 2.6.7](https://read.readwise.io/read/01kymwcdgbb2fr4rnvbhjj3zrg)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-29.md) · 和长期目标强相关，值得完整读</small>
+- [You Could Have Come Up with Kimi Delta Attention](https://read.readwise.io/read/01kymrahqdx73gk8pb2e85vtef)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-28
 
 - [Apple Will 'Watch Everything Burn' When the AI Bubble Bursts](https://read.readwise.io/read/01kyj2rj4fw3gvx4e93j3kh499)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-07-28.md) · 和长期目标强相关，值得完整读</small>

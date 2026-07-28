@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">442 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Apple Will 'Watch Everything Burn' When the AI Bubble Bursts</span><span class="rw-topic__item">How NVIDIA Builds Open Models for the Age of AI</span><span class="rw-topic__item">How NVIDIA Builds Open Models for the Age of AI</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">453 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Steel Bank Common Lisp version 2.6.7</span><span class="rw-topic__item">Discovering Cryptographic Weaknesses with Claude</span><span class="rw-topic__item">I showed an AI an image it couldn't see – then caught it lying about what it saw</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">56 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Is surveillance risk chilling your online speech?</span><span class="rw-topic__item">The EU is about to sell our most sensitive data to the US for visa-free travel</span><span class="rw-topic__item">Donation Controversy</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">58 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Internet is no longer accessible?</span><span class="rw-topic__item">7.1 Earthquake in Japan</span><span class="rw-topic__item">Is surveillance risk chilling your online speech?</span></span>
 </a>
 </div>
