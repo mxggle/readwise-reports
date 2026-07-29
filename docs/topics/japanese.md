@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Japanese** 的条目。
 
+## 2026-07
+
+### 2026-07-30
+
+- [Ads-STE100: Simplified Technical English](https://read.readwise.io/read/01kyqkc18cp52cgs0n4pfhajtm)<br><small class="rw-item-meta">`READ` · 97/100 · [日报](../readwise/2026-07-30.md) · 和长期目标强相关，值得完整读</small>
+
 ## 2026-06
 
 ### 2026-06-15

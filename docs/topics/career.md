@@ -4,6 +4,10 @@
 
 ## 2026-07
 
+### 2026-07-30
+
+- [French musician Kavinsky found dead](https://read.readwise.io/read/01kypxs404thnkgt8a2aqkh07k)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-28
 
 - [Japan legend Miura, 59, scores first goal since 2022](https://read.readwise.io/read/01kygc64eag6dgba6vrnqtcx5s)<br><small class="rw-item-meta">[日报](../readwise/2026-07-28.md) · 有信息量，但不用深读</small>

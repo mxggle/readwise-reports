@@ -4,6 +4,20 @@
 
 ## 2026-07
 
+### 2026-07-30
+
+- [AI Worming through Word](https://read.readwise.io/read/01kyqk2q98830je6eyd6ktfsbh)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 有信息量，但不用深读</small>
+- [AI's top startups are barely publishing their research](https://read.readwise.io/read/01kyqwzwk2cfwrjfb8wykcy80k)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-30.md) · 和长期目标强相关，值得完整读</small>
+- [Apple should be ashamed of its hostile App Store rating system](https://read.readwise.io/read/01kyq8kvje5htgmgegbc7fwejv)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-07-30.md) · 和长期目标强相关，值得完整读</small>
+- [Handbook.md shows that long policy documents do not reliably govern agents](https://read.readwise.io/read/01kyq0mm5zf38rzr2j2ajmvn5j)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 有信息量，但不用深读</small>
+- [How Building Software Is Changing at Anthropic](https://read.readwise.io/read/01kynz16mff47a5m9cmhg304t9)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 未来特定场景可能有用</small>
+- [Hugging Face 公开自主智能体网络攻击详情](https://read.readwise.io/read/01kynwa0cbcbhnmfv1t3k4h18t)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 未来特定场景可能有用</small>
+- [I think I underestimated Raft](https://read.readwise.io/read/01kypgs5xpwkv4qv5e1r70qhgy)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 未来特定场景可能有用</small>
+- [Keychron announces first open-source firmware for gaming mice](https://read.readwise.io/read/01kyqcbe9y0th7evfj3pgafcx8)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 有信息量，但不用深读</small>
+- [LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences](https://read.readwise.io/read/01kynsvwt5tr204jj2e6p7sw8v)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 未来特定场景可能有用</small>
+- [OpenAI 发布 Codex 安全 CLI 与 SDK](https://read.readwise.io/read/01kynwa07b3nqxeq7tt2qqmmc6)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 未来特定场景可能有用</small>
+- [Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite](https://read.readwise.io/read/01kyqc3sq3yb0tcy3s6ajxv4y8)<br><small class="rw-item-meta">[日报](../readwise/2026-07-30.md) · 有信息量，但不用深读</small>
+
 ### 2026-07-29
 
 - [11 products I love, free for a year—the biggest Product Pass expansion in 2 years](https://read.readwise.io/read/01kymqsmceqst6fmewkac5v0fa)<br><small class="rw-item-meta">[日报](../readwise/2026-07-29.md) · 有信息量，但不用深读</small>

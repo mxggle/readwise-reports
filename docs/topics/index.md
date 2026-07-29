@@ -10,16 +10,16 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">453 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Steel Bank Common Lisp version 2.6.7</span><span class="rw-topic__item">Discovering Cryptographic Weaknesses with Claude</span><span class="rw-topic__item">I showed an AI an image it couldn't see – then caught it lying about what it saw</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">464 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">AI's top startups are barely publishing their research</span><span class="rw-topic__item">Apple should be ashamed of its hostile App Store rating system</span><span class="rw-topic__item">AI Worming through Word</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
   <span class="rw-topic__items"><span class="rw-topic__item">P2P local file transfer based on WebRTC</span><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span><span class="rw-topic__item">Quoting GitHub Changeling</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
-  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">18 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Japan legend Miura, 59, scores first goal since 2022</span><span class="rw-topic__item">Show HN: How much profit does your employer make per employee?</span><span class="rw-topic__item">Under federal rule, colleges must leave grads better off or lose financial aid</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">19 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">French musician Kavinsky found dead</span><span class="rw-topic__item">Japan legend Miura, 59, scores first goal since 2022</span><span class="rw-topic__item">Show HN: How much profit does your employer make per employee?</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
   <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">27 条</span></span>
@@ -30,8 +30,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Less Is More: Why Audio on SoundCloud Looks Different</span><span class="rw-topic__item">Sam Neill Has Died</span><span class="rw-topic__item">Earendel (Astronomical Object)</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">3 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span><span class="rw-topic__item">All 9,300 Japanese train station, animated by the year it opened (1872–2026)</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">4 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
   <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">58 条</span></span>
