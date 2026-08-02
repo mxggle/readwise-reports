@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-07-31/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-07-31</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Kimi K3、ウェイト公開。中国製AIが安い仕組みと、オープンにも値札があった話 / 765.人生の素晴らしさって有名無名は関係ないし、文章や言葉の世界だって有名無名は関係ない。【noteの不思議論.】自分史note論 / 【今日から頑張る動画マスターへの道・第三章】夏フェスを動画に…</span>
+<a class="rw-card" href="2026-08-03/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-03</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：池田信夫さん曰く：「LLMはLinuxのような公共財になり、それでもうける人はいないだろう」 検証 / 【AIとの距離感】LLMの正体を覗いてみた｜大規模言語モデル / 自分のことをクリエイターだと思えない人へ｜才能より大切な「作り続ける人」の条件 / 【生成AIニュース漫画4本立て】顔を貸す、Gemini…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-07
 
+- [2026-07-31](2026-07-31.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Kimi K3、ウェイト公開。中国製AIが安い仕組みと、オープンにも値札があった話 / 765.人生の素晴らしさって有名無名は関係ないし、文章や言葉の世界だって有名無名は関係ない。【noteの不思議論.】自分史note論 / 【今日から頑張る動画マスターへの道・第三章】夏フェスを動画に…</small>
 - [2026-07-30](2026-07-30.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：LLMからFoundation Model、そしてWorld Modelへ😮AIは「言葉の生成」から「世界のシミュレーション」へ / 今もまだ覚えてる、きみの口癖を / 遊ぶ知能と、遊ぶ人 / 「生成AIが〜🤪」と語る時代遅れな知識人たちへ / noteの手数料は高い？月100万円を目指す人が知るべき「…</small>
 - [2026-07-29](2026-07-29.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Open Secure AI Alliance、始動。NVIDIAとMicrosoftら40社が「オープンなAI」で結束した理由 / デイリーAI検索備忘録(2026/7/28号) / Kimi K3 のオープンウェイトが公開！この規模のモデルがオープン化された意義とは / 【文章で稼ぐ3つの方法】才能がな…</small>
 - [2026-07-28](2026-07-28.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIにコードを書かせるほど、なぜ保守が難しくなるのか？バイブコーディング時代の「見えない技術的負債」 / Kimiを開発したMoonshot AIの創業者・ヤン・ジーリン（楊植麟）とは？生い立ちや経歴、何がすごいのかを解説 / noteを始めて、121日目の自己紹介。 / Obsidian入門｜セカンドブレ…</small>

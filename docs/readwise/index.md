@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-07-30/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-07-30</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 Japanese、AI。最值得优先处理的是《Ads-STE100: Simplified Technical English》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行</span>
+<a class="rw-card" href="2026-08-03/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-03</time></span>
+  <span class="rw-card__summary">今日阅读涵盖AI研究、多智能体系统、科技评论与人文随笔。核心趋势是：AI Agent开发正从分散的提示模板、工具架构、回调代码与工作流图，走向统一整合；同时，AI在数学证明等硬科学领域的可靠性仍受质疑，OpenAI对Connes刚性猜想的“证伪”被指出无效。对Harry而言，多智</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-07
 
+- [2026-07-30](2026-07-30.md)<br><small class="rw-item-meta">今天的高价值内容集中在 Japanese、AI。最值得优先处理的是《Ads-STE100: Simplified Technical English》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行</small>
 - [2026-07-29](2026-07-29.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Steel Bank Common Lisp version 2.6.7》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-07-28](2026-07-28.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Apple Will 'Watch Everything Burn' When the AI Bubble Bursts》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top</small>
 - [2026-07-22](2026-07-22.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《[AINews] not much happened today》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>

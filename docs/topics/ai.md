@@ -2,6 +2,23 @@
 
 最近 Readwise 日报中归入 **AI** 的条目。
 
+## 2026-08
+
+### 2026-08-03
+
+- [😺DeepSeek’s new 28-cent agent model](https://read.readwise.io/read/01kz22n26f84vbndqztgqqgs7k)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
+- [Anthropic's Fever Dream: Claude's package that stole real keys](https://read.readwise.io/read/01kz24hfh7e9cgzmakg94eynxa)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
+- [GE-97 Terminal: The Old Internet](https://read.readwise.io/read/01kz1qf5xmhvmn3fcmy21h89c9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
+- [Grok 支持分析任意视频](https://read.readwise.io/read/01kz0ypaj19d0qjm5x3ptggnda)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 未来特定场景可能有用</small>
+- [July 2026 newsletter](https://read.readwise.io/read/01kz0awaw6tj7wsmca1qa98kj7)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 未来特定场景可能有用</small>
+- [OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf\]](https://read.readwise.io/read/01kz0cpxkzxhhmge4rckqcrk13)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-03.md)</small>
+- [Quoting Greg Brockman](https://read.readwise.io/read/01kyzq88gp41ezqv6rn6f0neqw)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 未来特定场景可能有用</small>
+- [Show HN: Draco – A single-binary, self-hostable Firecrawl alternative in Rust](https://read.readwise.io/read/01kz24ymc63hke979gr6tre2fa)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
+- [The Greenhouse and the Lens: Two Modes of Agentic AI Work](https://read.readwise.io/read/01kz0397bxy83t9jk4g1srp22p)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
+- [This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)](https://read.readwise.io/read/01kz184ppk3f7waft89918c9s8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 未来特定场景可能有用</small>
+- [Walsh: Multi-agent research pipeline with risk manager that can veto trades](https://read.readwise.io/read/01kz0397938rqy01ry3504d6am)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-03.md)</small>
+- [Wisereads Vol. 154 — Noticing by Richard Louv, Emily Wilson's review of The Odyssey, and more](https://read.readwise.io/read/01kz1ef949dmgp6jqcytnkj3xd)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-03.md)</small>
+
 ## 2026-07
 
 ### 2026-07-30

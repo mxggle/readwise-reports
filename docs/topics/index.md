@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">464 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">AI's top startups are barely publishing their research</span><span class="rw-topic__item">Apple should be ashamed of its hostile App Store rating system</span><span class="rw-topic__item">AI Worming through Word</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">476 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Wisereads Vol. 154 — Noticing by Richard Louv, Emily Wilson's review of The Odyssey, and more</span><span class="rw-topic__item">OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]</span><span class="rw-topic__item">Walsh: Multi-agent research pipeline with risk manager that can veto trades</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">58 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Internet is no longer accessible?</span><span class="rw-topic__item">7.1 Earthquake in Japan</span><span class="rw-topic__item">Is surveillance risk chilling your online speech?</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">59 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Sharing an X11 Server Across Hosts with FamilyWild</span><span class="rw-topic__item">Internet is no longer accessible?</span><span class="rw-topic__item">7.1 Earthquake in Japan</span></span>
 </a>
 </div>

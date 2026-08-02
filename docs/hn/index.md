@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-07-31/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-07-31</time></span>
-  <span class="rw-card__summary">阅读当日完整报告</span>
+<a class="rw-card" href="2026-08-03/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-03</time></span>
+  <span class="rw-card__summary">Today’s tech discourse is dominated by a pragmatic recalibration of AI, where speed and efficiency are increasingly trumping raw intelligence in model selection, even as new releas…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-07
 
+- [2026-07-31](2026-07-31.md)
 - [2026-07-30](2026-07-30.md)
 - [2026-07-29](2026-07-29.md)
 - [2026-07-28](2026-07-28.md)

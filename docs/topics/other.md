@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Other** 的条目。
 
+## 2026-08
+
+### 2026-08-03
+
+- [Sharing an X11 Server Across Hosts with FamilyWild](https://read.readwise.io/read/01kz24hfncsdqhp0msgqvbn262)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 未来特定场景可能有用</small>
+
 ## 2026-07
 
 ### 2026-07-29
