@@ -5,14 +5,18 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-03</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：池田信夫さん曰く：「LLMはLinuxのような公共財になり、それでもうける人はいないだろう」 検証 / 【AIとの距離感】LLMの正体を覗いてみた｜大規模言語モデル / 自分のことをクリエイターだと思えない人へ｜才能より大切な「作り続ける人」の条件 / 【生成AIニュース漫画4本立て】顔を貸す、Gemini…</span>
+<a class="rw-card" href="2026-08-06/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-06</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：ClaudeとChatGPT、無料で使うならどっち？無料プランの違いを徹底比較【2026最新】 / AI時代に「攻めすぎても守りすぎても負ける」探索と深化を両立する“両利きの経営”を目指す。 / 生成AIニュース AIが嘘をつき、偽アカウントで人間を騙した？｜三銃士と考える「あまりにも人間臭い暴走」｜Cha…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
 
 ## 更早
+
+### 2026-08
+
+- [2026-08-03](2026-08-03.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：池田信夫さん曰く：「LLMはLinuxのような公共財になり、それでもうける人はいないだろう」 検証 / 【AIとの距離感】LLMの正体を覗いてみた｜大規模言語モデル / 自分のことをクリエイターだと思えない人へ｜才能より大切な「作り続ける人」の条件 / 【生成AIニュース漫画4本立て】顔を貸す、Gemini…</small>
 
 ### 2026-07
 

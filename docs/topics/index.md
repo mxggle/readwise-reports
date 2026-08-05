@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">476 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Wisereads Vol. 154 — Noticing by Richard Louv, Emily Wilson's review of The Odyssey, and more</span><span class="rw-topic__item">OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]</span><span class="rw-topic__item">Walsh: Multi-agent research pipeline with risk manager that can veto trades</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">488 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Nvidia's Vera Whitepaper Has a Thread Loose</span><span class="rw-topic__item">I just opened access to our entire engineering team</span><span class="rw-topic__item">We just opened access to our engineering team</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span><span class="rw-topic__item">MapComplete – Contibute to OpenStreetMaps</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">59 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Sharing an X11 Server Across Hosts with FamilyWild</span><span class="rw-topic__item">Internet is no longer accessible?</span><span class="rw-topic__item">7.1 Earthquake in Japan</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">60 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How a bipartisan coalition is taking aim at animal research</span><span class="rw-topic__item">Sharing an X11 Server Across Hosts with FamilyWild</span><span class="rw-topic__item">Internet is no longer accessible?</span></span>
 </a>
 </div>

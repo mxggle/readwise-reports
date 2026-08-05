@@ -12,24 +12,24 @@ hide:
 ## 最新报告
 
 <div class="rw-cards">
-<a class="rw-card" href="github-trends/2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-08-03</time></span>
+<a class="rw-card" href="github-trends/2026-08-05/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-08-05</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="hn/2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-03</time></span>
-  <span class="rw-card__summary">Today’s tech discourse is dominated by a pragmatic recalibration of AI, where speed and efficiency are increasingly trumping raw intelligence in model selection, even as new releas…</span>
+<a class="rw-card" href="hn/2026-08-06/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-06</time></span>
+  <span class="rw-card__summary">Today’s tech landscape is dominated by two forces: the rapid maturation of AI tooling and infrastructure, marked by major releases like LLM 0.32 and expanded hardware support, and …</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="note-com-jp/2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-03</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：池田信夫さん曰く：「LLMはLinuxのような公共財になり、それでもうける人はいないだろう」 検証 / 【AIとの距離感】LLMの正体を覗いてみた｜大規模言語モデル / 自分のことをクリエイターだと思えない人へ｜才能より大切な「作り続ける人」の条件 / 【生成AIニュース漫画4本立て】顔を貸す、Gemini…</span>
+<a class="rw-card" href="note-com-jp/2026-08-06/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-06</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：ClaudeとChatGPT、無料で使うならどっち？無料プランの違いを徹底比較【2026最新】 / AI時代に「攻めすぎても守りすぎても負ける」探索と深化を両立する“両利きの経営”を目指す。 / 生成AIニュース AIが嘘をつき、偽アカウントで人間を騙した？｜三銃士と考える「あまりにも人間臭い暴走」｜Cha…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="readwise/2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-03</time></span>
-  <span class="rw-card__summary">今日阅读涵盖AI研究、多智能体系统、科技评论与人文随笔。核心趋势是：AI Agent开发正从分散的提示模板、工具架构、回调代码与工作流图，走向统一整合；同时，AI在数学证明等硬科学领域的可靠性仍受质疑，OpenAI对Connes刚性猜想的“证伪”被指出无效。对Harry而言，多智</span>
+<a class="rw-card" href="readwise/2026-08-06/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-06</time></span>
+  <span class="rw-card__summary">今日阅读聚焦AI工程与硬件趋势：NVIDIA发布Vera服务器CPU白皮书，展示自研Olympic核心与高带宽内存设计，但存在技术细节争议；AI工程实际工作重心从写代码转向决策，需选择合适模型与架构；Cloudflare提出开放平台概念，支持代理与应用协同；开源书籍《AI Age</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -51,12 +51,12 @@ hide:
 <table class="rw-archive">
 <thead><tr><th>日期</th><th>GitHub Trends</th><th>HackerNews</th><th>note AI（日本語）</th><th>Readwise</th></tr></thead>
 <tbody>
+<tr><td class="rw-archive__date">2026-08-06</td><td class="rw-archive__miss">—</td><td><a href="hn/2026-08-06/" title="HackerNews · 2026-08-06" aria-label="HackerNews · 2026-08-06">📰</a></td><td><a href="note-com-jp/2026-08-06/" title="note AI（日本語） · 2026-08-06" aria-label="note AI（日本語） · 2026-08-06">🇯🇵</a></td><td><a href="readwise/2026-08-06/" title="Readwise · 2026-08-06" aria-label="Readwise · 2026-08-06">📚</a></td></tr>
+<tr><td class="rw-archive__date">2026-08-05</td><td><a href="github-trends/2026-08-05/" title="GitHub Trends · 2026-08-05" aria-label="GitHub Trends · 2026-08-05">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
+<tr><td class="rw-archive__date">2026-08-04</td><td><a href="github-trends/2026-08-04/" title="GitHub Trends · 2026-08-04" aria-label="GitHub Trends · 2026-08-04">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-08-03</td><td><a href="github-trends/2026-08-03/" title="GitHub Trends · 2026-08-03" aria-label="GitHub Trends · 2026-08-03">📈</a></td><td><a href="hn/2026-08-03/" title="HackerNews · 2026-08-03" aria-label="HackerNews · 2026-08-03">📰</a></td><td><a href="note-com-jp/2026-08-03/" title="note AI（日本語） · 2026-08-03" aria-label="note AI（日本語） · 2026-08-03">🇯🇵</a></td><td><a href="readwise/2026-08-03/" title="Readwise · 2026-08-03" aria-label="Readwise · 2026-08-03">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-08-02</td><td><a href="github-trends/2026-08-02/" title="GitHub Trends · 2026-08-02" aria-label="GitHub Trends · 2026-08-02">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-08-01</td><td><a href="github-trends/2026-08-01/" title="GitHub Trends · 2026-08-01" aria-label="GitHub Trends · 2026-08-01">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-07-31</td><td><a href="github-trends/2026-07-31/" title="GitHub Trends · 2026-07-31" aria-label="GitHub Trends · 2026-07-31">📈</a></td><td><a href="hn/2026-07-31/" title="HackerNews · 2026-07-31" aria-label="HackerNews · 2026-07-31">📰</a></td><td><a href="note-com-jp/2026-07-31/" title="note AI（日本語） · 2026-07-31" aria-label="note AI（日本語） · 2026-07-31">🇯🇵</a></td><td class="rw-archive__miss">—</td></tr>
-<tr><td class="rw-archive__date">2026-07-30</td><td><a href="github-trends/2026-07-30/" title="GitHub Trends · 2026-07-30" aria-label="GitHub Trends · 2026-07-30">📈</a></td><td><a href="hn/2026-07-30/" title="HackerNews · 2026-07-30" aria-label="HackerNews · 2026-07-30">📰</a></td><td><a href="note-com-jp/2026-07-30/" title="note AI（日本語） · 2026-07-30" aria-label="note AI（日本語） · 2026-07-30">🇯🇵</a></td><td><a href="readwise/2026-07-30/" title="Readwise · 2026-07-30" aria-label="Readwise · 2026-07-30">📚</a></td></tr>
-<tr><td class="rw-archive__date">2026-07-29</td><td><a href="github-trends/2026-07-29/" title="GitHub Trends · 2026-07-29" aria-label="GitHub Trends · 2026-07-29">📈</a></td><td><a href="hn/2026-07-29/" title="HackerNews · 2026-07-29" aria-label="HackerNews · 2026-07-29">📰</a></td><td><a href="note-com-jp/2026-07-29/" title="note AI（日本語） · 2026-07-29" aria-label="note AI（日本語） · 2026-07-29">🇯🇵</a></td><td><a href="readwise/2026-07-29/" title="Readwise · 2026-07-29" aria-label="Readwise · 2026-07-29">📚</a></td></tr>
-<tr><td class="rw-archive__date">2026-07-28</td><td><a href="github-trends/2026-07-28/" title="GitHub Trends · 2026-07-28" aria-label="GitHub Trends · 2026-07-28">📈</a></td><td><a href="hn/2026-07-28/" title="HackerNews · 2026-07-28" aria-label="HackerNews · 2026-07-28">📰</a></td><td><a href="note-com-jp/2026-07-28/" title="note AI（日本語） · 2026-07-28" aria-label="note AI（日本語） · 2026-07-28">🇯🇵</a></td><td><a href="readwise/2026-07-28/" title="Readwise · 2026-07-28" aria-label="Readwise · 2026-07-28">📚</a></td></tr>
 </tbody>
 </table>

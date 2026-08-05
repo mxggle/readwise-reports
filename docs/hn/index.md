@@ -5,14 +5,18 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-03/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-03</time></span>
-  <span class="rw-card__summary">Today’s tech discourse is dominated by a pragmatic recalibration of AI, where speed and efficiency are increasingly trumping raw intelligence in model selection, even as new releas…</span>
+<a class="rw-card" href="2026-08-06/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-06</time></span>
+  <span class="rw-card__summary">Today’s tech landscape is dominated by two forces: the rapid maturation of AI tooling and infrastructure, marked by major releases like LLM 0.32 and expanded hardware support, and …</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
 
 ## 更早
+
+### 2026-08
+
+- [2026-08-03](2026-08-03.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by a pragmatic recalibration of AI, where speed and efficiency are increasingly trumping raw intelligence in model selection, even as new releas…</small>
 
 ### 2026-07
 

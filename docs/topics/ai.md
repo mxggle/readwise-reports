@@ -4,6 +4,21 @@
 
 ## 2026-08
 
+### 2026-08-06
+
+- [😺 Watch: AI agents are leaving the cloud](https://read.readwise.io/read/01kz9pe731e9dmak5zeymbfqhb)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
+- [AI智能体尚无法开展开放式AI研究](https://read.readwise.io/read/01kz96j0r2353spxbae5jahr55)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 未来特定场景可能有用</small>
+- [Grok 4.5 免费体验，推荐 Build 工具链](https://read.readwise.io/read/01kz89te88trmwqq5y7f6zj1me)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 未来特定场景可能有用</small>
+- [How Big Models Teach Small Models to Be Smart](https://read.readwise.io/read/01kz99kymqjheq7p5mjhvp3ccy)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
+- [How Big Models Teach Small Models to Be Smart](https://read.readwise.io/read/01kz998rqep73ndwmkwjwbpvzq)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
+- [I just opened access to our entire engineering team](https://read.readwise.io/read/01kz9nqkng4k9y7f59vj58yh62)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-06.md)</small>
+- [Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod](https://read.readwise.io/read/01kz9dday98ncqsjnmy9yhn8hn)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 未来特定场景可能有用</small>
+- [Lessons From Three Product Leaders Living in the Future](https://read.readwise.io/read/01kz9nx3mf9x9ptjnmkp96nqwh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
+- [Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告](https://read.readwise.io/read/01kza1fxmjnamsxkg0x8md5fbv)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 未来特定场景可能有用</small>
+- [Nvidia's Vera Whitepaper Has a Thread Loose](https://read.readwise.io/read/01kz9xrzvew1xt0w80xyj01sas)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-06.md)</small>
+- [The auto industry is building for a past that's never coming back](https://read.readwise.io/read/01kz841ztchpr6xkzjt796x8t3)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
+- [We just opened access to our engineering team](https://read.readwise.io/read/01kz9hemxk7vr0rpqgy6b952hk)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-06.md)</small>
+
 ### 2026-08-03
 
 - [😺DeepSeek’s new 28-cent agent model](https://read.readwise.io/read/01kz22n26f84vbndqztgqqgs7k)<br><small class="rw-item-meta">[日报](../readwise/2026-08-03.md) · 有信息量，但不用深读</small>
