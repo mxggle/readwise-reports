@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">488 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Nvidia's Vera Whitepaper Has a Thread Loose</span><span class="rw-topic__item">I just opened access to our entire engineering team</span><span class="rw-topic__item">We just opened access to our engineering team</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">499 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">OpenAI Trained Models While They Were Coordinating Exploits via Message Boards</span><span class="rw-topic__item">Now we have a timeline of the OpenAI accidental attack against Hugging Face</span><span class="rw-topic__item">Wikipedia's founder on his life's work: &quot;A propaganda tool&quot;</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">45 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">P2P local file transfer based on WebRTC</span><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span><span class="rw-topic__item">Quoting GitHub Changeling</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">46 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">A Tome of Forbidden Technologies</span><span class="rw-topic__item">P2P local file transfer based on WebRTC</span><span class="rw-topic__item">Prioritize mental health, and why communication is so important</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">19 条</span></span>
@@ -26,8 +26,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Ente – Opening Our Books</span><span class="rw-topic__item">StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal</span><span class="rw-topic__item">New York becomes the first state to impose a data center moratorium</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">21 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Less Is More: Why Audio on SoundCloud Looks Different</span><span class="rw-topic__item">Sam Neill Has Died</span><span class="rw-topic__item">Earendel (Astronomical Object)</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">22 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Quoting John Gruber</span><span class="rw-topic__item">Less Is More: Why Audio on SoundCloud Looks Different</span><span class="rw-topic__item">Sam Neill Has Died</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">4 条</span></span>

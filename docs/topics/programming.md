@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Programming** 的条目。
 
+## 2026-08
+
+### 2026-08-09
+
+- [A Tome of Forbidden Technologies](https://read.readwise.io/read/01kzgny8mkr4tat2f226mdc0fh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>
+
 ## 2026-07
 
 ### 2026-07-17

@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **English** 的条目。
 
+## 2026-08
+
+### 2026-08-09
+
+- [Quoting John Gruber](https://read.readwise.io/read/01kzfbvkey5pjf6ts526sqq5pd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
+
 ## 2026-07
 
 ### 2026-07-20

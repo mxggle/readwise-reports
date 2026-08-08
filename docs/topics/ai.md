@@ -4,6 +4,20 @@
 
 ## 2026-08
 
+### 2026-08-09
+
+- [🤖 AI Agents Weekly: Agent Plugins Standard, Qwen3.8-Max, Meta Muse Code, Prime Agent, LFM2.5-2.6B, Qwen-CUA, Harn…](https://read.readwise.io/read/01kzgy1ybf8w66ae9hkwkyxj6w)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>
+- [Apple Introduces Leasing Program for iPhones and Other Devices](https://read.readwise.io/read/01kzgesk886pwnmc1egxkm72x9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>
+- [Gateway 2000's hilariously bad ads in the 90s (Part II)](https://read.readwise.io/read/01kzgvfsbgfhkwwhdbdrhw97ha)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
+- [Now we have a timeline of the OpenAI accidental attack against Hugging Face](https://read.readwise.io/read/01kzgva16mk2mgpbr4297hhh6a)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-09.md)</small>
+- [Now we have a timeline of the OpenAI accidental attack against Hugging Face](https://read.readwise.io/read/01kzgmc6385bb1g2bbjn221epa)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>
+- [Now we have a timeline of the OpenAI accidental attack against Hugging Face](https://read.readwise.io/read/01kzfb4gym5ch4ysf5xvgtvdsz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>
+- [OpenAI may delay Astra, ByteDance readies 10T-parameter AI model](https://read.readwise.io/read/01kzfb1cq763bct02jyr096tvv)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
+- [OpenAI Trained Models While They Were Coordinating Exploits via Message Boards](https://read.readwise.io/read/01kzh1s7d2r8xyzhg6vpn8a96d)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-09.md)</small>
+- [OpenAI：因网络安全风险，延缓 Astra 模型发布](https://read.readwise.io/read/01kzfb76jvrmmnshptydv7yd7v)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
+- [Wikipedia's founder on his life's work: "A propaganda tool"](https://read.readwise.io/read/01kzhr00b6r151yeykyt8tg5g6)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-09.md)</small>
+- [苹果 Mac 简体中文支持文档更新，"Apple 智能"阿里千问扩展现身](https://read.readwise.io/read/01kzge9sc752cpv07yzxjvgmxx)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-06
 
 - [😺 Watch: AI agents are leaving the cloud](https://read.readwise.io/read/01kz9pe731e9dmak5zeymbfqhb)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 有信息量，但不用深读</small>
