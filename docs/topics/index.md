@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">499 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">OpenAI Trained Models While They Were Coordinating Exploits via Message Boards</span><span class="rw-topic__item">Now we have a timeline of the OpenAI accidental attack against Hugging Face</span><span class="rw-topic__item">Wikipedia's founder on his life's work: &quot;A propaganda tool&quot;</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">511 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Depression has tripled in the last 15 years. Arthur Brooks about the cause</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">Retraction: The App Store Rejection of the Week That Was a Correct Rejection</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">46 条</span></span>
@@ -22,8 +22,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">French musician Kavinsky found dead</span><span class="rw-topic__item">Japan legend Miura, 59, scores first goal since 2022</span><span class="rw-topic__item">Show HN: How much profit does your employer make per employee?</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">27 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Ente – Opening Our Books</span><span class="rw-topic__item">StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal</span><span class="rw-topic__item">New York becomes the first state to impose a data center moratorium</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">28 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Poland now 6th-largest EU economy, ahead of Switzerland and Belgium</span><span class="rw-topic__item">Ente – Opening Our Books</span><span class="rw-topic__item">StubHub's 'marketplace for fans' is run by a mass scalper, SEC filings reveal</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
   <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">22 条</span></span>

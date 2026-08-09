@@ -4,6 +4,21 @@
 
 ## 2026-08
 
+### 2026-08-10
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kzkqhvjn0qmjsv8vjwh5t139)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-10.md)</small>
+- [😺 The AI Data Center Backlash Is Going Bipartisan](https://read.readwise.io/read/01kzkn1t7207c3jrraayav7ar6)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 有信息量，但不用深读</small>
+- [Anthropic 称已基本解决提示注入攻击](https://read.readwise.io/read/01kzma1kyzvrv15qva5gft02bp)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 未来特定场景可能有用</small>
+- [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](https://read.readwise.io/read/01kzhrebddkd6cyagz7m9xvt05)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 有信息量，但不用深读</small>
+- [Claude Code 5.](https://read.readwise.io/read/01kzkzsb8sxrba2gay387zbtd9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 有信息量，但不用深读</small>
+- [Depression has tripled in the last 15 years. Arthur Brooks about the cause](https://read.readwise.io/read/01kzhy8t1jypd4fj56dc1k75cq)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-10.md)</small>
+- [FCC moves to ban Lidar-equipped foreign drones from US](https://read.readwise.io/read/01kzkqhxxbphmfh93pxwmetf3q)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 未来特定场景可能有用</small>
+- [Illinois Just Told Every Operating System to Start Reporting Your Kid's Age](https://read.readwise.io/read/01kzjexcnjf1qceqjnh9tbd3f1)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 未来特定场景可能有用</small>
+- [Readwise Sunday Favorites ❤️: Robert T. Kiyosaki, Daniel Schwarz, and more](https://read.readwise.io/read/01kzk6rt61khgmz3wat2cg7ajd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 未来特定场景可能有用</small>
+- [Retraction: The App Store Rejection of the Week That Was a Correct Rejection](https://read.readwise.io/read/01kzjb2agvxmmczzbdgbthz4ss)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-10.md)</small>
+- [The rising cost of AI is reaching tipping point | David Gerard](https://read.readwise.io/read/01kzks061g42etaw0839htt2za)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 有信息量，但不用深读</small>
+- [Wisereads Vol. 155 — Big Time Off by DJ DiDonna, Patrick Collison on aesthetics, and more](https://read.readwise.io/read/01kzkk2qqxqqz9dz17jj10gg8d)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-09
 
 - [🤖 AI Agents Weekly: Agent Plugins Standard, Qwen3.8-Max, Meta Muse Code, Prime Agent, LFM2.5-2.6B, Qwen-CUA, Harn…](https://read.readwise.io/read/01kzgy1ybf8w66ae9hkwkyxj6w)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>

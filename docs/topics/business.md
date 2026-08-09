@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Business** 的条目。
 
+## 2026-08
+
+### 2026-08-10
+
+- [Poland now 6th-largest EU economy, ahead of Switzerland and Belgium](https://read.readwise.io/read/01kzm39z2g9bvt688sf5adazm8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-10.md) · 未来特定场景可能有用</small>
+
 ## 2026-07
 
 ### 2026-07-17
