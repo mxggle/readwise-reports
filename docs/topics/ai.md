@@ -4,6 +4,16 @@
 
 ## 2026-08
 
+### 2026-08-12
+
+- [AI Is Solving CTF Challenges in Minutes](https://read.readwise.io/read/01kzsbd2dsej30ygksadgzr6hg)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-12.md)</small>
+- [Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务](https://read.readwise.io/read/01kzr3mym2rgjyc67ymftqjpd9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>
+- [Mark Zuckerberg attacks ‘closed’ AI rivals as Meta returns to open models](https://read.readwise.io/read/01kzp11qpmvd2962786h81421z)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>
+- [Nvidia Nemotron 3.5 lightning and Nemo Switchyard](https://read.readwise.io/read/01kzs6pq8p6nemgme99p72142t)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-12.md)</small>
+- [The whole of PyTorch on one page](https://read.readwise.io/read/01kzs5mg2x7kj076500ygs45ca)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-12.md)</small>
+- [ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线](https://read.readwise.io/read/01kzqqjatqtrbwjxrv0ef7z7ex)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>
+- [消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级](https://read.readwise.io/read/01kzrqd9ffghd3vxwg1f4t9kqz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-10
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01kzkqhvjn0qmjsv8vjwh5t139)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-10.md)</small>

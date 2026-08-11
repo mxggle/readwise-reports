@@ -4,6 +4,12 @@
 
 ## 2026-08
 
+### 2026-08-12
+
+- [Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet](https://read.readwise.io/read/01kzrpj0x1rvkys7qc8hkn4m92)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>
+- [The US tried to stop cartel money-laundering; devastated mom-and-pop businesses](https://read.readwise.io/read/01kzrp0fex46p0fjdb6ge8446b)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>
+- [Updated GPG Key for Signing Firefox and Thunderbird Releases](https://read.readwise.io/read/01kzqha38hv458kz5ra1n8x9ec)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-09
 
 - [A Tome of Forbidden Technologies](https://read.readwise.io/read/01kzgny8mkr4tat2f226mdc0fh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 有信息量，但不用深读</small>

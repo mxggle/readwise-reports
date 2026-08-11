@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-12
+
+- [Florida was a swing state. Now it’s MAGA-land](https://read.readwise.io/read/01kzpnrvv6xwtfc8h4644f1er1)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>
+- [France to ban unsolicited telemarketing calls](https://read.readwise.io/read/01kzqzf1dcm09sh45vqh2v37rp)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-09
 
 - [Quoting John Gruber](https://read.readwise.io/read/01kzfbvkey5pjf6ts526sqq5pd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-09.md) · 未来特定场景可能有用</small>
