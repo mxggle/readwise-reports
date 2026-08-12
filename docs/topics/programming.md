@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-13
+
+- [Wednesday, August 12: GitHub, Incident with Pull Requests and Issues](https://read.readwise.io/read/01kzvdj1pgdmb2k90s99fpyxm9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-12
 
 - [Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet](https://read.readwise.io/read/01kzrpj0x1rvkys7qc8hkn4m92)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>

@@ -4,6 +4,20 @@
 
 ## 2026-08
 
+### 2026-08-13
+
+- [Anthropic introduces Invisible Watermarks](https://read.readwise.io/read/01kzv80ag0vkmj81xfms653zfj)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 有信息量，但不用深读</small>
+- [GitHub vs Vercel vs Replit: What Dev Platforms Do When AI Code Is Cheap](https://read.readwise.io/read/01kzvaecwr15r06rwdyxcfra3p)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 有信息量，但不用深读</small>
+- [GitHub vs Vercel vs Replit: What Dev Platforms Do When AI Code Is Cheap](https://read.readwise.io/read/01kzva0my23ssfyj1dvx5ba19q)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 有信息量，但不用深读</small>
+- [Grok 4.6](https://read.readwise.io/read/01kzvaqe4fz3y5q3q61c2dtx61)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-13.md)</small>
+- [HTML over WebSockets: real-time SPAs with barely any JavaScript](https://read.readwise.io/read/01kzvepsv2k1h3fmzyxy15b2d5)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-13.md)</small>
+- [Meta 开源 Muse Glimmer 登陆 OpenRouter](https://read.readwise.io/read/01kzvf9c8pb0mhb8xqp6ae6ydy)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
+- [Reflex (YC W23) Is Growth and GTM Roles](https://read.readwise.io/read/01kzvepsqh0b2zenpe2n5wwk25)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
+- [Stop being skeptical about AI for development with Charity Majors](https://read.readwise.io/read/01kzvefctpd6w63d5n1qd8gen7)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 有信息量，但不用深读</small>
+- [There are no lossless transformations of natural-language text](https://read.readwise.io/read/01kzsm5xyjhgxwqe0fby0wwgq5)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
+- [Zed: Delta](https://read.readwise.io/read/01kzvm6744bg2p6xbv6bwcfgyc)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-13.md)</small>
+- [零基础用户半天上手AI的12步实操流程](https://read.readwise.io/read/01kzt55vhpz5h47dbd2b0w3q1y)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-12
 
 - [AI Is Solving CTF Challenges in Minutes](https://read.readwise.io/read/01kzsbd2dsej30ygksadgzr6hg)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-12.md)</small>

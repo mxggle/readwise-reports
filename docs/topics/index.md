@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">518 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">AI Is Solving CTF Challenges in Minutes</span><span class="rw-topic__item">Nvidia Nemotron 3.5 lightning and Nemo Switchyard</span><span class="rw-topic__item">The whole of PyTorch on one page</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">529 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Zed: Delta</span><span class="rw-topic__item">HTML over WebSockets: real-time SPAs with barely any JavaScript</span><span class="rw-topic__item">Grok 4.6</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">49 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet</span><span class="rw-topic__item">Updated GPG Key for Signing Firefox and Thunderbird Releases</span><span class="rw-topic__item">The US tried to stop cartel money-laundering; devastated mom-and-pop businesses</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">50 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Wednesday, August 12: GitHub, Incident with Pull Requests and Issues</span><span class="rw-topic__item">Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet</span><span class="rw-topic__item">Updated GPG Key for Signing Firefox and Thunderbird Releases</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">19 条</span></span>
