@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-13/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-13</time></span>
-  <span class="rw-card__summary">Today’s tech discourse is dominated by a deepening skepticism of AI’s reliability and provenance, from new attacks that extract reasoning traces from proprietary models to growing …</span>
+<a class="rw-card" href="2026-08-15/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-15</time></span>
+  <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-08
 
+- [2026-08-13](2026-08-13.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by a deepening skepticism of AI’s reliability and provenance, from new attacks that extract reasoning traces from proprietary models to growing …</small>
 - [2026-08-12](2026-08-12.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by an accelerating AI arms race, with debates over the timeline for runaway superintelligence, the rising costs of long agentic sessions, and ma…</small>
 - [2026-08-10](2026-08-10.md)<br><small class="rw-item-meta">Today’s tech discourse is split between the accelerating mainstreaming of AI—exemplified by Anthropic making auto mode the default in Claude Code—and a growing pushback against bot…</small>
 - [2026-08-09](2026-08-09.md)<br><small class="rw-item-meta">Today’s tech landscape is defined by a leadership shakeup at Google, as top AI minds depart to launch a new venture, signaling a potential shift in the industry’s power structure…</small>
