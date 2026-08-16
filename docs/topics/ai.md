@@ -4,6 +4,21 @@
 
 ## 2026-08
 
+### 2026-08-17
+
+- [😺 Let's talk about that AI agent Turf War](https://read.readwise.io/read/01m05pgvnqsrpngwzj2hs9c6ck)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>
+- [A Cheaper Model Does Not Imply a Cheaper Turn](https://read.readwise.io/read/01m064rttv0kf0bp7sdw8ks89y)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>
+- [Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing](https://read.readwise.io/read/01m069zm512dkqqnxnqx9vz4z0)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-17.md)</small>
+- [GPS and the Lost Art of Getting Lost](https://read.readwise.io/read/01m05m83mfz3epv6sr66w2ysr9)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-17.md)</small>
+- [I checked 30 frontier model cards. Here are the benchmarks labs report](https://read.readwise.io/read/01m04ed2q7a9yagy982pr7gga9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>
+- [I've built a free, open-source local and remote memory system for agentw and CL](https://read.readwise.io/read/01m05xwfg9ree5pt01mea2bagf)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>
+- [Jane Street suffers $15bn hit after meltdown at Situational Awareness](https://read.readwise.io/read/01m01bwx3wnzrfyrwnj72289tn)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>
+- [Models Are Getting Dumber on Purpose](https://read.readwise.io/read/01m061tjrk2fmr6nh5f6c8c3h5)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-17.md)</small>
+- [OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber](https://read.readwise.io/read/01m059n6vpmzsskjf57zd37h3k)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>
+- [Quoting Dario Amodei](https://read.readwise.io/read/01m05j9xmz3jjm3q0kxyz70v1v)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>
+- [The AI Credit Resale Economy](https://read.readwise.io/read/01m05hxjw18c66xmvaee8dzjqb)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>
+- [What happens when an LLM never sees material beyond fifth grade?](https://read.readwise.io/read/01m04rtmht7cwcrkfypaqazh1h)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-13
 
 - [Anthropic introduces Invisible Watermarks](https://read.readwise.io/read/01kzv80ag0vkmj81xfms653zfj)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 有信息量，但不用深读</small>

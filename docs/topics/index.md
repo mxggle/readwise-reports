@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">529 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Zed: Delta</span><span class="rw-topic__item">HTML over WebSockets: real-time SPAs with barely any JavaScript</span><span class="rw-topic__item">Grok 4.6</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">541 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing</span><span class="rw-topic__item">Models Are Getting Dumber on Purpose</span><span class="rw-topic__item">GPS and the Lost Art of Getting Lost</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">50 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Wednesday, August 12: GitHub, Incident with Pull Requests and Issues</span><span class="rw-topic__item">Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet</span><span class="rw-topic__item">Updated GPG Key for Signing Firefox and Thunderbird Releases</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">51 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The quirky personal homepages of programming language creators</span><span class="rw-topic__item">Wednesday, August 12: GitHub, Incident with Pull Requests and Issues</span><span class="rw-topic__item">Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">19 条</span></span>

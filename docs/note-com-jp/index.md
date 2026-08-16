@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-15/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-15</time></span>
-  <span class="rw-card__summary">過去 24 時間に該当する新着の人気 AI 記事はありませんでした。</span>
+<a class="rw-card" href="2026-08-17/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-17</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Agent Plugins 1.0.0、爆誕。CursorもCopilotもVS Codeも「同じ拡張」で動く時代へ / 【AIとの距離感】返事が変わる仕組みの話｜Temperature、Top-p / AIは英語＝翻訳、ではない話 / note初月から万アクセスを狙うAI活用術｜ブログもSNSもなしで「読…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-15](2026-08-15.md)<br><small class="rw-item-meta">過去 24 時間に該当する新着の人気 AI 記事はありませんでした。</small>
 - [2026-08-13](2026-08-13.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：PixAI Studioが提供する4つの核心的な機能を詳しく見ていきましょう。これらの機能が組み合わさることで、従来のAI制作環境では実現困難だった「ワンストップ制作体験」が実現しています。 / AIは追い詰められたとき、何を変えるのか？——「追従型」と「拡大型」という仮説メモ / 副業で稼ぐために一番大事…</small>
 - [2026-08-12](2026-08-12.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：🖼️Fable画廊──Claudeがピクセルアートだけで名画の再現に挑戦 / 145個のリポジトリと、誰も指示していない協定 / 【GPTs】衝撃‼️真っ白全身インナーウェア⁉️リボン、マスク、ブラウス、スカート、ルーズソックス、？？ / 第19回 tabikiroku、うまくいかなかった話（スマホ＋AI…</small>
 - [2026-08-10](2026-08-10.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：openAI、AI開発中止！！(一部危険域を停止) まあ、ASIは遅れるだろうなあ…。 / Transformer（LLM）でattentionで何かに注目したとして、注目してその後、どうするのか？の一例を示します / 【月曜限定】Cafe Monday｜特別編｜海までアイスを届ける｜ショートストーリー｜ダ…</small>

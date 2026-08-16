@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-17
+
+- [The quirky personal homepages of programming language creators](https://read.readwise.io/read/01m04ed2gef9fzh09en1at5t22)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-13
 
 - [Wednesday, August 12: GitHub, Incident with Pull Requests and Issues](https://read.readwise.io/read/01kzvdj1pgdmb2k90s99fpyxm9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-13.md) · 未来特定场景可能有用</small>
