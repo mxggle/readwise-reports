@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-18
+
+- [Ask HN: GitHub employees what's going on? Why?](https://read.readwise.io/read/01m0858gc3gkt6n3r3dm58d8ee)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-17
 
 - [The quirky personal homepages of programming language creators](https://read.readwise.io/read/01m04ed2gef9fzh09en1at5t22)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 未来特定场景可能有用</small>

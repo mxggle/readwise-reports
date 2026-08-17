@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-18
+
+- [A 股迎来"人形机器人第一股"，宇树科技官宣 8 月 19 日科创板上市](https://read.readwise.io/read/01m07zzhxt0ht31wcxxdgdjeqn)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
+- [Show HN: Desktopcolors.com – A museum for solid background colors of classic OS](https://read.readwise.io/read/01m07p9s2th836d24frjwft6az)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-06
 
 - [How a bipartisan coalition is taking aim at animal research](https://read.readwise.io/read/01kz9m97y5qdjp1ef1mmvdv940)<br><small class="rw-item-meta">[日报](../readwise/2026-08-06.md) · 未来特定场景可能有用</small>

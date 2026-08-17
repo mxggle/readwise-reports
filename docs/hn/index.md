@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-17/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-17</time></span>
-  <span class="rw-card__summary">Today’s tech discourse is dominated by the escalating debate over AI content provenance, with Anthropic’s watermarking plans drawing sharp criticism as both a weak legal appeasemen…</span>
+<a class="rw-card" href="2026-08-18/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-18</time></span>
+  <span class="rw-card__summary">Today’s tech discourse is dominated by a sharpening debate over AI’s real-world impact, from Amazon’s covert use of rare books for model training to prominent critiques of Anthropi…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-08
 
+- [2026-08-17](2026-08-17.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by the escalating debate over AI content provenance, with Anthropic’s watermarking plans drawing sharp criticism as both a weak legal appeasemen…</small>
 - [2026-08-15](2026-08-15.md)
 - [2026-08-13](2026-08-13.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by a deepening skepticism of AI’s reliability and provenance, from new attacks that extract reasoning traces from proprietary models to growing …</small>
 - [2026-08-12](2026-08-12.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by an accelerating AI arms race, with debates over the timeline for runaway superintelligence, the rising costs of long agentic sessions, and ma…</small>

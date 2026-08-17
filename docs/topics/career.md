@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Career** 的条目。
 
+## 2026-08
+
+### 2026-08-18
+
+- [Cialis is an erectile dysfunction drug. Could it also help you live longer?](https://read.readwise.io/read/01m07z8v6kef2fybc87eescwcv)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 有信息量，但不用深读</small>
+
 ## 2026-07
 
 ### 2026-07-30

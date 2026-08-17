@@ -4,6 +4,18 @@
 
 ## 2026-08
 
+### 2026-08-18
+
+- [🗞️ What's New: $3.3k MRR from a viral thread, turn a free community into a business, when will it get easier?](https://read.readwise.io/read/01m08cr0c388ann0knqjd3cbje)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
+- [😺 Anthropic CEO denies wanting to rule AI alone](https://read.readwise.io/read/01m07m9gzcqg0gpd44wpfyw157)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-18.md)</small>
+- [$12B of US ratepayers' money wasted on a modeling mistake in PJM](https://read.readwise.io/read/01m076a2xk7g62mc0zmrnnnbje)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-18.md)</small>
+- [How a GPU Actually Works](https://read.readwise.io/read/01m08rg1b374teq36v2ks0z2v8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 有信息量，但不用深读</small>
+- [Meta faces 'astronomical' consequences as legal fight reaches critical moment](https://read.readwise.io/read/01m08fd60vv2hp0h7epmtnr649)<br><small class="rw-item-meta">`READ` · 89/100 · [日报](../readwise/2026-08-18.md)</small>
+- [Qwen3.8 27B scores 52 on Artificial Analysis](https://read.readwise.io/read/01m08fd65jzkkxq6xexdeqg70m)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 有信息量，但不用深读</small>
+- [Show HN: Eve Software Factory](https://read.readwise.io/read/01m0835g0td9vqb91397sv74jw)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 有信息量，但不用深读</small>
+- [We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility](https://read.readwise.io/read/01m0854w4vhkt3e71ztt63dwqt)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
+- [Wisereads Vol. 156 — Don't Be Evil by Claire Stapleton, Netflix CPTO on AI and the future of product and tech roles, and more](https://read.readwise.io/read/01m06chk8kt06a34jvce5hvqyk)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-17
 
 - [😺 Let's talk about that AI agent Turf War](https://read.readwise.io/read/01m05pgvnqsrpngwzj2hs9c6ck)<br><small class="rw-item-meta">[日报](../readwise/2026-08-17.md) · 有信息量，但不用深读</small>

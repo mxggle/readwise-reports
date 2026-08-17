@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-17/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-17</time></span>
-  <span class="rw-card__summary">今日阅读聚焦AI行业三大趋势：模型效率飙升（如GLM-5.2仅用40B活跃参数即达99.2%推理分，较GPT-4时代算力需求骤降）、Anthropic强制文本水印引发写作伦理争议、以及Qwen 3.8 27B等小模型在消费级硬件上的实用化（但默认过度思考需调低reasoning</span>
+<a class="rw-card" href="2026-08-18/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-18</time></span>
+  <span class="rw-card__summary">今日阅读聚焦AI安全、能源市场与科技政策三大趋势：Meta因青少年保护面临加州诉讼，可能重塑社交平台监管；Anthropic CEO公开否认垄断野心，但OpenAI发布无安全限制的黑客AI，显示AI攻防进入实战阶段；美国PJM电力市场因建模错误浪费120亿美元，凸显能源系统透明度</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-08
 
+- [2026-08-17](2026-08-17.md)<br><small class="rw-item-meta">今日阅读聚焦AI行业三大趋势：模型效率飙升（如GLM-5.2仅用40B活跃参数即达99.2%推理分，较GPT-4时代算力需求骤降）、Anthropic强制文本水印引发写作伦理争议、以及Qwen 3.8 27B等小模型在消费级硬件上的实用化（但默认过度思考需调低reasoning</small>
 - [2026-08-13](2026-08-13.md)<br><small class="rw-item-meta">今日阅读聚焦AI编程与工具链演进：Zed推出Delta多人协作编码环境，强调代码与对话上下文绑定；HTML over WebSockets方案展示减少JavaScript依赖的实时SPA新路径；Grok 4.6与Qwen3.8相继发布，均强化长任务代理与复杂代码库处理能力。趋势上</small>
 - [2026-08-12](2026-08-12.md)<br><small class="rw-item-meta">今日阅读核心趋势：AI正从辅助工具转向全自主智能体——CTF竞赛中AI已能完全自动化解题夺冠；NVIDIA发布轻量级开源模型Nemotron 3.5 Lightning及路由库，推动AI在边缘设备高效运行；OpenSSH 10.5开始接受AI修复补丁，标志基础设施安全进入AI协作</small>
 - [2026-08-10](2026-08-10.md)<br><small class="rw-item-meta">今天阅读内容涉及AI代理评估、LLM生产部署、SQLite调试工具、认知衰退研究等。核心趋势是：AI代理评估存在系统级结果盲区，需更细粒度的失败归因；LLM生产化需要结构化路线图，ReAct模式有上下文污染缺陷。对Harry而言，SQLite时间旅行调试器是实用工具，值得收藏。认</small>
