@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-19
+
+- [Flock impersonates journalist in order to cancel his hotel reservations](https://read.readwise.io/read/01m0bev09dv3qtgq2a84d1jhq0)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
+- [git git git git git](https://read.readwise.io/read/01m09ynpakekbkqwggawjbrp5t)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-18
 
 - [A 股迎来"人形机器人第一股"，宇树科技官宣 8 月 19 日科创板上市](https://read.readwise.io/read/01m07zzhxt0ht31wcxxdgdjeqn)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>

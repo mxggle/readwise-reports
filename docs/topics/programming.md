@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-19
+
+- [How things win](https://read.readwise.io/read/01m092smg5nhmvxwa0cy4120t8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-18
 
 - [Ask HN: GitHub employees what's going on? Why?](https://read.readwise.io/read/01m0858gc3gkt6n3r3dm58d8ee)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>

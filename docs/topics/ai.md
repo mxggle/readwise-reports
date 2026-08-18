@@ -4,6 +4,18 @@
 
 ## 2026-08
 
+### 2026-08-19
+
+- [[AINews\] Stripe buys OpenRouter for $7B](https://read.readwise.io/read/01m09064s9h8bw6g0mdqzb5tj7)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-19.md)</small>
+- [Apple announces changes for apps in the European Union](https://read.readwise.io/read/01m0avdkww2bjvhbk05nbg0rhv)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
+- [Context Engineering¶](https://read.readwise.io/read/01m0agxbxz0b4dttnyzd91zy4a)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-19.md)</small>
+- [Context Engineering¶](https://read.readwise.io/read/01m0ah7xba8mtrxx975cb6sq56)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>
+- [Context Engineering¶](https://read.readwise.io/read/01m0ah5dnvaxbke06nt65v48kg)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>
+- [Isolation Over Compression: Sub-Agent Context Isolation](https://read.readwise.io/read/01m0apabhjrwbrmxze5q116m5y)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-19.md)</small>
+- [Meta Files Patent for Facial Recognition, Automatic Recording of People](https://read.readwise.io/read/01m0afj83eyzz3eeq7vzgnv7qz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>
+- [OG Guru's Wisdom Seems to Be More True Than Ever](https://read.readwise.io/read/01m0ax12bss9vtp109gtcskm75)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
+- [WTF is going on with social media?](https://read.readwise.io/read/01m0bctpp2y23x9bb4egz352s1)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-18
 
 - [🗞️ What's New: $3.3k MRR from a viral thread, turn a free community into a business, when will it get easier?](https://read.readwise.io/read/01m08cr0c388ann0knqjd3cbje)<br><small class="rw-item-meta">[日报](../readwise/2026-08-18.md) · 未来特定场景可能有用</small>
