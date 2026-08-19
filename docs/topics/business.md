@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-20
+
+- [Copper Shortage Threatens the Green Transition](https://read.readwise.io/read/01m0dvrnwwh3eszkjk6f0j69x4)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-08-20.md)</small>
+
 ### 2026-08-12
 
 - [Panic of 1873](https://read.readwise.io/read/01kzr9ez5rxrgfwp49y547bzzv)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 有信息量，但不用深读</small>

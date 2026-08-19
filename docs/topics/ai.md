@@ -4,6 +4,19 @@
 
 ## 2026-08
 
+### 2026-08-20
+
+- [😺 Google bought a bankrupt airline's data](https://read.readwise.io/read/01m0cqdv7ka5h1rahaenn934rm)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-20.md)</small>
+- [Give me 20 minutes and i’ll make you impossible to manipulate](https://read.readwise.io/read/01m0e27kz500gg8vk55b0qvfx7)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 有信息量，但不用深读</small>
+- [GLM-5.3 Artificial Analysis Benchmarks](https://read.readwise.io/read/01m0bhfkp9pewcdgyxy6hbj6yd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 有信息量，但不用深读</small>
+- [GLM-5.3上线：AA智能指数60分并列开源第一，成本更低](https://read.readwise.io/read/01m0c6af15d9xjgp586n8ay07p)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
+- [Kimi K3's Sandbox Problem Finally Has an Open-Source Fix](https://read.readwise.io/read/01m0e0ad3fxmjg5gvdbsqtbzx1)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 有信息量，但不用深读</small>
+- [Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失](https://read.readwise.io/read/01m0das5071scja96cf3wjbvse)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 有信息量，但不用深读</small>
+- [Peter Thiel-Linked Race Science Network That Penetrated Cambridge University](https://read.readwise.io/read/01m0ctee8w6kn90rr2znpsq5k3)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
+- [Rules of Good Social Skills](https://read.readwise.io/read/01m0drpenxpv7ebcqgkxet148c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
+- [The Integer](https://read.readwise.io/read/01m0bw7dxas9238p5j804taj62)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 有信息量，但不用深读</small>
+- [The Principles of Smarter Decisions](https://read.readwise.io/read/01m0cxw3eeczs6g51ks9qaxk6r)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-20.md)</small>
+
 ### 2026-08-19
 
 - [[AINews\] Stripe buys OpenRouter for $7B](https://read.readwise.io/read/01m09064s9h8bw6g0mdqzb5tj7)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-19.md)</small>

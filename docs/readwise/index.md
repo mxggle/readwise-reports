@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-19/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-19</time></span>
-  <span class="rw-card__summary">今日阅读核心趋势：AI Agent 正从“单次对话”转向“有状态、多轮协作”，上下文工程（Context Engineering）成为关键设计能力；同时，AI 基础设施并购加速（Stripe 以 70 亿美元收购 OpenRouter），显示推理层正在被整合进更大的商业闭环。对</span>
+<a class="rw-card" href="2026-08-20/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-20</time></span>
+  <span class="rw-card__summary">今天阅读内容涉及铜短缺、AI决策、AI内容创作、睡眠进化、AI手机、人机协作协议、推理优化和模型量化等主题。核心趋势是：AI正从聊天走向实际工作流，推理效率和成本成为瓶颈，人机协作需要标准化协议。对Harry而言，铜短缺提醒他关注资源约束对科技产业的影响；AI决策和CHAP协议则</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-08
 
+- [2026-08-19](2026-08-19.md)<br><small class="rw-item-meta">今日阅读核心趋势：AI Agent 正从“单次对话”转向“有状态、多轮协作”，上下文工程（Context Engineering）成为关键设计能力；同时，AI 基础设施并购加速（Stripe 以 70 亿美元收购 OpenRouter），显示推理层正在被整合进更大的商业闭环。对</small>
 - [2026-08-18](2026-08-18.md)<br><small class="rw-item-meta">今日阅读聚焦AI安全、能源市场与科技政策三大趋势：Meta因青少年保护面临加州诉讼，可能重塑社交平台监管；Anthropic CEO公开否认垄断野心，但OpenAI发布无安全限制的黑客AI，显示AI攻防进入实战阶段；美国PJM电力市场因建模错误浪费120亿美元，凸显能源系统透明度</small>
 - [2026-08-17](2026-08-17.md)<br><small class="rw-item-meta">今日阅读聚焦AI行业三大趋势：模型效率飙升（如GLM-5.2仅用40B活跃参数即达99.2%推理分，较GPT-4时代算力需求骤降）、Anthropic强制文本水印引发写作伦理争议、以及Qwen 3.8 27B等小模型在消费级硬件上的实用化（但默认过度思考需调低reasoning</small>
 - [2026-08-13](2026-08-13.md)<br><small class="rw-item-meta">今日阅读聚焦AI编程与工具链演进：Zed推出Delta多人协作编码环境，强调代码与对话上下文绑定；HTML over WebSockets方案展示减少JavaScript依赖的实时SPA新路径；Grok 4.6与Qwen3.8相继发布，均强化长任务代理与复杂代码库处理能力。趋势上</small>

@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-20
+
+- [Air Theremin – a browser theremin you play by waving at your webcam](https://read.readwise.io/read/01m0cta6hfha0ab8rpx41t6bed)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
+- [OpenLogi](https://read.readwise.io/read/01m0bywjnya62nqpt17pr5qxd9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-19
 
 - [Flock impersonates journalist in order to cancel his hotel reservations](https://read.readwise.io/read/01m0bev09dv3qtgq2a84d1jhq0)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 未来特定场景可能有用</small>
