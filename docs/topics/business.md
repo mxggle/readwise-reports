@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-23
+
+- [I found some old journal entries](https://read.readwise.io/read/01m0ndd222wn5zn60gjyr901sz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-20
 
 - [Copper Shortage Threatens the Green Transition](https://read.readwise.io/read/01m0dvrnwwh3eszkjk6f0j69x4)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-08-20.md)</small>

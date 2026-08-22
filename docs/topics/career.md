@@ -4,6 +4,12 @@
 
 ## 2026-08
 
+### 2026-08-23
+
+- [David's magic message](https://read.readwise.io/read/01m0n4dsc00zfge7exrtgcqr7c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>
+- [However you measure it, China’s job market is weak](https://read.readwise.io/read/01m0fcdfd7p6tc16n53rtb5ka8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>
+- [People deserve bad news.](https://read.readwise.io/read/01m0mq8nq2mqnrqzsv8dmpwxnp)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-19
 
 - [Deus Ex creator Warren Spector is retiring from game development](https://read.readwise.io/read/01m0ag5vknqkb1ms3c9cfvfrtb)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>

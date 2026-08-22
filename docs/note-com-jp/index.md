@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-20/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-20</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：2026年、スマホだけで始めるAI×note副業｜ノースキルから「経験を売る」収益化の始め方 / コメント10,000回達成。でも…私、ちょっと方向ズレてない？ / Renoise AI Agentに「この子の動画作って」と丸投げしたら、キャラクターの人格・物語まで作り始めた話📚【Renoise AI】 …</span>
+<a class="rw-card" href="2026-08-23/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-23</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：🧠 AIとは「LLM(大規模言語モデル)」だと知ると、使い方が変わる / 今年は、このお米を試してほしい──お米マイスターが勝手に米診断してみた話🍚 / 動物診断を作ったら、noteの中に森ができていました｜ChatGPT｜AI診断 / ご紹介の循環｜朝に出会う場所❀日曜日の朝は、好きな音をひとつ連れて…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-20](2026-08-20.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：2026年、スマホだけで始めるAI×note副業｜ノースキルから「経験を売る」収益化の始め方 / コメント10,000回達成。でも…私、ちょっと方向ズレてない？ / Renoise AI Agentに「この子の動画作って」と丸投げしたら、キャラクターの人格・物語まで作り始めた話📚【Renoise AI】 …</small>
 - [2026-08-19](2026-08-19.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：生成AI格差（AIデバイド）の正体。「誰一人取り残さないAI」が取り残している人は誰か。 / 好きなことを形にする面白さと、それを収益化する難しさ / 異形さんに朝食を想像してもらった🍳｜「抽象語」をAIはどう解釈する？Pollo AI魔法ご飯🍞 / 画像生成AIに「プロンプトを入力する」時代は終わりつ…</small>
 - [2026-08-18](2026-08-18.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【AIにまかせる技術】貼るのをやめて、置いておく｜Codex・Claude Code / 白い余白に何が書かれていたか 〜米裁判所プロンプトインジェクション事件の一次資料〜 / 【Anthropic】マルチエージェントシステム研究について詳しく聞いた / 多様なコンテンツ×ユースケースの「回答の信頼度」をL…</small>
 - [2026-08-17](2026-08-17.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Agent Plugins 1.0.0、爆誕。CursorもCopilotもVS Codeも「同じ拡張」で動く時代へ / 【AIとの距離感】返事が変わる仕組みの話｜Temperature、Top-p / AIは英語＝翻訳、ではない話 / note初月から万アクセスを狙うAI活用術｜ブログもSNSもなしで「読…</small>

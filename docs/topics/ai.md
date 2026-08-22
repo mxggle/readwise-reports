@@ -4,6 +4,16 @@
 
 ## 2026-08
 
+### 2026-08-23
+
+- [🤖 AI Agents Weekly: NVIDIA AVO, TrueForge, Chroma Foundation, Fragile Self-Improvement, Ornith-1.5, dots3-note, D…](https://read.readwise.io/read/01m0n12p9fmh2vks17zvj7g6wd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>
+- [A Friendly Introduction to Racket](https://read.readwise.io/read/01m0mz27pkjh5fawbw7zktgf0b)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-23.md)</small>
+- [A New Kind of Science by Stephen Wolfram: Monster Raving Egomania](https://read.readwise.io/read/01m0nshcwcbp3s39ngqjc48xcp)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>
+- [Apple cuts jobs in Vision Pro, Siri teams; TikTok settles with DOJ](https://read.readwise.io/read/01m0kcj0wys5bnrgexgtzf2esc)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>
+- [HN: The Good Parts](https://read.readwise.io/read/01m0keyfv2eft9h90pp5r41gdf)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>
+- [I own 28,000 books – here's what I've learned](https://read.readwise.io/read/01m0k9hg4k04cfepwaqya5vybj)<br><small class="rw-item-meta">`READ` · 90/100 · [日报](../readwise/2026-08-23.md)</small>
+- [Knowing When to Stop: The Art of Making a Loop Converge](https://read.readwise.io/read/01m0nk7e6w9e8qpya1zwekfag2)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-23.md)</small>
+
 ### 2026-08-20
 
 - [😺 Google bought a bankrupt airline's data](https://read.readwise.io/read/01m0cqdv7ka5h1rahaenn934rm)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-20.md)</small>

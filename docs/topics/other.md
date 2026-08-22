@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-23
+
+- [Musk explains his black eye, says he told son X to punch him](https://read.readwise.io/read/01m0ms40z0mcdyjja0w14jnepg)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>
+- [第二届世界人形机器人运动会开幕：2056 台机器人齐聚"冰丝带"，666 支队伍竞技 51 赛项](https://read.readwise.io/read/01m0mzdbpxd20esqtm459qxdb6)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-20
 
 - [Air Theremin – a browser theremin you play by waving at your webcam](https://read.readwise.io/read/01m0cta6hfha0ab8rpx41t6bed)<br><small class="rw-item-meta">[日报](../readwise/2026-08-20.md) · 未来特定场景可能有用</small>
