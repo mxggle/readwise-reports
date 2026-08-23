@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-24
+
+- [Authoritarianism of Code](https://read.readwise.io/read/01m0qhsjmspk7r39pc896b02ab)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>
+- [How I Find Problems to Solve as a Staff Engineer](https://read.readwise.io/read/01m0r36rvtx7kmmkpapgm580c7)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-19
 
 - [How things win](https://read.readwise.io/read/01m092smg5nhmvxwa0cy4120t8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-19.md) · 有信息量，但不用深读</small>

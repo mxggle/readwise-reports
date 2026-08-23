@@ -4,6 +4,18 @@
 
 ## 2026-08
 
+### 2026-08-24
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m0qmq90hekgqck3ne246jk5f)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-24.md)</small>
+- [😺 Why Sam Altman thinks people hate AI](https://read.readwise.io/read/01m0qyzayg2tcckab1fsfydedw)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>
+- [A complex structure on S^6 [pdf\]](https://read.readwise.io/read/01m0racr7kghdt6pt53dbga2yc)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-24.md)</small>
+- [Decoding silent reading from non-invasive EEG](https://read.readwise.io/read/01m0r79w81h5jnn7s00653cxdm)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-24.md)</small>
+- [Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has](https://read.readwise.io/read/01m0pg1sbnp1fdgfnsg9sp5e3x)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
+- [I wrote a BASIC interpreter that boots on UEFI machines and ported it to Windows](https://read.readwise.io/read/01m0qwgpqjbhb8k1zcrq235aa8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>
+- [Malware infects Android-based automotive head unit firmware](https://read.readwise.io/read/01m0qcd7c1yvkwav4aegbtc6sf)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
+- [The Golden Rule for Becoming a Better Writer](https://read.readwise.io/read/01m0pg1sfez8wjm7x8p6bm208d)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>
+- [The Sloppification of Peptides](https://read.readwise.io/read/01m0q2teb6p2ktsf0nmkz8asrs)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-23
 
 - [🤖 AI Agents Weekly: NVIDIA AVO, TrueForge, Chroma Foundation, Fragile Self-Improvement, Ornith-1.5, dots3-note, D…](https://read.readwise.io/read/01m0n12p9fmh2vks17zvj7g6wd)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 有信息量，但不用深读</small>

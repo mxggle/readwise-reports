@@ -5,8 +5,8 @@
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-23/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-08-23</time></span>
+<a class="rw-card" href="2026-08-24/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-08-24</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
@@ -16,6 +16,7 @@
 
 ### 2026-08
 
+- [2026-08-23](2026-08-23.md)
 - [2026-08-20](2026-08-20.md)
 - [2026-08-19](2026-08-19.md)
 - [2026-08-18](2026-08-18.md)

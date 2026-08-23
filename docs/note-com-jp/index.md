@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-23/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-23</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：🧠 AIとは「LLM(大規模言語モデル)」だと知ると、使い方が変わる / 今年は、このお米を試してほしい──お米マイスターが勝手に米診断してみた話🍚 / 動物診断を作ったら、noteの中に森ができていました｜ChatGPT｜AI診断 / ご紹介の循環｜朝に出会う場所❀日曜日の朝は、好きな音をひとつ連れて…</span>
+<a class="rw-card" href="2026-08-24/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-24</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【AIとの距離感】AIが苦手なことを知ってから、頼み方が変わった｜テキスト生成AIの不得意なこと / FreeToken の概要 / [AIインシデント] AIの起こした事件をデータで見つめる 〜本当に必要な眼力とは〜 / 騙されないために -巧妙化するデマと、見えてきたAIファクトチェックの限界- / 【…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-23](2026-08-23.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：🧠 AIとは「LLM(大規模言語モデル)」だと知ると、使い方が変わる / 今年は、このお米を試してほしい──お米マイスターが勝手に米診断してみた話🍚 / 動物診断を作ったら、noteの中に森ができていました｜ChatGPT｜AI診断 / ご紹介の循環｜朝に出会う場所❀日曜日の朝は、好きな音をひとつ連れて…</small>
 - [2026-08-20](2026-08-20.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：2026年、スマホだけで始めるAI×note副業｜ノースキルから「経験を売る」収益化の始め方 / コメント10,000回達成。でも…私、ちょっと方向ズレてない？ / Renoise AI Agentに「この子の動画作って」と丸投げしたら、キャラクターの人格・物語まで作り始めた話📚【Renoise AI】 …</small>
 - [2026-08-19](2026-08-19.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：生成AI格差（AIデバイド）の正体。「誰一人取り残さないAI」が取り残している人は誰か。 / 好きなことを形にする面白さと、それを収益化する難しさ / 異形さんに朝食を想像してもらった🍳｜「抽象語」をAIはどう解釈する？Pollo AI魔法ご飯🍞 / 画像生成AIに「プロンプトを入力する」時代は終わりつ…</small>
 - [2026-08-18](2026-08-18.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【AIにまかせる技術】貼るのをやめて、置いておく｜Codex・Claude Code / 白い余白に何が書かれていたか 〜米裁判所プロンプトインジェクション事件の一次資料〜 / 【Anthropic】マルチエージェントシステム研究について詳しく聞いた / 多様なコンテンツ×ユースケースの「回答の信頼度」をL…</small>

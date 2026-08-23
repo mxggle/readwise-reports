@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-24
+
+- [A website for debloated open source alternatives](https://read.readwise.io/read/01m0qsy8588s3my2dv3w6dm06r)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
+- [I Dream of Quieter Computing](https://read.readwise.io/read/01m0pdx5vsvttm3xpcg9g25ck2)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-23
 
 - [Musk explains his black eye, says he told son X to punch him](https://read.readwise.io/read/01m0ms40z0mcdyjja0w14jnepg)<br><small class="rw-item-meta">[日报](../readwise/2026-08-23.md) · 未来特定场景可能有用</small>

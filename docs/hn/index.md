@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-23/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-23</time></span>
-  <span class="rw-card__summary">Today’s tech landscape is dominated by AI’s expanding reach into surveillance, search, and software development, alongside mounting regulatory and ethical backlash. OpenAI’s pivot …</span>
+<a class="rw-card" href="2026-08-24/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-24</time></span>
+  <span class="rw-card__summary">The AI landscape is bifurcating sharply, as cheaper, open-weight models and tools surge in adoption, directly challenging the market dominance of frontier labs like Anthropic despi…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-08
 
+- [2026-08-23](2026-08-23.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by AI’s expanding reach into surveillance, search, and software development, alongside mounting regulatory and ethical backlash. OpenAI’s pivot …</small>
 - [2026-08-20](2026-08-20.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by a deepening crisis of trust and governance around AI, as OpenAI faces mounting skepticism over its IPO and business practices, while broader …</small>
 - [2026-08-19](2026-08-19.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by AI’s rapid commoditization and its mounting societal friction, as open-source models like Qwen push performance boundaries while public senti…</small>
 - [2026-08-18](2026-08-18.md)<br><small class="rw-item-meta">Today’s tech discourse is dominated by a sharpening debate over AI’s real-world impact, from Amazon’s covert use of rare books for model training to prominent critiques of Anthropi…</small>
