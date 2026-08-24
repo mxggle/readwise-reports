@@ -4,6 +4,17 @@
 
 ## 2026-08
 
+### 2026-08-25
+
+- [Attention is all we have: A conjectural theory of cognitive inequality](https://read.readwise.io/read/01m0s927d563m0fzjkqnbjs2r1)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-25.md) · 和长期目标强相关，值得完整读</small>
+- [Coding expertise is going to collapse from AI reliance](https://read.readwise.io/read/01m0t7xsemz28q3cjy69jxgs18)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-25.md)</small>
+- [NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍](https://read.readwise.io/read/01m0tgfr60qy2hsfch2p2dgtwc)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>
+- [Oceans hit highest temperature on record](https://read.readwise.io/read/01m0tmv6vv25rc515qxm9z2716)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>
+- [OCR It – pull text out of un-copyable documents for your LLM](https://read.readwise.io/read/01m0s977wm5n1efrtagf7a5wjt)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>
+- [OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？](https://read.readwise.io/read/01m0tgfr8kky1k57spg9pd0t0z)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>
+- [Sergey Levine: Current State of Humanoid Robotics, China & Future Predictions](https://read.readwise.io/read/01m0syx0me0y3ck355v4x7rjee)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-25.md)</small>
+- [Technology Is Over](https://read.readwise.io/read/01m0thnykga9xmp47txqxqhf11)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-24
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m0qmq90hekgqck3ne246jk5f)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-24.md)</small>

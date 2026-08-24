@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-24/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-24</time></span>
-  <span class="rw-card__summary">今日阅读围绕AI代理、脑机接口与数学结构展开。AI代理训练正从“黑箱调用”转向“边界强化”，微软的Agent Lightning以约3500行代码实现任意harness与强化学习的对接，标志着代理训练走向工程标准化。非侵入式EEG解码默读仍受限于“内语音数据无法采集”的根本瓶颈，</span>
+<a class="rw-card" href="2026-08-25/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-08-25</time></span>
+  <span class="rw-card__summary">今日阅读聚焦AI对编程技能的影响、人形机器人趋势、认知不平等理论、阿尔茨海默病血液检测获批、轻量级容器工具Kern、Syslog服务器、欧洲量子计算投资及一次服务器宕机复盘。核心趋势是AI正从代码生成向物理世界（机器人）和基础设施（量子计算）延伸，同时“AI依赖导致技能退化”的悖</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-08
 
+- [2026-08-24](2026-08-24.md)<br><small class="rw-item-meta">今日阅读围绕AI代理、脑机接口与数学结构展开。AI代理训练正从“黑箱调用”转向“边界强化”，微软的Agent Lightning以约3500行代码实现任意harness与强化学习的对接，标志着代理训练走向工程标准化。非侵入式EEG解码默读仍受限于“内语音数据无法采集”的根本瓶颈，</small>
 - [2026-08-23](2026-08-23.md)<br><small class="rw-item-meta">今日阅读围绕AI工程与认知展开，核心趋势是：AI系统正从追求“完美输出”转向“知道何时停止”，模拟（Simulation）以“10%更差、100倍更便宜、10000倍更快”的优势取代部分真实推理；同时，Agent Harness（智能体框架）在2025年底出现质变，工程化成熟度显</small>
 - [2026-08-20](2026-08-20.md)<br><small class="rw-item-meta">今天阅读内容涉及铜短缺、AI决策、AI内容创作、睡眠进化、AI手机、人机协作协议、推理优化和模型量化等主题。核心趋势是：AI正从聊天走向实际工作流，推理效率和成本成为瓶颈，人机协作需要标准化协议。对Harry而言，铜短缺提醒他关注资源约束对科技产业的影响；AI决策和CHAP协议则</small>
 - [2026-08-19](2026-08-19.md)<br><small class="rw-item-meta">今日阅读核心趋势：AI Agent 正从“单次对话”转向“有状态、多轮协作”，上下文工程（Context Engineering）成为关键设计能力；同时，AI 基础设施并购加速（Stripe 以 70 亿美元收购 OpenRouter），显示推理层正在被整合进更大的商业闭环。对</small>

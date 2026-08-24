@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-25
+
+- [Where Did All the Public Bathrooms Go?](https://read.readwise.io/read/01m0tcq1mesbg6he08jey521ta)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-12
 
 - [Florida was a swing state. Now it’s MAGA-land](https://read.readwise.io/read/01kzpnrvv6xwtfc8h4644f1er1)<br><small class="rw-item-meta">[日报](../readwise/2026-08-12.md) · 未来特定场景可能有用</small>

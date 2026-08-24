@@ -4,6 +4,12 @@
 
 ## 2026-08
 
+### 2026-08-25
+
+- [NIST is selling Peanut Butter for $415.33 per jar](https://read.readwise.io/read/01m0twg5620z1ffw8kjyn5ra7c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>
+- [Show HN: A techno machine in one HTML file, with verifiable renders](https://read.readwise.io/read/01m0t3pn0vqb2ch9d9p1ermy50)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>
+- [The entire city of San Francisco as a video game](https://read.readwise.io/read/01m0tccjbtvkan3cyz7sqyfvqt)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-24
 
 - [A website for debloated open source alternatives](https://read.readwise.io/read/01m0qsy8588s3my2dv3w6dm06r)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 未来特定场景可能有用</small>
