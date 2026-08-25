@@ -4,6 +4,16 @@
 
 ## 2026-08
 
+### 2026-08-26
+
+- [[AINews\] Andrew Ng gets into AI Engineering](https://read.readwise.io/read/01m0vdafbc4bwtdg3k8p2c10kx)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-26.md)</small>
+- [Build a Multi-Agent GTM Intelligence System](https://read.readwise.io/read/01m0x9qmms2c0nhb4yk1d981q9)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 有信息量，但不用深读</small>
+- [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://read.readwise.io/read/01m0wtcxy3yev2z7z5wcqk5hvk)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-26.md)</small>
+- [FDA Authorizes First Wearable Device That Monitors Ketone and Glucose Levels](https://read.readwise.io/read/01m0x5m7vjj60phfd9xtvh873z)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>
+- [OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users](https://read.readwise.io/read/01m0wfnv6yww7mv1j26x5f9yes)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>
+- [Pgbot: A 5.9 MB read-only Postgres tool for humans and agents](https://read.readwise.io/read/01m0x48me8r527bjrh4akjfgyb)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 有信息量，但不用深读</small>
+- [Why some US restaurants are banning tips](https://read.readwise.io/read/01m0w6sar3ct0hdgeqxb2kby69)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-25
 
 - [Attention is all we have: A conjectural theory of cognitive inequality](https://read.readwise.io/read/01m0s927d563m0fzjkqnbjs2r1)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-25.md) · 和长期目标强相关，值得完整读</small>

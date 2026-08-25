@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-26
+
+- [Bomb Fishing Is Wreaking Havoc on Indonesia's Coral Reefs](https://read.readwise.io/read/01m0wnj2atv8hw9y61xennbk8v)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>
+- [MySQL CDC to BigQuery: what periodic syncs miss, and how binlog avoids it](https://read.readwise.io/read/01m0wnj2masrkgg9vz1eppmwm2)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-24
 
 - [Authoritarianism of Code](https://read.readwise.io/read/01m0qhsjmspk7r39pc896b02ab)<br><small class="rw-item-meta">[日报](../readwise/2026-08-24.md) · 有信息量，但不用深读</small>

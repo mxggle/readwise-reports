@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-26
+
+- [Black hole singularity is a surface not a point](https://read.readwise.io/read/01m0wyrsy0zdkr7kjc3d3tcpws)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>
+- [The ONLY 8 Exercises You Need To Build A Lean Physique](https://read.readwise.io/read/01m0wqqymmcz2gbbgq35fz0zsz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-25
 
 - [NIST is selling Peanut Butter for $415.33 per jar](https://read.readwise.io/read/01m0twg5620z1ffw8kjyn5ra7c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 未来特定场景可能有用</small>

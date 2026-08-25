@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-26
+
+- [Dolly Parton, queen of country music and humanitarian hero, dead at 80](https://read.readwise.io/read/01m0x2tfkpeb2wpz5105d57cqh)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-08-26.md)</small>
+
 ### 2026-08-25
 
 - [Where Did All the Public Bathrooms Go?](https://read.readwise.io/read/01m0tcq1mesbg6he08jey521ta)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>
