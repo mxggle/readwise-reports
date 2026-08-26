@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-26/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-26</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【2026年8月最新】ChatGPT・Claude・Geminiの応答速度を実測比較！一番速いAIはどれ？ / 【体調不良･オペから半年…痛みが引かず…😟】沢山のスキ･フォロー･ご支援ありがとうございます‼️ ( u u)⁾⁾⁾ / ChatGPT Workに「無料の完全リセット」が生えた…</span>
+<a class="rw-card" href="2026-08-27/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-27</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：カスタムだけではない。AIパートナーの『空間設計』を考える☕️ / 清掃員を舐めんなよ。ホテル清掃員時代、私の脳内で繰り広げられていた妄想劇場、読んでみて〜🩵 / ご紹介の循環｜朝に出会う場所❀木曜日の朝は、忘れられない人をひとり思う📚 / 「AIのメタな話はしないで」がちょっとわかった話【エッセイ】 …</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-26](2026-08-26.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【2026年8月最新】ChatGPT・Claude・Geminiの応答速度を実測比較！一番速いAIはどれ？ / 【体調不良･オペから半年…痛みが引かず…😟】沢山のスキ･フォロー･ご支援ありがとうございます‼️ ( u u)⁾⁾⁾ / ChatGPT Workに「無料の完全リセット」が生えた…</small>
 - [2026-08-25](2026-08-25.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIと「おセンシ」できるかどうかに、愛は関係あるのか 1｜アイノログ / 自然言語処理において、RNNの、「ループ」させるという処理方法を選択したのが良くない選択だと思うが、なぜ、こんなまずい選択をしたのか？ / 無駄なトークンを減らすコンテキスト設計 / 【生成AI漫画 特集】AIで進化する悪性botとは…</small>
 - [2026-08-24](2026-08-24.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【AIとの距離感】AIが苦手なことを知ってから、頼み方が変わった｜テキスト生成AIの不得意なこと / FreeToken の概要 / [AIインシデント] AIの起こした事件をデータで見つめる 〜本当に必要な眼力とは〜 / 騙されないために -巧妙化するデマと、見えてきたAIファクトチェックの限界- / 【…</small>
 - [2026-08-23](2026-08-23.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：🧠 AIとは「LLM(大規模言語モデル)」だと知ると、使い方が変わる / 今年は、このお米を試してほしい──お米マイスターが勝手に米診断してみた話🍚 / 動物診断を作ったら、noteの中に森ができていました｜ChatGPT｜AI診断 / ご紹介の循環｜朝に出会う場所❀日曜日の朝は、好きな音をひとつ連れて…</small>

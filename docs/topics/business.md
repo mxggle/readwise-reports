@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-27
+
+- [Dallas startup enriches Uranium](https://read.readwise.io/read/01m0zt0s25k4p9dtypq4rzbx3d)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-25
 
 - [One corner of China’s internet is insisting that the Tang Dynasty never existed](https://read.readwise.io/read/01m0tt9b2vagz4504s9vdj2w4c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-25.md) · 有信息量，但不用深读</small>

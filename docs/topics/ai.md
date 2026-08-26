@@ -4,6 +4,17 @@
 
 ## 2026-08
 
+### 2026-08-27
+
+- [Beyond Recall and the Illusion of Competence](https://read.readwise.io/read/01m0ywzhhwmyrp71pksfy043yz)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-27.md)</small>
+- [Graze Joins Flipboard](https://read.readwise.io/read/01m0zk5pq08hvv091p5bjt1kv6)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 有信息量，但不用深读</small>
+- [How to Make LLMs 3X Faster](https://read.readwise.io/read/01m0zby71s2vm6qs4s7ttt7a16)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 有信息量，但不用深读</small>
+- [Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies](https://read.readwise.io/read/01m0zdgfrm2ej91gdknvx9x8ha)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 有信息量，但不用深读</small>
+- [RAG Is Simpler Than You Think](https://read.readwise.io/read/01m0yq1yxvdwf4r41w8ry75fj0)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 未来特定场景可能有用</small>
+- [The Hugging Face incident and the road ahead](https://read.readwise.io/read/01m0zsdez86nsnwxzsm83zv9rm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-27.md)</small>
+- [The risks of AI are real but manageable (2023)](https://read.readwise.io/read/01m0ztmb62jzzy4c8gfjwvqysk)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-27.md)</small>
+- [我怎么用 AI 编程 2026.08](https://read.readwise.io/read/01m1002a8yjkt2fmnp1k5h049x)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-26
 
 - [[AINews\] Andrew Ng gets into AI Engineering](https://read.readwise.io/read/01m0vdafbc4bwtdg3k8p2c10kx)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-26.md)</small>
