@@ -4,6 +4,11 @@
 
 ## 2026-08
 
+### 2026-08-30
+
+- [Autistici/inventati: Manifesto – who we are and what do we want (2002)](https://read.readwise.io/read/01m167sbwyr7cdxzr9mzrr22rn)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>
+- [Kumander Linux – A Linux Distro with a Windows 7 Desktop](https://read.readwise.io/read/01m15p6yd02vk6rgvx1ybxckpz)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-26
 
 - [Bomb Fishing Is Wreaking Havoc on Indonesia's Coral Reefs](https://read.readwise.io/read/01m0wnj2atv8hw9y61xennbk8v)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 未来特定场景可能有用</small>

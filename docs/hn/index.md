@@ -5,9 +5,9 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-28/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-28</time></span>
-  <span class="rw-card__summary">Today’s tech landscape is dominated by escalating security threats, with arrests of alleged hackers and critical vulnerabilities in core tools like GNU gzip underscoring systemic f…</span>
+<a class="rw-card" href="2026-08-30/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-08-30</time></span>
+  <span class="rw-card__summary">Today’s tech landscape is defined by a sharpening geopolitical and regulatory edge, as U.S. actions against hacker collectives and the pushback against GDPR from big tech signal a …</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-08
 
+- [2026-08-29](2026-08-29.md)<br><small class="rw-item-meta">Today’s tech landscape is sharply defined by the escalating security arms race around AI coding agents, with major players like Anthropic pushing autonomous modes while experts adv…</small>
+- [2026-08-28](2026-08-28.md)<br><small class="rw-item-meta">Today’s tech landscape is dominated by escalating security threats, with arrests of alleged hackers and critical vulnerabilities in core tools like GNU gzip underscoring systemic f…</small>
 - [2026-08-27](2026-08-27.md)<br><small class="rw-item-meta">AI’s expanding role in software development is dominating the discourse, with debates over code quality and strategic planning—from Bill Gates’ call for a coherent national AI agen…</small>
 - [2026-08-26](2026-08-26.md)<br><small class="rw-item-meta">Today’s tech discourse is split between a looming concentration of AI compute in the hands of a few giants and a counter-narrative questioning that centralization, while Apple’s ha…</small>
 - [2026-08-25](2026-08-25.md)<br><small class="rw-item-meta">Today’s tech discourse centers on the fragility and resilience of AI systems, with experts outlining plausible collapse scenarios while others harness LLMs for practical, creative …</small>

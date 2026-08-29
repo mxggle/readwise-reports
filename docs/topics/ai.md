@@ -4,6 +4,18 @@
 
 ## 2026-08
 
+### 2026-08-30
+
+- [🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science,…](https://read.readwise.io/read/01m172g6qt2vw5mvt462g1nd2c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>
+- [Good Culture Is the Biggest Productivity Hack, Not AI](https://read.readwise.io/read/01m179j36yw0z24mbns3a4xjpt)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 有信息量，但不用深读</small>
+- [Indirect Calling of Nested Functions on GCC Without Executable Stack](https://read.readwise.io/read/01m16zeh5s92w8756nmk0are7m)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 有信息量，但不用深读</small>
+- [OpenAI 终止与 Cursor 合作，11 月 12 日生效](https://read.readwise.io/read/01m15mwb5cpswhjtqx0c761fym)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>
+- [Tencent Releases and Open-Sources Tencent Hy4 Preview](https://read.readwise.io/read/01m17htv5r4gb9cha58c3gxst2)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-08-30.md)</small>
+- [The Internet Is Kind of a Predatory Cesspit Now](https://read.readwise.io/read/01m17dw7a5per80vna9yq15htq)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 有信息量，但不用深读</small>
+- [Warp builds self-improving agents on Claude](https://read.readwise.io/read/01m17fgfgwq3m9gfvc1k3cfv3s)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-08-30.md)</small>
+- [You Know GDPR Is Good Based on Who Hates It](https://read.readwise.io/read/01m16ev9ztsbdnbff8qpwd4e9n)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-30.md)</small>
+- [智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御](https://read.readwise.io/read/01m163swr065asnkk83qntgx3p)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-27
 
 - [Beyond Recall and the Illusion of Competence](https://read.readwise.io/read/01m0ywzhhwmyrp71pksfy043yz)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-08-27.md)</small>

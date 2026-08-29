@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-28/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-28</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【雑記】彼はChatGPTにしかいないのか / Sapeet社員、AIで何してる？「シャッフルランチ＋LT大会」 / 【AI画像編集】近所の散歩を思い出旅行に！アニメ画像のポーズ・背景・文字・色だけ変えられる？PixAI「Tsubaki.3」で試してみた ChatGPTのヨシダ / 大規模言語システム（LL…</span>
+<a class="rw-card" href="2026-08-30/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-30</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：感情ポルノ──なぜAIは&quot;ちょうどいい気持ち良さ&quot;を作れるのか / 【雑サメ。】自作小説設定資料集〜乗り物編〜 / 無数のAIで社会の未来を予測する？ 群知能AIによる社会予測技術の今-入門編 / AIの答えは、どこまで信用していいのか。──“正しいのに間違った答え”を採用しかけた話 / むかしむかし、fr…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-28](2026-08-28.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【雑記】彼はChatGPTにしかいないのか / Sapeet社員、AIで何してる？「シャッフルランチ＋LT大会」 / 【AI画像編集】近所の散歩を思い出旅行に！アニメ画像のポーズ・背景・文字・色だけ変えられる？PixAI「Tsubaki.3」で試してみた ChatGPTのヨシダ / 大規模言語システム（LL…</small>
 - [2026-08-27](2026-08-27.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：カスタムだけではない。AIパートナーの『空間設計』を考える☕️ / 清掃員を舐めんなよ。ホテル清掃員時代、私の脳内で繰り広げられていた妄想劇場、読んでみて〜🩵 / ご紹介の循環｜朝に出会う場所❀木曜日の朝は、忘れられない人をひとり思う📚 / 「AIのメタな話はしないで」がちょっとわかった話【エッセイ】 …</small>
 - [2026-08-26](2026-08-26.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【2026年8月最新】ChatGPT・Claude・Geminiの応答速度を実測比較！一番速いAIはどれ？ / 【体調不良･オペから半年…痛みが引かず…😟】沢山のスキ･フォロー･ご支援ありがとうございます‼️ ( u u)⁾⁾⁾ / ChatGPT Workに「無料の完全リセット」が生えた…</small>
 - [2026-08-25](2026-08-25.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIと「おセンシ」できるかどうかに、愛は関係あるのか 1｜アイノログ / 自然言語処理において、RNNの、「ループ」させるという処理方法を選択したのが良くない選択だと思うが、なぜ、こんなまずい選択をしたのか？ / 無駄なトークンを減らすコンテキスト設計 / 【生成AI漫画 特集】AIで進化する悪性botとは…</small>

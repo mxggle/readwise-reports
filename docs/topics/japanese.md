@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Japanese** 的条目。
 
+## 2026-08
+
+### 2026-08-30
+
+- [ChatGPT said:](https://read.readwise.io/read/01m16ga9r58q8anjzg809m87eh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 有信息量，但不用深读</small>
+
 ## 2026-07
 
 ### 2026-07-30

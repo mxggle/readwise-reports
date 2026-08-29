@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-30
+
+- [Your second choosing.](https://read.readwise.io/read/01m16rke6znqxgmknet7acn9ys)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-26
 
 - [Dolly Parton has died](https://read.readwise.io/read/01m0x2tft1yzkczcf21c5ay5xh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-26.md) · 有信息量，但不用深读</small>
