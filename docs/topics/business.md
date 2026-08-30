@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-31
+
+- [Iceland rejects reopening talks on EU entry](https://read.readwise.io/read/01m18yas8p5929hw12yg21ymry)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 未来特定场景可能有用</small>
+
 ### 2026-08-27
 
 - [Dallas startup enriches Uranium](https://read.readwise.io/read/01m0zt0s25k4p9dtypq4rzbx3d)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 未来特定场景可能有用</small>

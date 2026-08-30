@@ -4,6 +4,19 @@
 
 ## 2026-08
 
+### 2026-08-31
+
+- [😺 Anthropic wants Claude operating real lab gear](https://read.readwise.io/read/01m19qc7czcwwtzmzdwc3f2t6m)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 有信息量，但不用深读</small>
+- [Continuous Diffusion Language Models (CDLM's)](https://read.readwise.io/read/01m1a94jhb5my40tk9hk5yzwjd)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-31.md)</small>
+- [Emacs vs. Vim 2026: 24.3% vs. 8% Usage, 20x Memory Gap](https://read.readwise.io/read/01m19k84f38zvp1kc3zzydx55p)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-08-31.md)</small>
+- [Introducing Hy4 Preview](https://read.readwise.io/read/01m1800kgexxt92b7ayskv26ev)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 有信息量，但不用深读</small>
+- [One Nix flake to rule them all](https://read.readwise.io/read/01m19bm0temqws4m9f7q4m1qnh)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 有信息量，但不用深读</small>
+- [The Internet Archive's Vintage AI Collection](https://read.readwise.io/read/01m18pcqjsry0nxm7whhhe1bs8)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 未来特定场景可能有用</small>
+- [Why KV Cache Stores K and V Vectors But Never Q?](https://read.readwise.io/read/01m1a557krqmfshk1x12jztg65)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 有信息量，但不用深读</small>
+- [Wisereads Vol. 158 — Richard Feynman's Six Easy Pieces, Derek Sivers on building without predicting, and more](https://read.readwise.io/read/01m19mpa56bhdqj891vcxefpmw)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 未来特定场景可能有用</small>
+- [Wisereads Vol. 158 — Richard Feynman's Six Easy Pieces, Derek Sivers on building without predicting, and more](https://read.readwise.io/read/01m19m2ntjf7v2s2m1jtsm3b99)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 未来特定场景可能有用</small>
+- [Xcena and Samsung's Near Memory Compute CXL Device](https://read.readwise.io/read/01m18yasabhvcxz26dy8z62y43)<br><small class="rw-item-meta">[日报](../readwise/2026-08-31.md) · 有信息量，但不用深读</small>
+
 ### 2026-08-30
 
 - [🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science,…](https://read.readwise.io/read/01m172g6qt2vw5mvt462g1nd2c)<br><small class="rw-item-meta">[日报](../readwise/2026-08-30.md) · 未来特定场景可能有用</small>

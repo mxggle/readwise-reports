@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">617 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Tencent Releases and Open-Sources Tencent Hy4 Preview</span><span class="rw-topic__item">You Know GDPR Is Good Based on Who Hates It</span><span class="rw-topic__item">Warp builds self-improving agents on Claude</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">627 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Continuous Diffusion Language Models (CDLM's)</span><span class="rw-topic__item">Emacs vs. Vim 2026: 24.3% vs. 8% Usage, 20x Memory Gap</span><span class="rw-topic__item">Xcena and Samsung's Near Memory Compute CXL Device</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">59 条</span></span>
@@ -22,19 +22,19 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Your second choosing.</span><span class="rw-topic__item">Dolly Parton has died</span><span class="rw-topic__item">David's magic message</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">33 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Dallas startup enriches Uranium</span><span class="rw-topic__item">One corner of China’s internet is insisting that the Tang Dynasty never existed</span><span class="rw-topic__item">I found some old journal entries</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">34 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Iceland rejects reopening talks on EU entry</span><span class="rw-topic__item">Dallas startup enriches Uranium</span><span class="rw-topic__item">One corner of China’s internet is insisting that the Tang Dynasty never existed</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">28 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">CDs vs. NIMBY</span><span class="rw-topic__item">US removes Syria from terrorism sponsor list, lifting major investment obstacle</span><span class="rw-topic__item">Dolly Parton, queen of country music and humanitarian hero, dead at 80</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">29 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">I co-founded Burning Man. The festival has lost its soul</span><span class="rw-topic__item">CDs vs. NIMBY</span><span class="rw-topic__item">US removes Syria from terrorism sponsor list, lifting major investment obstacle</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">5 条</span></span>
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">76 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">FDA Approves First in Class Targeted Therapy for Metastatic Pancreatic Cancer</span><span class="rw-topic__item">The ONLY 8 Exercises You Need To Build A Lean Physique</span><span class="rw-topic__item">Black hole singularity is a surface not a point</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">77 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The world may have less time than it thinks on climate change</span><span class="rw-topic__item">FDA Approves First in Class Targeted Therapy for Metastatic Pancreatic Cancer</span><span class="rw-topic__item">The ONLY 8 Exercises You Need To Build A Lean Physique</span></span>
 </a>
 </div>

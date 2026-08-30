@@ -4,6 +4,10 @@
 
 ## 2026-08
 
+### 2026-08-31
+
+- [I co-founded Burning Man. The festival has lost its soul](https://read.readwise.io/read/01m17y4jbmee5n3a9kegfysac5)<br><small class="rw-item-meta">`READ` · 87/100 · [日报](../readwise/2026-08-31.md)</small>
+
 ### 2026-08-27
 
 - [CDs vs. NIMBY](https://read.readwise.io/read/01m0zk5pkkx94aqc955yyw2qnf)<br><small class="rw-item-meta">[日报](../readwise/2026-08-27.md) · 未来特定场景可能有用</small>
