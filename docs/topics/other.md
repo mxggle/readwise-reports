@@ -2,6 +2,14 @@
 
 最近 Readwise 日报中归入 **Other** 的条目。
 
+## 2026-09
+
+### 2026-09-01
+
+- [German Konrad Zuse Museum shutting down due to lack of funding](https://read.readwise.io/read/01m1ce0n4e25zyh4akpmfhner9)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>
+- [Google Maps Renames Lake Ontario to Lake America](https://read.readwise.io/read/01m1c4g4wpck5q8hbtnbdvhp8z)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>
+- [Study: Blue light impairs the eye's ability to distinguish fine detail most](https://read.readwise.io/read/01m1bnn6neqph4z6devrk97zw1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>
+
 ## 2026-08
 
 ### 2026-08-31

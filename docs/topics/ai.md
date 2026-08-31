@@ -2,6 +2,21 @@
 
 最近 Readwise 日报中归入 **AI** 的条目。
 
+## 2026-09
+
+### 2026-09-01
+
+- [Agentic Trust Controls](https://read.readwise.io/read/01m1c5xkx6yev5hnvtf11nafvg)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>
+- [Creator of Scala: Comparing Languages And How AI Will Impact Them | Martin Odersky](https://read.readwise.io/read/01m1bz6ephnxg3ky2hjwyvcc35)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-01.md) · 和长期目标强相关，值得完整读</small>
+- [Culture Clash](https://read.readwise.io/read/01m1c5p24zad2d1vzccamqrfr5)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-01.md) · 和长期目标强相关，值得完整读</small>
+- [I Think the Military Commissary's Freezers Were Hacked](https://read.readwise.io/read/01m1btqe5mm3swch8mqpcschzp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>
+- [The Safest Job from AI May Be Writing](https://read.readwise.io/read/01m1ch9x84xwnwcxz9a70gp00c)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-01.md) · 和长期目标强相关，值得完整读</small>
+- [What Happens Inside an AI Chatbot Between Enter and the First Word?](https://read.readwise.io/read/01m1c82wy1c6g2ng66vd3me2zb)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>
+- [What Happens Inside an AI Chatbot Between Enter and the First Word?](https://read.readwise.io/read/01m1c7kc52b8m7vd6nqa6qhrah)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>
+- [Why do I lose my passion and want to do nothing?](https://read.readwise.io/read/01m1aw268b844rhcb6kfdrmfex)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>
+- [You Probably Own This 7-Eleven (and That's Why It Looks So Sad)](https://read.readwise.io/read/01m1ce0ndfg9ejfzabxwhys3zc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>
+- [基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了](https://read.readwise.io/read/01m1aqbrkrt8rb93k4364ambns)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>
+
 ## 2026-08
 
 ### 2026-08-31

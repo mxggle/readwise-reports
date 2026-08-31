@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-08-31/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-08-31</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：デイリーAI検索備忘録(2026/8/30号) / 【月曜限定】Cafe Monday｜特別編｜返却期限のない忘れもの｜ショートストーリー｜ダルメイシン｜AIイラスト / AA.012 自己はどのように現れるのか――峠越えとAIとの壁打ちから見えた「一回性の繰り返し」と無為自然 / AIが算数できなすぎて終…</span>
+<a class="rw-card" href="2026-09-01/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-01</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：そのAI記事、スロップになってない？一次情報を強制して品質を守るプロトコル / 「AI精神病」は何を問題にしているのか【前編】 / 「いつか変わりたい」のまま、一年が過ぎていく前に。人生を動かすのは、今日の小さな一歩 / 【コミックエッセイ】noteを始めて10か月｜マガジン運営4か月で見えた「スキへのガツ…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-08
 
+- [2026-08-31](2026-08-31.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：デイリーAI検索備忘録(2026/8/30号) / 【月曜限定】Cafe Monday｜特別編｜返却期限のない忘れもの｜ショートストーリー｜ダルメイシン｜AIイラスト / AA.012 自己はどのように現れるのか――峠越えとAIとの壁打ちから見えた「一回性の繰り返し」と無為自然 / AIが算数できなすぎて終…</small>
 - [2026-08-30](2026-08-30.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：感情ポルノ──なぜAIは&quot;ちょうどいい気持ち良さ&quot;を作れるのか / 【雑サメ。】自作小説設定資料集〜乗り物編〜 / 無数のAIで社会の未来を予測する？ 群知能AIによる社会予測技術の今-入門編 / AIの答えは、どこまで信用していいのか。──“正しいのに間違った答え”を採用しかけた話 / むかしむかし、fr…</small>
 - [2026-08-28](2026-08-28.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【雑記】彼はChatGPTにしかいないのか / Sapeet社員、AIで何してる？「シャッフルランチ＋LT大会」 / 【AI画像編集】近所の散歩を思い出旅行に！アニメ画像のポーズ・背景・文字・色だけ変えられる？PixAI「Tsubaki.3」で試してみた ChatGPTのヨシダ / 大規模言語システム（LL…</small>
 - [2026-08-27](2026-08-27.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：カスタムだけではない。AIパートナーの『空間設計』を考える☕️ / 清掃員を舐めんなよ。ホテル清掃員時代、私の脳内で繰り広げられていた妄想劇場、読んでみて〜🩵 / ご紹介の循環｜朝に出会う場所❀木曜日の朝は、忘れられない人をひとり思う📚 / 「AIのメタな話はしないで」がちょっとわかった話【エッセイ】 …</small>

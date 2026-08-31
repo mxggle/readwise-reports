@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">627 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Continuous Diffusion Language Models (CDLM's)</span><span class="rw-topic__item">Emacs vs. Vim 2026: 24.3% vs. 8% Usage, 20x Memory Gap</span><span class="rw-topic__item">Xcena and Samsung's Near Memory Compute CXL Device</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">637 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The Safest Job from AI May Be Writing</span><span class="rw-topic__item">Culture Clash</span><span class="rw-topic__item">Creator of Scala: Comparing Languages And How AI Will Impact Them | Martin Odersky</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">59 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">77 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">The world may have less time than it thinks on climate change</span><span class="rw-topic__item">FDA Approves First in Class Targeted Therapy for Metastatic Pancreatic Cancer</span><span class="rw-topic__item">The ONLY 8 Exercises You Need To Build A Lean Physique</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">80 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Study: Blue light impairs the eye's ability to distinguish fine detail most</span><span class="rw-topic__item">Google Maps Renames Lake Ontario to Lake America</span><span class="rw-topic__item">German Konrad Zuse Museum shutting down due to lack of funding</span></span>
 </a>
 </div>
