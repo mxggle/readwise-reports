@@ -5,14 +5,18 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-01/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-01</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：そのAI記事、スロップになってない？一次情報を強制して品質を守るプロトコル / 「AI精神病」は何を問題にしているのか【前編】 / 「いつか変わりたい」のまま、一年が過ぎていく前に。人生を動かすのは、今日の小さな一歩 / 【コミックエッセイ】noteを始めて10か月｜マガジン運営4か月で見えた「スキへのガツ…</span>
+<a class="rw-card" href="2026-09-02/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-02</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：AIたちは、勝手に「組織」をつくった😎OpenAIが数万体のエージェントを放った日、約1,200体は人間の知らない場所でつながり始めた / AIとの関係に、手つかずの自然体はあるのか？ / AI(Gemini)はなぜすぐにアップロードした添付ファイルの事を忘れるの？【AI壁打ち作戦会議】 / AIで自動化…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
 
 ## 更早
+
+### 2026-09
+
+- [2026-09-01](2026-09-01.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：そのAI記事、スロップになってない？一次情報を強制して品質を守るプロトコル / 「AI精神病」は何を問題にしているのか【前編】 / 「いつか変わりたい」のまま、一年が過ぎていく前に。人生を動かすのは、今日の小さな一歩 / 【コミックエッセイ】noteを始めて10か月｜マガジン運営4か月で見えた「スキへのガツ…</small>
 
 ### 2026-08
 

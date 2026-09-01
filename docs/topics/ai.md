@@ -4,6 +4,19 @@
 
 ## 2026-09
 
+### 2026-09-02
+
+- [Anthropic 研究：训练一个错位的奖励寻求者模型](https://read.readwise.io/read/01m1d7nes60xj98xj415fk59sw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
+- [Claude Fable 5.1 and Claude Mythos 5.1](https://read.readwise.io/read/01m1f2rmzkj488gw7jfs73kddn)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 有信息量，但不用深读</small>
+- [Fable 5.1 System Card](https://read.readwise.io/read/01m1f2rmw9xhbxtp4sbygqp9gv)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-02.md) · 和长期目标强相关，值得完整读</small>
+- [How to Shrink a Language Model Without Making it Too Dumb](https://read.readwise.io/read/01m1etc3hhcqa6fyaz382p52ks)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 有信息量，但不用深读</small>
+- [How to Shrink a Language Model Without Making it Too Dumb](https://read.readwise.io/read/01m1eswz4t8ph2wq3axeh9t2xz)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 有信息量，但不用深读</small>
+- [Nemotron 3 Ultra Explained](https://read.readwise.io/read/01m1eg94nsk5nhcrj3w1q6de0q)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-02.md) · 和长期目标强相关，值得完整读</small>
+- [Quoting Tarn Adams](https://read.readwise.io/read/01m1eyym7d4ctfmyfgcrb83pw6)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
+- [Show HN: HN Match Maker – Matching "Who Wants to Be Hired?" With "Who's Hiring?"](https://read.readwise.io/read/01m1fdexh7fqf4jyx0s07fg4p4)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 有信息量，但不用深读</small>
+- [Static vs. Dynamic vs. Continuous Batching in LLMs, clearly explained!](https://read.readwise.io/read/01m1fd37sen78mcxdbxktwmwts)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 有信息量，但不用深读</small>
+- [Your entire life changes when you realize 99% of society is stupid](https://read.readwise.io/read/01m1eb38z943141zsjzsvy4w2k)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-01
 
 - [Agentic Trust Controls](https://read.readwise.io/read/01m1c5xkx6yev5hnvtf11nafvg)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 有信息量，但不用深读</small>

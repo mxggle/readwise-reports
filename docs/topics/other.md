@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-02
+
+- [Ubisoft's FOR HONOR will block SteamOS / Linux players starting September 10](https://read.readwise.io/read/01m1ernbayafwbdkmhbns1w29q)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-01
 
 - [German Konrad Zuse Museum shutting down due to lack of funding](https://read.readwise.io/read/01m1ce0n4e25zyh4akpmfhner9)<br><small class="rw-item-meta">[日报](../readwise/2026-09-01.md) · 未来特定场景可能有用</small>

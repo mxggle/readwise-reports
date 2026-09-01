@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Business** 的条目。
 
+## 2026-09
+
+### 2026-09-02
+
+- [US lawmakers demand investigation into admin's secret surveillance of Americans](https://read.readwise.io/read/01m1f0qf31z0k2vgdk4ha12e8j)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
+
 ## 2026-08
 
 ### 2026-08-31
