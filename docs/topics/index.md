@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">647 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Nemotron 3 Ultra Explained</span><span class="rw-topic__item">Fable 5.1 System Card</span><span class="rw-topic__item">Show HN: HN Match Maker – Matching &quot;Who Wants to Be Hired?&quot; With &quot;Who's Hiring?&quot;</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">659 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Improving our alignment and security efforts</span><span class="rw-topic__item">Firefox's AI Switch Is Off. Telemetry Isn't</span><span class="rw-topic__item">😺Anthropic launched Fable 5.1: and now, the agents cost less</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">59 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">81 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Ubisoft's FOR HONOR will block SteamOS / Linux players starting September 10</span><span class="rw-topic__item">Study: Blue light impairs the eye's ability to distinguish fine detail most</span><span class="rw-topic__item">Google Maps Renames Lake Ontario to Lake America</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">82 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Biggest dark matter detector spots a single weird particle</span><span class="rw-topic__item">Ubisoft's FOR HONOR will block SteamOS / Linux players starting September 10</span><span class="rw-topic__item">Study: Blue light impairs the eye's ability to distinguish fine detail most</span></span>
 </a>
 </div>

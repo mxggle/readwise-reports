@@ -4,6 +4,21 @@
 
 ## 2026-09
 
+### 2026-09-03
+
+- [😺 Claude Fable 5.1 can do the work. The hard part is managing it.](https://read.readwise.io/read/01m1hkwm9chyf0hv9c3pdxn6wk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
+- [😺Anthropic launched Fable 5.1: and now, the agents cost less](https://read.readwise.io/read/01m1gsfrbw741h9s4af0t66p7j)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-03.md) · 和长期目标强相关，值得完整读</small>
+- [1Password with an unbelievable own goal](https://read.readwise.io/read/01m1hjnnr9vh0tnna5dzbw9hma)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 未来特定场景可能有用</small>
+- [AI Agents and the Refactoring That Never Happens](https://read.readwise.io/read/01m1hvm86bzqt2ty1h8p2j3tsf)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
+- [Claude Fable 5.1 上线 OpenRouter](https://read.readwise.io/read/01m1fsh4p0v0cw67e9xqak00pb)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
+- [Firefox's AI Switch Is Off. Telemetry Isn't](https://read.readwise.io/read/01m1hqttx6cq34tzf8jew0nc9k)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-03.md) · 和长期目标强相关，值得完整读</small>
+- [I Don't Have a Smartphone](https://read.readwise.io/read/01m1hmnvgzd0jx14wtt4mhthnv)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 未来特定场景可能有用</small>
+- [Improving our alignment and security efforts](https://read.readwise.io/read/01m1fpgzwqnbkk5wgrjqgf9ba2)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-03.md) · 和长期目标强相关，值得完整读</small>
+- [OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆](https://read.readwise.io/read/01m1hna2gsqpfsed0b7ebw8g8m)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 未来特定场景可能有用</small>
+- [Stop Guessing Which Local Model To Run](https://read.readwise.io/read/01m1hrjnzp56v5nvnt1ezqsjsx)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
+- [什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环](https://read.readwise.io/read/01m1hna2fe4b53my7f1kng1wh9)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 未来特定场景可能有用</small>
+- [通义千问发布 Qwen3.8-Max-0902：2.4T 参数、1M token 上下文](https://read.readwise.io/read/01m1g0ywq7z6rjk4ccpyx1128g)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-02
 
 - [Anthropic 研究：训练一个错位的奖励寻求者模型](https://read.readwise.io/read/01m1d7nes60xj98xj415fk59sw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>

@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-03
+
+- [Biggest dark matter detector spots a single weird particle](https://read.readwise.io/read/01m1h8g590fk2023z7rcrqg62d)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-02
 
 - [Ubisoft's FOR HONOR will block SteamOS / Linux players starting September 10](https://read.readwise.io/read/01m1ernbayafwbdkmhbns1w29q)<br><small class="rw-item-meta">[日报](../readwise/2026-09-02.md) · 未来特定场景可能有用</small>
