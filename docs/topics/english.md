@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-04
+
+- [A suspicious signal in a dark-matter detector has physicists excited](https://read.readwise.io/read/01m1jay46x9f94aa8qd32xtxgf)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-02
 
 - [Fluorescent lamps (don't) have ears](https://read.readwise.io/read/01m1ffpysvj2x0k19s8pwsb2q6)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-09-02.md) · 和长期目标强相关，值得完整读</small>

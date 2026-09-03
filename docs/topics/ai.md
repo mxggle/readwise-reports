@@ -4,6 +4,18 @@
 
 ## 2026-09
 
+### 2026-09-04
+
+- [🗞️ What's New: $25k MRR after getting laid off, raise prices until they say no, should you be an indie hacker?](https://read.readwise.io/read/01m1jx9sqe1eewexh1am6ynhe1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>
+- [A dark horse enter China's AI race: StartLux](https://read.readwise.io/read/01m1kh2zwtj90wp09ppdxwp7zk)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-04.md) · 和长期目标强相关，值得完整读</small>
+- [GPT-6 Astra](https://read.readwise.io/read/01m1m9da71m19p05hht02k515t)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-04.md) · 和长期目标强相关，值得完整读</small>
+- [GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index](https://read.readwise.io/read/01m1mevyqp13a456a2znzgsate)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 有信息量，但不用深读</small>
+- [I’m excited to finally announce the newest edition my Stanford...](https://read.readwise.io/read/01m1jb6mxkgctkdqnzckn0e63k)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 有信息量，但不用深读</small>
+- [If a startup worth your career](https://read.readwise.io/read/01m1mjb41e47y34fseqqdcpprc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 有信息量，但不用深读</small>
+- [Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6](https://read.readwise.io/read/01m1j4vcez5zw3k7djb257y10g)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>
+- [The asteroid currently hitting front end web development](https://read.readwise.io/read/01m1mcd381kqq5f9twdz4t4v40)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-04.md) · 和长期目标强相关，值得完整读</small>
+- [Usbsid-Pico: Bridging Real Commodore 64 Sound to Modern USB](https://read.readwise.io/read/01m1m57jnbnmzecdm4xrabr1qd)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-03
 
 - [😺 Claude Fable 5.1 can do the work. The hard part is managing it.](https://read.readwise.io/read/01m1hkwm9chyf0hv9c3pdxn6wk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-03.md) · 有信息量，但不用深读</small>
