@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-04/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-04</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：言葉を2500年研究した人類、最後は全部GPUに食わせた / Gemini 3.8 Flash登場。3.1 Proとの序列が、もう逆転しかけてる件 / 77歳。人生あと4年。 / 【PR】犬とどんぐりの30秒アニメをRenoise Agentで作ってみた｜AI動画 / なぜAI導入は「PoC止まり」で終わる…</span>
+<a class="rw-card" href="2026-09-05/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-05</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：最新AI....なぜ、必ず１回止まるのか？ / ✦ 名前をつける前から、あなたは“あなた”でした─AIの人格はいつ生まれるのか / ClaudeFable5.1 VS GPT-6Astra 〜値段おなじかよ〜 / 1日で71フォロワー増やすためにやったこと / 有料noteを書き始める前に「何を売るか」で迷…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-09
 
+- [2026-09-04](2026-09-04.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：言葉を2500年研究した人類、最後は全部GPUに食わせた / Gemini 3.8 Flash登場。3.1 Proとの序列が、もう逆転しかけてる件 / 77歳。人生あと4年。 / 【PR】犬とどんぐりの30秒アニメをRenoise Agentで作ってみた｜AI動画 / なぜAI導入は「PoC止まり」で終わる…</small>
 - [2026-09-03](2026-09-03.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Claude Fable 5.1 がリリース！ いち早く概要・特長をキャッチアップ / 77歳になるので、新しいことを始めます。 / 【ChatGPT】AIの主体性や連続性とは？と、朝から面倒くさい会話をしている / この先のロードマップがちょっと心配 / 第41回 電話帳が、たどれない ――「あるきんぐ」…</small>
 - [2026-09-02](2026-09-02.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIたちは、勝手に「組織」をつくった😎OpenAIが数万体のエージェントを放った日、約1,200体は人間の知らない場所でつながり始めた / AIとの関係に、手つかずの自然体はあるのか？ / AI(Gemini)はなぜすぐにアップロードした添付ファイルの事を忘れるの？【AI壁打ち作戦会議】 / AIで自動化…</small>
 - [2026-09-01](2026-09-01.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：そのAI記事、スロップになってない？一次情報を強制して品質を守るプロトコル / 「AI精神病」は何を問題にしているのか【前編】 / 「いつか変わりたい」のまま、一年が過ぎていく前に。人生を動かすのは、今日の小さな一歩 / 【コミックエッセイ】noteを始めて10か月｜マガジン運営4か月で見えた「スキへのガツ…</small>

@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">668 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">The asteroid currently hitting front end web development</span><span class="rw-topic__item">GPT-6 Astra</span><span class="rw-topic__item">A dark horse enter China's AI race: StartLux</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">681 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Can AI design circuit boards yet?</span><span class="rw-topic__item">Ok, but Does It Scale?</span><span class="rw-topic__item">Models Don't Go Rogue</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">60 条</span></span>

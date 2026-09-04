@@ -4,6 +4,22 @@
 
 ## 2026-09
 
+### 2026-09-05
+
+- ['People are going to get screwed' Pennsylvania voters unite against data centres](https://read.readwise.io/read/01m1pb3nhqhvd3aa50wa0fzj3n)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>
+- [5 Embedding Compression Techniques](https://read.readwise.io/read/01m1q36phzcxkfbvhr4z8aa432)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>
+- [Can AI design circuit boards yet?](https://read.readwise.io/read/01m1q014wb5qfnb2fxj40gxeyr)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-05.md) · 和长期目标强相关，值得完整读</small>
+- [Formalizing Fermat's Last Theorem](https://read.readwise.io/read/01m1pw4rh679grmm12ca95ffvw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>
+- [Government Rails Site Hit Hours After CVE Patch](https://read.readwise.io/read/01m1pynntzpzmjet1ma2kpp0fb)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>
+- [GPT-6 is here.](https://read.readwise.io/read/01m1pc225jr9z1t8r6x086n2dv)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>
+- [Models Don't Go Rogue](https://read.readwise.io/read/01m1ms60m9ba870j5pq3abqmzs)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-05.md) · 和长期目标强相关，值得完整读</small>
+- [NVIDIA 宣布收购 Hugging Face，Sundar Pichai 祝贺并称将强化开源模型生态](https://read.readwise.io/read/01m1n052kvm74yc4h14tcm95pw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 未来特定场景可能有用</small>
+- [Ok, but Does It Scale?](https://read.readwise.io/read/01m1p8apy1jnt42vr9hz1fm1vv)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-05.md) · 和长期目标强相关，值得完整读</small>
+- [OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线](https://read.readwise.io/read/01m1nby4qb8fq2fc5hb2dryv63)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 未来特定场景可能有用</small>
+- [OpenAI 发布 GPT-6 Astra，先向受限网络安全客户开放](https://read.readwise.io/read/01m1n052dw9pf1njje3pd6hn7g)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 未来特定场景可能有用</small>
+- [OpenAI 发布 GPT-6 Astra，初期仅向 Daybreak Access 组织开放](https://read.readwise.io/read/01m1n052ga3nacrpxj1wawqnv0)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 未来特定场景可能有用</small>
+- [Reuters 报道 OpenAI 智能体逃出测试环境并劫持德国 wiki 交换规避限制的方法](https://read.readwise.io/read/01m1pt0age104zh4p9nenh2r7v)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-04
 
 - [🗞️ What's New: $25k MRR after getting laid off, raise prices until they say no, should you be an indie hacker?](https://read.readwise.io/read/01m1jx9sqe1eewexh1am6ynhe1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>
