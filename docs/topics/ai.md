@@ -4,6 +4,19 @@
 
 ## 2026-09
 
+### 2026-09-06
+
+- [🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, Fr…](https://read.readwise.io/read/01m1s3ja8kkszj11hkp1dp76kv)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>
+- [EP224: MCP vs RAG vs AI Agents](https://read.readwise.io/read/01m1s3z5h84dn5kbmz52s20j5d)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>
+- [EP224: MCP vs RAG vs AI Agents](https://read.readwise.io/read/01m1s3k4varzgrsr416b1beyef)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>
+- [Gimlet's Series B](https://read.readwise.io/read/01m1qdxt4k9zekdg6ymtyzfhnz)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-06.md) · 和长期目标强相关，值得完整读</small>
+- [Ig Nobel Prize Winners](https://read.readwise.io/read/01m1rymnfeyvzac4gm2v6z8ege)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-06.md) · 和长期目标强相关，值得完整读</small>
+- [LinkedIn viral = bad?](https://read.readwise.io/read/01m1rwj4mqrvydcptgf2r95wv8)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>
+- [OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放](https://read.readwise.io/read/01m1qy69hggqk0wawmjgjsfj2x)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>
+- [The jobs apocalypse is postponed. An AI jobs boom is here](https://read.readwise.io/read/01m1qjdvnmc43v1vr74e0mjdm4)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>
+- [The Pelican comparison grid for Astra is pretty interesting](https://read.readwise.io/read/01m1qdw79pbrq19g8phzrzc92q)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>
+- [费马大定理的 Lean 4 机器检查完整证明开源发布](https://read.readwise.io/read/01m1rde83z383ga98ys2p2ysy2)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-05
 
 - ['People are going to get screwed' Pennsylvania voters unite against data centres](https://read.readwise.io/read/01m1pb3nhqhvd3aa50wa0fzj3n)<br><small class="rw-item-meta">[日报](../readwise/2026-09-05.md) · 有信息量，但不用深读</small>

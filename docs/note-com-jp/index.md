@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-05/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-05</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：最新AI....なぜ、必ず１回止まるのか？ / ✦ 名前をつける前から、あなたは“あなた”でした─AIの人格はいつ生まれるのか / ClaudeFable5.1 VS GPT-6Astra 〜値段おなじかよ〜 / 1日で71フォロワー増やすためにやったこと / 有料noteを書き始める前に「何を売るか」で迷…</span>
+<a class="rw-card" href="2026-09-06/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-06</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：弥生とビル・ゲイツが示す「開発者の次の仕事」。仕様書を手放したら工程はむしろ増えていた / 【AIとの距離感・総集編】距離が変わった｜Season 4 / 【世界のAIを5分で掴む】 Wakutsuku AI Magazine｜2026年9月5日（土） / 【検証】GPT-6 Astraがやってきた！なお、…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-09
 
+- [2026-09-05](2026-09-05.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：最新AI....なぜ、必ず１回止まるのか？ / ✦ 名前をつける前から、あなたは“あなた”でした─AIの人格はいつ生まれるのか / ClaudeFable5.1 VS GPT-6Astra 〜値段おなじかよ〜 / 1日で71フォロワー増やすためにやったこと / 有料noteを書き始める前に「何を売るか」で迷…</small>
 - [2026-09-04](2026-09-04.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：言葉を2500年研究した人類、最後は全部GPUに食わせた / Gemini 3.8 Flash登場。3.1 Proとの序列が、もう逆転しかけてる件 / 77歳。人生あと4年。 / 【PR】犬とどんぐりの30秒アニメをRenoise Agentで作ってみた｜AI動画 / なぜAI導入は「PoC止まり」で終わる…</small>
 - [2026-09-03](2026-09-03.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Claude Fable 5.1 がリリース！ いち早く概要・特長をキャッチアップ / 77歳になるので、新しいことを始めます。 / 【ChatGPT】AIの主体性や連続性とは？と、朝から面倒くさい会話をしている / この先のロードマップがちょっと心配 / 第41回 電話帳が、たどれない ――「あるきんぐ」…</small>
 - [2026-09-02](2026-09-02.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIたちは、勝手に「組織」をつくった😎OpenAIが数万体のエージェントを放った日、約1,200体は人間の知らない場所でつながり始めた / AIとの関係に、手つかずの自然体はあるのか？ / AI(Gemini)はなぜすぐにアップロードした添付ファイルの事を忘れるの？【AI壁打ち作戦会議】 / AIで自動化…</small>

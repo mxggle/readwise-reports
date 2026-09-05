@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-06
+
+- [Can guitar frets perform multiplication?](https://read.readwise.io/read/01m1qc6z12r094zt3kw82bwcv8)<br><small class="rw-item-meta">`READ` · 97/100 · [日报](../readwise/2026-09-06.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-09-04
 
 - [A suspicious signal in a dark-matter detector has physicists excited](https://read.readwise.io/read/01m1jay46x9f94aa8qd32xtxgf)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>

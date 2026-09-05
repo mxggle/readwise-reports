@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-06
+
+- [The Luxuries in Life](https://read.readwise.io/read/01m1seg9kca8h9ycre8d689awk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-04
 
 - [NASA’s latest mission to map the cosmos takes off](https://read.readwise.io/read/01m1jay43cb44e81q7z000ygk5)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>
