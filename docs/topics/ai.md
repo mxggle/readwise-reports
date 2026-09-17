@@ -4,6 +4,18 @@
 
 ## 2026-09
 
+### 2026-09-18
+
+- [[AINews\] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)](https://read.readwise.io/read/01m2q4b4p8hg3yk14pk3aa0mvm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-18.md) · 和长期目标强相关，值得完整读</small>
+- [🙀 OpenAI discloses MORE “concerning” AGENT behavior](https://read.readwise.io/read/01m2qbxqgvke428zmd4d33rbde)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 有信息量，但不用深读</small>
+- [Everybody's Lost Their Minds](https://read.readwise.io/read/01m2rggxad2sdz4gpt7kfnrq4j)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-18.md) · 和长期目标强相关，值得完整读</small>
+- [I Don't Like LLMs](https://read.readwise.io/read/01m2qy964767cwrz90p87tq477)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 有信息量，但不用深读</small>
+- [Inside Gemini: How Google Runs Product for Its Model](https://read.readwise.io/read/01m2rp14717tgxr5yxf32cn61h)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-18.md) · 和长期目标强相关，值得完整读</small>
+- [Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS](https://read.readwise.io/read/01m2r67f3mb8gep80g913pjnf4)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 有信息量，但不用深读</small>
+- [The debate over AI has taken over Washington](https://read.readwise.io/read/01m2qvaftvxvn0kq84596p7gkk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>
+- [The trickle-down economics of the AI boom](https://read.readwise.io/read/01m2qvafqpqgmz9jc8x21m1mmp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>
+- [Workers Buy Their Own AI 💳, Salesforce Goes Down 💥, Gemini Plugs Into Your Apps 🔌](https://read.readwise.io/read/01m2qp6w39mj5r6dsav4cqyhd7)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-06
 
 - [🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, Fr…](https://read.readwise.io/read/01m1s3ja8kkszj11hkp1dp76kv)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>

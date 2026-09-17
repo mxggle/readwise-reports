@@ -4,6 +4,13 @@
 
 ## 2026-09
 
+### 2026-09-18
+
+- [datasette 0.65.5](https://read.readwise.io/read/01m2pc66zf8m052nx70wc1q2ec)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>
+- [hister](https://read.readwise.io/read/01m2r3pnzre5t0mabd4m5f9z60)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 有信息量，但不用深读</small>
+- [Migrations at Scale: Changing the Application Engine at 30,000 Feet](https://read.readwise.io/read/01m2r0rnck24cnn8mk43s1btng)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>
+- [Migrations at Scale: Changing the Application Engine at 30,000 Feet](https://read.readwise.io/read/01m2r09xpten8nv0nq2ae7ekez)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-06
 
 - [Lazygit](https://read.readwise.io/read/01m1st86r04fanf04428rgrbkx)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 有信息量，但不用深读</small>

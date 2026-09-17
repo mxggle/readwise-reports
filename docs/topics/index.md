@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">691 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Ig Nobel Prize Winners</span><span class="rw-topic__item">Gimlet's Series B</span><span class="rw-topic__item">费马大定理的 Lean 4 机器检查完整证明开源发布</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">700 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Inside Gemini: How Google Runs Product for Its Model</span><span class="rw-topic__item">Everybody's Lost Their Minds</span><span class="rw-topic__item">[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">61 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Lazygit</span><span class="rw-topic__item">Fuck Off as a Service (Foaas)</span><span class="rw-topic__item">Autistici/inventati: Manifesto – who we are and what do we want (2002)</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">65 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">hister</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">27 条</span></span>
