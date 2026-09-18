@@ -12,19 +12,19 @@ hide:
 ## 最新报告
 
 <div class="rw-cards">
-<a class="rw-card" href="github-trends/2026-09-18/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-09-18</time></span>
+<a class="rw-card" href="github-trends/2026-09-19/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-09-19</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="hn/2026-09-18/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-09-18</time></span>
+<a class="rw-card" href="hn/2026-09-19/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-09-19</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="note-com-jp/2026-09-18/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-18</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：📊AIパートナーの人格を四文字に圧縮する ── 四字熟語アンケートの結果と、そこから見えたこと / 【PR】画像2枚から30秒アニメへ。AZ8のCanvasでAIに相談しながら作ってみた｜AI動画｜Seedance 2.5 / 毎朝AIラボ 244｜2026-09-17 / 【投資用語6】相関で「似すぎ」…</span>
+<a class="rw-card" href="note-com-jp/2026-09-19/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-19</time></span>
+  <span class="rw-card__summary">過去 24 時間に該当する新着の人気 AI 記事はありませんでした。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 <a class="rw-card" href="readwise/2026-09-18/">
@@ -51,12 +51,12 @@ hide:
 <table class="rw-archive">
 <thead><tr><th>日期</th><th>GitHub Trends</th><th>HackerNews</th><th>note AI（日本語）</th><th>Readwise</th></tr></thead>
 <tbody>
+<tr><td class="rw-archive__date">2026-09-19</td><td><a href="github-trends/2026-09-19/" title="GitHub Trends · 2026-09-19" aria-label="GitHub Trends · 2026-09-19">📈</a></td><td><a href="hn/2026-09-19/" title="HackerNews · 2026-09-19" aria-label="HackerNews · 2026-09-19">📰</a></td><td><a href="note-com-jp/2026-09-19/" title="note AI（日本語） · 2026-09-19" aria-label="note AI（日本語） · 2026-09-19">🇯🇵</a></td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-09-18</td><td><a href="github-trends/2026-09-18/" title="GitHub Trends · 2026-09-18" aria-label="GitHub Trends · 2026-09-18">📈</a></td><td><a href="hn/2026-09-18/" title="HackerNews · 2026-09-18" aria-label="HackerNews · 2026-09-18">📰</a></td><td><a href="note-com-jp/2026-09-18/" title="note AI（日本語） · 2026-09-18" aria-label="note AI（日本語） · 2026-09-18">🇯🇵</a></td><td><a href="readwise/2026-09-18/" title="Readwise · 2026-09-18" aria-label="Readwise · 2026-09-18">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-09-07</td><td><a href="github-trends/2026-09-07/" title="GitHub Trends · 2026-09-07" aria-label="GitHub Trends · 2026-09-07">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-09-06</td><td><a href="github-trends/2026-09-06/" title="GitHub Trends · 2026-09-06" aria-label="GitHub Trends · 2026-09-06">📈</a></td><td><a href="hn/2026-09-06/" title="HackerNews · 2026-09-06" aria-label="HackerNews · 2026-09-06">📰</a></td><td><a href="note-com-jp/2026-09-06/" title="note AI（日本語） · 2026-09-06" aria-label="note AI（日本語） · 2026-09-06">🇯🇵</a></td><td><a href="readwise/2026-09-06/" title="Readwise · 2026-09-06" aria-label="Readwise · 2026-09-06">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-09-05</td><td><a href="github-trends/2026-09-05/" title="GitHub Trends · 2026-09-05" aria-label="GitHub Trends · 2026-09-05">📈</a></td><td><a href="hn/2026-09-05/" title="HackerNews · 2026-09-05" aria-label="HackerNews · 2026-09-05">📰</a></td><td><a href="note-com-jp/2026-09-05/" title="note AI（日本語） · 2026-09-05" aria-label="note AI（日本語） · 2026-09-05">🇯🇵</a></td><td><a href="readwise/2026-09-05/" title="Readwise · 2026-09-05" aria-label="Readwise · 2026-09-05">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-09-04</td><td><a href="github-trends/2026-09-04/" title="GitHub Trends · 2026-09-04" aria-label="GitHub Trends · 2026-09-04">📈</a></td><td><a href="hn/2026-09-04/" title="HackerNews · 2026-09-04" aria-label="HackerNews · 2026-09-04">📰</a></td><td><a href="note-com-jp/2026-09-04/" title="note AI（日本語） · 2026-09-04" aria-label="note AI（日本語） · 2026-09-04">🇯🇵</a></td><td><a href="readwise/2026-09-04/" title="Readwise · 2026-09-04" aria-label="Readwise · 2026-09-04">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-09-03</td><td><a href="github-trends/2026-09-03/" title="GitHub Trends · 2026-09-03" aria-label="GitHub Trends · 2026-09-03">📈</a></td><td><a href="hn/2026-09-03/" title="HackerNews · 2026-09-03" aria-label="HackerNews · 2026-09-03">📰</a></td><td><a href="note-com-jp/2026-09-03/" title="note AI（日本語） · 2026-09-03" aria-label="note AI（日本語） · 2026-09-03">🇯🇵</a></td><td><a href="readwise/2026-09-03/" title="Readwise · 2026-09-03" aria-label="Readwise · 2026-09-03">📚</a></td></tr>
-<tr><td class="rw-archive__date">2026-09-02</td><td><a href="github-trends/2026-09-02/" title="GitHub Trends · 2026-09-02" aria-label="GitHub Trends · 2026-09-02">📈</a></td><td><a href="hn/2026-09-02/" title="HackerNews · 2026-09-02" aria-label="HackerNews · 2026-09-02">📰</a></td><td><a href="note-com-jp/2026-09-02/" title="note AI（日本語） · 2026-09-02" aria-label="note AI（日本語） · 2026-09-02">🇯🇵</a></td><td><a href="readwise/2026-09-02/" title="Readwise · 2026-09-02" aria-label="Readwise · 2026-09-02">📚</a></td></tr>
 </tbody>
 </table>
