@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">700 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Inside Gemini: How Google Runs Product for Its Model</span><span class="rw-topic__item">Everybody's Lost Their Minds</span><span class="rw-topic__item">[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">711 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&amp;D Metrics, Periodic Neon, Gemini 3.8 L…</span><span class="rw-topic__item">Laya the open source version of Jev</span><span class="rw-topic__item">A graphical desktop for the ZX Spectrum</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">65 条</span></span>
@@ -26,8 +26,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">US lawmakers demand investigation into admin's secret surveillance of Americans</span><span class="rw-topic__item">Iceland rejects reopening talks on EU entry</span><span class="rw-topic__item">Dallas startup enriches Uranium</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">32 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Can guitar frets perform multiplication?</span><span class="rw-topic__item">A suspicious signal in a dark-matter detector has physicists excited</span><span class="rw-topic__item">Fluorescent lamps (don't) have ears</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">34 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Roman Timekeeping</span><span class="rw-topic__item">The Contract on America</span><span class="rw-topic__item">Can guitar frets perform multiplication?</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">5 条</span></span>

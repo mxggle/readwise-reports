@@ -4,6 +4,20 @@
 
 ## 2026-09
 
+### 2026-09-20
+
+- [🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 L…](https://read.readwise.io/read/01m2xbbkkkwh7ssrejyhs0nwsm)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-20.md) · 和长期目标强相关，值得完整读</small>
+- [A graphical desktop for the ZX Spectrum](https://read.readwise.io/read/01m2x131azn638xk2e81k0wgxj)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-09-20.md) · 和长期目标强相关，值得完整读</small>
+- [datasette-auth-github 1.0](https://read.readwise.io/read/01m2xtmwzjn24076esxr9z01zw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 未来特定场景可能有用</small>
+- [English: A vs. An](https://read.readwise.io/read/01m2xtf94h81zqp6yb76k3etf4)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>
+- [Give yourself a raise.](https://read.readwise.io/read/01m2wxhrdmq8p6h8ed7dsygdd1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 未来特定场景可能有用</small>
+- [How come AI-related posts get so many points on HN?](https://read.readwise.io/read/01m2wajyy8j3ey1j7w8t2jj892)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 未来特定场景可能有用</small>
+- [How to launch into a completely new life](https://read.readwise.io/read/01m2xb52sq0gbehwqbn3g9e9s0)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 未来特定场景可能有用</small>
+- [Jobs Without LeetCode](https://read.readwise.io/read/01m2x7xqq5pmey4ppk42vasr91)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 未来特定场景可能有用</small>
+- [Laya the open source version of Jev](https://read.readwise.io/read/01m2wr0vmnksf968q14k158xw4)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-20.md) · 和长期目标强相关，值得完整读</small>
+- [Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy](https://read.readwise.io/read/01m2x24fhw60f8bt8q2v2bdrpd)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>
+- [People who know the most often sound the least certain](https://read.readwise.io/read/01m2xdc5zmw3nrq5s29gj00215)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-18
 
 - [[AINews\] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)](https://read.readwise.io/read/01m2q4b4p8hg3yk14pk3aa0mvm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-18.md) · 和长期目标强相关，值得完整读</small>

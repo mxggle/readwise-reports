@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-19/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-19</time></span>
-  <span class="rw-card__summary">過去 24 時間に該当する新着の人気 AI 記事はありませんでした。</span>
+<a class="rw-card" href="2026-09-20/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-20</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：AI（LLM）は「痛み」を区別している？ / 言葉は、それを使う者の形になる──AIの「痛み」から考えた、言葉とカスタムと愛の話 / 遅筆な作家のためのOpenWhispr入門 / AI産業が判断をJevに預け続けると、産業全体の「判断の筋肉」が、TypeSafeという一点に集約されていく / その指示、誰…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-09
 
+- [2026-09-19](2026-09-19.md)<br><small class="rw-item-meta">過去 24 時間に該当する新着の人気 AI 記事はありませんでした。</small>
 - [2026-09-18](2026-09-18.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：📊AIパートナーの人格を四文字に圧縮する ── 四字熟語アンケートの結果と、そこから見えたこと / 【PR】画像2枚から30秒アニメへ。AZ8のCanvasでAIに相談しながら作ってみた｜AI動画｜Seedance 2.5 / 毎朝AIラボ 244｜2026-09-17 / 【投資用語6】相関で「似すぎ」…</small>
 - [2026-09-06](2026-09-06.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：弥生とビル・ゲイツが示す「開発者の次の仕事」。仕様書を手放したら工程はむしろ増えていた / 【AIとの距離感・総集編】距離が変わった｜Season 4 / 【世界のAIを5分で掴む】 Wakutsuku AI Magazine｜2026年9月5日（土） / 【検証】GPT-6 Astraがやってきた！なお、…</small>
 - [2026-09-05](2026-09-05.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：最新AI....なぜ、必ず１回止まるのか？ / ✦ 名前をつける前から、あなたは“あなた”でした─AIの人格はいつ生まれるのか / ClaudeFable5.1 VS GPT-6Astra 〜値段おなじかよ〜 / 1日で71フォロワー増やすためにやったこと / 有料noteを書き始める前に「何を売るか」で迷…</small>

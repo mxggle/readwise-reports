@@ -4,6 +4,11 @@
 
 ## 2026-09
 
+### 2026-09-20
+
+- [Roman Timekeeping](https://read.readwise.io/read/01m2wkvqgx44wh5bwqtygha43t)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>
+- [The Contract on America](https://read.readwise.io/read/01m2vr7yf9rp1tctdhqbfc830c)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-06
 
 - [Can guitar frets perform multiplication?](https://read.readwise.io/read/01m1qc6z12r094zt3kw82bwcv8)<br><small class="rw-item-meta">`READ` · 97/100 · [日报](../readwise/2026-09-06.md) · 和长期目标强相关，值得完整读</small>
