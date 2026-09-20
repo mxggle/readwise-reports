@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-21
+
+- [Telling a Computer to Do Things](https://read.readwise.io/read/01m2yrw0gnjzagzgttna4xkvw3)<br><small class="rw-item-meta">`READ` · 89/100 · [日报](../readwise/2026-09-21.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-09-18
 
 - [datasette 0.65.5](https://read.readwise.io/read/01m2pc66zf8m052nx70wc1q2ec)<br><small class="rw-item-meta">[日报](../readwise/2026-09-18.md) · 未来特定场景可能有用</small>

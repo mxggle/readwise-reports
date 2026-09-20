@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-21
+
+- [A Necessary History of the Oddest Letter: W](https://read.readwise.io/read/01m2zzqxcx1npm2yhrw6d9t7jb)<br><small class="rw-item-meta">`READ` · 85/100 · [日报](../readwise/2026-09-21.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-09-20
 
 - [Roman Timekeeping](https://read.readwise.io/read/01m2wkvqgx44wh5bwqtygha43t)<br><small class="rw-item-meta">[日报](../readwise/2026-09-20.md) · 有信息量，但不用深读</small>

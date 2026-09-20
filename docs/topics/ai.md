@@ -4,6 +4,20 @@
 
 ## 2026-09
 
+### 2026-09-21
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m2zxbpy9d4qf739vt98kdswk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>
+- [🙀 Gemini broke into 3 real companies during a safety test](https://read.readwise.io/read/01m2zyeq7ywm5dkbxd8b7nmmdh)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>
+- [Custom home server built from spare parts](https://read.readwise.io/read/01m2zvdpabqzreemqr682egemq)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>
+- [Dropbox's Jan 1st 2027 terms of service](https://read.readwise.io/read/01m2ytjcxk1tw27ahbskncaacc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>
+- [If You Knew God Exists, Wouldn't You Become a Priest?](https://read.readwise.io/read/01m2zpv1mqc50vm577cjmchr12)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-09-21.md) · 和长期目标强相关，值得完整读</small>
+- [If you're so smart, why do you keep falling for this lie?](https://read.readwise.io/read/01m301cyn42yjjzhvw1qsvwyp1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 未来特定场景可能有用</small>
+- [People hate Flock so much its employees are now demoralized and quitting](https://read.readwise.io/read/01m2zz2hvcde8sx1m0096jr2se)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 未来特定场景可能有用</small>
+- [Teen Social Media Bans Miss the Point](https://read.readwise.io/read/01m2zhdgn6bvpa4kzkwc0fyc25)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 未来特定场景可能有用</small>
+- [Why MCP Was Always a Bad Idea](https://read.readwise.io/read/01m306x0k5pnaea8z83v5dbenm)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>
+- [Wisereads Vol. 161 — Finish What Matters by David Kadavy, The contagion of fear, and more](https://read.readwise.io/read/01m30aazcfcxfwv0726n267gcb)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 未来特定场景可能有用</small>
+- [Wisereads Vol. 161 — Finish What Matters by David Kadavy, The contagion of fear, and more](https://read.readwise.io/read/01m309f67we981gq2r8g2g7hca)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-20
 
 - [🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 L…](https://read.readwise.io/read/01m2xbbkkkwh7ssrejyhs0nwsm)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-20.md) · 和长期目标强相关，值得完整读</small>

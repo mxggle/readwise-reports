@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">711 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&amp;D Metrics, Periodic Neon, Gemini 3.8 L…</span><span class="rw-topic__item">Laya the open source version of Jev</span><span class="rw-topic__item">A graphical desktop for the ZX Spectrum</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">722 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">If You Knew God Exists, Wouldn't You Become a Priest?</span><span class="rw-topic__item">Why MCP Was Always a Bad Idea</span><span class="rw-topic__item">Custom home server built from spare parts</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">65 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">hister</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">66 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Telling a Computer to Do Things</span><span class="rw-topic__item">hister</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">27 条</span></span>
@@ -26,8 +26,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">US lawmakers demand investigation into admin's secret surveillance of Americans</span><span class="rw-topic__item">Iceland rejects reopening talks on EU entry</span><span class="rw-topic__item">Dallas startup enriches Uranium</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">34 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Roman Timekeeping</span><span class="rw-topic__item">The Contract on America</span><span class="rw-topic__item">Can guitar frets perform multiplication?</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">35 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">A Necessary History of the Oddest Letter: W</span><span class="rw-topic__item">Roman Timekeeping</span><span class="rw-topic__item">The Contract on America</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">5 条</span></span>
