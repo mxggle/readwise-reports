@@ -4,6 +4,21 @@
 
 ## 2026-09
 
+### 2026-09-22
+
+- [🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories](https://read.readwise.io/read/01m328rn7eqb6sfs3deyebwwkp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>
+- [After Anthropic made Fable 5 permanently available in subscription plans...](https://read.readwise.io/read/01m32d7gwe9d2rk4byq19zsv9c)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>
+- [DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air](https://read.readwise.io/read/01m30mx832qtft8828fn78cdpc)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-22.md) · 和长期目标强相关，值得完整读</small>
+- [Google's Open Agentic Orchestrator](https://read.readwise.io/read/01m30ge8k0eaq12ref15k2e957)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-22.md) · 和长期目标强相关，值得完整读</small>
+- [How to Run a Big Model on Cheap Hardware?](https://read.readwise.io/read/01m32aehy7a6bedeftfyfz5cc2)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>
+- [How to Run a Big Model on Cheap Hardware?](https://read.readwise.io/read/01m329zdpyakgy1pb97nak5q3w)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>
+- [In Search of a Compositional Theory of Self-Stabilization](https://read.readwise.io/read/01m32pq14dscx4g0qt29yj1zse)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-09-22.md) · 和长期目标强相关，值得完整读</small>
+- [Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线](https://read.readwise.io/read/01m31j7d2de6v18cm2907vnhct)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>
+- [OpenAI & Meta Distinguished Eng (IC9): The Psychology Behind Tech Career Peaks | Philip Su](https://read.readwise.io/read/01m321sxxkmknkrps12yty8ghw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>
+- [The Anti-ChatGPT Model](https://read.readwise.io/read/01m32647wj21xaswa61cskv2rz)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>
+- [Xiaomi MiMo v2.6](https://read.readwise.io/read/01m32t506k3bsxvbqxbywjebm5)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>
+- [Yet *another* record week for AI development of Linux](https://read.readwise.io/read/01m31gg7tyc6hw3zb1789j1m28)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-21
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m2zxbpy9d4qf739vt98kdswk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-21.md) · 有信息量，但不用深读</small>

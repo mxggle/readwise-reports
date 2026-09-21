@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-22
+
+- [CBP suspends all personal prescription importation Oct 22](https://read.readwise.io/read/01m32ytzjxc05yzdgkj2rgxpge)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-06
 
 - [The Luxuries in Life](https://read.readwise.io/read/01m1seg9kca8h9ycre8d689awk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-06.md) · 未来特定场景可能有用</small>

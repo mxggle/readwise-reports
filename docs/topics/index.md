@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">722 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">If You Knew God Exists, Wouldn't You Become a Priest?</span><span class="rw-topic__item">Why MCP Was Always a Bad Idea</span><span class="rw-topic__item">Custom home server built from spare parts</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">734 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air</span><span class="rw-topic__item">Google's Open Agentic Orchestrator</span><span class="rw-topic__item">In Search of a Compositional Theory of Self-Stabilization</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">66 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">84 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">The Luxuries in Life</span><span class="rw-topic__item">NASA’s latest mission to map the cosmos takes off</span><span class="rw-topic__item">Biggest dark matter detector spots a single weird particle</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">85 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">CBP suspends all personal prescription importation Oct 22</span><span class="rw-topic__item">The Luxuries in Life</span><span class="rw-topic__item">NASA’s latest mission to map the cosmos takes off</span></span>
 </a>
 </div>
