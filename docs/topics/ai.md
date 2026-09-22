@@ -4,6 +4,21 @@
 
 ## 2026-09
 
+### 2026-09-23
+
+- [AI Has No Wisdom and Neither Will You](https://read.readwise.io/read/01m34h85hs2qp235bkr4m17y9f)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-23.md) · 和长期目标强相关，值得完整读</small>
+- [Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56](https://read.readwise.io/read/01m337t6kr268a76s6k1snsjsq)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
+- [Boris Cherny 实测 Claude Opus 5.5：比 Fable 5.1 快且便宜 51%](https://read.readwise.io/read/01m356frc14n42hmqjsjkmvams)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
+- [Claude Opus 5.5 Intelligence, Performance and Price Analysis](https://read.readwise.io/read/01m352m1wfweayr15nvdasyzq1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 有信息量，但不用深读</small>
+- [Co-creating the future of fashion with Google](https://read.readwise.io/read/01m34f0j3sxjpqvpk76fpt11bn)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 有信息量，但不用深读</small>
+- [Extrinsic Hallucinations in LLMs](https://read.readwise.io/read/01m34f4n17cmt1g9148krvqhfk)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-23.md) · 和长期目标强相关，值得完整读</small>
+- [Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived](https://read.readwise.io/read/01m35fnmvsd0hcszbr03c4xfmh)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 有信息量，但不用深读</small>
+- [OpenAI is about to eat Jev's lunch – Arcturus Labs](https://read.readwise.io/read/01m34sjmjwk2gap3pt7febb6ax)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-23.md) · 和长期目标强相关，值得完整读</small>
+- [People Training OpenAI's AI Fired for Using AI to Train the AI](https://read.readwise.io/read/01m34pnnf9ycqk4jr4vj2d6xp2)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 有信息量，但不用深读</small>
+- [Quoting @therealcornpop](https://read.readwise.io/read/01m354q85mv7y0ansb95r2yx64)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
+- [Tell HN: Claude Code just accepted and signed a contract for me. Without asking](https://read.readwise.io/read/01m346nhps2jypct166kvgcfd0)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 有信息量，但不用深读</small>
+- [不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方](https://read.readwise.io/read/01m337t6jkrcfzhjma2m5xt331)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-22
 
 - [🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories](https://read.readwise.io/read/01m328rn7eqb6sfs3deyebwwkp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 有信息量，但不用深读</small>

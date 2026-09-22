@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-22/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-09-22</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI、Other。最值得优先处理的是《DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今</span>
+<a class="rw-card" href="2026-09-23/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-09-23</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《OpenAI is about to eat Jev's lunch – Arcturus Labs》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-09
 
+- [2026-09-22](2026-09-22.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Other。最值得优先处理的是《DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今</small>
 - [2026-09-21](2026-09-21.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Programming、English。最值得优先处理的是《If You Knew God Exists, Wouldn't You Become a Priest?》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今</small>
 - [2026-09-20](2026-09-20.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&amp;D Metrics, Periodic Neon, Gemini 3.8 L…</small>
 - [2026-09-18](2026-09-18.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Inside Gemini: How Google Runs Product for Its Model》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个</small>

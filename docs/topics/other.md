@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-23
+
+- [Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一](https://read.readwise.io/read/01m356frk1ktje7q0e0qp3wjep)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-22
 
 - [CBP suspends all personal prescription importation Oct 22](https://read.readwise.io/read/01m32ytzjxc05yzdgkj2rgxpge)<br><small class="rw-item-meta">[日报](../readwise/2026-09-22.md) · 未来特定场景可能有用</small>

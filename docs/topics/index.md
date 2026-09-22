@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">734 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">DAPO: An Open-Source RL System from ByteDance Seed and Tsinghua Air</span><span class="rw-topic__item">Google's Open Agentic Orchestrator</span><span class="rw-topic__item">In Search of a Compositional Theory of Self-Stabilization</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">746 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">OpenAI is about to eat Jev's lunch – Arcturus Labs</span><span class="rw-topic__item">AI Has No Wisdom and Neither Will You</span><span class="rw-topic__item">Extrinsic Hallucinations in LLMs</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">66 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">85 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">CBP suspends all personal prescription importation Oct 22</span><span class="rw-topic__item">The Luxuries in Life</span><span class="rw-topic__item">NASA’s latest mission to map the cosmos takes off</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">86 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一</span><span class="rw-topic__item">CBP suspends all personal prescription importation Oct 22</span><span class="rw-topic__item">The Luxuries in Life</span></span>
 </a>
 </div>
