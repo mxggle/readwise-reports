@@ -243,10 +243,14 @@ readwise-reports/
 
 ## CI / CD
 
-**Local cron** runs `pnpm publish:daily` → generates reports → pushes `docs/` (the published
-source of truth) to `main`. Everything under `generated/` is a local build artifact and is not committed.
+**Hermes cron** runs `pnpm publish:daily` each morning. The command fetches `origin/main`,
+fast-forwards a clean local `main`, installs dependencies from the lockfile, and runs
+`pnpm typecheck` and `pnpm test` before generating reports. If an update or check fails,
+publishing stops with an error; local commits and changes are never discarded. The
+publisher then pushes `docs/` (the published source of truth) to `main`. Everything
+under `generated/` is a local build artifact and is not committed.
 
-**GitHub Actions** watches `main` and deploys the MkDocs static site to GitHub Pages.
+**GitHub Actions** checks types and tests on every `main` push, then deploys the MkDocs static site to GitHub Pages.
 It never needs AI API keys or Readwise tokens.
 
 ```mermaid
