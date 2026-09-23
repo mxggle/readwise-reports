@@ -4,6 +4,11 @@
 
 ## 2026-09
 
+### 2026-09-24
+
+- [28% of job postings on company career sites have been open over 90 days](https://read.readwise.io/read/01m37k6kj0cmb6s4skgax79h3q)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>
+- [Google Beam expands with new regions, partners, and customers](https://read.readwise.io/read/01m37q3avz35hy9hej817ncwp6)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-04
 
 - [Humble exoskeletons work better than combat supersuits](https://read.readwise.io/read/01m1jay45mkh73gmh7fnn8s3rx)<br><small class="rw-item-meta">[日报](../readwise/2026-09-04.md) · 未来特定场景可能有用</small>

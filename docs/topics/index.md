@@ -10,16 +10,16 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">746 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">OpenAI is about to eat Jev's lunch – Arcturus Labs</span><span class="rw-topic__item">AI Has No Wisdom and Neither Will You</span><span class="rw-topic__item">Extrinsic Hallucinations in LLMs</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">756 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows</span><span class="rw-topic__item">Claude discovers a novel enzyme system with CRISPR-like repeats</span><span class="rw-topic__item">Jev in 25 Lines of Python</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">66 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Telling a Computer to Do Things</span><span class="rw-topic__item">hister</span><span class="rw-topic__item">Migrations at Scale: Changing the Application Engine at 30,000 Feet</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">67 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Netherlands bracing for potentially devastating US sanctions against the ICC</span><span class="rw-topic__item">Telling a Computer to Do Things</span><span class="rw-topic__item">hister</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
-  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">27 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Humble exoskeletons work better than combat supersuits</span><span class="rw-topic__item">Your second choosing.</span><span class="rw-topic__item">Dolly Parton has died</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">29 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Google Beam expands with new regions, partners, and customers</span><span class="rw-topic__item">28% of job postings on company career sites have been open over 90 days</span><span class="rw-topic__item">Humble exoskeletons work better than combat supersuits</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
   <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">35 条</span></span>

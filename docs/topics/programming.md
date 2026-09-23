@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-24
+
+- [Netherlands bracing for potentially devastating US sanctions against the ICC](https://read.readwise.io/read/01m36s8nm0c57prxhh0az3jrn3)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-21
 
 - [Telling a Computer to Do Things](https://read.readwise.io/read/01m2yrw0gnjzagzgttna4xkvw3)<br><small class="rw-item-meta">`READ` · 89/100 · [日报](../readwise/2026-09-21.md) · 和长期目标强相关，值得完整读</small>

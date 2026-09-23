@@ -4,6 +4,19 @@
 
 ## 2026-09
 
+### 2026-09-24
+
+- [Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布](https://read.readwise.io/read/01m35wzgpda1859n4jzma4twb5)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>
+- [Claude discovers a novel enzyme system with CRISPR-like repeats](https://read.readwise.io/read/01m37s9qg1hx26m18v3kypbgd5)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-24.md) · 和长期目标强相关，值得完整读</small>
+- [Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为](https://read.readwise.io/read/01m35wzgjdaq0wx74yer5jrj1x)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>
+- [Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58](https://read.readwise.io/read/01m35wzh4ybkbpnezxaa723rq7)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>
+- [GPT-6 Sol 与 GPT-6 Luna 在 ChatGPT Work 和 Codex 中推送](https://read.readwise.io/read/01m35wzh0v2b1bwhpzjzf211gw)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>
+- [How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows](https://read.readwise.io/read/01m37sdfx34hgtyrxkyag3d0gm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-24.md) · 和长期目标强相关，值得完整读</small>
+- [Jev in 25 Lines of Python](https://read.readwise.io/read/01m36mqag485z09fcrnhxvzc89)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-24.md) · 和长期目标强相关，值得完整读</small>
+- [MoE inference engineering, clearly explained](https://read.readwise.io/read/01m37qegz37x2b5gfqbqdc2ym2)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>
+- [OpenAI GPT-6 Sol 和 GPT-6 Luna 上线 OpenRouter](https://read.readwise.io/read/01m35wzgwxa51br0x8xpsbk6yk)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>
+- [The new CC, an AI agent built for families](https://read.readwise.io/read/01m35ttxg22cn4tc3xm0pqs5kt)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-23
 
 - [AI Has No Wisdom and Neither Will You](https://read.readwise.io/read/01m34h85hs2qp235bkr4m17y9f)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-23.md) · 和长期目标强相关，值得完整读</small>
