@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-27
+
+- [Stop Sending Pictures of Your Palm](https://read.readwise.io/read/01m3ftecqwx3ptpxmsccn2h0kc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-24
 
 - [Netherlands bracing for potentially devastating US sanctions against the ICC](https://read.readwise.io/read/01m36s8nm0c57prxhh0az3jrn3)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>

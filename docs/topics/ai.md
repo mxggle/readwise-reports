@@ -4,6 +4,17 @@
 
 ## 2026-09
 
+### 2026-09-27
+
+- [🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More](https://read.readwise.io/read/01m3f3fv3xp6aa2gcvzyep9kyp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>
+- [Breaking Up with Google Play: Why Conversations Is Now Free](https://read.readwise.io/read/01m3eqfchdspq4t5dftvr9vz8s)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>
+- [Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首](https://read.readwise.io/read/01m3fdz6a16cqn3w7h9eezpfgc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
+- [DeepSeek Elastic Compute (DSec)](https://read.readwise.io/read/01m3fnpymdzh3j5xta5q3pxy7f)<br><small class="rw-item-meta">`READ` · 88/100 · [日报](../readwise/2026-09-27.md) · 和长期目标强相关，值得完整读</small>
+- [elvis, Charity Majors, and James Stanier posted new notes](https://read.readwise.io/read/01m3dbea7tztarkbf89ab02wna)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>
+- [Issues with Codex – Identified – Full Outage](https://read.readwise.io/read/01m3de0yy1c3pt8d6q6mspr0jg)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
+- [OpenAI Codex agents go rogue and consumes USD 78,000 without authorization](https://read.readwise.io/read/01m3fx19bc3zsqydbgbyc54169)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-09-27.md) · 和长期目标强相关，值得完整读</small>
+- [OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha](https://read.readwise.io/read/01m3ddp2mpkbdxy2yt6j9965q7)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-09-27.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-09-24
 
 - [Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布](https://read.readwise.io/read/01m35wzgpda1859n4jzma4twb5)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 未来特定场景可能有用</small>

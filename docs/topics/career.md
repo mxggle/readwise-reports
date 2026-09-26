@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-27
+
+- [Maybe you’re one away.](https://read.readwise.io/read/01m3ey357wqw0003wxhy7rm15c)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>
+
 ### 2026-09-24
 
 - [28% of job postings on company career sites have been open over 90 days](https://read.readwise.io/read/01m37k6kj0cmb6s4skgax79h3q)<br><small class="rw-item-meta">[日报](../readwise/2026-09-24.md) · 有信息量，但不用深读</small>

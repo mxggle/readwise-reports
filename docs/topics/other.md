@@ -4,6 +4,12 @@
 
 ## 2026-09
 
+### 2026-09-27
+
+- [CAPTCHAs don't prove you're human – they prove you're American](https://read.readwise.io/read/01m3ef1qgc6fkw3tx07paq1b3y)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
+- [Jury finds Facebook liable for deceiving users in Cambridge Analytica case](https://read.readwise.io/read/01m3dpae52n65jf2qjw9j4tfy1)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
+- [Plunging test scores are a slow-moving catastrophe](https://read.readwise.io/read/01m3f61kk3efpmsnt84age65mm)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-23
 
 - [Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一](https://read.readwise.io/read/01m356frk1ktje7q0e0qp3wjep)<br><small class="rw-item-meta">[日报](../readwise/2026-09-23.md) · 未来特定场景可能有用</small>
