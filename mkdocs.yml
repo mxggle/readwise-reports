@@ -45,6 +45,8 @@ nav:
   - GitHub Trends:
       - github-trends/index.md
       - 2026-09:
+          - 2026-09-29: github-trends/2026-09-29.md
+          - 2026-09-28: github-trends/2026-09-28.md
           - 2026-09-27: github-trends/2026-09-27.md
           - 2026-09-24: github-trends/2026-09-24.md
           - 2026-09-23: github-trends/2026-09-23.md
@@ -142,6 +144,7 @@ nav:
   - HackerNews:
       - hn/index.md
       - 2026-09:
+          - 2026-09-29: hn/2026-09-29.md
           - 2026-09-27: hn/2026-09-27.md
           - 2026-09-24: hn/2026-09-24.md
           - 2026-09-23: hn/2026-09-23.md
@@ -232,6 +235,7 @@ nav:
   - note AI（日本語）:
       - note-com-jp/index.md
       - 2026-09:
+          - 2026-09-29: note-com-jp/2026-09-29.md
           - 2026-09-27: note-com-jp/2026-09-27.md
           - 2026-09-24: note-com-jp/2026-09-24.md
           - 2026-09-23: note-com-jp/2026-09-23.md
@@ -319,6 +323,7 @@ nav:
   - Readwise:
       - readwise/index.md
       - 2026-09:
+          - 2026-09-29: readwise/2026-09-29.md
           - 2026-09-27: readwise/2026-09-27.md
           - 2026-09-24: readwise/2026-09-24.md
           - 2026-09-23: readwise/2026-09-23.md

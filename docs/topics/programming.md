@@ -4,6 +4,10 @@
 
 ## 2026-09
 
+### 2026-09-29
+
+- [Owed a billion dollars in Nvidia stock](https://read.readwise.io/read/01m3jyze70rmm26pre6tsqvmyz)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-27
 
 - [Stop Sending Pictures of Your Palm](https://read.readwise.io/read/01m3ftecqwx3ptpxmsccn2h0kc)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>

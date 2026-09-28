@@ -10,12 +10,12 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">764 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">DeepSeek Elastic Compute (DSec)</span><span class="rw-topic__item">OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah &amp; AMP’s Anjney Midha</span><span class="rw-topic__item">OpenAI Codex agents go rogue and consumes USD 78,000 without authorization</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">774 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Coding Is Not Solved – Alex Ewerlöf Notes</span><span class="rw-topic__item">Holo4: powering generalist computer-use agents</span><span class="rw-topic__item">2026 in LLMs (so far)</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
-  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">68 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Stop Sending Pictures of Your Palm</span><span class="rw-topic__item">Netherlands bracing for potentially devastating US sanctions against the ICC</span><span class="rw-topic__item">Telling a Computer to Do Things</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">69 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Owed a billion dollars in Nvidia stock</span><span class="rw-topic__item">Stop Sending Pictures of Your Palm</span><span class="rw-topic__item">Netherlands bracing for potentially devastating US sanctions against the ICC</span></span>
 </a>
 <a class="rw-card rw-topic" href="career/">
   <span class="rw-card__head"><span class="rw-card__source">💼 Career</span><span class="rw-card__date">30 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">89 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Plunging test scores are a slow-moving catastrophe</span><span class="rw-topic__item">Jury finds Facebook liable for deceiving users in Cambridge Analytica case</span><span class="rw-topic__item">CAPTCHAs don't prove you're human – they prove you're American</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">91 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Palantir founder purchases large swath of forest in Sweden</span><span class="rw-topic__item">Ireland is helping supply Russia’s war machine</span><span class="rw-topic__item">Plunging test scores are a slow-moving catastrophe</span></span>
 </a>
 </div>

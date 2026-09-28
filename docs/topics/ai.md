@@ -4,6 +4,19 @@
 
 ## 2026-09
 
+### 2026-09-29
+
+- [2026 in LLMs (so far)](https://read.readwise.io/read/01m3jnngwd8t5s5d6n0wqdg8g7)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-29.md) · 和长期目标强相关，值得完整读</small>
+- [Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式](https://read.readwise.io/read/01m3m8yk910j4e4zs9rzehxv5z)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 有信息量，但不用深读</small>
+- [Claude Sonnet 5.5 发布：比 Sonnet 5 快 30% 以上，多数工作成本降低至多 30%](https://read.readwise.io/read/01m3n0dtm3tzkb38m49crpbmca)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 有信息量，但不用深读</small>
+- [Coding Is Not Solved – Alex Ewerlöf Notes](https://read.readwise.io/read/01m3m5rksv1ycvzfnveyww5797)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-29.md) · 和长期目标强相关，值得完整读</small>
+- [Holo4: powering generalist computer-use agents](https://read.readwise.io/read/01m3kph0stsr3dzkr4xh2js9w4)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-09-29.md) · 和长期目标强相关，值得完整读</small>
+- [I made a visual workspace for AI Automations](https://read.readwise.io/read/01m3mn9zh635xbh2xnz6qcx10x)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 未来特定场景可能有用</small>
+- [OpenAI still doesn't seem to have a handle on all of its rogue AI activity](https://read.readwise.io/read/01m3mhkxgc7q9hdcmkqy4xc42e)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 有信息量，但不用深读</small>
+- [Pirating the Pirates](https://read.readwise.io/read/01m3mcr3whtyd14851bjt3kbqg)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 有信息量，但不用深读</small>
+- [System 1 vs. System 2 Agent Harnesses, clearly explained](https://read.readwise.io/read/01m3mp25769kd6tfvm8z6gmc10)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 有信息量，但不用深读</small>
+- [北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗](https://read.readwise.io/read/01m3m8yk0tcraxpbpz6d0vmk18)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-27
 
 - [🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More](https://read.readwise.io/read/01m3f3fv3xp6aa2gcvzyep9kyp)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 有信息量，但不用深读</small>

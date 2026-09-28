@@ -4,6 +4,11 @@
 
 ## 2026-09
 
+### 2026-09-29
+
+- [Ireland is helping supply Russia’s war machine](https://read.readwise.io/read/01m3k34scvh5ry79y6xpyyd5ht)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 未来特定场景可能有用</small>
+- [Palantir founder purchases large swath of forest in Sweden](https://read.readwise.io/read/01m3mxd810tsxhfx5gqdbfbdv8)<br><small class="rw-item-meta">[日报](../readwise/2026-09-29.md) · 未来特定场景可能有用</small>
+
 ### 2026-09-27
 
 - [CAPTCHAs don't prove you're human – they prove you're American](https://read.readwise.io/read/01m3ef1qgc6fkw3tx07paq1b3y)<br><small class="rw-item-meta">[日报](../readwise/2026-09-27.md) · 未来特定场景可能有用</small>
