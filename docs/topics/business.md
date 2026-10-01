@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Business** 的条目。
 
+## 2026-10
+
+### 2026-10-02
+
+- [The EU budget is where grand strategy meets petty squabbling](https://read.readwise.io/read/01m3w31ygwv3x93zn04rzpr4t9)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>
+
 ## 2026-09
 
 ### 2026-09-02

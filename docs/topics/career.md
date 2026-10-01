@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **Career** 的条目。
 
+## 2026-10
+
+### 2026-10-02
+
+- [Navalmanack: The Almanack of Naval Ravikant and more](https://read.readwise.io/read/01m3war1qmy3cywvysqkagdtjr)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>
+
 ## 2026-09
 
 ### 2026-09-27

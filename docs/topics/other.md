@@ -2,6 +2,13 @@
 
 最近 Readwise 日报中归入 **Other** 的条目。
 
+## 2026-10
+
+### 2026-10-02
+
+- [Polyedergarten: Garden of Paper Polyhedron Models](https://read.readwise.io/read/01m3w0dx6x1jwve8ee733aedha)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>
+- [Red Hat Being Phased Out of Existence (Like Many Other Companies IBM Bought)](https://read.readwise.io/read/01m3w24x6gn639t56mkn1w5peq)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>
+
 ## 2026-09
 
 ### 2026-09-29

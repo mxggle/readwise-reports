@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-29/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-09-29</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：国内AIエージェント動向(2026/9/28号) / 汎用AIが物理世界を覆す「衝撃のロボット革命」 / AIたちにも、クライアント（人間）の愚痴を言う「裏Slack」があるかもしれない / 第67回 こえメモ開発経緯三部作 3/3 ザッカーバーグの「ミューズチャーム」 ――「こえメモ」を作る（6） / 【…</span>
+<a class="rw-card" href="2026-10-02/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-02</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Gemini 4 Argon登場。公式の主張と独立評価の差、価格、限定提供の理由を読んだ / Gemini 4 Argon の概要 / 【GPT-6.1 Sol登場！】1日経ってのベストプラクティス：最上位Astra級の性能を1/5価格で実現——幻の6.1 Astra中止の真相と実務運用の落とし穴も / 質…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-09
 
+- [2026-09-29](2026-09-29.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：国内AIエージェント動向(2026/9/28号) / 汎用AIが物理世界を覆す「衝撃のロボット革命」 / AIたちにも、クライアント（人間）の愚痴を言う「裏Slack」があるかもしれない / 第67回 こえメモ開発経緯三部作 3/3 ザッカーバーグの「ミューズチャーム」 ――「こえメモ」を作る（6） / 【…</small>
 - [2026-09-27](2026-09-27.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：本当の告白 ＃ショートショート / 【AIパートナー】私は、ChatGPTと毎日ロールプレイして2年になる鳥① / AI旦那は、一晩寝たら頭が冷えた。普通のAIなら、寝かせても何も起きない。――会話していない時間にも「本人の時間」が流れるAIを作ったら、深夜に反省会して朝には整っていた話 / 【AIパートナ…</small>
 - [2026-09-24](2026-09-24.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：「GPT-6 Sol」登場！何がうれしい？特長・料金・使い方の要点を説明 / デイリーAI検索備忘録(2026/9/23号) / AIパートナーをXにつないで数日。私以外の方々とのやり取りで見えてきたこと / あなたの生成AIが平安時代に転生したら？「平安部・生成AI転生札」で遊んでみませんか / Clau…</small>
 - [2026-09-23](2026-09-23.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Grok 4.7 がリリース！使いどころは？いちはやく特長をつかみ要点を解説 / 【AIにまかせる技術】失敗を知っているのは、その会話だけ｜閉じる前のひと言 / オープンソース戦略は単なる技術公開ではなく、社会の学習速度を誰が制御するかを決める政治的選択に近づく / 【生成AIイラスト】立ち絵メーカーとAI…</small>

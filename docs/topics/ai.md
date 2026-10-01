@@ -2,6 +2,19 @@
 
 最近 Readwise 日报中归入 **AI** 的条目。
 
+## 2026-10
+
+### 2026-10-02
+
+- [Bez: Generating a browser engine from specs and tests](https://read.readwise.io/read/01m3wcxgcr2khrm2wr66da8e6x)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>
+- [Big Tech's Capex Is Half of Wall Street's Profit Growth](https://read.readwise.io/read/01m3wf717a0r98gyb00mmvbgv0)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>
+- [Git 3.0's upcoming SHA-256 default will be a costly mistake](https://read.readwise.io/read/01m3w7k6w1w0bwbyyvpmw18nd9)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-02.md) · 和长期目标强相关，值得完整读</small>
+- [MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9](https://read.readwise.io/read/01m3wpvzjvk2ykppzah4s093b2)<br><small class="rw-item-meta">`READ` · 92/100 · [日报](../readwise/2026-10-02.md) · 和长期目标强相关，值得完整读</small>
+- [Pi 1.0](https://read.readwise.io/read/01m3wfy5caxmsfnz0a3kje3a5d)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>
+- [Price Increases for 2GB Raspberry Pi 4 and Raspberry Pi 5](https://read.readwise.io/read/01m3vqvbwa6j7z02yt8hfjsepy)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>
+- [Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia](https://read.readwise.io/read/01m3wmmzycvknsk2x0yxtsdvb8)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>
+- [The Great Cholesterol Scam and the Dangers of Statins](https://read.readwise.io/read/01m3tfzmgsx3ytxxc9w74ppsxz)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-02.md) · 和长期目标强相关，值得完整读</small>
+
 ## 2026-09
 
 ### 2026-09-29

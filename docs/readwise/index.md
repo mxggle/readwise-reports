@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-09-29/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-09-29</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI、Japanese。最值得优先处理的是《Coding Is Not Solved – Alex Ewerlöf Notes》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执</span>
+<a class="rw-card" href="2026-10-02/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-02</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Git 3.0's upcoming SHA-256 default will be a costly mistake》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-09
 
+- [2026-09-29](2026-09-29.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Japanese。最值得优先处理的是《Coding Is Not Solved – Alex Ewerlöf Notes》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执</small>
 - [2026-09-27](2026-09-27.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《DeepSeek Elastic Compute (DSec)》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-09-24](2026-09-24.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows》。整体建议是少追新闻，多沉淀能服务求职、英语/日</small>
 - [2026-09-23](2026-09-23.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《OpenAI is about to eat Jev's lunch – Arcturus Labs》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执</small>
