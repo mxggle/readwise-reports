@@ -2,6 +2,12 @@
 
 最近 Readwise 日报中归入 **English** 的条目。
 
+## 2026-10
+
+### 2026-10-03
+
+- [US tells France and Germany to release diesel stocks or face US export ban](https://read.readwise.io/read/01m3xnzw3fj41cg7wv43kayk4j)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
+
 ## 2026-09
 
 ### 2026-09-21

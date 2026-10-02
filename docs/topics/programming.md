@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-03
+
+- [DeepSeek Harness Desktop for macOS and Windows](https://read.readwise.io/read/01m3xcrga7svhf4fmtzxr4bqq9)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-02
 
 - [StreetComplete on iOS is now in public beta](https://read.readwise.io/read/01m3vk5da1ah5hee4ycff1vhmn)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>

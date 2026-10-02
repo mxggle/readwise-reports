@@ -5,14 +5,18 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-02/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-02</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Git 3.0's upcoming SHA-256 default will be a costly mistake》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top</span>
+<a class="rw-card" href="2026-10-03/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-03</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Open-sourcing AstaBrief, the fast report-generation model in Asta》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
 
 ## 更早
+
+### 2026-10
+
+- [2026-10-02](2026-10-02.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Git 3.0's upcoming SHA-256 default will be a costly mistake》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top</small>
 
 ### 2026-09
 

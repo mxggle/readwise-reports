@@ -4,6 +4,19 @@
 
 ## 2026-10
 
+### 2026-10-03
+
+- [Amazon seeks to offload $8B of Nvidia chips to investors](https://read.readwise.io/read/01m3yhh4xs934dazqvgrtk4f0f)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
+- [Apple's smart home camera reportedly won't record video](https://read.readwise.io/read/01m3wxw5gkdr5ez3eye4gw05wg)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
+- [Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管](https://read.readwise.io/read/01m3xwc04ha7zxqpmdnvtv3pqk)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
+- [Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署](https://read.readwise.io/read/01m3ywj62kmchtcmhm33n3kkss)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
+- [GrapheneOS has fixed the Android 17 QPR1 kernel performance regression](https://read.readwise.io/read/01m3z2xvjhxa5s8p92mzcc2hbg)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
+- [Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience](https://read.readwise.io/read/01m3yf9spg57xtwbkthmz11s2x)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-03.md) · 和长期目标强相关，值得完整读</small>
+- [Open-sourcing AstaBrief, the fast report-generation model in Asta](https://read.readwise.io/read/01m3zb706pehk1e402v3zz599m)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-03.md) · 和长期目标强相关，值得完整读</small>
+- [The Harness Is the Company](https://read.readwise.io/read/01m3z9g9daf2h2aq1gzngqwhz4)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
+- [What If We Stopped Using GPUs? | YC Paper Club](https://read.readwise.io/read/01m3yyxkfnywvhys0h2ryhgrx3)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-03.md) · 和长期目标强相关，值得完整读</small>
+- [Zig v0.17.0](https://read.readwise.io/read/01m3z7603hz0zv735z7hdbbct8)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-02
 
 - [Bez: Generating a browser engine from specs and tests](https://read.readwise.io/read/01m3wcxgcr2khrm2wr66da8e6x)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 有信息量，但不用深读</small>

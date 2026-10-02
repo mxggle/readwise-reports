@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-03
+
+- [Several vulnerabilities have been discovered in the Linux kernel](https://read.readwise.io/read/01m3wzfm882yngfs262wrpq2rt)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-02
 
 - [Polyedergarten: Garden of Paper Polyhedron Models](https://read.readwise.io/read/01m3w0dx6x1jwve8ee733aedha)<br><small class="rw-item-meta">[日报](../readwise/2026-10-02.md) · 未来特定场景可能有用</small>

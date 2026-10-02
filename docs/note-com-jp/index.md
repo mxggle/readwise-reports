@@ -5,14 +5,18 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-02/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-02</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Gemini 4 Argon登場。公式の主張と独立評価の差、価格、限定提供の理由を読んだ / Gemini 4 Argon の概要 / 【GPT-6.1 Sol登場！】1日経ってのベストプラクティス：最上位Astra級の性能を1/5価格で実現——幻の6.1 Astra中止の真相と実務運用の落とし穴も / 質…</span>
+<a class="rw-card" href="2026-10-03/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-03</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：生成AI時代に「淘汰される人・伸びる人」は何が違うのか？AI仙人の警告から読み解く、3年後も価値を上げ続ける6つの生存戦略 / ChatGPT6.1solの超知能、ちょっと働いてくれ。AIが好きな私の少し怖い妄想ChatGPTのヨシダ / 文系ビジネスパーソンが理解する「Jevとは何か」…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
 
 ## 更早
+
+### 2026-10
+
+- [2026-10-02](2026-10-02.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Gemini 4 Argon登場。公式の主張と独立評価の差、価格、限定提供の理由を読んだ / Gemini 4 Argon の概要 / 【GPT-6.1 Sol登場！】1日経ってのベストプラクティス：最上位Astra級の性能を1/5価格で実現——幻の6.1 Astra中止の真相と実務運用の落とし穴も / 質…</small>
 
 ### 2026-09
 
