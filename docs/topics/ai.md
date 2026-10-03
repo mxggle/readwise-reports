@@ -4,6 +4,16 @@
 
 ## 2026-10
 
+### 2026-10-04
+
+- [ADHD, autism or complex trauma? [pdf\]](https://read.readwise.io/read/01m41hvy3e9ykgvc04yvjarf3f)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-04.md) · 和长期目标强相关，值得完整读</small>
+- [Elon Musk Emails](https://read.readwise.io/read/01m41pee2vfakkrw8kjr32qdra)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 有信息量，但不用深读</small>
+- [EP228: How SSH Works](https://read.readwise.io/read/01m4170y9agcar9fxgp2a8xysx)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 有信息量，但不用深读</small>
+- [FTL: A new operating system for clouds](https://read.readwise.io/read/01m416sm6bybayrcka6zvxm8s4)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 有信息量，但不用深读</small>
+- [How Work is Organized Inside a GPU](https://read.readwise.io/read/01m41w7mv5jndqcbxna6cfb6rx)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 有信息量，但不用深读</small>
+- [Kolibri – Tech Report [pdf\]](https://read.readwise.io/read/01m41hvydnwhc36hxr5gh4jab2)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-04.md) · 和长期目标强相关，值得完整读</small>
+- [We want you to build the next Git platform on Cloudflare](https://read.readwise.io/read/01m41pee8azn1bfyrh7a41m1wg)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-03
 
 - [Amazon seeks to offload $8B of Nvidia chips to investors](https://read.readwise.io/read/01m3yhh4xs934dazqvgrtk4f0f)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>

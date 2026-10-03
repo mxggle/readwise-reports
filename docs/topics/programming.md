@@ -4,6 +4,11 @@
 
 ## 2026-10
 
+### 2026-10-04
+
+- [Reasons I didn't become an EMT, ranked](https://read.readwise.io/read/01m41wxem6f04pk67gr0w9dcfz)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-04.md) · 和长期目标强相关，值得完整读</small>
+- [Try the easy version first.](https://read.readwise.io/read/01m40xd728jw12t7a1qgns348p)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-03
 
 - [DeepSeek Harness Desktop for macOS and Windows](https://read.readwise.io/read/01m3xcrga7svhf4fmtzxr4bqq9)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>

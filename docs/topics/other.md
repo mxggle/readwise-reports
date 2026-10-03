@@ -4,6 +4,12 @@
 
 ## 2026-10
 
+### 2026-10-04
+
+- [Hole Punch: Sling your spaceship around gravitational fields](https://read.readwise.io/read/01m41hvy93xqa5awc4qxqvvfwf)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 未来特定场景可能有用</small>
+- [Rex's Dino Store](https://read.readwise.io/read/01m41f5mzsrea81dyyc2z58wkv)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 未来特定场景可能有用</small>
+- [Where Is the Planet](https://read.readwise.io/read/01m3zmcf08pnhh2wx3yfmt7fte)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-03
 
 - [Several vulnerabilities have been discovered in the Linux kernel](https://read.readwise.io/read/01m3wzfm882yngfs262wrpq2rt)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 未来特定场景可能有用</small>
