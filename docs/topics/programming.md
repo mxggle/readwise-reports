@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-05
+
+- [Show HN: Build with Python – a beginner course where your code draws](https://read.readwise.io/read/01m448bvk3z901jws035znn4ad)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-04
 
 - [Reasons I didn't become an EMT, ranked](https://read.readwise.io/read/01m41wxem6f04pk67gr0w9dcfz)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-04.md) · 和长期目标强相关，值得完整读</small>

@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-05
+
+- [Bob Cringely Has Died](https://read.readwise.io/read/01m4289xjwrwp4n20y033m0h3q)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-04
 
 - [French Bond Risk Hits Euro-Crisis Levels](https://read.readwise.io/read/01m4101rjfqwfhw34vc749tr83)<br><small class="rw-item-meta">[日报](../readwise/2026-10-04.md) · 未来特定场景可能有用</small>

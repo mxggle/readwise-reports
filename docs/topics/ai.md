@@ -4,6 +4,15 @@
 
 ## 2026-10
 
+### 2026-10-05
+
+- [😺 a16z: Only 2% disclose tracked AI metrics](https://read.readwise.io/read/01m440w2zr17vd7y5cdkxfqxdv)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-05.md) · 和长期目标强相关，值得完整读</small>
+- [Artificial symbiotic intelligence ⊗ The politics of the planetary](https://read.readwise.io/read/01m436brnh7w7pqdpnea96p2f2)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-05.md) · 和长期目标强相关，值得完整读</small>
+- [Background Passive FTP with No GUI Control Survives Apple Store DFU](https://read.readwise.io/read/01m441r8f2yhm3pkwsepv1ss68)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>
+- [Improper redaction reveals Google Data Center water and electricity usage](https://read.readwise.io/read/01m448xmexexhzpc8fq4zqwcac)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 未来特定场景可能有用</small>
+- [Software Engineering Is Dead. Long Live Product Engineering](https://read.readwise.io/read/01m4440pxpgqbampxmma23ea4c)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>
+- [The End of TCP for AI Clusters — John Ousterhout, Stanford](https://read.readwise.io/read/01m448xmdfspvyaj5q47x5ehyf)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-05.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-10-04
 
 - [ADHD, autism or complex trauma? [pdf\]](https://read.readwise.io/read/01m41hvy3e9ykgvc04yvjarf3f)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-04.md) · 和长期目标强相关，值得完整读</small>

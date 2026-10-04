@@ -4,6 +4,12 @@
 
 ## 2026-10
 
+### 2026-10-05
+
+- [Blindsight (Watts Novel)](https://read.readwise.io/read/01m441r8g5t2fafj5c8dzh7wf9)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>
+- [Caffè Corretto](https://read.readwise.io/read/01m43vxtdvaz8zht7ff9s9cj5n)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>
+- [VGHF Digital Archive passes 5000 magazines. Here's what's next](https://read.readwise.io/read/01m435sj63xtdmc7h6xcp9gt15)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-03
 
 - [US tells France and Germany to release diesel stocks or face US export ban](https://read.readwise.io/read/01m3xnzw3fj41cg7wv43kayk4j)<br><small class="rw-item-meta">[日报](../readwise/2026-10-03.md) · 有信息量，但不用深读</small>
