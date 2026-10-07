@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-05/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-05</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：AIは自我を持ち始め、経営者は自我を手放し始めた？AI時代の意思決定と経営責任 / 『そうですね』と言い続けるAI👻迎合とハルシネーション / AIは人間の文章を見抜けるか。黒パグの鑑識クイズを解かせたら、回答者まで検体になった / これからは「AIに聞く」から「AIに任せる」へ。AIエージェント入門…</span>
+<a class="rw-card" href="2026-10-07/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-07</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【コンテスト作品紹介 Vol.1】Geminiと一緒に可能性を広げる。「AIとできたこと」の素敵な投稿をご紹介 / 【AI作詞紹介】思い出は未来を照らす星になる / 自分の時間を、自分が大切だと思うものに使えてる？時間の使い方が人生を変える。 / お客様の質問をAIで読まれる独自性のある記事構成を作る方法 …</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-10
 
+- [2026-10-05](2026-10-05.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIは自我を持ち始め、経営者は自我を手放し始めた？AI時代の意思決定と経営責任 / 『そうですね』と言い続けるAI👻迎合とハルシネーション / AIは人間の文章を見抜けるか。黒パグの鑑識クイズを解かせたら、回答者まで検体になった / これからは「AIに聞く」から「AIに任せる」へ。AIエージェント入門…</small>
 - [2026-10-04](2026-10-04.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Stray Sheep 07 サイバー攻撃著増が意味すること / 冬が近づく 裏口を空ける そのまま 🌲🎃ﾕﾆｰ句 / キャラ設定、これだけでも動く？ 極小プロフィールで5人組アイドルを作ってみた｜zeta / Geminiの安全装置、ただ厳しくなっただけじゃない。ペルソナごと剥がれる拒否を観測した /…</small>
 - [2026-10-03](2026-10-03.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：生成AI時代に「淘汰される人・伸びる人」は何が違うのか？AI仙人の警告から読み解く、3年後も価値を上げ続ける6つの生存戦略 / ChatGPT6.1solの超知能、ちょっと働いてくれ。AIが好きな私の少し怖い妄想ChatGPTのヨシダ / 文系ビジネスパーソンが理解する「Jevとは何か」…</small>
 - [2026-10-02](2026-10-02.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Gemini 4 Argon登場。公式の主張と独立評価の差、価格、限定提供の理由を読んだ / Gemini 4 Argon の概要 / 【GPT-6.1 Sol登場！】1日経ってのベストプラクティス：最上位Astra級の性能を1/5価格で実現——幻の6.1 Astra中止の真相と実務運用の落とし穴も / 質…</small>

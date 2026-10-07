@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">805 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">The End of TCP for AI Clusters — John Ousterhout, Stanford</span><span class="rw-topic__item">Artificial symbiotic intelligence ⊗ The politics of the planetary</span><span class="rw-topic__item">😺 a16z: Only 2% disclose tracked AI metrics</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">818 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Mathematics of Geothermal Energy</span><span class="rw-topic__item">OpenSSH 10.6 Released</span><span class="rw-topic__item">Why LLMs Agree With You Even When You’re Wrong</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">74 条</span></span>

@@ -4,6 +4,22 @@
 
 ## 2026-10
 
+### 2026-10-07
+
+- [Adobe Creative Suite Cleanroom Ported to Rust](https://read.readwise.io/read/01m499vtvsnw3e1mmatbc7jxj5)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>
+- [Apple partners with LG, Mistral previews Le Chonk](https://read.readwise.io/read/01m49v32nbww4t3yhke4kk7ryj)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>
+- [Chunked Prefill, clearly explained](https://read.readwise.io/read/01m49v67yxha37d3t9ymz4t6cd)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>
+- [Claude 接入 Google Docs、Sheets 和 Slides，支持侧边栏就地编辑](https://read.readwise.io/read/01m4969z91tew2fk0zv2m30h11)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 未来特定场景可能有用</small>
+- [introducing @NanoBanana 2.1 🍌](https://read.readwise.io/read/01m499vtyths9skz8e4p3pbndv)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 未来特定场景可能有用</small>
+- [llm-mistral 0.16](https://read.readwise.io/read/01m49jjgyeccx48db2fn4f17tj)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 未来特定场景可能有用</small>
+- [Mathematics of Geothermal Energy](https://read.readwise.io/read/01m48p171f2789xsrv0tgpnnev)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-07.md) · 和长期目标强相关，值得完整读</small>
+- [Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重](https://read.readwise.io/read/01m4969zekps6rv7kqtec47w20)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 未来特定场景可能有用</small>
+- [OpenAI just dropped 700 preprints of mathematical proofs and counterexamples](https://read.readwise.io/read/01m49t3kbrx1c73mgg1qa0a9ar)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 未来特定场景可能有用</small>
+- [OpenSSH 10.6 Released](https://read.readwise.io/read/01m49fwmzxxqtd7qw88ky9z8kn)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-07.md) · 和长期目标强相关，值得完整读</small>
+- [The state of the tech industry in 2026](https://read.readwise.io/read/01m4917mhr248qm58csmtew2vc)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>
+- [Vibecoding isn't as fun as writing code by hand](https://read.readwise.io/read/01m48vrrcd1zmdxzghfjjv8q9t)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>
+- [Why LLMs Agree With You Even When You’re Wrong](https://read.readwise.io/read/01m48yc06422mekwgey5d0c38s)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-07.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-10-05
 
 - [😺 a16z: Only 2% disclose tracked AI metrics](https://read.readwise.io/read/01m440w2zr17vd7y5cdkxfqxdv)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-05.md) · 和长期目标强相关，值得完整读</small>
