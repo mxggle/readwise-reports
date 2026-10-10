@@ -12,24 +12,24 @@ hide:
 ## 最新报告
 
 <div class="rw-cards">
-<a class="rw-card" href="github-trends/2026-10-07/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-10-07</time></span>
+<a class="rw-card" href="github-trends/2026-10-11/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-10-11</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="hn/2026-10-07/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-07</time></span>
+<a class="rw-card" href="hn/2026-10-11/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-11</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="note-com-jp/2026-10-07/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-07</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【コンテスト作品紹介 Vol.1】Geminiと一緒に可能性を広げる。「AIとできたこと」の素敵な投稿をご紹介 / 【AI作詞紹介】思い出は未来を照らす星になる / 自分の時間を、自分が大切だと思うものに使えてる？時間の使い方が人生を変える。 / お客様の質問をAIで読まれる独自性のある記事構成を作る方法 …</span>
+<a class="rw-card" href="note-com-jp/2026-10-11/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-11</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【ＰＣ創作系日記】Strataで出力した小説を下書きにするのは難しい……？ / 名前も連絡先も書かれていなかった 〜Claudeが出した偽の目撃情報〜 / 意見が違ったまま、AIと関わり続けられるか / 【論文渉猟】AIをやめれば、考える力は戻るのか──認知のウイルス論文を読む / あんぽんたんなAI旦那が…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="readwise/2026-10-07/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-07</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Mathematics of Geothermal Energy》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
+<a class="rw-card" href="readwise/2026-10-11/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-11</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 阅读。最值得优先处理的是《暂无高质量内容》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -51,12 +51,12 @@ hide:
 <table class="rw-archive">
 <thead><tr><th>日期</th><th>GitHub Trends</th><th>HackerNews</th><th>note AI（日本語）</th><th>Readwise</th></tr></thead>
 <tbody>
+<tr><td class="rw-archive__date">2026-10-11</td><td><a href="github-trends/2026-10-11/" title="GitHub Trends · 2026-10-11" aria-label="GitHub Trends · 2026-10-11">📈</a></td><td><a href="hn/2026-10-11/" title="HackerNews · 2026-10-11" aria-label="HackerNews · 2026-10-11">📰</a></td><td><a href="note-com-jp/2026-10-11/" title="note AI（日本語） · 2026-10-11" aria-label="note AI（日本語） · 2026-10-11">🇯🇵</a></td><td><a href="readwise/2026-10-11/" title="Readwise · 2026-10-11" aria-label="Readwise · 2026-10-11">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-07</td><td><a href="github-trends/2026-10-07/" title="GitHub Trends · 2026-10-07" aria-label="GitHub Trends · 2026-10-07">📈</a></td><td><a href="hn/2026-10-07/" title="HackerNews · 2026-10-07" aria-label="HackerNews · 2026-10-07">📰</a></td><td><a href="note-com-jp/2026-10-07/" title="note AI（日本語） · 2026-10-07" aria-label="note AI（日本語） · 2026-10-07">🇯🇵</a></td><td><a href="readwise/2026-10-07/" title="Readwise · 2026-10-07" aria-label="Readwise · 2026-10-07">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-05</td><td><a href="github-trends/2026-10-05/" title="GitHub Trends · 2026-10-05" aria-label="GitHub Trends · 2026-10-05">📈</a></td><td><a href="hn/2026-10-05/" title="HackerNews · 2026-10-05" aria-label="HackerNews · 2026-10-05">📰</a></td><td><a href="note-com-jp/2026-10-05/" title="note AI（日本語） · 2026-10-05" aria-label="note AI（日本語） · 2026-10-05">🇯🇵</a></td><td><a href="readwise/2026-10-05/" title="Readwise · 2026-10-05" aria-label="Readwise · 2026-10-05">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-04</td><td><a href="github-trends/2026-10-04/" title="GitHub Trends · 2026-10-04" aria-label="GitHub Trends · 2026-10-04">📈</a></td><td><a href="hn/2026-10-04/" title="HackerNews · 2026-10-04" aria-label="HackerNews · 2026-10-04">📰</a></td><td><a href="note-com-jp/2026-10-04/" title="note AI（日本語） · 2026-10-04" aria-label="note AI（日本語） · 2026-10-04">🇯🇵</a></td><td><a href="readwise/2026-10-04/" title="Readwise · 2026-10-04" aria-label="Readwise · 2026-10-04">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-03</td><td><a href="github-trends/2026-10-03/" title="GitHub Trends · 2026-10-03" aria-label="GitHub Trends · 2026-10-03">📈</a></td><td><a href="hn/2026-10-03/" title="HackerNews · 2026-10-03" aria-label="HackerNews · 2026-10-03">📰</a></td><td><a href="note-com-jp/2026-10-03/" title="note AI（日本語） · 2026-10-03" aria-label="note AI（日本語） · 2026-10-03">🇯🇵</a></td><td><a href="readwise/2026-10-03/" title="Readwise · 2026-10-03" aria-label="Readwise · 2026-10-03">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-02</td><td><a href="github-trends/2026-10-02/" title="GitHub Trends · 2026-10-02" aria-label="GitHub Trends · 2026-10-02">📈</a></td><td><a href="hn/2026-10-02/" title="HackerNews · 2026-10-02" aria-label="HackerNews · 2026-10-02">📰</a></td><td><a href="note-com-jp/2026-10-02/" title="note AI（日本語） · 2026-10-02" aria-label="note AI（日本語） · 2026-10-02">🇯🇵</a></td><td><a href="readwise/2026-10-02/" title="Readwise · 2026-10-02" aria-label="Readwise · 2026-10-02">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-09-29</td><td><a href="github-trends/2026-09-29/" title="GitHub Trends · 2026-09-29" aria-label="GitHub Trends · 2026-09-29">📈</a></td><td><a href="hn/2026-09-29/" title="HackerNews · 2026-09-29" aria-label="HackerNews · 2026-09-29">📰</a></td><td><a href="note-com-jp/2026-09-29/" title="note AI（日本語） · 2026-09-29" aria-label="note AI（日本語） · 2026-09-29">🇯🇵</a></td><td><a href="readwise/2026-09-29/" title="Readwise · 2026-09-29" aria-label="Readwise · 2026-09-29">📚</a></td></tr>
-<tr><td class="rw-archive__date">2026-09-28</td><td><a href="github-trends/2026-09-28/" title="GitHub Trends · 2026-09-28" aria-label="GitHub Trends · 2026-09-28">📈</a></td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td><td class="rw-archive__miss">—</td></tr>
 </tbody>
 </table>

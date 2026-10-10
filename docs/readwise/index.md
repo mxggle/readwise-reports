@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-07/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-07</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Mathematics of Geothermal Energy》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
+<a class="rw-card" href="2026-10-11/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-11</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 阅读。最值得优先处理的是《暂无高质量内容》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-10
 
+- [2026-10-07](2026-10-07.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Mathematics of Geothermal Energy》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-10-05](2026-10-05.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《The End of TCP for AI Clusters — John Ousterhout, Stanford》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1</small>
 - [2026-10-04](2026-10-04.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI、Programming。最值得优先处理的是《Kolibri – Tech Report [pdf]》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>
 - [2026-10-03](2026-10-03.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Open-sourcing AstaBrief, the fast report-generation model in Asta》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读</small>
