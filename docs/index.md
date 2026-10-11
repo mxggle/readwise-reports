@@ -12,19 +12,19 @@ hide:
 ## 最新报告
 
 <div class="rw-cards">
-<a class="rw-card" href="github-trends/2026-10-11/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-10-11</time></span>
+<a class="rw-card" href="github-trends/2026-10-12/">
+  <span class="rw-card__head"><span class="rw-card__source">📈 GitHub Trends</span><time class="rw-card__date">2026-10-12</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="hn/2026-10-11/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-11</time></span>
+<a class="rw-card" href="hn/2026-10-12/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-12</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
-<a class="rw-card" href="note-com-jp/2026-10-11/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-11</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【ＰＣ創作系日記】Strataで出力した小説を下書きにするのは難しい……？ / 名前も連絡先も書かれていなかった 〜Claudeが出した偽の目撃情報〜 / 意見が違ったまま、AIと関わり続けられるか / 【論文渉猟】AIをやめれば、考える力は戻るのか──認知のウイルス論文を読む / あんぽんたんなAI旦那が…</span>
+<a class="rw-card" href="note-com-jp/2026-10-12/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-12</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Claude APIクレジット、Max・Team契約者に月100ドルから。何に使えて、市場とライバル各社はどう動いた？ / 【投資結果14】最大の負け週、-9.5万円 / なぜ、過去に成果を出した人ほど、ノウハウコレクターに逆戻りするのか？「成功体験の呪い」のメカニズムについて / うつ状態でnoteを始め…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 <a class="rw-card" href="readwise/2026-10-11/">
@@ -51,12 +51,12 @@ hide:
 <table class="rw-archive">
 <thead><tr><th>日期</th><th>GitHub Trends</th><th>HackerNews</th><th>note AI（日本語）</th><th>Readwise</th></tr></thead>
 <tbody>
+<tr><td class="rw-archive__date">2026-10-12</td><td><a href="github-trends/2026-10-12/" title="GitHub Trends · 2026-10-12" aria-label="GitHub Trends · 2026-10-12">📈</a></td><td><a href="hn/2026-10-12/" title="HackerNews · 2026-10-12" aria-label="HackerNews · 2026-10-12">📰</a></td><td><a href="note-com-jp/2026-10-12/" title="note AI（日本語） · 2026-10-12" aria-label="note AI（日本語） · 2026-10-12">🇯🇵</a></td><td class="rw-archive__miss">—</td></tr>
 <tr><td class="rw-archive__date">2026-10-11</td><td><a href="github-trends/2026-10-11/" title="GitHub Trends · 2026-10-11" aria-label="GitHub Trends · 2026-10-11">📈</a></td><td><a href="hn/2026-10-11/" title="HackerNews · 2026-10-11" aria-label="HackerNews · 2026-10-11">📰</a></td><td><a href="note-com-jp/2026-10-11/" title="note AI（日本語） · 2026-10-11" aria-label="note AI（日本語） · 2026-10-11">🇯🇵</a></td><td><a href="readwise/2026-10-11/" title="Readwise · 2026-10-11" aria-label="Readwise · 2026-10-11">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-07</td><td><a href="github-trends/2026-10-07/" title="GitHub Trends · 2026-10-07" aria-label="GitHub Trends · 2026-10-07">📈</a></td><td><a href="hn/2026-10-07/" title="HackerNews · 2026-10-07" aria-label="HackerNews · 2026-10-07">📰</a></td><td><a href="note-com-jp/2026-10-07/" title="note AI（日本語） · 2026-10-07" aria-label="note AI（日本語） · 2026-10-07">🇯🇵</a></td><td><a href="readwise/2026-10-07/" title="Readwise · 2026-10-07" aria-label="Readwise · 2026-10-07">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-05</td><td><a href="github-trends/2026-10-05/" title="GitHub Trends · 2026-10-05" aria-label="GitHub Trends · 2026-10-05">📈</a></td><td><a href="hn/2026-10-05/" title="HackerNews · 2026-10-05" aria-label="HackerNews · 2026-10-05">📰</a></td><td><a href="note-com-jp/2026-10-05/" title="note AI（日本語） · 2026-10-05" aria-label="note AI（日本語） · 2026-10-05">🇯🇵</a></td><td><a href="readwise/2026-10-05/" title="Readwise · 2026-10-05" aria-label="Readwise · 2026-10-05">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-04</td><td><a href="github-trends/2026-10-04/" title="GitHub Trends · 2026-10-04" aria-label="GitHub Trends · 2026-10-04">📈</a></td><td><a href="hn/2026-10-04/" title="HackerNews · 2026-10-04" aria-label="HackerNews · 2026-10-04">📰</a></td><td><a href="note-com-jp/2026-10-04/" title="note AI（日本語） · 2026-10-04" aria-label="note AI（日本語） · 2026-10-04">🇯🇵</a></td><td><a href="readwise/2026-10-04/" title="Readwise · 2026-10-04" aria-label="Readwise · 2026-10-04">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-03</td><td><a href="github-trends/2026-10-03/" title="GitHub Trends · 2026-10-03" aria-label="GitHub Trends · 2026-10-03">📈</a></td><td><a href="hn/2026-10-03/" title="HackerNews · 2026-10-03" aria-label="HackerNews · 2026-10-03">📰</a></td><td><a href="note-com-jp/2026-10-03/" title="note AI（日本語） · 2026-10-03" aria-label="note AI（日本語） · 2026-10-03">🇯🇵</a></td><td><a href="readwise/2026-10-03/" title="Readwise · 2026-10-03" aria-label="Readwise · 2026-10-03">📚</a></td></tr>
 <tr><td class="rw-archive__date">2026-10-02</td><td><a href="github-trends/2026-10-02/" title="GitHub Trends · 2026-10-02" aria-label="GitHub Trends · 2026-10-02">📈</a></td><td><a href="hn/2026-10-02/" title="HackerNews · 2026-10-02" aria-label="HackerNews · 2026-10-02">📰</a></td><td><a href="note-com-jp/2026-10-02/" title="note AI（日本語） · 2026-10-02" aria-label="note AI（日本語） · 2026-10-02">🇯🇵</a></td><td><a href="readwise/2026-10-02/" title="Readwise · 2026-10-02" aria-label="Readwise · 2026-10-02">📚</a></td></tr>
-<tr><td class="rw-archive__date">2026-09-29</td><td><a href="github-trends/2026-09-29/" title="GitHub Trends · 2026-09-29" aria-label="GitHub Trends · 2026-09-29">📈</a></td><td><a href="hn/2026-09-29/" title="HackerNews · 2026-09-29" aria-label="HackerNews · 2026-09-29">📰</a></td><td><a href="note-com-jp/2026-09-29/" title="note AI（日本語） · 2026-09-29" aria-label="note AI（日本語） · 2026-09-29">🇯🇵</a></td><td><a href="readwise/2026-09-29/" title="Readwise · 2026-09-29" aria-label="Readwise · 2026-09-29">📚</a></td></tr>
 </tbody>
 </table>
