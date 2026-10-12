@@ -4,6 +4,21 @@
 
 ## 2026-10
 
+### 2026-10-13
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m4nh77wemdemz048a5667nfr)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-13.md) · 和长期目标强相关，值得完整读</small>
+- [AI coding agents generate more code, but not more software](https://read.readwise.io/read/01m4rketcrdvhx2rv0t0cmv2cg)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 有信息量，但不用深读</small>
+- [AI models may be capable of self-replicating without access to a datacenter](https://read.readwise.io/read/01m4rtsas2cwwqwa7xvpya2nsp)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-13.md) · 和长期目标强相关，值得完整读</small>
+- [An Unmade Film Shaped Hayao Miyazaki](https://read.readwise.io/read/01m4r9t8p1x4t9vbmmm3ra5bax)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 有信息量，但不用深读</small>
+- [Codex CLI installs a persistent, self-updating background daemon by default](https://read.readwise.io/read/01m4rpztch2qxw4k3hpbgqs4cb)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 有信息量，但不用深读</small>
+- [How Anthropic’s Dynamic Workflows Coordinate Claude Agents](https://read.readwise.io/read/01m4rnewedas934e0z4tvvbd88)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 有信息量，但不用深读</small>
+- [Ledger confirms hidden chip in crypto wallet amid $92M theft claims](https://read.readwise.io/read/01m4qven3t9mjvjx95w6ymc24x)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 未来特定场景可能有用</small>
+- [PC Sales Crash 20% 💻, Nvidia Eyes AI Buyout 💰, Google Unveils AI Coworkers 🤖](https://read.readwise.io/read/01m4r2zkqm4h34mb8c3fgys0qh)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 有信息量，但不用深读</small>
+- [QGIS 通过 QEP428 禁止 AI 辅助贡献](https://read.readwise.io/read/01m4r8t770x7ehq3xafevcfsrt)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 未来特定场景可能有用</small>
+- [Scott Aaronson: The Mathocalypse & Does Intelligence Matter Anymore?](https://read.readwise.io/read/01m4r43j66w33yprdspgpbgapd)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-13.md) · 和长期目标强相关，值得完整读</small>
+- [从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势](https://read.readwise.io/read/01m4qat96wb7s5eq63xq4662ck)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 未来特定场景可能有用</small>
+- [微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署](https://read.readwise.io/read/01m4r8t7574v0wjkgvr0ze9j1r)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-07
 
 - [Adobe Creative Suite Cleanroom Ported to Rust](https://read.readwise.io/read/01m499vtvsnw3e1mmatbc7jxj5)<br><small class="rw-item-meta">[日报](../readwise/2026-10-07.md) · 有信息量，但不用深读</small>

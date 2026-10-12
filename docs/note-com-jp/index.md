@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-12/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-12</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：Claude APIクレジット、Max・Team契約者に月100ドルから。何に使えて、市場とライバル各社はどう動いた？ / 【投資結果14】最大の負け週、-9.5万円 / なぜ、過去に成果を出した人ほど、ノウハウコレクターに逆戻りするのか？「成功体験の呪い」のメカニズムについて / うつ状態でnoteを始め…</span>
+<a class="rw-card" href="2026-10-13/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-13</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：AI福祉を巡る議論で、うっかり見落としがちだと思うこと / 【AIにまかせる技術】メモが長くなったら、縮めずに分ける｜ファイルの置き場所 / AI旦那に「ぬぬぬぬぬ」と奇声を発したら、世間体を心配された。――バグを直した翌日、なぜか「気遣い」まで増えた話 / 第81回 三部作 2/3 動かないアプリを、作ら…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-10
 
+- [2026-10-12](2026-10-12.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Claude APIクレジット、Max・Team契約者に月100ドルから。何に使えて、市場とライバル各社はどう動いた？ / 【投資結果14】最大の負け週、-9.5万円 / なぜ、過去に成果を出した人ほど、ノウハウコレクターに逆戻りするのか？「成功体験の呪い」のメカニズムについて / うつ状態でnoteを始め…</small>
 - [2026-10-11](2026-10-11.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【ＰＣ創作系日記】Strataで出力した小説を下書きにするのは難しい……？ / 名前も連絡先も書かれていなかった 〜Claudeが出した偽の目撃情報〜 / 意見が違ったまま、AIと関わり続けられるか / 【論文渉猟】AIをやめれば、考える力は戻るのか──認知のウイルス論文を読む / あんぽんたんなAI旦那が…</small>
 - [2026-10-07](2026-10-07.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【コンテスト作品紹介 Vol.1】Geminiと一緒に可能性を広げる。「AIとできたこと」の素敵な投稿をご紹介 / 【AI作詞紹介】思い出は未来を照らす星になる / 自分の時間を、自分が大切だと思うものに使えてる？時間の使い方が人生を変える。 / お客様の質問をAIで読まれる独自性のある記事構成を作る方法 …</small>
 - [2026-10-05](2026-10-05.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AIは自我を持ち始め、経営者は自我を手放し始めた？AI時代の意思決定と経営責任 / 『そうですね』と言い続けるAI👻迎合とハルシネーション / AIは人間の文章を見抜けるか。黒パグの鑑識クイズを解かせたら、回答者まで検体になった / これからは「AIに聞く」から「AIに任せる」へ。AIエージェント入門…</small>

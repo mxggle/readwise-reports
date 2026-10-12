@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">818 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Mathematics of Geothermal Energy</span><span class="rw-topic__item">OpenSSH 10.6 Released</span><span class="rw-topic__item">Why LLMs Agree With You Even When You’re Wrong</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">830 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Scott Aaronson: The Mathocalypse &amp; Does Intelligence Matter Anymore?</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">AI models may be capable of self-replicating without access to a datacenter</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">74 条</span></span>
@@ -22,8 +22,8 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Navalmanack: The Almanack of Naval Ravikant and more</span><span class="rw-topic__item">Maybe you’re one away.</span><span class="rw-topic__item">Google Beam expands with new regions, partners, and customers</span></span>
 </a>
 <a class="rw-card rw-topic" href="business/">
-  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">38 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Bob Cringely Has Died</span><span class="rw-topic__item">French Bond Risk Hits Euro-Crisis Levels</span><span class="rw-topic__item">The EU budget is where grand strategy meets petty squabbling</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">📈 Business</span><span class="rw-card__date">39 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Hackers activate automatic defrosting accross European supermarket fridges</span><span class="rw-topic__item">Bob Cringely Has Died</span><span class="rw-topic__item">French Bond Risk Hits Euro-Crisis Levels</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
   <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">39 条</span></span>
