@@ -4,6 +4,11 @@
 
 ## 2026-10
 
+### 2026-10-14
+
+- [Denmark set to allow return of 'physical force' in school](https://read.readwise.io/read/01m4t0jbpt9gb1gratvy897044)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>
+- [Sqlthon – A lightweight Pythonic layer for SQLite](https://read.readwise.io/read/01m4tp60291avt3myyn4rp4s8y)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-05
 
 - [UK Government Body Kept Files on People Criticizing Prevent Program](https://read.readwise.io/read/01m430cfrcqkkb2f6nre343rr5)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 未来特定场景可能有用</small>

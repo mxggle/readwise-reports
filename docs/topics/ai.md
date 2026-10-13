@@ -4,6 +4,19 @@
 
 ## 2026-10
 
+### 2026-10-14
+
+- [11 year old unsoundness bugs found in Rust borrow checker](https://read.readwise.io/read/01m4teqrfzsjfwwqb4kgxdbwfp)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>
+- [A plea not to use uv-build](https://read.readwise.io/read/01m4v9tr6c48g1mwf1172bxhzk)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>
+- [Developing Gemini 4 Argon responsibly and safely](https://read.readwise.io/read/01m4vcwbqfsee7wyayq8fe5e6a)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-14.md) · 和长期目标强相关，值得完整读</small>
+- [Document Review with Unsiloed and TypeSafe Jev](https://read.readwise.io/read/01m4t7mya37ayexphvc48bth51)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>
+- [Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics](https://read.readwise.io/read/01m4vnzwjyya43kxfj269k6trm)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-14.md) · 和长期目标强相关，值得完整读</small>
+- [LangSmith 推出 AI Search，用自然语言按行为搜索 agent 轨迹](https://read.readwise.io/read/01m4tqxkqeybwtc7n4p7f2wnkf)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>
+- [Meta Muse Wonder 系列上线 Agent Arena，分数即将公布](https://read.readwise.io/read/01m4s9wzn886vnavwgyrhqrcde)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>
+- [Mozilla Introduces Firefox Enterprise](https://read.readwise.io/read/01m4tjey6dmp3yhk8j4fdrk807)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>
+- [Run fast, private agents on-device with LFM2.5-24B-A2B](https://read.readwise.io/read/01m4v3q7hkxymhkp5ys6n086yv)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-14.md) · 和长期目标强相关，值得完整读</small>
+- [Show HN: Use your OpenAI subscription to create audiobooks](https://read.readwise.io/read/01m4tdqapz505bp14cgc639k23)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-13
 
 - [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m4nh77wemdemz048a5667nfr)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-13.md) · 和长期目标强相关，值得完整读</small>

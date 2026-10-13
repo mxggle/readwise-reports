@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-14
+
+- [The Four Colour Theorem: The first time machines mogged mathematicians](https://read.readwise.io/read/01m4vd5ef0fsvg2tfakmtebq9e)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-05
 
 - [Blindsight (Watts Novel)](https://read.readwise.io/read/01m441r8g5t2fafj5c8dzh7wf9)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 有信息量，但不用深读</small>

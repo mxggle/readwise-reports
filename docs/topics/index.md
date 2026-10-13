@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">830 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Scott Aaronson: The Mathocalypse &amp; Does Intelligence Matter Anymore?</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span><span class="rw-topic__item">AI models may be capable of self-replicating without access to a datacenter</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">840 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics</span><span class="rw-topic__item">Developing Gemini 4 Argon responsibly and safely</span><span class="rw-topic__item">Run fast, private agents on-device with LFM2.5-24B-A2B</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">74 条</span></span>
@@ -26,15 +26,15 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">Hackers activate automatic defrosting accross European supermarket fridges</span><span class="rw-topic__item">Bob Cringely Has Died</span><span class="rw-topic__item">French Bond Risk Hits Euro-Crisis Levels</span></span>
 </a>
 <a class="rw-card rw-topic" href="english/">
-  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">39 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Blindsight (Watts Novel)</span><span class="rw-topic__item">Caffè Corretto</span><span class="rw-topic__item">VGHF Digital Archive passes 5000 magazines. Here's what's next</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🔤 English</span><span class="rw-card__date">40 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">The Four Colour Theorem: The first time machines mogged mathematicians</span><span class="rw-topic__item">Blindsight (Watts Novel)</span><span class="rw-topic__item">Caffè Corretto</span></span>
 </a>
 <a class="rw-card rw-topic" href="japanese/">
   <span class="rw-card__head"><span class="rw-card__source">🇯🇵 Japanese</span><span class="rw-card__date">5 条</span></span>
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">98 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">UK Government Body Kept Files on People Criticizing Prevent Program</span><span class="rw-topic__item">Hole Punch: Sling your spaceship around gravitational fields</span><span class="rw-topic__item">Where Is the Planet</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">100 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Sqlthon – A lightweight Pythonic layer for SQLite</span><span class="rw-topic__item">Denmark set to allow return of 'physical force' in school</span><span class="rw-topic__item">UK Government Body Kept Files on People Criticizing Prevent Program</span></span>
 </a>
 </div>
