@@ -5,8 +5,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-14/">
-  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-14</time></span>
+<a class="rw-card" href="2026-10-16/">
+  <span class="rw-card__head"><span class="rw-card__source">📰 HackerNews</span><time class="rw-card__date">2026-10-16</time></span>
   <span class="rw-card__summary">阅读当日完整报告</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
@@ -16,6 +16,8 @@ Daily digest of top tech blog articles aggregated from 90 RSS feeds (curated 202
 
 ### 2026-10
 
+- [2026-10-15](2026-10-15.md)
+- [2026-10-14](2026-10-14.md)
 - [2026-10-13](2026-10-13.md)
 - [2026-10-12](2026-10-12.md)
 - [2026-10-11](2026-10-11.md)

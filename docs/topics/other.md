@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-16
+
+- [Future of Cancer Care Today (FCCT)](https://read.readwise.io/read/01m4yv1mwz8tp33d6zcxk151wm)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-14
 
 - [Denmark set to allow return of 'physical force' in school](https://read.readwise.io/read/01m4t0jbpt9gb1gratvy897044)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>

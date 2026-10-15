@@ -4,6 +4,18 @@
 
 ## 2026-10
 
+### 2026-10-16
+
+- [Accelerating the search for antimicrobial peptides with Google Antigravity](https://read.readwise.io/read/01m505dkemtsz66z2qz4vk5s3x)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-16.md) · 和长期目标强相关，值得完整读</small>
+- [Aidlc: Adaptive workflow steering rules for AI coding agents](https://read.readwise.io/read/01m4za1jjk87ccqvae801qwqzb)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-16.md) · 和长期目标强相关，值得完整读</small>
+- [Apertus 1.5 Release Notes](https://read.readwise.io/read/01m4zw6c0rzp3fvtjs8pms0245)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-16.md) · 和长期目标强相关，值得完整读</small>
+- [ASML's strong orders ease fears AI spending boom is running out of steam](https://read.readwise.io/read/01m4xe37becmk92pczjd9xwc1n)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
+- [Model PM: The Complete Guide](https://read.readwise.io/read/01m50rmf3wns63h50g89yk84mp)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 有信息量，但不用深读</small>
+- [Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net Life-Positive](https://read.readwise.io/read/01m4ykxy29v6qmrn2216vb6jsj)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 有信息量，但不用深读</small>
+- [The impact of data-centre discontent](https://read.readwise.io/read/01m50mkqmtmnrn42eh72njwfc8)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
+- [The Pulse: new trend of building “internal vibe-coding apps” at tech companies](https://read.readwise.io/read/01m508z2b9t76xhddacvwncyez)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 有信息量，但不用深读</small>
+- [Why We're Banning AI](https://read.readwise.io/read/01m50ehyterpa05xg1xav8kp15)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-14
 
 - [11 year old unsoundness bugs found in Rust borrow checker](https://read.readwise.io/read/01m4teqrfzsjfwwqb4kgxdbwfp)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 有信息量，但不用深读</small>

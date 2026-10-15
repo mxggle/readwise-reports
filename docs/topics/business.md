@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-16
+
+- [Europe has lots of pleasant cities but too few that matter](https://read.readwise.io/read/01m50mkqhqdkpa4d5zar91gqkj)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-13
 
 - [Hackers activate automatic defrosting accross European supermarket fridges](https://read.readwise.io/read/01m4r1bqjdqf7q828zs4hsry7g)<br><small class="rw-item-meta">[日报](../readwise/2026-10-13.md) · 未来特定场景可能有用</small>

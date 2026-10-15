@@ -4,6 +4,11 @@
 
 ## 2026-10
 
+### 2026-10-16
+
+- [How to Design for Failures](https://read.readwise.io/read/01m503ybeax5dncvb0mj0f328b)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
+- [Tiny Little Office](https://read.readwise.io/read/01m4y99mesfcqe0tztk34abtgz)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-05
 
 - [Show HN: Build with Python – a beginner course where your code draws](https://read.readwise.io/read/01m448bvk3z901jws035znn4ad)<br><small class="rw-item-meta">[日报](../readwise/2026-10-05.md) · 未来特定场景可能有用</small>

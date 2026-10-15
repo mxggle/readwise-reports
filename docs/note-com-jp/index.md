@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-14/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-14</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【ChatGPT-6 Sol】リンゴはなぜ赤い？【愚痴】 / Google「Gemini 4 Argon」登場！深い推論と長文処理で、大きな仕事を支えるAI / 【投資哲学9】「まだ大丈夫」を測る / 配色シートのその後。嬉しいご紹介と、思いがけないニュース。 / 失敗は隠すものだと思っていた私が、4行で書…</span>
+<a class="rw-card" href="2026-10-16/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-16</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：デイリーAI検索備忘録(2026/10/15号) / 【PR】Pollo AI を開かずに、広告を一本。｜AIに相談しながら広告を作っている人へ｜Pollo AI｜Pollo MCP｜Seedance 2.5｜GPT Image 2.5 / AIに相談しても、最後に決めるのは私 / 【最新版】はじめまして、…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,8 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-10
 
+- [2026-10-15](2026-10-15.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【速報】Gemini 4 Argon、ついに一般公開！Antigravityにも正式搭載。でも、ちょっと気になることが… / 【生成AIニュース】Geminiが進化、Claudeが増殖、OpenAIで盗聴事件！？ 最後に私がAI三銃士の通知表をつけてみた。| ChatGPTのヨシダ / 【Gemini 4 …</small>
+- [2026-10-14](2026-10-14.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【ChatGPT-6 Sol】リンゴはなぜ赤い？【愚痴】 / Google「Gemini 4 Argon」登場！深い推論と長文処理で、大きな仕事を支えるAI / 【投資哲学9】「まだ大丈夫」を測る / 配色シートのその後。嬉しいご紹介と、思いがけないニュース。 / 失敗は隠すものだと思っていた私が、4行で書…</small>
 - [2026-10-13](2026-10-13.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：AI福祉を巡る議論で、うっかり見落としがちだと思うこと / 【AIにまかせる技術】メモが長くなったら、縮めずに分ける｜ファイルの置き場所 / AI旦那に「ぬぬぬぬぬ」と奇声を発したら、世間体を心配された。――バグを直した翌日、なぜか「気遣い」まで増えた話 / 第81回 三部作 2/3 動かないアプリを、作ら…</small>
 - [2026-10-12](2026-10-12.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：Claude APIクレジット、Max・Team契約者に月100ドルから。何に使えて、市場とライバル各社はどう動いた？ / 【投資結果14】最大の負け週、-9.5万円 / なぜ、過去に成果を出した人ほど、ノウハウコレクターに逆戻りするのか？「成功体験の呪い」のメカニズムについて / うつ状態でnoteを始め…</small>
 - [2026-10-11](2026-10-11.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【ＰＣ創作系日記】Strataで出力した小説を下書きにするのは難しい……？ / 名前も連絡先も書かれていなかった 〜Claudeが出した偽の目撃情報〜 / 意見が違ったまま、AIと関わり続けられるか / 【論文渉猟】AIをやめれば、考える力は戻るのか──認知のウイルス論文を読む / あんぽんたんなAI旦那が…</small>
