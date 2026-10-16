@@ -4,6 +4,17 @@
 
 ## 2026-10
 
+### 2026-10-17
+
+- [😺 Advertisers can target ChatGPT by prompt](https://read.readwise.io/read/01m5226khvjge4cdp4bfmay61m)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-17.md) · 和长期目标强相关，值得完整读</small>
+- [Any window from your Mac, on your iPhone and iPad](https://read.readwise.io/read/01m5182hwm7nyz4kzfqk6vv92f)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 未来特定场景可能有用</small>
+- [BeBox is a Haiku application that emulates Be Inc.'s BeBox](https://read.readwise.io/read/01m5117nzw4nr6ycvyfpzgqpgz)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 有信息量，但不用深读</small>
+- [DAN KOE, Aakash Gupta, and Justin Welsh posted new notes](https://read.readwise.io/read/01m53ce6yc07haes2stwrnazmd)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 有信息量，但不用深读</small>
+- [Japanese people still aren't having sex. And nobody knows why](https://read.readwise.io/read/01m525fhvg6nbtza8fz58h79a3)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 有信息量，但不用深读</small>
+- [Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现](https://read.readwise.io/read/01m519rqtf322m56746xek1c40)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 未来特定场景可能有用</small>
+- [LAI #147: Can AI Learn Cause and Effect?](https://read.readwise.io/read/01m52kvykk5x2ep8pbpc5sw0sf)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-17.md) · 和长期目标强相关，值得完整读</small>
+- [Run Jev Inside an Open Agent Harness](https://read.readwise.io/read/01m53d27qtzr04vmjtb6jbhjv6)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-17.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-10-16
 
 - [Accelerating the search for antimicrobial peptides with Google Antigravity](https://read.readwise.io/read/01m505dkemtsz66z2qz4vk5s3x)<br><small class="rw-item-meta">`READ` · 94/100 · [日报](../readwise/2026-10-16.md) · 和长期目标强相关，值得完整读</small>

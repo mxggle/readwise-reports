@@ -5,9 +5,9 @@ Daily reading digest from Readwise highlights and Reader documents.
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-16/">
-  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-16</time></span>
-  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《Accelerating the search for antimicrobial peptides with Google Antigravity》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。</span>
+<a class="rw-card" href="2026-10-17/">
+  <span class="rw-card__head"><span class="rw-card__source">📚 Readwise</span><time class="rw-card__date">2026-10-17</time></span>
+  <span class="rw-card__summary">今天的高价值内容集中在 AI。最值得优先处理的是《LAI 147: Can AI Learn Cause and Effect?》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ Daily reading digest from Readwise highlights and Reader documents.
 
 ### 2026-10
 
+- [2026-10-16](2026-10-16.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Accelerating the search for antimicrobial peptides with Google Antigravity》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。</small>
 - [2026-10-14](2026-10-14.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics》。整体建议是少追新闻，多沉淀能服务求职、英语/日语</small>
 - [2026-10-13](2026-10-13.md)<br><small class="rw-item-meta">今天的高价值内容集中在 AI。最值得优先处理的是《Scott Aaronson: The Mathocalypse &amp; Does Intelligence Matter Anymore?》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件</small>
 - [2026-10-11](2026-10-11.md)<br><small class="rw-item-meta">今天的高价值内容集中在 阅读。最值得优先处理的是《暂无高质量内容》。整体建议是少追新闻，多沉淀能服务求职、英语/日语学习和 AI 工程实践的材料。今天只做一件事：读完 Top 1，并写下一个可执行行动。</small>

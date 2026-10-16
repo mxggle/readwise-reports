@@ -4,6 +4,10 @@
 
 ## 2026-10
 
+### 2026-10-17
+
+- [4 Minute Fridays: The Stanford Diet That Lowered 19 Inflammatory Markers, The Surprising Truth About Building Musc…](https://read.readwise.io/read/01m52mb2n66367ykcc7b9x01k3)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-14
 
 - [The Four Colour Theorem: The first time machines mogged mathematicians](https://read.readwise.io/read/01m4vd5ef0fsvg2tfakmtebq9e)<br><small class="rw-item-meta">[日报](../readwise/2026-10-14.md) · 未来特定场景可能有用</small>

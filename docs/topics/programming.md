@@ -4,6 +4,12 @@
 
 ## 2026-10
 
+### 2026-10-17
+
+- [/dev/null: social network for developers](https://read.readwise.io/read/01m52thsh3spnpeftp32atffgb)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 未来特定场景可能有用</small>
+- [eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear](https://read.readwise.io/read/01m530j3m25hexmabv44qrjyq8)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 未来特定场景可能有用</small>
+- [Hello Toronto – Waymo Is En Route](https://read.readwise.io/read/01m52kd86nkxk0a4wnqzbqhpaq)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 有信息量，但不用深读</small>
+
 ### 2026-10-16
 
 - [How to Design for Failures](https://read.readwise.io/read/01m503ybeax5dncvb0mj0f328b)<br><small class="rw-item-meta">[日报](../readwise/2026-10-16.md) · 未来特定场景可能有用</small>
