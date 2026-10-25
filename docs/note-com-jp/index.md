@@ -5,9 +5,9 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 ## 最新
 
 <div class="rw-cards rw-cards--single">
-<a class="rw-card" href="2026-10-17/">
-  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-17</time></span>
-  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：生成AIを仕事で使うなら「プロンプト」の前に決めたいこと｜第2部・生成AI／LLM実務を公開しました / Google Antigravity 2.0 で Gemini 4 Argon を試す / 11/24 ビジネスパーソン向けにAIの最新動向を解説するセミナーをやります / テスラの空飛ぶ車は何がすごい…</span>
+<a class="rw-card" href="2026-10-26/">
+  <span class="rw-card__head"><span class="rw-card__source">🇯🇵 note AI（日本語）</span><time class="rw-card__date">2026-10-26</time></span>
+  <span class="rw-card__summary">今日 note.com の人気 AI 記事 5 本：【AI漫画】ヨシダお前、私のこと何も知らんやん！〜AI三銃士に正体を偽ってみたら〜| ChatGPTのヨシダ / 【AIにまかせる技術】AIが資料に従うなら、資料だと書いて渡す｜プロンプトインジェクション / 作る仕事と、守る仕事。──最近のお仕事の話と、お礼とお詫び / その「AI、変わった？」本当にモデ…</span>
   <span class="rw-card__cta">阅读报告 →</span>
 </a>
 </div>
@@ -16,6 +16,7 @@ note.com で過去24時間に人気の AI 技術記事を、中文要約＋や�
 
 ### 2026-10
 
+- [2026-10-17](2026-10-17.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：生成AIを仕事で使うなら「プロンプト」の前に決めたいこと｜第2部・生成AI／LLM実務を公開しました / Google Antigravity 2.0 で Gemini 4 Argon を試す / 11/24 ビジネスパーソン向けにAIの最新動向を解説するセミナーをやります / テスラの空飛ぶ車は何がすごい…</small>
 - [2026-10-16](2026-10-16.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：デイリーAI検索備忘録(2026/10/15号) / 【PR】Pollo AI を開かずに、広告を一本。｜AIに相談しながら広告を作っている人へ｜Pollo AI｜Pollo MCP｜Seedance 2.5｜GPT Image 2.5 / AIに相談しても、最後に決めるのは私 / 【最新版】はじめまして、…</small>
 - [2026-10-15](2026-10-15.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【速報】Gemini 4 Argon、ついに一般公開！Antigravityにも正式搭載。でも、ちょっと気になることが… / 【生成AIニュース】Geminiが進化、Claudeが増殖、OpenAIで盗聴事件！？ 最後に私がAI三銃士の通知表をつけてみた。| ChatGPTのヨシダ / 【Gemini 4 …</small>
 - [2026-10-14](2026-10-14.md)<br><small class="rw-item-meta">今日 note.com の人気 AI 記事 5 本：【ChatGPT-6 Sol】リンゴはなぜ赤い？【愚痴】 / Google「Gemini 4 Argon」登場！深い推論と長文処理で、大きな仕事を支えるAI / 【投資哲学9】「まだ大丈夫」を測る / 配色シートのその後。嬉しいご紹介と、思いがけないニュース。 / 失敗は隠すものだと思っていた私が、4行で書…</small>

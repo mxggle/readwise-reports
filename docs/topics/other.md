@@ -4,6 +4,11 @@
 
 ## 2026-10
 
+### 2026-10-26
+
+- [Sabre Wulf Remastered](https://read.readwise.io/read/01m5t1kj1pkgqx5mavghs8vd3h)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 未来特定场景可能有用</small>
+- [Why Gopher in 2026?](https://read.readwise.io/read/01m5r6chdjdw91p407k5xetm57)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 未来特定场景可能有用</small>
+
 ### 2026-10-17
 
 - [Can joggers outrun injury?](https://read.readwise.io/read/01m5375qmh8qrvbrzg0vpm1vsx)<br><small class="rw-item-meta">[日报](../readwise/2026-10-17.md) · 未来特定场景可能有用</small>

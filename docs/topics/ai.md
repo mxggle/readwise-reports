@@ -4,6 +4,20 @@
 
 ## 2026-10
 
+### 2026-10-26
+
+- [🥇Top AI Papers of the Week](https://read.readwise.io/read/01m5sxrx341kdrrbzmxxnva7jb)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-26.md) · 和长期目标强相关，值得完整读</small>
+- [😺 Walmart announces AI shopping controls](https://read.readwise.io/read/01m5t5cxe9697pjyfkj80q5k2h)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-26.md) · 和长期目标强相关，值得完整读</small>
+- [AI use leads UC Berkeley math professor to see 'no point' in grading homework](https://read.readwise.io/read/01m5szke1shjjxe1khe7h4v4jq)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 有信息量，但不用深读</small>
+- [China increasingly depends on copying American AI](https://read.readwise.io/read/01m5tmk349v5dgrqybe8yvp535)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 未来特定场景可能有用</small>
+- [New Open-Source Cybersecurity Platform Uses AI Agents to Hunt Threats](https://read.readwise.io/read/01m5s01vdezmpgcd6z3xehfywr)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 有信息量，但不用深读</small>
+- [Nikon photography contest winner loses title after scientists spot signs of AI](https://read.readwise.io/read/01m5s9r12ndgsx60xen4trey52)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 有信息量，但不用深读</small>
+- [Ok, I just checked this, and its literally running a...](https://read.readwise.io/read/01m5sc7jk98td9sdsecbmgemm0)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 未来特定场景可能有用</small>
+- [OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?](https://read.readwise.io/read/01m5tfy4gwja8w52bg4bm8fm8b)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 未来特定场景可能有用</small>
+- [R/open source bans all solo projects and projects using LLMs](https://read.readwise.io/read/01m5sqper3qknrgtqfj7vvx49b)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 有信息量，但不用深读</small>
+- [Readwise Sunday Favorites ❤️: Robert T. Kiyosaki, Robert Greene, and more](https://read.readwise.io/read/01m5sfcyq9s0gp2gyp6851pq55)<br><small class="rw-item-meta">[日报](../readwise/2026-10-26.md) · 有信息量，但不用深读</small>
+- [The State of Context Engineering](https://read.readwise.io/read/01m5tfazmkfszax6jtegp91hsc)<br><small class="rw-item-meta">`READ` · 82/100 · [日报](../readwise/2026-10-26.md) · 和长期目标强相关，值得完整读</small>
+
 ### 2026-10-17
 
 - [😺 Advertisers can target ChatGPT by prompt](https://read.readwise.io/read/01m5226khvjge4cdp4bfmay61m)<br><small class="rw-item-meta">`READ` · 84/100 · [日报](../readwise/2026-10-17.md) · 和长期目标强相关，值得完整读</small>

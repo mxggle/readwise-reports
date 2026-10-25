@@ -10,8 +10,8 @@ Readwise 日报中的条目按主题归档。
 
 <div class="rw-cards">
 <a class="rw-card rw-topic" href="ai/">
-  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">857 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">LAI #147: Can AI Learn Cause and Effect?</span><span class="rw-topic__item">Run Jev Inside an Open Agent Harness</span><span class="rw-topic__item">😺 Advertisers can target ChatGPT by prompt</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🤖 AI</span><span class="rw-card__date">868 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">😺 Walmart announces AI shopping controls</span><span class="rw-topic__item">The State of Context Engineering</span><span class="rw-topic__item">🥇Top AI Papers of the Week</span></span>
 </a>
 <a class="rw-card rw-topic" href="programming/">
   <span class="rw-card__head"><span class="rw-card__source">💻 Programming</span><span class="rw-card__date">79 条</span></span>
@@ -34,7 +34,7 @@ Readwise 日报中的条目按主题归档。
   <span class="rw-topic__items"><span class="rw-topic__item">ChatGPT said:</span><span class="rw-topic__item">Ads-STE100: Simplified Technical English</span><span class="rw-topic__item">Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due...</span></span>
 </a>
 <a class="rw-card rw-topic" href="other/">
-  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">102 条</span></span>
-  <span class="rw-topic__items"><span class="rw-topic__item">Can joggers outrun injury?</span><span class="rw-topic__item">Future of Cancer Care Today (FCCT)</span><span class="rw-topic__item">Sqlthon – A lightweight Pythonic layer for SQLite</span></span>
+  <span class="rw-card__head"><span class="rw-card__source">🗂️ Other</span><span class="rw-card__date">104 条</span></span>
+  <span class="rw-topic__items"><span class="rw-topic__item">Sabre Wulf Remastered</span><span class="rw-topic__item">Why Gopher in 2026?</span><span class="rw-topic__item">Can joggers outrun injury?</span></span>
 </a>
 </div>
